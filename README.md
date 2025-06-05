@@ -101,7 +101,7 @@ function loadOntology() {
    ```
 4. Start a local web server and open `index.html` in your browser.
    ```bash
-   python -m http.server
+   python -m http.server 8000
    ```
    Then visit `http://localhost:8000/index.html`.
 
