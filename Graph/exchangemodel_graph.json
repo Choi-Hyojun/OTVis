@@ -1,0 +1,150 @@
+{
+  "nodes": [
+    {
+      "id": "Accelerometer"
+    },
+    {
+      "id": "Alert"
+    },
+    {
+      "id": "Ambient2DVideoCamera"
+    },
+    {
+      "id": "DTI-2"
+    },
+    {
+      "id": "Detection",
+      "axioms": {
+        "propertyRestrictions": [
+          "[describes only (event:AtomicActivity or event:ObjectEvent)]",
+          "[providedBy only ProcessingComponent]"
+        ]
+      }
+    },
+    {
+      "id": "Feedback"
+    },
+    {
+      "id": "FixedSensor"
+    },
+    {
+      "id": "Measurement",
+      "axioms": {
+        "propertyRestrictions": [
+          "[describes only event:Measurement]",
+          "[providedBy only (event:Person or Sensor)]"
+        ]
+      }
+    },
+    {
+      "id": "Observation",
+      "axioms": {
+        "propertyRestrictions": [
+          "[describes only event:Event]",
+          "[providedBy only (event:Person or ProcessingComponent or Sensor)]",
+          "[providedBy exactly 1 (event:Person or ProcessingComponent or Sensor)]",
+          "[describes exactly 1 event:Event]",
+          "[hasPlausibilityMetric only xsd:double]",
+          "[hasReportingTime only time:Instant]",
+          "[hasReportingTime exactly 1 time:Instant]",
+          "[hasPlausibilityMetric exactly 1 xsd:double]"
+        ]
+      }
+    },
+    {
+      "id": "Recognition",
+      "axioms": {
+        "propertyRestrictions": [
+          "[describes only event:ComplexActivity]",
+          "[providedBy only (event:Person or ProcessingComponent)]"
+        ]
+      }
+    },
+    {
+      "id": "Sensor",
+      "axioms": {
+        "propertyRestrictions": [
+          "[attachedTo exactly 1 event:Entity]",
+          "[attachedTo only event:Entity]"
+        ]
+      }
+    },
+    {
+      "id": "WearableMicrophone"
+    },
+    {
+      "id": "WearableSensor"
+    },
+    {
+      "id": "WearableVideoCamera"
+    },
+    {
+      "id": "_3DVideoCamera"
+    },
+    {
+      "id": "owl:Thing"
+    }
+  ],
+  "links": [
+    {
+      "source": "Accelerometer",
+      "target": "WearableSensor"
+    },
+    {
+      "source": "DTI-2",
+      "target": "WearableSensor"
+    },
+    {
+      "source": "WearableMicrophone",
+      "target": "WearableSensor"
+    },
+    {
+      "source": "WearableVideoCamera",
+      "target": "WearableSensor"
+    },
+    {
+      "source": "Alert",
+      "target": "Feedback"
+    },
+    {
+      "source": "Ambient2DVideoCamera",
+      "target": "FixedSensor"
+    },
+    {
+      "source": "_3DVideoCamera",
+      "target": "FixedSensor"
+    },
+    {
+      "source": "Detection",
+      "target": "Observation"
+    },
+    {
+      "source": "Measurement",
+      "target": "Observation"
+    },
+    {
+      "source": "Recognition",
+      "target": "Observation"
+    },
+    {
+      "source": "FixedSensor",
+      "target": "Sensor"
+    },
+    {
+      "source": "WearableSensor",
+      "target": "Sensor"
+    },
+    {
+      "source": "Feedback",
+      "target": "owl:Thing"
+    },
+    {
+      "source": "Sensor",
+      "target": "owl:Thing"
+    },
+    {
+      "source": "Observation",
+      "target": "owl:Thing"
+    }
+  ]
+}

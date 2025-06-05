@@ -1,0 +1,538 @@
+{
+  "classes": {
+    "time:Instant": {
+      "disjointWith": [
+        "time:ProperInterval"
+      ]
+    },
+    "time:DayOfWeek": {
+      "equivalentClass": [
+        "{time:Wednesday, time:Friday, time:Saturday, time:Tuesday, time:Monday, time:Sunday, time:Thursday}"
+      ]
+    },
+    "time:TemporalEntity": {
+      "equivalentClass": [
+        "(time:Instant or time:Interval)"
+      ]
+    },
+    "time:TemporalUnit": {
+      "equivalentClass": [
+        "{time:unitMonth, time:unitMinute, time:unitDay, time:unitHour, time:unitYear, time:unitSecond, time:unitWeek}"
+      ]
+    },
+    "time:DateTimeDescription": {
+      "propertyRestrictions": [
+        "[time:week max 1]",
+        "[time:dayOfWeek max 1]",
+        "[time:second max 1]",
+        "[time:minute max 1]",
+        "[time:day max 1]",
+        "[time:month max 1]",
+        "[time:timeZone max 1]",
+        "[time:hour max 1]",
+        "[time:unitType exactly 1]",
+        "[time:year max 1]",
+        "[time:dayOfYear max 1]"
+      ]
+    },
+    "time:DurationDescription": {
+      "propertyRestrictions": [
+        "[time:hours max 1]",
+        "[time:months max 1]",
+        "[time:seconds max 1]",
+        "[time:weeks max 1]",
+        "[time:days max 1]",
+        "[time:years max 1]",
+        "[time:minutes max 1]"
+      ]
+    },
+    "time:January": {
+      "propertyRestrictions": [
+        "[time:month hasValue --01]",
+        "[time:unitType hasValue time:unitMonth]"
+      ]
+    },
+    "time:Year": {
+      "propertyRestrictions": [
+        "[time:years exactly 1]",
+        "[time:months exactly 0]",
+        "[time:hours exactly 0]",
+        "[time:weeks exactly 0]",
+        "[time:seconds exactly 0]",
+        "[time:days exactly 0]",
+        "[time:minutes exactly 0]"
+      ]
+    }
+  },
+  "properties": {
+    "time:week": {
+      "characteristics": [],
+      "domain": [
+        "time:DateTimeDescription"
+      ],
+      "range": [
+        "xsd:nonNegativeInteger"
+      ],
+      "subPropertyOf": [],
+      "inverseOf": []
+    },
+    "time:hasEnd": {
+      "characteristics": [],
+      "domain": [
+        "time:TemporalEntity"
+      ],
+      "range": [
+        "time:Instant"
+      ],
+      "subPropertyOf": [],
+      "inverseOf": []
+    },
+    "time:days": {
+      "characteristics": [],
+      "domain": [
+        "time:DurationDescription"
+      ],
+      "range": [
+        "xsd:decimal"
+      ],
+      "subPropertyOf": [],
+      "inverseOf": []
+    },
+    "time:before": {
+      "characteristics": [
+        "Transitive"
+      ],
+      "domain": [
+        "time:TemporalEntity"
+      ],
+      "range": [
+        "time:TemporalEntity"
+      ],
+      "subPropertyOf": [],
+      "inverseOf": []
+    },
+    "time:intervalAfter": {
+      "characteristics": [],
+      "domain": [
+        "None"
+      ],
+      "range": [
+        "None"
+      ],
+      "subPropertyOf": [],
+      "inverseOf": [
+        "time:intervalBefore"
+      ]
+    },
+    "time:dayOfWeek": {
+      "characteristics": [],
+      "domain": [
+        "time:DateTimeDescription"
+      ],
+      "range": [
+        "time:DayOfWeek"
+      ],
+      "subPropertyOf": [],
+      "inverseOf": []
+    },
+    "time:intervalEquals": {
+      "characteristics": [],
+      "domain": [
+        "time:ProperInterval"
+      ],
+      "range": [
+        "time:ProperInterval"
+      ],
+      "subPropertyOf": [],
+      "inverseOf": []
+    },
+    "time:minute": {
+      "characteristics": [],
+      "domain": [
+        "time:DateTimeDescription"
+      ],
+      "range": [
+        "xsd:nonNegativeInteger"
+      ],
+      "subPropertyOf": [],
+      "inverseOf": []
+    },
+    "time:intervalMeets": {
+      "characteristics": [],
+      "domain": [
+        "time:ProperInterval"
+      ],
+      "range": [
+        "time:ProperInterval"
+      ],
+      "subPropertyOf": [],
+      "inverseOf": []
+    },
+    "time:intervalStarts": {
+      "characteristics": [],
+      "domain": [
+        "time:ProperInterval"
+      ],
+      "range": [
+        "time:ProperInterval"
+      ],
+      "subPropertyOf": [],
+      "inverseOf": []
+    },
+    "time:timeZone": {
+      "characteristics": [],
+      "domain": [
+        "time:DateTimeDescription"
+      ],
+      "range": [
+        "tzont:TimeZone"
+      ],
+      "subPropertyOf": [],
+      "inverseOf": []
+    },
+    "time:month": {
+      "characteristics": [],
+      "domain": [
+        "time:DateTimeDescription"
+      ],
+      "range": [
+        "xsd:gMonth"
+      ],
+      "subPropertyOf": [],
+      "inverseOf": []
+    },
+    "time:intervalOverlappedBy": {
+      "characteristics": [],
+      "domain": [
+        "None"
+      ],
+      "range": [
+        "None"
+      ],
+      "subPropertyOf": [],
+      "inverseOf": [
+        "time:intervalOverlaps"
+      ]
+    },
+    "time:hours": {
+      "characteristics": [],
+      "domain": [
+        "time:DurationDescription"
+      ],
+      "range": [
+        "xsd:decimal"
+      ],
+      "subPropertyOf": [],
+      "inverseOf": []
+    },
+    "time:hour": {
+      "characteristics": [],
+      "domain": [
+        "time:DateTimeDescription"
+      ],
+      "range": [
+        "xsd:nonNegativeInteger"
+      ],
+      "subPropertyOf": [],
+      "inverseOf": []
+    },
+    "time:day": {
+      "characteristics": [],
+      "domain": [
+        "time:DateTimeDescription"
+      ],
+      "range": [
+        "xsd:gDay"
+      ],
+      "subPropertyOf": [],
+      "inverseOf": []
+    },
+    "time:intervalStartedBy": {
+      "characteristics": [],
+      "domain": [
+        "None"
+      ],
+      "range": [
+        "None"
+      ],
+      "subPropertyOf": [],
+      "inverseOf": [
+        "time:intervalStarts"
+      ]
+    },
+    "time:intervalBefore": {
+      "characteristics": [],
+      "domain": [
+        "time:ProperInterval"
+      ],
+      "range": [
+        "time:ProperInterval"
+      ],
+      "subPropertyOf": [
+        "time:before"
+      ],
+      "inverseOf": []
+    },
+    "time:intervalOverlaps": {
+      "characteristics": [],
+      "domain": [
+        "time:ProperInterval"
+      ],
+      "range": [
+        "time:ProperInterval"
+      ],
+      "subPropertyOf": [],
+      "inverseOf": []
+    },
+    "time:inside": {
+      "characteristics": [],
+      "domain": [
+        "time:Interval"
+      ],
+      "range": [
+        "time:Instant"
+      ],
+      "subPropertyOf": [],
+      "inverseOf": []
+    },
+    "time:second": {
+      "characteristics": [],
+      "domain": [
+        "time:DateTimeDescription"
+      ],
+      "range": [
+        "xsd:decimal"
+      ],
+      "subPropertyOf": [],
+      "inverseOf": []
+    },
+    "time:inDateTime": {
+      "characteristics": [],
+      "domain": [
+        "time:Instant"
+      ],
+      "range": [
+        "time:DateTimeDescription"
+      ],
+      "subPropertyOf": [],
+      "inverseOf": []
+    },
+    "time:intervalContains": {
+      "characteristics": [],
+      "domain": [
+        "None"
+      ],
+      "range": [
+        "None"
+      ],
+      "subPropertyOf": [],
+      "inverseOf": [
+        "time:intervalDuring"
+      ]
+    },
+    "time:intervalFinishes": {
+      "characteristics": [],
+      "domain": [
+        "time:ProperInterval"
+      ],
+      "range": [
+        "time:ProperInterval"
+      ],
+      "subPropertyOf": [],
+      "inverseOf": []
+    },
+    "time:seconds": {
+      "characteristics": [],
+      "domain": [
+        "time:DurationDescription"
+      ],
+      "range": [
+        "xsd:decimal"
+      ],
+      "subPropertyOf": [],
+      "inverseOf": []
+    },
+    "time:xsdDateTime": {
+      "characteristics": [],
+      "domain": [
+        "time:DateTimeInterval"
+      ],
+      "range": [
+        "xsd:dateTime"
+      ],
+      "subPropertyOf": [],
+      "inverseOf": []
+    },
+    "time:unitType": {
+      "characteristics": [],
+      "domain": [
+        "time:DateTimeDescription"
+      ],
+      "range": [
+        "time:TemporalUnit"
+      ],
+      "subPropertyOf": [],
+      "inverseOf": []
+    },
+    "time:months": {
+      "characteristics": [],
+      "domain": [
+        "time:DurationDescription"
+      ],
+      "range": [
+        "xsd:decimal"
+      ],
+      "subPropertyOf": [],
+      "inverseOf": []
+    },
+    "time:hasDurationDescription": {
+      "characteristics": [],
+      "domain": [
+        "time:TemporalEntity"
+      ],
+      "range": [
+        "time:DurationDescription"
+      ],
+      "subPropertyOf": [],
+      "inverseOf": []
+    },
+    "time:intervalMetBy": {
+      "characteristics": [],
+      "domain": [
+        "None"
+      ],
+      "range": [
+        "None"
+      ],
+      "subPropertyOf": [],
+      "inverseOf": [
+        "time:intervalMeets"
+      ]
+    },
+    "time:intervalFinishedBy": {
+      "characteristics": [],
+      "domain": [
+        "None"
+      ],
+      "range": [
+        "None"
+      ],
+      "subPropertyOf": [],
+      "inverseOf": [
+        "time:intervalFinishes"
+      ]
+    },
+    "time:after": {
+      "characteristics": [],
+      "domain": [
+        "None"
+      ],
+      "range": [
+        "None"
+      ],
+      "subPropertyOf": [],
+      "inverseOf": [
+        "time:before"
+      ]
+    },
+    "time:minutes": {
+      "characteristics": [],
+      "domain": [
+        "time:DurationDescription"
+      ],
+      "range": [
+        "xsd:decimal"
+      ],
+      "subPropertyOf": [],
+      "inverseOf": []
+    },
+    "time:hasDateTimeDescription": {
+      "characteristics": [],
+      "domain": [
+        "time:DateTimeInterval"
+      ],
+      "range": [
+        "time:DateTimeDescription"
+      ],
+      "subPropertyOf": [],
+      "inverseOf": []
+    },
+    "time:intervalDuring": {
+      "characteristics": [],
+      "domain": [
+        "time:ProperInterval"
+      ],
+      "range": [
+        "time:ProperInterval"
+      ],
+      "subPropertyOf": [],
+      "inverseOf": []
+    },
+    "time:weeks": {
+      "characteristics": [],
+      "domain": [
+        "time:DurationDescription"
+      ],
+      "range": [
+        "xsd:decimal"
+      ],
+      "subPropertyOf": [],
+      "inverseOf": []
+    },
+    "time:hasBeginning": {
+      "characteristics": [],
+      "domain": [
+        "time:TemporalEntity"
+      ],
+      "range": [
+        "time:Instant"
+      ],
+      "subPropertyOf": [],
+      "inverseOf": []
+    },
+    "time:year": {
+      "characteristics": [],
+      "domain": [
+        "time:DateTimeDescription"
+      ],
+      "range": [
+        "xsd:gYear"
+      ],
+      "subPropertyOf": [],
+      "inverseOf": []
+    },
+    "time:years": {
+      "characteristics": [],
+      "domain": [
+        "time:DurationDescription"
+      ],
+      "range": [
+        "xsd:decimal"
+      ],
+      "subPropertyOf": [],
+      "inverseOf": []
+    },
+    "time:inXSDDateTime": {
+      "characteristics": [],
+      "domain": [
+        "time:Instant"
+      ],
+      "range": [
+        "xsd:dateTime"
+      ],
+      "subPropertyOf": [],
+      "inverseOf": []
+    },
+    "time:dayOfYear": {
+      "characteristics": [],
+      "domain": [
+        "time:DateTimeDescription"
+      ],
+      "range": [
+        "xsd:nonNegativeInteger"
+      ],
+      "subPropertyOf": [],
+      "inverseOf": []
+    }
+  }
+}

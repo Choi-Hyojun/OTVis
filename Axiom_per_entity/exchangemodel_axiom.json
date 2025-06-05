@@ -1,0 +1,198 @@
+{
+  "classes": {
+    "Detection": {
+      "propertyRestrictions": [
+        "[describes only (event:AtomicActivity or event:ObjectEvent)]",
+        "[providedBy only ProcessingComponent]"
+      ]
+    },
+    "Measurement": {
+      "propertyRestrictions": [
+        "[describes only event:Measurement]",
+        "[providedBy only (event:Person or Sensor)]"
+      ]
+    },
+    "Observation": {
+      "propertyRestrictions": [
+        "[describes only event:Event]",
+        "[providedBy only (event:Person or ProcessingComponent or Sensor)]",
+        "[providedBy exactly 1 (event:Person or ProcessingComponent or Sensor)]",
+        "[describes exactly 1 event:Event]",
+        "[hasPlausibilityMetric only xsd:double]",
+        "[hasReportingTime only time:Instant]",
+        "[hasReportingTime exactly 1 time:Instant]",
+        "[hasPlausibilityMetric exactly 1 xsd:double]"
+      ]
+    },
+    "Recognition": {
+      "propertyRestrictions": [
+        "[describes only event:ComplexActivity]",
+        "[providedBy only (event:Person or ProcessingComponent)]"
+      ]
+    },
+    "Report": {
+      "propertyRestrictions": [
+        "[hasPlausibilityMetric exactly 1 xsd:double]",
+        "[hasPlausibilityMetric only xsd:double]",
+        "[describes only (home:Questionnaire or lab:ClinicalRecord or lab:DemographicCharacteristicsRecord)]",
+        "[providedBy exactly 1 event:Person]",
+        "[hasReportingTime exactly 1 time:Instant]",
+        "[providedBy only event:Person]",
+        "[hasReportingTime only time:Instant]",
+        "[describes exactly 1 (home:Questionnaire or lab:ClinicalRecord or lab:DemographicCharacteristicsRecord)]"
+      ]
+    },
+    "Result": {
+      "propertyRestrictions": [
+        "[providedBy exactly 1 (event:Person or ProcessingComponent)]",
+        "[hasReportingTime exactly 1 time:Instant]",
+        "[hasReportingTime only time:Instant]",
+        "[describes only (home:DaySummary or home:Problem)]",
+        "[hasPlausibilityMetric exactly 1 xsd:double]",
+        "[providedBy only (event:Person or ProcessingComponent)]",
+        "[hasPlausibilityMetric only xsd:double]",
+        "[describes exactly 1 (home:DaySummary or home:Problem)]"
+      ]
+    },
+    "Sensor": {
+      "propertyRestrictions": [
+        "[attachedTo exactly 1 event:Entity]",
+        "[attachedTo only event:Entity]"
+      ]
+    }
+  },
+  "properties": {
+    "attachedTo": {
+      "characteristics": [],
+      "domain": [
+        "None"
+      ],
+      "range": [
+        "None"
+      ],
+      "subPropertyOf": [],
+      "inverseOf": []
+    },
+    "hasReportingTime": {
+      "characteristics": [],
+      "domain": [
+        "None"
+      ],
+      "range": [
+        "None"
+      ],
+      "subPropertyOf": [],
+      "inverseOf": []
+    },
+    "refersTo": {
+      "characteristics": [],
+      "domain": [
+        "None"
+      ],
+      "range": [
+        "None"
+      ],
+      "subPropertyOf": [],
+      "inverseOf": []
+    },
+    "roomLocalisation": {
+      "characteristics": [],
+      "domain": [
+        "None"
+      ],
+      "range": [
+        "None"
+      ],
+      "subPropertyOf": [],
+      "inverseOf": []
+    },
+    "providedBy": {
+      "characteristics": [],
+      "domain": [
+        "None"
+      ],
+      "range": [
+        "None"
+      ],
+      "subPropertyOf": [],
+      "inverseOf": []
+    },
+    "startTime": {
+      "characteristics": [],
+      "domain": [
+        "None"
+      ],
+      "range": [
+        "None"
+      ],
+      "subPropertyOf": [],
+      "inverseOf": []
+    },
+    "hasPlausibilityMetric": {
+      "characteristics": [],
+      "domain": [
+        "None"
+      ],
+      "range": [
+        "None"
+      ],
+      "subPropertyOf": [],
+      "inverseOf": []
+    },
+    "hasAgent": {
+      "characteristics": [],
+      "domain": [
+        "None"
+      ],
+      "range": [
+        "None"
+      ],
+      "subPropertyOf": [],
+      "inverseOf": []
+    },
+    "hasParticipant": {
+      "characteristics": [],
+      "domain": [
+        "None"
+      ],
+      "range": [
+        "None"
+      ],
+      "subPropertyOf": [],
+      "inverseOf": []
+    },
+    "describes": {
+      "characteristics": [],
+      "domain": [
+        "None"
+      ],
+      "range": [
+        "None"
+      ],
+      "subPropertyOf": [],
+      "inverseOf": []
+    },
+    "duration": {
+      "characteristics": [],
+      "domain": [
+        "None"
+      ],
+      "range": [
+        "None"
+      ],
+      "subPropertyOf": [],
+      "inverseOf": []
+    },
+    "hasQuality": {
+      "characteristics": [],
+      "domain": [
+        "None"
+      ],
+      "range": [
+        "None"
+      ],
+      "subPropertyOf": [],
+      "inverseOf": []
+    }
+  }
+}

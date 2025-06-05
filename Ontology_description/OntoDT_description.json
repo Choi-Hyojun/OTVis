@@ -1,0 +1,47 @@
+{
+  "classes": {
+    "dyadic operation": {
+      "rdfs:comment": "Dyadic operation maps a pair of values of the given datatype into a value of the given datatype or into a value of datatype Boolean"
+    },
+    "pointer datatype": {
+      "rdfs:comment": "whose values constitutes a\nmeans of reference to values of another datatype, designated the element datatype. The values of a\npointer datatype are atomic."
+    },
+    "aggregate datatype": {
+      "rdfs:comment": "synonim: structured datatype"
+    },
+    "enumerated datatype": {
+      "rdfs:comment": "synonim: discrete datatype"
+    },
+    "choice datatype": {
+      "rdfs:comment": "whose values is a single value\nfrom any of a set of alternative datatypes. The alternative datatypes of a choice datatype are logically\ndistinguished by their correspondence to values of another datatype, called the tag datatype."
+    },
+    "generated datatype generator": {
+      "rdfs:comment": "synonim: datatype constructor"
+    },
+    "niladic operation": {
+      "rdfs:comment": "Niladic operations yield values of the given datatype."
+    },
+    "procedure datatype": {
+      "rdfs:comment": "whose values is an\noperation on values of other datatypes, designated the parameter datatypes. That is, a procedure\ndatatype comprises the set of all operations on values of a particular collection of datatypes. All values of\na procedure datatype are conceptually atomic."
+    },
+    "aggregate generator": {
+      "rdfs:comment": "synonim: aggregate datatype constructor"
+    },
+    "monadic operation": {
+      "rdfs:comment": "Monadic operations map a value of the given datatype into a value of the given datatype or into a value of datatype Boolean."
+    },
+    "characterizing operation": {
+      "rdfs:comment": "The set of characterising operations for a datatype comprises those operations on, or yielding values of, the datatype that distinguish this datatype from other datatypes having value spaces which are identical except possibly for substitution of symbols."
+    },
+    "n-adic operation": {
+      "rdfs:comment": "N-adic operations map ordered n-tuples of values, each of whichh is of a specified datatype, which may be the given datatype or a parametric datatype, into values of the given datatype or parametric datatype."
+    },
+    "record (tuple) datatype": {
+      "rdfs:comment": "synonim: tuple datatype"
+    },
+    "extended datatype": {
+      "rdfs:comment": "synonym: subtype"
+    }
+  },
+  "properties": {}
+}

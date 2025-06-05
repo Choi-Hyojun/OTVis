@@ -1,0 +1,301 @@
+{
+  "classes": {
+    "Activity": {
+      "propertyRestrictions": [
+        "[hasAgent exactly 1 Person]",
+        "[hasAgent some Person]"
+      ]
+    },
+    "AlarmClockRinging": {
+      "propertyRestrictions": [
+        "[hasAgent some AlarmClock]"
+      ]
+    },
+    "AmbientMeasurement": {
+      "propertyRestrictions": [
+        "[refersTo only Room]"
+      ]
+    },
+    "DoorClosed": {
+      "propertyRestrictions": [
+        "[hasAgent some Door]"
+      ]
+    },
+    "DoorOpen": {
+      "propertyRestrictions": [
+        "[hasAgent some Door]"
+      ]
+    },
+    "Event": {
+      "propertyRestrictions": [
+        "[startTime only time:Instant]",
+        "[duration only time:DurationDescription]",
+        "[startTime exactly 1 time:Instant]",
+        "[duration exactly 1 time:DurationDescription]"
+      ]
+    },
+    "HeartRate": {
+      "propertyRestrictions": [
+        "[hasRate exactly 1]",
+        "[hasRate some rdfs:Literal]"
+      ]
+    },
+    "InLocation": {
+      "propertyRestrictions": [
+        "[roomLocalisation some Room]"
+      ]
+    },
+    "InRoom": {
+      "propertyRestrictions": [
+        "[roomLocalisation some Place]"
+      ]
+    },
+    "KettleOff": {
+      "propertyRestrictions": [
+        "[hasAgent some Kettle]"
+      ]
+    },
+    "KettleOn": {
+      "propertyRestrictions": [
+        "[hasAgent some Kettle]"
+      ]
+    },
+    "LightLevel": {
+      "propertyRestrictions": [
+        "[hasLightLevel some rdfs:Literal]",
+        "[hasLightLevel exactly 1]"
+      ]
+    },
+    "Lying": {
+      "propertyRestrictions": [
+        "[objectLocalisation some Furniture]"
+      ]
+    },
+    "Measurement": {
+      "propertyRestrictions": [
+        "[hasQuality only PhysicalQuality]",
+        "[refersTo exactly 1 Entity]",
+        "[hasValue exactly 1]",
+        "[hasValue some rdfs:Literal]",
+        "[hasQuality exactly 1 PhysicalQuality]",
+        "[refersTo only Entity]"
+      ]
+    },
+    "NearObject": {
+      "propertyRestrictions": [
+        "[objectLocalisation some Object]"
+      ]
+    },
+    "NoiseLevel": {
+      "propertyRestrictions": [
+        "[hasNoiseLevel exactly 1]",
+        "[hasNoiseLevel some rdfs:Literal]"
+      ]
+    },
+    "ObjectEvent": {
+      "propertyRestrictions": [
+        "[hasAgent exactly 1 Object]",
+        "[hasAgent some Object]"
+      ]
+    },
+    "PhoneRinging": {
+      "propertyRestrictions": [
+        "[hasAgent some Telephone]"
+      ]
+    },
+    "PhysiologicalMeasurement": {
+      "propertyRestrictions": [
+        "[refersTo only Patient]"
+      ]
+    },
+    "Sitting": {
+      "propertyRestrictions": [
+        "[objectLocalisation some Furniture]"
+      ]
+    },
+    "SkinConductivity": {
+      "propertyRestrictions": [
+        "[hasConductivity only rdfs:Literal]",
+        "[hasConductivity exactly 1]"
+      ]
+    },
+    "SkinTemperature": {
+      "propertyRestrictions": [
+        "[hasTemperature some rdfs:Literal]",
+        "[hasTemperature exactly 1]"
+      ]
+    }
+  },
+  "properties": {
+    "objectLocalisation": {
+      "characteristics": [],
+      "domain": [
+        "None"
+      ],
+      "range": [
+        "None"
+      ],
+      "subPropertyOf": [],
+      "inverseOf": []
+    },
+    "duration": {
+      "characteristics": [],
+      "domain": [
+        "None"
+      ],
+      "range": [
+        "None"
+      ],
+      "subPropertyOf": [],
+      "inverseOf": []
+    },
+    "hasRate": {
+      "characteristics": [],
+      "domain": [
+        "None"
+      ],
+      "range": [
+        "None"
+      ],
+      "subPropertyOf": [
+        "hasValue"
+      ],
+      "inverseOf": []
+    },
+    "hasConductivity": {
+      "characteristics": [],
+      "domain": [
+        "None"
+      ],
+      "range": [
+        "None"
+      ],
+      "subPropertyOf": [
+        "hasValue"
+      ],
+      "inverseOf": []
+    },
+    "isAgentIn": {
+      "characteristics": [],
+      "domain": [
+        "None"
+      ],
+      "range": [
+        "None"
+      ],
+      "subPropertyOf": [
+        "owl:topObjectProperty"
+      ],
+      "inverseOf": []
+    },
+    "startTime": {
+      "characteristics": [],
+      "domain": [
+        "None"
+      ],
+      "range": [
+        "None"
+      ],
+      "subPropertyOf": [],
+      "inverseOf": []
+    },
+    "hasAgent": {
+      "characteristics": [],
+      "domain": [
+        "None"
+      ],
+      "range": [
+        "None"
+      ],
+      "subPropertyOf": [
+        "owl:topObjectProperty"
+      ],
+      "inverseOf": [
+        "isAgentIn"
+      ]
+    },
+    "hasQuality": {
+      "characteristics": [],
+      "domain": [
+        "None"
+      ],
+      "range": [
+        "None"
+      ],
+      "subPropertyOf": [],
+      "inverseOf": []
+    },
+    "refersTo": {
+      "characteristics": [],
+      "domain": [
+        "None"
+      ],
+      "range": [
+        "None"
+      ],
+      "subPropertyOf": [],
+      "inverseOf": []
+    },
+    "roomLocalisation": {
+      "characteristics": [],
+      "domain": [
+        "None"
+      ],
+      "range": [
+        "None"
+      ],
+      "subPropertyOf": [],
+      "inverseOf": []
+    },
+    "hasNoiseLevel": {
+      "characteristics": [],
+      "domain": [
+        "None"
+      ],
+      "range": [
+        "None"
+      ],
+      "subPropertyOf": [
+        "hasValue"
+      ],
+      "inverseOf": []
+    },
+    "hasLightLevel": {
+      "characteristics": [],
+      "domain": [
+        "None"
+      ],
+      "range": [
+        "None"
+      ],
+      "subPropertyOf": [
+        "hasValue"
+      ],
+      "inverseOf": []
+    },
+    "hasTemperature": {
+      "characteristics": [],
+      "domain": [
+        "None"
+      ],
+      "range": [
+        "None"
+      ],
+      "subPropertyOf": [
+        "hasValue"
+      ],
+      "inverseOf": []
+    },
+    "hasValue": {
+      "characteristics": [],
+      "domain": [
+        "None"
+      ],
+      "range": [
+        "None"
+      ],
+      "subPropertyOf": [],
+      "inverseOf": []
+    }
+  }
+}

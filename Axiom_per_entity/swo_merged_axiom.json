@@ -1,0 +1,3598 @@
+{
+  "classes": {
+    "Protein pH-dependent property calculation": {
+      "propertyRestrictions": [
+        "[has topic some Protein properties]",
+        "[has output some Protein property]"
+      ]
+    },
+    "Protein SNP mapping": {
+      "propertyRestrictions": [
+        "[has topic some SNP]"
+      ]
+    },
+    "Virulence prediction": {
+      "propertyRestrictions": [
+        "[has topic some Microbiology]"
+      ]
+    },
+    "Exonic splicing enhancer prediction": {
+      "propertyRestrictions": [
+        "[has topic some Gene structure]"
+      ]
+    },
+    "UniProt ID": {
+      "propertyRestrictions": [
+        "[is identifier of some Sequence record]"
+      ]
+    },
+    "Single particle analysis": {
+      "propertyRestrictions": [
+        "[has topic some Structural biology]"
+      ]
+    },
+    "No restrictions on derivatives": {
+      "disjointWith": [
+        "Restrictions on derivative software"
+      ]
+    },
+    "'biocDatasets'": {
+      "propertyRestrictions": [
+        "[is encoded in some R language]"
+      ]
+    },
+    "globaltest": {
+      "propertyRestrictions": [
+        "[is encoded in some R language]",
+        "[is published by hasValue Bioconductor]",
+        "[is executed in some descriptive statistical calculation]",
+        "[has specified data output some (Graph plot and [has format specification only R data frame])]",
+        "[implements some globaltest]",
+        "[has specified data input some Gene expression dataset]"
+      ]
+    },
+    "GPCR classification": {
+      "propertyRestrictions": [
+        "[has output some Protein family report]"
+      ]
+    },
+    "MeasurementError.cor": {
+      "propertyRestrictions": [
+        "[is executed in some descriptive statistical calculation]",
+        "[is encoded in some R language]",
+        "[implements some Two-stage measurement error model]",
+        "[has specified data output some (data and [has format specification some R data frame])]",
+        "[has specified data input some (data and [has format specification some R data frame])]"
+      ]
+    },
+    "BLAST+ 2.2.26": {
+      "propertyRestrictions": [
+        "[has specified data input some (DNA nucleotide sequence and [has format specification some GenBank format])]",
+        "[has version hasValue BLAST+ version 2.2.26]",
+        "[has interface some command-line interface]",
+        "[has interface some web user interface]",
+        "[has specified data input some (DNA nucleotide sequence and [has format specification some FASTA])]",
+        "[has download location hasValue ftp://ftp.ncbi.nih.gov/blast/executables/]"
+      ]
+    },
+    "Nucleic acid structure analysis": {
+      "propertyRestrictions": [
+        "[has topic some Nucleic acid structure analysis]",
+        "[has input some Nucleic acid structure]"
+      ]
+    },
+    "Drive5 MUSCLE": {
+      "propertyRestrictions": [
+        "[output of some (software publishing process and [has participant hasValue Drive5])]"
+      ]
+    },
+    "Phylogenetic tree editing": {
+      "propertyRestrictions": [
+        "[has input some Phylogenetic tree]",
+        "[has output some Phylogenetic tree]"
+      ]
+    },
+    "LPEadj": {
+      "propertyRestrictions": [
+        "[implements some 'FDR']",
+        "[has specified data output some (Graph plot and [has format specification some image format])]",
+        "[has specified data output some (data and [has format specification some R data frame])]",
+        "[is encoded in some R language]",
+        "[is executed in some data normalization]",
+        "[implements some Local-pooled-error]",
+        "[has specified data input some (data and [has format specification some R data frame])]",
+        "[is executed in some descriptive statistical calculation]",
+        "[is executed in some differential expression analysis]"
+      ]
+    },
+    "genefilter": {
+      "propertyRestrictions": [
+        "[is executed in some differential expression analysis]",
+        "[is encoded in some R language]",
+        "[is published by hasValue Bioconductor]",
+        "[implements some k-nearest neighbour classification]",
+        "[has specified data input some Gene expression dataset]",
+        "[has specified data output some [has format specification only R data frame]]"
+      ]
+    },
+    "HTML": {
+      "propertyRestrictions": [
+        "[is format of some Report]"
+      ]
+    },
+    "'DynDoc'": {
+      "propertyRestrictions": [
+        "[is encoded in some R language]",
+        "[has specified data input some (data and [has format specification some Rnw])]"
+      ]
+    },
+    "Protein structure analysis": {
+      "propertyRestrictions": [
+        "[has topic some Protein structure analysis]",
+        "[has input some Protein structure]"
+      ]
+    },
+    "Sequence alignment ID": {
+      "propertyRestrictions": [
+        "[is identifier of some Sequence alignment]"
+      ]
+    },
+    "SIM": {
+      "propertyRestrictions": [
+        "[has specified data output some (Heat map and Text data set and Graph plot)]",
+        "[is encoded in some R language]",
+        "[has specified data input some Gene expression data]",
+        "[implements some Global test]"
+      ]
+    },
+    "Spotfinder [TIGR]": {
+      "propertyRestrictions": [
+        "[is developed by hasValue J. Craig Venter Institute]",
+        "[is developed by hasValue Dana-Farber Cancer Institute and Harvard School of Public Health]"
+      ]
+    },
+    "data": {
+      "disjointWith": [
+        "data format specification",
+        "information processing",
+        "owl:DeprecatedClass"
+      ],
+      "propertyRestrictions": [
+        "[is encoded in some data format specification]"
+      ]
+    },
+    "Sequence annotation": {
+      "propertyRestrictions": [
+        "[has output some Sequence record]",
+        "[has input some Sequence record]"
+      ]
+    },
+    "Acuity": {
+      "propertyRestrictions": [
+        "[output of some (software publishing process and [has participant hasValue Molecular Devices])]"
+      ]
+    },
+    "Utility operation": {
+      "propertyRestrictions": [
+        "[has topic some File management]"
+      ]
+    },
+    "oneChannelGUI": {
+      "propertyRestrictions": [
+        "[is published by hasValue Bioconductor]",
+        "[is encoded in some R language]",
+        "[has specified data output some (Text data set and Graph plot and [has format specification only pdf])]",
+        "[has specified data input some (ILLUMINA data or Gene expression dataset or [has format specification only (CEL binary format or GEO Matrix Series format or CEL ASCII format)])]",
+        "[is executed in some (data visualization and background correction and data normalization and decision tree induction and descriptive statistical calculation and differential expression analysis)]",
+        "[implements some ('FDR' and Regression model and RMA and SAM)]"
+      ]
+    },
+    "Usage unrestricted": {
+      "disjointWith": [
+        "Usage restricted"
+      ]
+    },
+    "TCoffee": {
+      "propertyRestrictions": [
+        "[is executed in some multiple sequence alignment]"
+      ]
+    },
+    "iterativeBMAsurv": {
+      "propertyRestrictions": [
+        "[is encoded in some R language]",
+        "[has specified data output some Graph plot]",
+        "[has specified data input some [has format specification only R data frame]]",
+        "[implements some Iterative Bayesian Model Averaging (BMA)]",
+        "[is published by hasValue Bioconductor]"
+      ]
+    },
+    "Scanning software G2565AA version A6.3.1": {
+      "propertyRestrictions": [
+        "[is developed by hasValue Agilent Technologies]"
+      ]
+    },
+    "spikeLI": {
+      "propertyRestrictions": [
+        "[implements some Langmuir Isotherm]",
+        "[is executed in some (descriptive statistical calculation and differential expression analysis)]",
+        "[is encoded in some R language]",
+        "[has specified data input some Gene expression dataset]",
+        "[has specified data output some Graph plot]"
+      ]
+    },
+    "Rredland": {
+      "propertyRestrictions": [
+        "[is encoded in some R language]",
+        "[is published by hasValue Bioconductor]",
+        "[has specified data input some Text data set]",
+        "[has specified data output some [has format specification only R data frame]]"
+      ]
+    },
+    "Ontology": {
+      "propertyRestrictions": [
+        "[has topic some Ontology and terminology]"
+      ]
+    },
+    "Lipid identifier": {
+      "propertyRestrictions": [
+        "[is identifier of some Lipid structure]",
+        "[is identifier of some Lipid report]"
+      ]
+    },
+    "MUSCLE": {
+      "propertyRestrictions": [
+        "[is executed in some multiple sequence alignment]"
+      ]
+    },
+    "Protein fold recognition": {
+      "propertyRestrictions": [
+        "[has topic some Protein fold recognition]"
+      ]
+    },
+    "operating system": {
+      "equivalentClass": [
+        "[is executed in some manage computer operations]"
+      ]
+    },
+    "'bridge'": {
+      "propertyRestrictions": [
+        "[is encoded in some R language]",
+        "[is executed in some differential expression analysis]",
+        "[implements some (Bayesian Model and Markov Chain Monte Carlo)]"
+      ]
+    },
+    "Enzyme kinetics report format": {
+      "propertyRestrictions": [
+        "[is format of some Enzyme kinetics data]"
+      ]
+    },
+    "Disease report": {
+      "propertyRestrictions": [
+        "[has topic some Pathology]"
+      ]
+    },
+    "PGSEA": {
+      "propertyRestrictions": [
+        "[has specified data output some (Graph plot and [has format specification some data format specification])]",
+        "[has specified data input some (Gene list and [has format specification some data format specification])]",
+        "[is encoded in some R language]",
+        "[has specified data input some (Gene expression dataset and [has format specification some data format specification])]"
+      ]
+    },
+    "Cytoband format": {
+      "propertyRestrictions": [
+        "[is format of some Cytoband position]"
+      ]
+    },
+    "Modelling and simulation": {
+      "propertyRestrictions": [
+        "[has topic some Molecular modelling]"
+      ]
+    },
+    "Transcription regulatory element prediction (trans)": {
+      "propertyRestrictions": [
+        "[has topic some Functional, regulatory and non-coding RNA]"
+      ]
+    },
+    "Sequence alignment formatting": {
+      "propertyRestrictions": [
+        "[has input some Sequence alignment]",
+        "[has output some Sequence alignment]"
+      ]
+    },
+    "'BufferedMatrix'": {
+      "propertyRestrictions": [
+        "[has specified data input some (Text data set and [has format specification some Textual format])]",
+        "[has specified data output some (Text data set and [has format specification some Textual format])]",
+        "[has specified data output some (Image and [has format specification some image format])]",
+        "[is encoded in some R language]",
+        "[has specified data input some (data and [has format specification some pdf])]"
+      ]
+    },
+    "RankProd": {
+      "propertyRestrictions": [
+        "[implements some Rank product non-parametric method]",
+        "[has specified data input some Gene expression dataset]",
+        "[is encoded in some R language]",
+        "[is published by hasValue Bioconductor]",
+        "[is executed in some differential expression analysis]",
+        "[has specified data output some [has format specification only R data frame]]"
+      ]
+    },
+    "fdrame": {
+      "propertyRestrictions": [
+        "[has specified data output some Graph plot]",
+        "[is executed in some gene expression analysis]",
+        "[has specified data input some [has format specification only R data frame]]",
+        "[implements some ('ANOVA' and 'FDR')]",
+        "[is encoded in some R language]",
+        "[is published by hasValue Bioconductor]"
+      ]
+    },
+    "Immunogenicity prediction": {
+      "propertyRestrictions": [
+        "[has topic some Immunology]",
+        "[has output some Protein structure]",
+        "[has topic some Protein folding, stability and design]"
+      ]
+    },
+    "Heatplus": {
+      "propertyRestrictions": [
+        "[is executed in some data visualization]",
+        "[has specified data output some (Heat map and [has format specification some image format])]",
+        "[is encoded in some R language]",
+        "[has specified data input some (data and [has format specification some R data frame])]"
+      ]
+    },
+    "spkTools": {
+      "propertyRestrictions": [
+        "[is encoded in some R language]",
+        "[has specified data output some (Text data set and Graph plot)]",
+        "[implements some (Average log expression across arrays (ALE) and 'ANOVA')]",
+        "[has specified data input some Gene expression dataset]"
+      ]
+    },
+    "Phylogenetic tree construction (from polymorphism data)": {
+      "propertyRestrictions": [
+        "[has topic some Genetic variation]"
+      ]
+    },
+    "CHP": {
+      "propertyRestrictions": [
+        "[is format of some Processed microarray data]"
+      ]
+    },
+    "Sequence comparison": {
+      "propertyRestrictions": [
+        "[has output some Sequence report]",
+        "[has input some Sequence]",
+        "[has topic some Sequence comparison]"
+      ]
+    },
+    "PCR primer design (for gene transcription profiling)": {
+      "propertyRestrictions": [
+        "[has topic some Gene expression]"
+      ]
+    },
+    "Mass spectrometry spectra": {
+      "propertyRestrictions": [
+        "[has topic some Proteomics]"
+      ]
+    },
+    "2D PAGE image": {
+      "propertyRestrictions": [
+        "[has topic some Proteomics]"
+      ]
+    },
+    "DNA mapping": {
+      "propertyRestrictions": [
+        "[has output some Map]",
+        "[has topic some Sequence assembly]",
+        "[has topic some Mapping]"
+      ]
+    },
+    "'Biostrings'": {
+      "propertyRestrictions": [
+        "[implements some 'Smith-Waterman']",
+        "[is encoded in some R language]",
+        "[implements some 'Needleman-Wunsch']"
+      ]
+    },
+    "altcdfenvs": {
+      "propertyRestrictions": [
+        "[has specified data input some [has format specification only FASTA]]",
+        "[is published by hasValue Bioconductor]",
+        "[is encoded in some R language]",
+        "[has specified data output some Graph plot]"
+      ]
+    },
+    "CEL ASCII format": {
+      "propertyRestrictions": [
+        "[is published by hasValue Affymetrix]"
+      ]
+    },
+    "webbioc": {
+      "propertyRestrictions": [
+        "[implements some Multiple testing]",
+        "[has specified data output some HTML report]",
+        "[has specified data input some [has format specification only CEL binary format]]",
+        "[is published by hasValue Bioconductor]",
+        "[is encoded in some R language]"
+      ]
+    },
+    "rflowcyt": {
+      "propertyRestrictions": [
+        "[is published by hasValue Bioconductor]",
+        "[has specified data input some [has format specification only Data File Standard for Flow Cytometry]]",
+        "[has specified data output some (Text data set and Graph plot)]",
+        "[is encoded in some R language]"
+      ]
+    },
+    "flowCore": {
+      "propertyRestrictions": [
+        "[has specified data input some [has format specification only (R data frame or Data File Standard for Flow Cytometry)]]",
+        "[has specified data output some (Graph plot and [has format specification only R data frame])]",
+        "[is encoded in some R language]",
+        "[is published by hasValue Bioconductor]"
+      ]
+    },
+    "Protein structural motif recognition": {
+      "propertyRestrictions": [
+        "[has topic some Protein structural motifs and surfaces]"
+      ]
+    },
+    "maanova": {
+      "propertyRestrictions": [
+        "[is encoded in some R language]",
+        "[is executed in some (descriptive statistical calculation and differential expression analysis)]",
+        "[has specified data input some (Text data set or R data frame)]",
+        "[implements some ('ANOVA' and F test and 'FDR' and Bootstrap)]",
+        "[has specified data output some (Text data set and Graph plot)]"
+      ]
+    },
+    "Epitope mapping": {
+      "propertyRestrictions": [
+        "[has topic some Immunology]"
+      ]
+    },
+    "Disease ID": {
+      "propertyRestrictions": [
+        "[is identifier of some Disease report]"
+      ]
+    },
+    "Rgraphviz": {
+      "propertyRestrictions": [
+        "[is encoded in some R language]",
+        "[has specified data output some Graph plot]",
+        "[has specified data input some [has format specification only R data frame]]",
+        "[is published by hasValue Bioconductor]"
+      ]
+    },
+    "Sequence alignment generation": {
+      "propertyRestrictions": [
+        "[has output some Sequence alignment]"
+      ]
+    },
+    "Source code available": {
+      "disjointWith": [
+        "Source code unavailable"
+      ]
+    },
+    "Phylogenetic tree analysis": {
+      "propertyRestrictions": [
+        "[has input some Phylogenetic tree]",
+        "[has output some Phylogenetic data]"
+      ]
+    },
+    "Sequence alignment visualisation": {
+      "propertyRestrictions": [
+        "[has input some Sequence alignment]",
+        "[has output some Sequence alignment image]"
+      ]
+    },
+    "'AffyExpress'": {
+      "propertyRestrictions": [
+        "[is executed in some correction]",
+        "[has specified data output some (HTML report and [has format specification some HTML])]",
+        "[is executed in some data normalization]",
+        "[implements some 'ANOVA']",
+        "[has specified data output some (Graph plot and [has format specification some data format specification])]",
+        "[has specified data input some (Text data set and [has format specification some Textual format])]",
+        "[is executed in some differential expression analysis]",
+        "[has specified data input some (Image and [has format specification some CEL binary format])]",
+        "[is encoded in some R language]"
+      ]
+    },
+    "'beadarray'": {
+      "propertyRestrictions": [
+        "[is encoded in some R language]",
+        "[has specified data input some Text data set]"
+      ]
+    },
+    "GlobalAncova": {
+      "propertyRestrictions": [
+        "[has specified data input some (Gene expression dataset and [has format specification some data format specification])]",
+        "[has specified data output some (Graph plot and [has format specification some image format])]",
+        "[is executed in some descriptive statistical calculation]",
+        "[implements some ANCOVA]",
+        "[is encoded in some R language]",
+        "[is executed in some differential expression analysis]"
+      ]
+    },
+    "Protein sequence alignment analysis": {
+      "propertyRestrictions": [
+        "[has input some Sequence alignment (protein)]"
+      ]
+    },
+    "Microsoft Windows": {
+      "propertyRestrictions": [
+        "[has interface some graphical user interface]",
+        "[output of some (software development process and [has participant hasValue Microsoft])]",
+        "[output of some (software publishing process and [has participant hasValue Microsoft])]",
+        "[is executed in some manage computer operations]"
+      ]
+    },
+    "EBI Clustal W2 Web Tool": {
+      "propertyRestrictions": [
+        "[output of some (software publishing process and [has participant hasValue European Bioinformatics Institute])]",
+        "[has interface some web user interface]",
+        "[uses software some ClustalW 2.1]"
+      ]
+    },
+    "Adobe Illustrator 10": {
+      "propertyRestrictions": [
+        "[has interface some graphical user interface]",
+        "[has specified data input some (data and [has format specification some pdf])]",
+        "[output of some (software development process and [has participant hasValue Adobe Systems])]",
+        "[has specified data input some (data and [has format specification some AI])]",
+        "[has specified data input some (data and [has format specification some BMP])]",
+        "[has specified data input some (data and [has format specification some JPEG])]",
+        "[has specified data output some (data and [has format specification some GIF])]",
+        "[has specified data input some (data and [has format specification some CGM])]",
+        "[has specified data output some (data and [has format specification some AI])]",
+        "[has specified data output some (data and [has format specification some DWG])]",
+        "[has specified data input some (data and [has format specification some DXF])]",
+        "[has specified data input some (data and [has format specification some DWG])]",
+        "[has specified data input some (data and [has format specification some Microsoft Word doc])]",
+        "[has specified data input some (data and [has format specification some SVG])]",
+        "[has specified data input some (data and [has format specification some PNG])]",
+        "[has specified data output some (data and [has format specification some JPEG])]",
+        "[has specified data output some (data and [has format specification some BMP])]",
+        "[has specified data output some (data and [has format specification some DXF])]",
+        "[has specified data input some (data and [has format specification some TIFF])]",
+        "[has specified data output some (data and [has format specification some SVG])]",
+        "[has specified data output some (data and [has format specification some pdf])]"
+      ]
+    },
+    "Phylogenetic tree format": {
+      "propertyRestrictions": [
+        "[is format of some Phylogenetic tree]"
+      ]
+    },
+    "pickgene": {
+      "propertyRestrictions": [
+        "[is encoded in some R language]",
+        "[is published by hasValue Bioconductor]",
+        "[implements some (Median Average Difference Algorithm and Gene array analysis algorithm)]",
+        "[is executed in some (background correction and descriptive statistical calculation and differential expression analysis)]",
+        "[has specified data output some [has format specification only R data frame]]",
+        "[has specified data input some Gene expression data]"
+      ]
+    },
+    "Nucleic acid identifier": {
+      "propertyRestrictions": [
+        "[is identifier of some Nucleic acid report]"
+      ]
+    },
+    "Frameshift detection": {
+      "propertyRestrictions": [
+        "[has topic some Sequencing]"
+      ]
+    },
+    "affyio": {
+      "propertyRestrictions": [
+        "[is encoded in some R language]",
+        "[is published by hasValue Bioconductor]",
+        "[has specified data input some [has format specification only (CDF binary format or CEL binary format or CDF ASCII format or CEL ASCII format)]]",
+        "[is executed in some parse]",
+        "[has specified data output some [has format specification only (CDF binary format or CEL binary format or CDF ASCII format or CEL ASCII format)]]"
+      ]
+    },
+    "Agilent Feature Extraction Software": {
+      "propertyRestrictions": [
+        "[is executed in some feature extraction]",
+        "[output of some (software publishing process and [has participant hasValue Agilent Technologies])]"
+      ]
+    },
+    "SNPchip": {
+      "propertyRestrictions": [
+        "[is encoded in some R language]",
+        "[implements some (data annotation and data visualization and descriptive statistical calculation)]",
+        "[implements some Hidden Markov Model]",
+        "[has specified data input some [has format specification only R data frame]]",
+        "[is published by hasValue Bioconductor]",
+        "[has specified data output some (Text data set and Graph plot)]"
+      ]
+    },
+    "ICD identifier": {
+      "propertyRestrictions": [
+        "[is identifier of some Disease report]"
+      ]
+    },
+    "Nucleic acid sequence analysis": {
+      "propertyRestrictions": [
+        "[has topic some Nucleic acids]",
+        "[has input some Nucleic acid sequence]"
+      ]
+    },
+    "'domainsignatures'": {
+      "propertyRestrictions": [
+        "[implements some Gene-Set Enrichment Analysis]",
+        "[is encoded in some R language]",
+        "[has specified data input some Gene list]",
+        "[has specified data output some Graph plot]",
+        "[is executed in some descriptive statistical calculation]"
+      ]
+    },
+    "flowUtils": {
+      "propertyRestrictions": [
+        "[is encoded in some R language]",
+        "[has specified data output some [has format specification only XML]]",
+        "[is executed in some parse]",
+        "[is published by hasValue Bioconductor]",
+        "[has specified data input some [has format specification only Data File Standard for Flow Cytometry]]"
+      ]
+    },
+    "cosmo": {
+      "propertyRestrictions": [
+        "[is encoded in some R language]",
+        "[implements some Cosmo]",
+        "[is executed in some gene expression analysis]",
+        "[has specified data input some [has format specification only (FASTA or R data frame)]]",
+        "[has specified data output some (Image and (HTML report or [has format specification only R data frame]))]",
+        "[is published by hasValue Bioconductor]"
+      ]
+    },
+    "Phylogenetic tree analysis (gene family prediction)": {
+      "propertyRestrictions": [
+        "[has topic some Phylogenomics]",
+        "[has output some Gene report]"
+      ]
+    },
+    "Entrez": {
+      "propertyRestrictions": [
+        "[is executed in some web content search]",
+        "[has interface some web user interface]"
+      ]
+    },
+    "Antimicrobial resistance prediction": {
+      "propertyRestrictions": [
+        "[has topic some Microbiology]"
+      ]
+    },
+    "SAS/STAT Software, Version 8": {
+      "propertyRestrictions": [
+        "[is developed by hasValue SAS Institute Inc.]"
+      ]
+    },
+    "Codon usage table": {
+      "propertyRestrictions": [
+        "[has topic some Gene expression]"
+      ]
+    },
+    "Microarray probe design": {
+      "propertyRestrictions": [
+        "[has topic some Gene expression]",
+        "[has input some Nucleic acid sequence]",
+        "[has topic some Sequence design]",
+        "[has output some Oligonucleotide probe annotation]"
+      ]
+    },
+    "gpls": {
+      "propertyRestrictions": [
+        "[has specified data output some [has format specification only R data frame]]",
+        "[is published by hasValue Bioconductor]",
+        "[is encoded in some R language]",
+        "[has specified data input some [has format specification only R data frame]]",
+        "[implements some Iteratively ReWeighted Least Squares]"
+      ]
+    },
+    "Chromosome name": {
+      "propertyRestrictions": [
+        "[is identifier of some Chromosome report]"
+      ]
+    },
+    "Sequence composition calculation": {
+      "propertyRestrictions": [
+        "[has topic some Sequence composition, complexity and repeats]",
+        "[has output some Sequence composition report]"
+      ]
+    },
+    "MIT License": {
+      "propertyRestrictions": [
+        "[has clause some Distribution with notices]",
+        "[has clause some Number of users unrestricted]",
+        "[has clause some Time for use unrestricted]",
+        "[has clause some Source code available]",
+        "[has clause some Usage unrestricted]",
+        "[has clause some derivative software allowed]",
+        "[has clause some Number of installations unrestricted]"
+      ]
+    },
+    "derivative software not allowed": {
+      "disjointWith": [
+        "derivative software allowed"
+      ]
+    },
+    "'dualKS'": {
+      "propertyRestrictions": [
+        "[has specified data output some (Text data set and Graph plot)]",
+        "[has specified data input some Gene expression dataset]",
+        "[is encoded in some R language]",
+        "[implements some (Kolmogorov Smirnov rank-sum based algorithm and Bootstrap)]",
+        "[is executed in some (descriptive statistical calculation and differential expression analysis)]"
+      ]
+    },
+    "Rmagpie": {
+      "propertyRestrictions": [
+        "[has specified data input some Gene expression dataset]",
+        "[implements some Recursive Feature Elimination (RFE)]",
+        "[has specified data output some Text data set]",
+        "[is encoded in some R language]",
+        "[is executed in some cross validation]"
+      ]
+    },
+    "Processed microarray data": {
+      "propertyRestrictions": [
+        "[has topic some Gene expression]"
+      ]
+    },
+    "MCRestimate": {
+      "propertyRestrictions": [
+        "[has specified data output some (Gene expression dataset and [has format specification some R data frame])]",
+        "[is encoded in some R language]",
+        "[has specified data input some (ALL/AML data set and [has format specification some data format specification])]"
+      ]
+    },
+    "CARMAweb": {
+      "propertyRestrictions": [
+        "[output of some (software publishing process and [has participant hasValue Institute for Genomics and Bioinformatics Graz University of Technology])]"
+      ]
+    },
+    "plw": {
+      "propertyRestrictions": [
+        "[is encoded in some R language]",
+        "[is executed in some (background correction and data normalization and differential expression analysis)]",
+        "[implements some (Locally Moderated Weighted-t (LMW) method and Probe level Locally moderated Weighted median-t (PLW) method)]",
+        "[has specified data output some (Graph plot and [has format specification only R data frame])]",
+        "[has specified data input some [has format specification only (CEL binary format or CEL ASCII format)]]",
+        "[is published by hasValue Bioconductor]"
+      ]
+    },
+    "Sequence-to-3D-profile alignment": {
+      "propertyRestrictions": [
+        "[has output some Sequence-structure alignment]",
+        "[has input some Structural profile]"
+      ]
+    },
+    "Protein function prediction": {
+      "propertyRestrictions": [
+        "[has topic some Function analysis]"
+      ]
+    },
+    "Sample ID": {
+      "propertyRestrictions": [
+        "[is identifier of some Sample annotation]"
+      ]
+    },
+    "Map identifier": {
+      "propertyRestrictions": [
+        "[is identifier of some Map]"
+      ]
+    },
+    "BRB-ArrayTools": {
+      "propertyRestrictions": [
+        "[output of some (software publishing process and [has participant hasValue Biometric Research Branch])]"
+      ]
+    },
+    "Protein property comparison": {
+      "propertyRestrictions": [
+        "[has output some Protein property]"
+      ]
+    },
+    "Biological pathway or network report format": {
+      "propertyRestrictions": [
+        "[is format of some Pathway or network report]"
+      ]
+    },
+    "Ramachandran plot calculation": {
+      "propertyRestrictions": [
+        "[has output some Ramachandran plot]"
+      ]
+    },
+    "Haplotype mapping": {
+      "propertyRestrictions": [
+        "[has output some Haplotype map]"
+      ]
+    },
+    "Affymetrix GeneChip Operating Software": {
+      "propertyRestrictions": [
+        "[output of some (software publishing process and [has participant hasValue Affymetrix])]"
+      ]
+    },
+    "Protein hydrogen exchange rate calculation": {
+      "propertyRestrictions": [
+        "[has output some Protein hydrogen exchange rate]"
+      ]
+    },
+    "VanillaICE": {
+      "propertyRestrictions": [
+        "[has specified data input some [has format specification only R data frame]]",
+        "[is published by hasValue Bioconductor]",
+        "[has specified data output some (Graph plot and [has format specification only R data frame])]",
+        "[implements some Hidden Markov Model]",
+        "[is encoded in some R language]"
+      ]
+    },
+    "puma": {
+      "propertyRestrictions": [
+        "[implements some (Propagation of uncertainty in microarray analysis and RMA)]",
+        "[is encoded in some R language]",
+        "[is published by hasValue Bioconductor]",
+        "[is executed in some (data normalization and differential expression analysis)]",
+        "[has specified data input some [has format specification only (CEL binary format or CEL ASCII format)]]",
+        "[has specified data output some (CSV data set and Graph plot)]"
+      ]
+    },
+    "'biocViews'": {
+      "propertyRestrictions": [
+        "[has specified data output some HTML report]",
+        "[is encoded in some R language]"
+      ]
+    },
+    "IRanges": {
+      "propertyRestrictions": [
+        "[is executed in some data normalization]",
+        "[has specified data input some (data and [has format specification some R data frame])]",
+        "[is executed in some decision tree induction]",
+        "[is encoded in some R language]",
+        "[has specified data output some (data and [has format specification some R data frame])]"
+      ]
+    },
+    "GPCR analysis": {
+      "propertyRestrictions": [
+        "[has topic some Membrane and  lipoproteins]"
+      ]
+    },
+    "BioPAX RDF/XML format": {
+      "propertyRestrictions": [
+        "[has_role some Knowledge representation role]"
+      ]
+    },
+    "crlmm": {
+      "propertyRestrictions": [
+        "[is executed in some data normalization]",
+        "[is encoded in some R language]",
+        "[has specified data output some (Graph plot and [has format specification only rda])]",
+        "[is published by hasValue Bioconductor]",
+        "[implements some CRLMM algorithm]",
+        "[has specified data input some [has format specification only (CEL binary format or CEL ASCII format)]]"
+      ]
+    },
+    "Protein isoelectric point calculation": {
+      "propertyRestrictions": [
+        "[has output some Protein isoelectric point]"
+      ]
+    },
+    "plier": {
+      "propertyRestrictions": [
+        "[has specified data output some Gene expression dataset]",
+        "[has specified data input some Gene expression dataset]",
+        "[is encoded in some R language]",
+        "[implements some PLIER (Probe Logarithmic Error Intensity Estimate) method]"
+      ]
+    },
+    "Alignment": {
+      "propertyRestrictions": [
+        "[has output some Alignment]"
+      ]
+    },
+    "RNA secondary structure analysis": {
+      "propertyRestrictions": [
+        "[has topic some Nucleic acid structure analysis]"
+      ]
+    },
+    "ScISI": {
+      "propertyRestrictions": [
+        "[has specified data input some [has format specification only R data frame]]",
+        "[is published by hasValue Bioconductor]",
+        "[is encoded in some R language]",
+        "[is executed in some (data annotation and descriptive statistical calculation)]",
+        "[has specified data output some (HTML report and Graph plot)]"
+      ]
+    },
+    "Protein post-translation modification site prediction": {
+      "propertyRestrictions": [
+        "[has topic some Protein modifications]"
+      ]
+    },
+    "RNA family identifier": {
+      "propertyRestrictions": [
+        "[is identifier of some RNA family report]"
+      ]
+    },
+    "ppiStats": {
+      "propertyRestrictions": [
+        "[has specified data output some (Graph plot and [has format specification only R data frame])]",
+        "[has specified data input some AP-MS data]",
+        "[is published by hasValue Bioconductor]",
+        "[is encoded in some R language]"
+      ]
+    },
+    "MATLAB": {
+      "propertyRestrictions": [
+        "[has specified data input some (data and [has format specification some Matlab .m file])]",
+        "[output of some (software development process and [has participant hasValue MathWorks])]",
+        "[has license some Proprietary commercial software license]",
+        "[output of some (software publishing process and [has participant hasValue MathWorks])]",
+        "[is executed in some matrix manipulation]",
+        "[has specified data output some (data and [has format specification some Matlab .m file])]",
+        "[has website homepage hasValue http://www.mathworks.com/products/matlab/]"
+      ]
+    },
+    "InterPro accession": {
+      "propertyRestrictions": [
+        "[is identifier of some Protein signature]"
+      ]
+    },
+    "'genArise'": {
+      "propertyRestrictions": [
+        "[is encoded in some R language]",
+        "[has specified data input some Text data set]",
+        "[has specified data output some Graph plot]",
+        "[is executed in some (correction and data normalization and differential expression analysis)]"
+      ]
+    },
+    "siggenes": {
+      "propertyRestrictions": [
+        "[is executed in some differential expression analysis]",
+        "[has specified data output some HTML report]",
+        "[has specified data input some Text data set]",
+        "[implements some (Empirical Bayes rule and 'FDR' and SAM)]",
+        "[is encoded in some R language]"
+      ]
+    },
+    "Protein binding site prediction": {
+      "propertyRestrictions": [
+        "[has topic some Protein interactions]"
+      ]
+    },
+    "metaArray": {
+      "propertyRestrictions": [
+        "[has specified data input some Gene expression dataset]",
+        "[is encoded in some R language]",
+        "[has specified data output some (Graph plot and [has format specification only R data frame])]",
+        "[implements some Markov Chain Monte Carlo]",
+        "[is published by hasValue Bioconductor]"
+      ]
+    },
+    "occugene": {
+      "propertyRestrictions": [
+        "[is encoded in some R language]",
+        "[is published by hasValue Bioconductor]",
+        "[implements some Markov Chain Monte Carlo]",
+        "[has specified data output some [has format specification only R data frame]]",
+        "[has specified data input some [has format specification only R data frame]]"
+      ]
+    },
+    "Scaffolding": {
+      "propertyRestrictions": [
+        "[has topic some Nucleic acids]"
+      ]
+    },
+    "Amino acid index ID": {
+      "propertyRestrictions": [
+        "[is identifier of some Amino acid index]"
+      ]
+    },
+    "Protein secondary structure visualisation": {
+      "propertyRestrictions": [
+        "[has topic some Protein structure analysis]"
+      ]
+    },
+    "RefPlus": {
+      "propertyRestrictions": [
+        "[has specified data output some Graph plot]",
+        "[has specified data input some Gene expression dataset]",
+        "[is encoded in some R language]",
+        "[is executed in some (background correction and data normalization and differential expression analysis)]"
+      ]
+    },
+    "affyQCReport": {
+      "propertyRestrictions": [
+        "[is executed in some differential expression analysis]",
+        "[is published by hasValue Bioconductor]",
+        "[has specified data input some [has format specification some (CEL binary format or CEL ASCII format)]]",
+        "[is encoded in some R language]",
+        "[has specified data output some (Graph plot and [has format specification some pdf])]"
+      ]
+    },
+    "Protein hydrophobic moment plotting": {
+      "propertyRestrictions": [
+        "[has output some Peptide hydrophobic moment]"
+      ]
+    },
+    "Cytoscape": {
+      "propertyRestrictions": [
+        "[is executed in some data visualization task]",
+        "[has documentation hasValue ns9:gr.1239303]",
+        "[has specified data input only Interaction data]"
+      ]
+    },
+    "factDesign": {
+      "propertyRestrictions": [
+        "[is encoded in some R language]",
+        "[is published by hasValue Bioconductor]",
+        "[implements some ('ANOVA' and 'FDR' and RMA and Linear modelling)]",
+        "[has specified data output some (Heat map and Text data set and Graph plot)]",
+        "[has specified data input some [has format specification only (CEL binary format or CEL ASCII format)]]"
+      ]
+    },
+    "sagenhaft": {
+      "propertyRestrictions": [
+        "[is encoded in some R language]",
+        "[has specified data output some Text data set]",
+        "[has specified data input some [has format specification only R data frame]]",
+        "[implements some Serial Analysis of Gene Expression (SAGE)]",
+        "[is published by hasValue Bioconductor]",
+        "[is executed in some (descriptive statistical calculation and differential expression analysis)]"
+      ]
+    },
+    "Hidden Markov model format": {
+      "propertyRestrictions": [
+        "[is format of some Hidden Markov model]"
+      ]
+    },
+    "Protein structure report (quality evaluation) format": {
+      "propertyRestrictions": [
+        "[is format of some Protein structural quality report]"
+      ]
+    },
+    "GOSemSim": {
+      "propertyRestrictions": [
+        "[has specified data input some (Gene list and [has format specification some data format specification])]",
+        "[implements some Semantic Similarity Measures]",
+        "[is executed in some descriptive statistical calculation]",
+        "[has specified data output some (Clustered data set and [has format specification some R data frame])]",
+        "[is encoded in some R language]"
+      ]
+    },
+    "Drug identifier": {
+      "propertyRestrictions": [
+        "[is identifier of some Drug structure]"
+      ]
+    },
+    "arrayWoRx": {
+      "propertyRestrictions": [
+        "[is published by hasValue Applied Precision Life Science]"
+      ]
+    },
+    "MANOR": {
+      "propertyRestrictions": [
+        "[implements some AWS algorithm]",
+        "[is encoded in some R language]",
+        "[implements some HaarSeg algorithm]",
+        "[implements some Modified version of the GLAD algorithm (Gain and Loss Analysis of DNA)]",
+        "[has specified data output some Graph plot]",
+        "[is executed in some (data visualization and data normalization)]"
+      ]
+    },
+    "Sequence motif comparison": {
+      "propertyRestrictions": [
+        "[has topic some Sequence sites, features and motifs]",
+        "[has output some Sequence signature matches]"
+      ]
+    },
+    "MIRIAM identifier": {
+      "propertyRestrictions": [
+        "[is identifier of some Database metadata]"
+      ]
+    },
+    "CodeLink Expression Scanning Software": {
+      "propertyRestrictions": [
+        "[output of some (software publishing process and [has participant hasValue Motorola Life Sciences])]"
+      ]
+    },
+    "Functional enrichment": {
+      "propertyRestrictions": [
+        "[has topic some Function analysis]"
+      ]
+    },
+    "MiPP": {
+      "propertyRestrictions": [
+        "[has specified data output some (data and [has format specification some R data frame])]",
+        "[is executed in some data normalization]",
+        "[has specified data input some (ALL/AML data set and [has format specification some data format specification])]",
+        "[implements some Misclassification-Penalized Posteriors (MiPP)]",
+        "[is encoded in some R language]"
+      ]
+    },
+    "Gene expression profile comparison": {
+      "propertyRestrictions": [
+        "[has output some Processed microarray data]"
+      ]
+    },
+    "Genetic code prediction": {
+      "propertyRestrictions": [
+        "[has output some Genetic code]"
+      ]
+    },
+    "Protein property calculation": {
+      "propertyRestrictions": [
+        "[has output some Protein property]",
+        "[has topic some Protein properties]"
+      ]
+    },
+    "Metadata retrieval": {
+      "propertyRestrictions": [
+        "[has output some Resource metadata]"
+      ]
+    },
+    "GNU Project Free Software License Type": {
+      "equivalentClass": [
+        "(software license and [has clause some Source code available] and [has clause some (Distribution unrestricted or Distribution with notices)])"
+      ]
+    },
+    "GEOmetadb": {
+      "propertyRestrictions": [
+        "[has specified data output some (data and [has format specification some R data frame])]",
+        "[is encoded in some R language]"
+      ]
+    },
+    "Data index format": {
+      "propertyRestrictions": [
+        "[is format of some Data index]"
+      ]
+    },
+    "HilbertVisGUI": {
+      "propertyRestrictions": [
+        "[has specified data output some (Graph plot and [has format specification some image format])]",
+        "[is encoded in some R language]",
+        "[has specified data input some (data and [has format specification some BED])]",
+        "[is executed in some data visualization]",
+        "[has specified data input some (data and [has format specification some GFF])]"
+      ]
+    },
+    "MAVI Pro": {
+      "propertyRestrictions": [
+        "[output of some (software publishing process and [has participant hasValue MWG Biotech])]"
+      ]
+    },
+    "Chemical formula format": {
+      "propertyRestrictions": [
+        "[is format of some Chemical formula]"
+      ]
+    },
+    "Rtreemix": {
+      "propertyRestrictions": [
+        "[implements some (Likelihood method or Sim method)]",
+        "[has specified data input some Text data set]",
+        "[is published by hasValue Bioconductor]",
+        "[is encoded in some R language]",
+        "[has specified data output some [has format specification only R data frame]]",
+        "[is executed in some decision tree induction]"
+      ]
+    },
+    "Radiation Hybrid Mapping": {
+      "propertyRestrictions": [
+        "[has output some Radiation hybrid map]"
+      ]
+    },
+    "tspair": {
+      "propertyRestrictions": [
+        "[has specified data output some (Graph plot and [has format specification only R data frame])]",
+        "[is encoded in some R language]",
+        "[has specified data input some Gene expression dataset]",
+        "[is published by hasValue Bioconductor]",
+        "[is executed in some (cross validation and descriptive statistical calculation)]"
+      ]
+    },
+    "Gene expression data": {
+      "propertyRestrictions": [
+        "[has topic some Gene expression]"
+      ]
+    },
+    "BAR": {
+      "propertyRestrictions": [
+        "[is published by hasValue Affymetrix]"
+      ]
+    },
+    "limma": {
+      "propertyRestrictions": [
+        "[implements some Linear modelling]",
+        "[has specified data input some Text data set]",
+        "[has specified data output some (Text data set and [has format specification only TIFF])]",
+        "[is developed by hasValue Walter and Eliza Hall Institute]",
+        "[is encoded in some R language]",
+        "[is published by hasValue Bioconductor]"
+      ]
+    },
+    "Protein super-secondary structure prediction": {
+      "propertyRestrictions": [
+        "[has output some Protein features]"
+      ]
+    },
+    "Base-calling": {
+      "propertyRestrictions": [
+        "[has topic some Sequencing]"
+      ]
+    },
+    "ontoTools": {
+      "propertyRestrictions": [
+        "[has specified data output some Graph plot]",
+        "[has specified data input some [has format specification only R data frame]]",
+        "[is encoded in some R language]",
+        "[is published by hasValue Bioconductor]"
+      ]
+    },
+    "Protein threading": {
+      "propertyRestrictions": [
+        "[has output some Sequence-structure alignment]",
+        "[has input some Protein structure]"
+      ]
+    },
+    "'AffyCompatible'": {
+      "propertyRestrictions": [
+        "[has specified data input some (CSV data set and [has format specification some data format specification])]",
+        "[is encoded in some R language]",
+        "[has specified data output some (Gene expression dataset and [has format specification some MAGE-TAB])]",
+        "[is executed in some parse]"
+      ]
+    },
+    "Category": {
+      "propertyRestrictions": [
+        "[implements some Category analysis]",
+        "[is encoded in some R language]",
+        "[is published by hasValue Bioconductor]",
+        "[is executed in some differential expression analysis]",
+        "[has specified data output some Graph plot]",
+        "[has specified data input some [has format specification only R data frame]]",
+        "[has specified data output some (Heat map and [has format specification some image format])]"
+      ]
+    },
+    "data format specification": {
+      "disjointWith": [
+        "information processing",
+        "owl:DeprecatedClass"
+      ]
+    },
+    "copa": {
+      "propertyRestrictions": [
+        "[is published by hasValue Bioconductor]",
+        "[has specified data input some [has format specification only R data frame]]",
+        "[is executed in some (descriptive statistical calculation and differential expression analysis)]",
+        "[implements some ('FDR' and Median Average Difference Algorithm)]",
+        "[is encoded in some R language]",
+        "[has specified data output some (Graph plot and [has format specification only R data frame])]"
+      ]
+    },
+    "Weka": {
+      "propertyRestrictions": [
+        "[is encoded in some Java]",
+        "[has interface some graphical user interface]",
+        "[has website homepage hasValue http://www.cs.waikato.ac.nz/~ml/weka/]",
+        "[has license some GNU GPL]"
+      ]
+    },
+    "ArrayExpress Bioconductor": {
+      "propertyRestrictions": [
+        "[output of some (software publishing process and [has participant hasValue European Bioinformatics Institute])]",
+        "[has specified data input some (Gene expression dataset and [has format specification some MAGE-TAB])]",
+        "[has specified data output some (Gene expression dataset and [has format specification some R data frame])]",
+        "[is encoded in some R language]",
+        "[output of some (software development process and [has participant hasValue European Bioinformatics Institute])]",
+        "[output of some (software publishing process and [has participant hasValue Bioconductor])]"
+      ]
+    },
+    "Quadruplex formation site detection": {
+      "propertyRestrictions": [
+        "[has topic some Nucleic acid structure prediction]",
+        "[has output some Nucleic acid structure report]"
+      ]
+    },
+    "Profile-to-profile alignment": {
+      "propertyRestrictions": [
+        "[has output some Sequence profile alignment]",
+        "[has input some Sequence profile]",
+        "[has topic some Sequence sites, features and motifs]"
+      ]
+    },
+    "Sequence accession (protein)": {
+      "propertyRestrictions": [
+        "[is identifier of some Protein sequence]"
+      ]
+    },
+    "Splicing model analysis": {
+      "propertyRestrictions": [
+        "[has topic some Gene structure]"
+      ]
+    },
+    "AtlasImage": {
+      "propertyRestrictions": [
+        "[output of some (software publishing process and [has participant hasValue Clontech Laboratories, Inc])]"
+      ]
+    },
+    "GNU GPL": {
+      "propertyRestrictions": [
+        "[output of some (software publishing process and [has participant hasValue Free Software Foundation])]",
+        "[has clause some Number of users unrestricted]",
+        "[has clause some Time for use unrestricted]",
+        "[has clause some Distribution unrestricted]",
+        "[has clause some Copyleft]",
+        "[has clause some Source code available]",
+        "[has clause some Usage unrestricted]",
+        "[has clause some Number of installations unrestricted]"
+      ]
+    },
+    "Phylogenetic discrete states format": {
+      "propertyRestrictions": [
+        "[is format of some Phylogenetic discrete data]"
+      ]
+    },
+    "qvalue": {
+      "propertyRestrictions": [
+        "[has specified data input some Gene expression dataset]",
+        "[has specified data output some (Text data set and Graph plot)]",
+        "[is encoded in some R language]",
+        "[implements some 'FDR']"
+      ]
+    },
+    "Electron microscopy model ID": {
+      "propertyRestrictions": [
+        "[is identifier of some Electron microscopy model]"
+      ]
+    },
+    "EBI TCoffee Web Tool": {
+      "propertyRestrictions": [
+        "[has interface some web user interface]",
+        "[uses software some CRG TCoffee 9.02.r1228]",
+        "[output of some (software publishing process and [has participant hasValue European Bioinformatics Institute])]",
+        "[has interface some web service]"
+      ]
+    },
+    "ICS-501 (version 2.3) Image Capture System": {
+      "propertyRestrictions": [
+        "[output of some (software development process and [has participant hasValue Genicon Sciences])]"
+      ]
+    },
+    "Sequence distance matrix format": {
+      "propertyRestrictions": [
+        "[is format of some Sequence distance matrix]"
+      ]
+    },
+    "Ringo": {
+      "propertyRestrictions": [
+        "[is encoded in some R language]",
+        "[is published by hasValue Bioconductor]",
+        "[has specified data input some Text data set]",
+        "[is executed in some (data visualization and data normalization)]",
+        "[has specified data output some (Graph plot and [has format specification only GFF])]",
+        "[is specified data input of exactly 2 Text data set]"
+      ]
+    },
+    "Structure alignment ID": {
+      "propertyRestrictions": [
+        "[is identifier of some Structure alignment]"
+      ]
+    },
+    "snpMatrix": {
+      "propertyRestrictions": [
+        "[is published by hasValue Bioconductor]",
+        "[has specified data output some (Graph plot and [has format specification only R data frame])]",
+        "[has specified data input some [has format specification only R data frame]]",
+        "[implements some Chi-square]",
+        "[is executed in some (data visualization and descriptive statistical calculation)]",
+        "[is encoded in some R language]"
+      ]
+    },
+    "PIR identifier": {
+      "propertyRestrictions": [
+        "[is identifier of some Sequence record]"
+      ]
+    },
+    "OLIN": {
+      "propertyRestrictions": [
+        "[is encoded in some R language]",
+        "[is executed in some data normalization]",
+        "[implements some Iterative local regression and model selection]",
+        "[has specified data input some (Gene expression data and [has format specification some data format specification])]",
+        "[is executed in some correction]",
+        "[has specified data output some (Graph plot and [has format specification some image format])]"
+      ]
+    },
+    "ctc": {
+      "propertyRestrictions": [
+        "[implements some Hierarchical clustering]",
+        "[has specified data input some Text data set]",
+        "[is encoded in some R language]",
+        "[is published by hasValue Bioconductor]",
+        "[has specified data output some (Heat map and [has format specification only (newick or cdt or gtr)])]"
+      ]
+    },
+    "Sequence distance matrix generation": {
+      "propertyRestrictions": [
+        "[has output some Sequence distance matrix]",
+        "[has topic some Phylogeny]"
+      ]
+    },
+    "Nucleic acid feature detection": {
+      "propertyRestrictions": [
+        "[has output some Nucleic acid features]",
+        "[has topic some Sequence sites, features and motifs]"
+      ]
+    },
+    "Gene expression profile clustering": {
+      "propertyRestrictions": [
+        "[has output some Processed microarray data]"
+      ]
+    },
+    "Physical mapping": {
+      "propertyRestrictions": [
+        "[has topic some Mapping]",
+        "[has output some Physical map]"
+      ]
+    },
+    "Expert 2100": {
+      "propertyRestrictions": [
+        "[output of some (software publishing process and [has participant hasValue Agilent Technologies])]"
+      ]
+    },
+    "Protein hydropathy calculation": {
+      "propertyRestrictions": [
+        "[has output some Protein hydropathy data]",
+        "[has topic some Protein properties]"
+      ]
+    },
+    "OCplus": {
+      "propertyRestrictions": [
+        "[has specified data input some (Gene expression data and [has format specification some data format specification])]",
+        "[is encoded in some R language]",
+        "[has specified data output some (data and [has format specification some R data frame])]",
+        "[implements some 'FDR']",
+        "[has specified data output some (Graph plot and [has format specification some image format])]"
+      ]
+    },
+    "Enzyme kinetics calculation": {
+      "propertyRestrictions": [
+        "[has output some Enzyme kinetics data]",
+        "[has topic some Enzymes]"
+      ]
+    },
+    "OrderedList": {
+      "propertyRestrictions": [
+        "[has specified data input some (Gene expression dataset and [has format specification some data format specification])]",
+        "[implements some Similarity score]",
+        "[is encoded in some R language]",
+        "[is executed in some differential expression analysis]",
+        "[has specified data output some (Gene list and [has format specification some data format specification])]"
+      ]
+    },
+    "Codon usage table generation": {
+      "propertyRestrictions": [
+        "[has output some Codon usage table]"
+      ]
+    },
+    "EBI Muscle Web Tool": {
+      "propertyRestrictions": [
+        "[output of some (software publishing process and [has participant hasValue European Bioinformatics Institute])]",
+        "[uses software some MUSCLE 3.8.31]",
+        "[has interface some web user interface]"
+      ]
+    },
+    "MassSpecWavelet": {
+      "propertyRestrictions": [
+        "[has specified data input some (data and [has format specification some R data frame])]",
+        "[has specified data output some (Graph plot and [has format specification some image format])]",
+        "[is encoded in some R language]",
+        "[implements some Continuous Wavelet Transform (CWT)-based peak detection algorithm]"
+      ]
+    },
+    "'diffGeneAnalysis'": {
+      "propertyRestrictions": [
+        "[has specified data output some (CSV data set and Graph plot)]",
+        "[has specified data input some CSV data set]",
+        "[is encoded in some R language]",
+        "[implements some Associative T method]"
+      ]
+    },
+    "Microsoft Word": {
+      "propertyRestrictions": [
+        "[has specified data input some (data and [has format specification some Microsoft Word doc])]",
+        "[has specified data output some (data and [has format specification some Microsoft Word doc])]",
+        "[output of some (software publishing process and [has participant hasValue Microsoft])]",
+        "[is executed in some word processing]",
+        "[has interface some graphical user interface]",
+        "[output of some (software development process and [has participant hasValue Microsoft])]"
+      ]
+    },
+    "graph": {
+      "propertyRestrictions": [
+        "[has specified data input some [has format specification only R data frame]]",
+        "[is executed in some (distance calculation and descriptive statistical calculation)]",
+        "[has specified data output some Graph plot]",
+        "[implements some R interface to boost graph library algorithm (RBGL)]",
+        "[is encoded in some R language]",
+        "[is published by hasValue Bioconductor]"
+      ]
+    },
+    "Sequence trace format": {
+      "propertyRestrictions": [
+        "[is format of some Sequence trace]"
+      ]
+    },
+    "Sequence coordinate conversion": {
+      "propertyRestrictions": [
+        "[has output some Sequence coordinates]",
+        "[has input some Sequence coordinates]"
+      ]
+    },
+    "affyImGUI": {
+      "propertyRestrictions": [
+        "[is published by hasValue Bioconductor]",
+        "[implements some ('PLM' or RMA)]",
+        "[is encoded in some R language]"
+      ]
+    },
+    "Sequencing error detection": {
+      "propertyRestrictions": [
+        "[has topic some Sequencing]"
+      ]
+    },
+    "Sequence feature comparison": {
+      "propertyRestrictions": [
+        "[has input some Feature table]",
+        "[has topic some Sequence sites, features and motifs]",
+        "[has input some Sequence record]"
+      ]
+    },
+    "parody": {
+      "propertyRestrictions": [
+        "[is published by hasValue Bioconductor]",
+        "[has specified data input some [has format specification only R data frame]]",
+        "[is encoded in some R language]",
+        "[has specified data output some (Graph plot and [has format specification only R data frame])]"
+      ]
+    },
+    "pcot2": {
+      "propertyRestrictions": [
+        "[is published by hasValue Bioconductor]",
+        "[has specified data input some ALL/AML data set]",
+        "[has specified data output some (Graph plot and [has format specification only JPEG])]",
+        "[implements some 'FDR']",
+        "[is encoded in some R language]"
+      ]
+    },
+    "OmniOutliner": {
+      "propertyRestrictions": [
+        "[output of some (software development process and [has participant hasValue Omni])]",
+        "[is executed in some document outlining]",
+        "[output of some (software publishing process and [has participant hasValue Omni])]",
+        "[has website homepage hasValue http://www.omnigroup.com/products/omnioutliner/]",
+        "[has license some Proprietary commercial software license]",
+        "[has specified data output some (data and [has format specification some OmniOutline format])]"
+      ]
+    },
+    "Gene expression profiling": {
+      "propertyRestrictions": [
+        "[has output some Gene expression profile]"
+      ]
+    },
+    "PCpheno": {
+      "propertyRestrictions": [
+        "[is executed in some descriptive statistical calculation]",
+        "[is encoded in some R language]",
+        "[has specified data output some (Graph plot and [has format specification some image format])]",
+        "[is executed in some differential expression analysis]",
+        "[implements some Hypergeometric enrichment]",
+        "[has specified data output some (data and [has format specification some R data frame])]",
+        "[has specified data input some (data and [has format specification some R data frame])]",
+        "[implements some Global test]"
+      ]
+    },
+    "qpcrNorm": {
+      "propertyRestrictions": [
+        "[has specified data output some Graph plot]",
+        "[implements some (Quantile normalization and Rank-invariant set normalization)]",
+        "[is executed in some data normalization]",
+        "[has specified data input some qPCR data]",
+        "[is encoded in some R language]"
+      ]
+    },
+    "XDotsReader": {
+      "propertyRestrictions": [
+        "[is developed by hasValue COSE, France]"
+      ]
+    },
+    "RdbiPgSQL": {
+      "propertyRestrictions": [
+        "[is encoded in some R language]",
+        "[has specified data input some [has format specification only R data frame]]",
+        "[has specified data output some Graph plot]",
+        "[is published by hasValue Bioconductor]"
+      ]
+    },
+    "GraphAT": {
+      "propertyRestrictions": [
+        "[is encoded in some R language]",
+        "[has specified data input some (Clustered data set and [has format specification some data format specification])]",
+        "[has specified data output some (Graph plot and [has format specification some image format])]",
+        "[implements some k-means]"
+      ]
+    },
+    "Python 2.6": {
+      "propertyRestrictions": [
+        "[has version hasValue Python version 2.6]"
+      ]
+    },
+    "DNA substitution modelling": {
+      "propertyRestrictions": [
+        "[has topic some Phylogeny]",
+        "[has output some DNA substitution model]"
+      ]
+    },
+    "Sequence cluster visualisation": {
+      "propertyRestrictions": [
+        "[has input some Sequence cluster]",
+        "[has topic some Sequence comparison]"
+      ]
+    },
+    "Sequence feature identifier": {
+      "propertyRestrictions": [
+        "[is identifier of some Sequence features]"
+      ]
+    },
+    "Pathway or network identifier": {
+      "propertyRestrictions": [
+        "[is identifier of some Pathway or network]"
+      ]
+    },
+    "Sequence feature table format": {
+      "propertyRestrictions": [
+        "[is format of some Sequence features]"
+      ]
+    },
+    "Nucleic acid thermodynamic property calculation": {
+      "propertyRestrictions": [
+        "[has output some Nucleic acid thermodynamic data]"
+      ]
+    },
+    "CRG PSICoffee Web Tool": {
+      "propertyRestrictions": [
+        "[has interface some web user interface]",
+        "[output of some (software publishing process and [has participant hasValue Centre for Genomic Regulation (CRG) of Barcelona])]",
+        "[uses software some CRG TCoffee 9.02.r1228]",
+        "[has documentation hasValue ns6:gkr245]"
+      ]
+    },
+    "Protein residue cluster calculation": {
+      "propertyRestrictions": [
+        "[has output some Protein residue 3D cluster]"
+      ]
+    },
+    "Initial microarray data processing (data filtering, local normalisation and quality control)": {
+      "propertyRestrictions": [
+        "[output of some (software development process and [has participant hasValue Bahler Lab])]"
+      ]
+    },
+    "Mfuzz": {
+      "propertyRestrictions": [
+        "[has specified data output some (Graph plot and [has format specification some image format])]",
+        "[has specified data output some (Text data set and [has format specification some Textual format])]",
+        "[implements some clustering algorithm]",
+        "[is encoded in some R language]",
+        "[has specified data input some (Gene expression dataset and [has format specification some data format specification])]"
+      ]
+    },
+    "Biological model ID": {
+      "propertyRestrictions": [
+        "[is identifier of some Mathematical model]"
+      ]
+    },
+    "Cyber-T": {
+      "propertyRestrictions": [
+        "[output of some (software publishing process and [has participant hasValue UC Irvine])]"
+      ]
+    },
+    "Protein interaction prediction": {
+      "propertyRestrictions": [
+        "[has output some Protein interaction report]",
+        "[has topic some Protein interactions]"
+      ]
+    },
+    "HMMER hidden Markov model ID": {
+      "propertyRestrictions": [
+        "[is identifier of some Hidden Markov model]"
+      ]
+    },
+    "tilingArray": {
+      "propertyRestrictions": [
+        "[has specified data input some [has format specification only CEL binary format]]",
+        "[is executed in some (data visualization and background correction and data normalization)]",
+        "[is published by hasValue Bioconductor]",
+        "[is encoded in some R language]",
+        "[has specified data output some (Graph plot and [has format specification only R data frame])]"
+      ]
+    },
+    "GeneRfold": {
+      "propertyRestrictions": [
+        "[has specified data output some (Graph plot and [has format specification some PostScript])]",
+        "[is encoded in some R language]",
+        "[has specified data input some (data and [has format specification some R data frame])]"
+      ]
+    },
+    "Restriction site recognition": {
+      "propertyRestrictions": [
+        "[has topic some Sequence sites, features and motifs]"
+      ]
+    },
+    "RpsiXML": {
+      "propertyRestrictions": [
+        "[has specified data input some [has format specification only XML]]",
+        "[is executed in some parse]",
+        "[has specified data output some [has format specification only R data frame]]",
+        "[is published by hasValue Bioconductor]",
+        "[is encoded in some R language]"
+      ]
+    },
+    "DNA back-translation": {
+      "propertyRestrictions": [
+        "[has topic some Protein expression]"
+      ]
+    },
+    "vsn": {
+      "propertyRestrictions": [
+        "[is encoded in some R language]",
+        "[has specified data input some Gene expression dataset]",
+        "[is executed in some (correction and data normalization and differential expression analysis)]"
+      ]
+    },
+    "ebwtl": {
+      "propertyRestrictions": [
+        "[is format of some Genome index]"
+      ]
+    },
+    "Small molecule structure": {
+      "propertyRestrictions": [
+        "[has topic some Small molecules]"
+      ]
+    },
+    "prada": {
+      "propertyRestrictions": [
+        "[is published by hasValue Bioconductor]",
+        "[has specified data output some (Graph plot and [has format specification only R data frame])]",
+        "[has specified data input some (FACS data and [has format specification some FCS3.0] and [has format specification only FCS3.0])]",
+        "[is encoded in some R language]"
+      ]
+    },
+    "SSPA": {
+      "propertyRestrictions": [
+        "[is published by hasValue Bioconductor]",
+        "[is encoded in some R language]",
+        "[has specified data input some ALL/AML data set]",
+        "[has specified data output some (Graph plot and [has format specification only R data frame])]"
+      ]
+    },
+    "bioDist": {
+      "propertyRestrictions": [
+        "[implements some ('KLD' and 'MI')]",
+        "[has specified data input some [has format specification only R data frame]]",
+        "[is encoded in some R language]",
+        "[is published by hasValue Bioconductor]",
+        "[is executed in some distance calculation]"
+      ]
+    },
+    "QSAR descriptor name": {
+      "propertyRestrictions": [
+        "[is identifier of some QSAR descriptor]"
+      ]
+    },
+    "Protein model validation": {
+      "propertyRestrictions": [
+        "[has topic some Protein structure prediction]",
+        "[has topic some Molecular modelling]",
+        "[has output some Protein structural quality report]"
+      ]
+    },
+    "CRG MCoffee Web Tool": {
+      "propertyRestrictions": [
+        "[has interface some web user interface]",
+        "[has documentation hasValue ns6:gkm333]",
+        "[uses software some CRG TCoffee 9.02.r1228]",
+        "[output of some (software publishing process and [has participant hasValue Centre for Genomic Regulation (CRG) of Barcelona])]"
+      ]
+    },
+    "RLMM": {
+      "propertyRestrictions": [
+        "[implements some Mahalanobis distance]",
+        "[has specified data input some [has format specification only (Xba.CQV and Xba.regions and .raw files)]]",
+        "[has specified data output some Graph plot]",
+        "[is encoded in some R language]",
+        "[is executed in some data normalization]",
+        "[is published by hasValue Bioconductor]"
+      ]
+    },
+    "'BioMVCClass'": {
+      "propertyRestrictions": [
+        "[is encoded in some R language]"
+      ]
+    },
+    "Protein molecular weight calculation": {
+      "propertyRestrictions": [
+        "[has topic some Proteomics]",
+        "[has output some Peptide molecular weights]"
+      ]
+    },
+    "affyContam": {
+      "propertyRestrictions": [
+        "[is published by hasValue Bioconductor]",
+        "[has specified data input some [has format specification only (CEL binary format or CEL ASCII format)]]",
+        "[has specified data output some [has format specification only (CEL binary format or CEL ASCII format)]]",
+        "[is encoded in some R language]"
+      ]
+    },
+    "Text mining report format": {
+      "propertyRestrictions": [
+        "[is format of some Text mining report]"
+      ]
+    },
+    "Molecular dynamics simulation": {
+      "propertyRestrictions": [
+        "[has topic some Molecular dynamics]",
+        "[has topic some Structure prediction]",
+        "[has output some Structure]"
+      ]
+    },
+    "GLAD": {
+      "propertyRestrictions": [
+        "[implements some Modified version of the GLAD algorithm (Gain and Loss Analysis of DNA)]",
+        "[is encoded in some R language]",
+        "[has specified data input some (data and [has format specification some R data frame])]",
+        "[has specified data output some (Graph plot and [has format specification some image format])]"
+      ]
+    },
+    "'CoCiteStats'": {
+      "propertyRestrictions": [
+        "[implements some Hubert’s gamma]",
+        "[implements some Jaccard’s index]",
+        "[is encoded in some R language]",
+        "[is executed in some descriptive statistical calculation]",
+        "[has specified data output some (Text data set and [has format specification some Textual format])]",
+        "[implements some Concordance]",
+        "[has specified data input some (Gene list and [has format specification some data format specification])]"
+      ]
+    },
+    "Map drawing": {
+      "propertyRestrictions": [
+        "[has input some Map]"
+      ]
+    },
+    "'ArrayTools'": {
+      "propertyRestrictions": [
+        "[is encoded in some R language]",
+        "[has specified data output some (HTML report and [has format specification some HTML])]",
+        "[has specified data input some (Gene list and [has format specification some R data frame])]",
+        "[is executed in some differential expression analysis]",
+        "[implements some RMA]"
+      ]
+    },
+    "Protein function analysis": {
+      "propertyRestrictions": [
+        "[has output some Protein report]"
+      ]
+    },
+    "microRNA": {
+      "propertyRestrictions": [
+        "[has specified data input some [has format specification only R data frame]]",
+        "[is encoded in some R language]",
+        "[is published by hasValue Bioconductor]",
+        "[has specified data output some [has format specification only R data frame]]"
+      ]
+    },
+    "Protein titration curve plotting": {
+      "propertyRestrictions": [
+        "[has output some Protein titration curve]"
+      ]
+    },
+    "Carbohydrate identifier": {
+      "propertyRestrictions": [
+        "[is identifier of some Carbohydrate report]",
+        "[is identifier of some Carbohydrate structure]"
+      ]
+    },
+    "Restriction map drawing": {
+      "propertyRestrictions": [
+        "[has output some Restriction map]"
+      ]
+    },
+    "keggorth": {
+      "propertyRestrictions": [
+        "[is encoded in some R language]",
+        "[is published by hasValue Bioconductor]",
+        "[has specified data input some Gene expression dataset]",
+        "[has specified data output some [has format specification only R data frame]]"
+      ]
+    },
+    "Dotplot plotting": {
+      "propertyRestrictions": [
+        "[has output some Dotplot]"
+      ]
+    },
+    "Taxonomy": {
+      "propertyRestrictions": [
+        "[has topic some Phylogeny]"
+      ]
+    },
+    "Topology diagram drawing": {
+      "propertyRestrictions": [
+        "[has output some Protein structure image]"
+      ]
+    },
+    "3D profile generation": {
+      "propertyRestrictions": [
+        "[has input some Structure]",
+        "[has input some Structure alignment]",
+        "[has output some Structural profile]"
+      ]
+    },
+    "Phylogenetic tree report (tree distances) format": {
+      "propertyRestrictions": [
+        "[is format of some Phylogenetic tree distances]"
+      ]
+    },
+    "dat": {
+      "propertyRestrictions": [
+        "[is format of some Microarray spots image]"
+      ]
+    },
+    "MLInterfaces": {
+      "propertyRestrictions": [
+        "[implements some k-nearest neighbour classification]",
+        "[has specified data output some (ALL/AML data set and [has format specification some data format specification])]",
+        "[has specified data input some (Gene expression dataset and [has format specification some data format specification])]",
+        "[is encoded in some R language]"
+      ]
+    },
+    "'CMA'": {
+      "propertyRestrictions": [
+        "[is encoded in some R language]",
+        "[implements some 'CMA']",
+        "[has specified data input some (Gene expression dataset and [has format specification some data format specification])]",
+        "[is executed in some descriptive statistical calculation]",
+        "[has specified data output some (Graph plot and [has format specification some R data frame])]"
+      ]
+    },
+    "Phylogenetic character data format": {
+      "propertyRestrictions": [
+        "[is format of some Phylogenetic character data]"
+      ]
+    },
+    "Ramachandran plot validation": {
+      "propertyRestrictions": [
+        "[has input some Ramachandran plot]",
+        "[has output some Protein structural quality report]"
+      ]
+    },
+    "siRNA duplex prediction": {
+      "propertyRestrictions": [
+        "[has topic some Functional, regulatory and non-coding RNA]"
+      ]
+    },
+    "ebwt": {
+      "propertyRestrictions": [
+        "[is format of some Genome index]"
+      ]
+    },
+    "Small molecule report": {
+      "propertyRestrictions": [
+        "[has topic some Small molecules]"
+      ]
+    },
+    "IntelliJ IDEA": {
+      "propertyRestrictions": [
+        "[has website homepage hasValue http://www.jetbrains.com/idea/]",
+        "[output of some (software development process and [has participant hasValue JetBrains])]",
+        "[has license some (Proprietary commercial software license or Apache license v2)]",
+        "[has interface some graphical user interface]",
+        "[has specified data input some (data and [has format specification some .java file])]",
+        "[has specified data output some (data and [has format specification some .java file])]",
+        "[is executed in some software development]"
+      ]
+    },
+    "idiogram": {
+      "propertyRestrictions": [
+        "[is encoded in some R language]",
+        "[is published by hasValue Bioconductor]",
+        "[has specified data input some [has format specification only R data frame]]",
+        "[has specified data output some (Image and Graph plot)]"
+      ]
+    },
+    "Agilent Technologies Software": {
+      "equivalentClass": [
+        "[output of some (software publishing process and [has participant hasValue Agilent Technologies])]"
+      ]
+    },
+    "MATLAB 6": {
+      "propertyRestrictions": [
+        "[has version hasValue Matlab R12]"
+      ]
+    },
+    "Structural (3D) profile ID": {
+      "propertyRestrictions": [
+        "[is identifier of some Structural profile]"
+      ]
+    },
+    "LBE": {
+      "propertyRestrictions": [
+        "[is encoded in some R language]",
+        "[has specified data output some (Graph plot and [has format specification some image format])]",
+        "[implements some 'FDR']",
+        "[has specified data output some (data and [has format specification some R data frame])]",
+        "[is executed in some differential expression analysis]",
+        "[has specified data input some (Gene expression dataset and [has format specification some data format specification])]"
+      ]
+    },
+    "affypdnn": {
+      "propertyRestrictions": [
+        "[has specified data input some (Text data set and [has format specification some R data frame])]",
+        "[is encoded in some R language]",
+        "[has specified data output some Graph plot]",
+        "[is published by hasValue Bioconductor]"
+      ]
+    },
+    "Structural profile": {
+      "propertyRestrictions": [
+        "[has topic some Structure comparison]"
+      ]
+    },
+    "'Biobase'": {
+      "propertyRestrictions": [
+        "[is encoded in some R language]"
+      ]
+    },
+    "Pathway or network visualisation": {
+      "propertyRestrictions": [
+        "[has input some Pathway or network]"
+      ]
+    },
+    "matchprobes": {
+      "propertyRestrictions": [
+        "[has specified data input some [has format specification only (CEL binary format or R data frame or CEL ASCII format)]]",
+        "[has specified data output some [has format specification only CDF binary format]]",
+        "[is published by hasValue Bioconductor]",
+        "[is encoded in some R language]"
+      ]
+    },
+    "Sequence range format": {
+      "propertyRestrictions": [
+        "[is format of some Sequence range]"
+      ]
+    },
+    "GeneR": {
+      "propertyRestrictions": [
+        "[has specified data input some (data and [has format specification some R data frame])]",
+        "[has specified data input some (Gene list and [has format specification some data format specification])]",
+        "[is encoded in some R language]",
+        "[has specified data input some (data and [has format specification some FASTA])]"
+      ]
+    },
+    "BlueFuse": {
+      "propertyRestrictions": [
+        "[output of some (software publishing process and [has participant hasValue Cambridge Bluegnome])]"
+      ]
+    },
+    "quantsmooth": {
+      "propertyRestrictions": [
+        "[is encoded in some R language]",
+        "[is executed in some data visualization]",
+        "[has specified data input some (ILLUMINA data or Gene expression dataset)]",
+        "[has specified data output some Graph plot]"
+      ]
+    },
+    "hypergraph": {
+      "propertyRestrictions": [
+        "[has specified data output some Graph plot]",
+        "[has specified data input some [has format specification only R data frame]]",
+        "[is published by hasValue Bioconductor]",
+        "[is encoded in some R language]",
+        "[implements some k-cores]"
+      ]
+    },
+    "Protein interaction format": {
+      "propertyRestrictions": [
+        "[is format of some Protein interaction report]"
+      ]
+    },
+    "ITALICS": {
+      "propertyRestrictions": [
+        "[implements some Modified version of the GLAD algorithm (Gain and Loss Analysis of DNA)]",
+        "[has specified data output some (Graph plot and [has format specification some image format])]",
+        "[implements some AWS algorithm]",
+        "[has specified data input some (Image and [has format specification some CEL binary format])]",
+        "[is encoded in some R language]",
+        "[is executed in some data normalization]",
+        "[implements some HaarSeg algorithm]"
+      ]
+    },
+    "'DNAcopy'": {
+      "propertyRestrictions": [
+        "[has specified data input some (data and [has format specification some R data frame])]",
+        "[has specified data output some (Graph plot and [has format specification some R data frame])]",
+        "[is encoded in some R language]"
+      ]
+    },
+    "Small molecule report format": {
+      "propertyRestrictions": [
+        "[is format of some Small molecule report]"
+      ]
+    },
+    "HilbertVis": {
+      "propertyRestrictions": [
+        "[has specified data input some (data and [has format specification some GFF])]",
+        "[is executed in some data visualization]",
+        "[has specified data output some (Graph plot and [has format specification some image format])]",
+        "[has specified data input some (data and [has format specification some BED])]",
+        "[is encoded in some R language]",
+        "[is executed in some data normalization]"
+      ]
+    },
+    "EMBOSS package": {
+      "propertyRestrictions": [
+        "[has interface some command-line interface]",
+        "[has version hasValue 6.3.0]",
+        "[output of some (software publishing process and [has participant hasValue EMBL])]",
+        "[is executed in some molecular sequence analysis]",
+        "[has license some GNU GPL]",
+        "[is executed in some biological data processing]",
+        "[has license some lGPL]"
+      ]
+    },
+    "Operon drawing": {
+      "propertyRestrictions": [
+        "[has topic some Gene structure]"
+      ]
+    },
+    "Sequence contamination filtering": {
+      "propertyRestrictions": [
+        "[has topic some Nucleic acids]"
+      ]
+    },
+    "Protein sequence cleavage": {
+      "propertyRestrictions": [
+        "[has topic some Proteomics]",
+        "[has output some Proteolytic digest]"
+      ]
+    },
+    "preprocessCore": {
+      "propertyRestrictions": [
+        "[implements some 'PLM']",
+        "[is encoded in some R language]",
+        "[is published by hasValue Bioconductor]",
+        "[has specified data output some [has format specification only R data frame]]",
+        "[has specified data input some [has format specification only R data frame]]"
+      ]
+    },
+    "Sequence assembly validation": {
+      "propertyRestrictions": [
+        "[has topic some Sequence assembly]",
+        "[has output some Sequence assembly report]",
+        "[has input some Sequence assembly]"
+      ]
+    },
+    "Data index report": {
+      "propertyRestrictions": [
+        "[has topic some File management]"
+      ]
+    },
+    "Amino acid index format": {
+      "propertyRestrictions": [
+        "[is format of some Amino acid index]"
+      ]
+    },
+    "'edgeR'": {
+      "propertyRestrictions": [
+        "[is executed in some differential expression analysis]",
+        "[has specified data output some (Text data set and Graph plot)]",
+        "[has specified data input some Digital gene expression (DGE) datasets]",
+        "[implements some (Empirical Bayes rule and Negative binomial distribution)]",
+        "[is encoded in some R language]"
+      ]
+    },
+    "Protein signal peptide detection": {
+      "propertyRestrictions": [
+        "[has topic some Protein targeting and localization]"
+      ]
+    },
+    "FreeBSD": {
+      "propertyRestrictions": [
+        "[is compatible license of some GNU GPL v2]",
+        "[has clause some Source code available]",
+        "[has clause some Distribution with notices]",
+        "[has clause some derivative software allowed]",
+        "[is compatible license of some GNU GPL v3]"
+      ]
+    },
+    "Modified BSD": {
+      "propertyRestrictions": [
+        "[is compatible license of some GNU GPL v3]",
+        "[is compatible license of some GNU GPL v2]",
+        "[has clause some Source code available]",
+        "[has clause some Distribution with notices]"
+      ]
+    },
+    "GGtools": {
+      "propertyRestrictions": [
+        "[has specified data output some (data and [has format specification some rda])]",
+        "[is encoded in some R language]",
+        "[has specified data input some (data and [has format specification some R data frame])]",
+        "[has specified data output some (data and [has format specification some R data frame])]",
+        "[has specified data input some (Text data set and [has format specification some Textual format])]"
+      ]
+    },
+    "SPSS 20.0": {
+      "propertyRestrictions": [
+        "[output of some (software publishing process and [has participant hasValue IBM])]",
+        "[has download location hasValue ns8:downloads.html]"
+      ]
+    },
+    "DNA vaccine design": {
+      "propertyRestrictions": [
+        "[has topic some Nucleic acid structure prediction]",
+        "[has topic some Immunology]"
+      ]
+    },
+    "Protein sequence analysis": {
+      "propertyRestrictions": [
+        "[has input some Protein sequence]"
+      ]
+    },
+    "PAnnBuilder": {
+      "propertyRestrictions": [
+        "[has specified data output some (Text data set and [has format specification some Textual format])]",
+        "[has specified data input some (Annotation data packages and [has format specification some data format specification])]",
+        "[is encoded in some R language]"
+      ]
+    },
+    "flowFlowJo": {
+      "propertyRestrictions": [
+        "[has specified data output some [has format specification only Data File Standard for Flow Cytometry]]",
+        "[has specified data input some [has format specification only XML]]",
+        "[is encoded in some R language]",
+        "[is published by hasValue Bioconductor]",
+        "[is executed in some (parse and descriptive statistical calculation)]"
+      ]
+    },
+    "Nucleic acid melting profile plotting": {
+      "propertyRestrictions": [
+        "[has output some Nucleic acid melting profile]"
+      ]
+    },
+    "Sequence complexity calculation": {
+      "propertyRestrictions": [
+        "[has output some Sequence complexity report]",
+        "[has topic some Sequence composition, complexity and repeats]"
+      ]
+    },
+    "BioPAX Manchester OWL Syntax format": {
+      "propertyRestrictions": [
+        "[has_role some Knowledge representation role]",
+        "[is alternative format of some BioPAX RDF/XML format]"
+      ]
+    },
+    "nnNorm": {
+      "propertyRestrictions": [
+        "[has specified data output some (Image or Graph plot or [has format specification only R data frame])]",
+        "[is executed in some data normalization]",
+        "[has specified data input some Gene expression dataset]",
+        "[is published by hasValue Bioconductor]",
+        "[implements some Neural networks models]",
+        "[is encoded in some R language]"
+      ]
+    },
+    "CRG TCoffee": {
+      "propertyRestrictions": [
+        "[has documentation hasValue ns7:jmbi.2000.4042]"
+      ]
+    },
+    "Protein modelling": {
+      "propertyRestrictions": [
+        "[has topic some Molecular modelling]"
+      ]
+    },
+    "Chemical class enrichment": {
+      "propertyRestrictions": [
+        "[has topic some Function analysis]"
+      ]
+    },
+    "Sequence": {
+      "propertyRestrictions": [
+        "[has topic some Sequence analysis]"
+      ]
+    },
+    "splots": {
+      "propertyRestrictions": [
+        "[has specified data output some Graph plot]",
+        "[is executed in some data visualization]",
+        "[is published by hasValue Bioconductor]",
+        "[is encoded in some R language]",
+        "[has specified data input some [has format specification only chamber slide format]]"
+      ]
+    },
+    "sigPathway": {
+      "propertyRestrictions": [
+        "[has specified data input some Gene expression data]",
+        "[has specified data output some (HTML report and Graph plot)]",
+        "[is encoded in some R language]"
+      ]
+    },
+    "MEDME": {
+      "propertyRestrictions": [
+        "[has specified data input some (data and [has format specification some R data frame])]",
+        "[has specified data output some (data and [has format specification some GFF])]",
+        "[is encoded in some R language]"
+      ]
+    },
+    "CRG Expresso Web Tool": {
+      "propertyRestrictions": [
+        "[has documentation hasValue ns6:gkl092]",
+        "[has interface some web user interface]",
+        "[uses software some CRG TCoffee 9.02.r1228]",
+        "[output of some (software publishing process and [has participant hasValue Centre for Genomic Regulation (CRG) of Barcelona])]"
+      ]
+    },
+    "software before Microsoft 2007": {
+      "equivalentClass": [
+        "(software and [has version some (version name and [followed by hasValue Microsoft 2007 version])])"
+      ]
+    },
+    "MATLAB 7": {
+      "propertyRestrictions": [
+        "[has version hasValue Matlab R14]"
+      ]
+    },
+    "Structural similarity search": {
+      "propertyRestrictions": [
+        "[has topic some Structure comparison]"
+      ]
+    },
+    "Nucleic acid structure prediction": {
+      "propertyRestrictions": [
+        "[has output some Nucleic acid structure]",
+        "[has topic some Nucleic acid structure analysis]"
+      ]
+    },
+    "Kakadu": {
+      "propertyRestrictions": [
+        "[has specified data input some (data and [has format specification some image format])]",
+        "[has interface some graphical user interface]",
+        "[is executed in some image compression]",
+        "[has specified data output some (data and [has format specification some JPEG 2000])]",
+        "[has website homepage hasValue ns2:www.kakadusoftware.com]"
+      ]
+    },
+    "qpgraph": {
+      "propertyRestrictions": [
+        "[is executed in some descriptive statistical calculation]",
+        "[has specified data output some (Graph plot and [has format specification only R data frame])]",
+        "[has specified data input some Gene expression data]",
+        "[implements some (Pearson correlation estimator and AvgNRRs)]",
+        "[is encoded in some R language]",
+        "[is published by hasValue Bioconductor]"
+      ]
+    },
+    "tRNA gene prediction": {
+      "propertyRestrictions": [
+        "[has topic some Functional, regulatory and non-coding RNA]"
+      ]
+    },
+    "Sequence-profile alignment format": {
+      "propertyRestrictions": [
+        "[is format of some Sequence-profile alignment]"
+      ]
+    },
+    "NONMEM": {
+      "propertyRestrictions": [
+        "[has interface some command-line interface]",
+        "[is encoded in some NMTRAN]",
+        "[implements some SAEM]",
+        "[has license some Proprietary commercial software license]",
+        "[has version hasValue 7.2.0]"
+      ]
+    },
+    "OPL v1.0": {
+      "propertyRestrictions": [
+        "[has clause some derivative software allowed]",
+        "[has clause some Source code available]",
+        "[has clause some Distribution restricted]"
+      ]
+    },
+    "Icens": {
+      "propertyRestrictions": [
+        "[has specified data output some (Graph plot and [has format specification some image format])]",
+        "[is encoded in some R language]",
+        "[has specified data input some (data and [has format specification some R data frame])]"
+      ]
+    },
+    "RMAExpress": {
+      "propertyRestrictions": [
+        "[is developed by hasValue University Of California, Berkeley]",
+        "[has specified data input some [has format specification only (CDF binary format and CEL binary format)]]",
+        "[has specified data output some Text data set]",
+        "[implements some (background correction and data normalization)]"
+      ]
+    },
+    "pcaMethods": {
+      "propertyRestrictions": [
+        "[is encoded in some R language]",
+        "[implements some (Bayesian Model and Expectation-Maximization(EM) algorithm and Nonlinear Estimation by Iterative Partial Least Squares and SVDimpute algorithm)]",
+        "[is published by hasValue Bioconductor]",
+        "[has specified data output some Graph plot]",
+        "[is executed in some (data visualization and cross validation)]",
+        "[has specified data input some [has format specification only R data frame]]"
+      ]
+    },
+    "Phylogenetic tree report (invariants) format": {
+      "propertyRestrictions": [
+        "[is format of some Phylogenetic invariants]"
+      ]
+    },
+    "BZScan": {
+      "propertyRestrictions": [
+        "[output of some (software publishing process and [has participant hasValue Technological Advances for Genomics and Clinics, France])]"
+      ]
+    },
+    "'BiocCaseStudies'": {
+      "propertyRestrictions": [
+        "[is encoded in some R language]"
+      ]
+    },
+    "Protein distance matrix calculation": {
+      "propertyRestrictions": [
+        "[has output some Protein distance matrix]"
+      ]
+    },
+    "Peptide immunogenicity prediction": {
+      "propertyRestrictions": [
+        "[has output some Peptide immunogenicity data]",
+        "[has topic some Immunology]"
+      ]
+    },
+    "3D-1D scoring matrix generation": {
+      "propertyRestrictions": [
+        "[has topic some Structure comparison]",
+        "[has output some 3D-1D scoring matrix]"
+      ]
+    },
+    "3D-1D scoring matrix format": {
+      "propertyRestrictions": [
+        "[is format of some 3D-1D scoring matrix]"
+      ]
+    },
+    "Protein interaction analysis": {
+      "propertyRestrictions": [
+        "[has topic some Protein interactions]",
+        "[has output some Protein interaction report]"
+      ]
+    },
+    "pgUtils": {
+      "propertyRestrictions": [
+        "[is encoded in some R language]",
+        "[has specified data input some Text data set]",
+        "[has specified data output some [has format specification only log file]]",
+        "[is published by hasValue Bioconductor]",
+        "[is executed in some database creation]"
+      ]
+    },
+    "Database hits (sequence) format": {
+      "propertyRestrictions": [
+        "[is format of some Sequence search results]"
+      ]
+    },
+    "PLPE": {
+      "propertyRestrictions": [
+        "[is executed in some descriptive statistical calculation]",
+        "[is executed in some differential expression analysis]",
+        "[has specified data output some (data and [has format specification some R data frame])]",
+        "[has specified data input some (LC-MS data and [has format specification some data format specification])]",
+        "[implements some Statistical tests]",
+        "[is encoded in some R language]"
+      ]
+    },
+    "logicFS": {
+      "propertyRestrictions": [
+        "[is encoded in some R language]",
+        "[has specified data input some [has format specification only logicFS dataset]]",
+        "[has specified data output some (Graph plot and [has format specification only R data frame])]",
+        "[is published by hasValue Bioconductor]",
+        "[implements some Logic regression]"
+      ]
+    },
+    "GeneRegionScan": {
+      "propertyRestrictions": [
+        "[is encoded in some R language]",
+        "[has specified data output some (Graph plot and [has format specification some image format])]",
+        "[has specified data input some (Image and [has format specification some CEL binary format])]"
+      ]
+    },
+    "GLEAMS software": {
+      "propertyRestrictions": [
+        "[output of some (software publishing process and [has participant hasValue Molecular Neuroscience Core, Center for Behavioral Neuroscience, Atlanta])]"
+      ]
+    },
+    "Sequence assembly": {
+      "propertyRestrictions": [
+        "[has topic some Sequence assembly]",
+        "[has output some Sequence assembly]"
+      ]
+    },
+    "Platform restricted": {
+      "disjointWith": [
+        "Platform unrestricted"
+      ]
+    },
+    "Genetic code identifier": {
+      "propertyRestrictions": [
+        "[is identifier of some Genetic code]"
+      ]
+    },
+    "RBioinf": {
+      "propertyRestrictions": [
+        "[has specified data output some (Image and [has format specification some image format])]",
+        "[has specified data input some (data and [has format specification some R data frame])]",
+        "[is encoded in some R language]",
+        "[implements some Linear modelling]"
+      ]
+    },
+    "EBI Clustal Omega Web Tool": {
+      "propertyRestrictions": [
+        "[output of some (software publishing process and [has participant hasValue European Bioinformatics Institute])]",
+        "[has interface some web user interface]",
+        "[uses software some Clustal Omega 1.1]"
+      ]
+    },
+    "Phylogenetic tree processing": {
+      "propertyRestrictions": [
+        "[has topic some Phylogeny]"
+      ]
+    },
+    "Linkage disequilibrium calculation": {
+      "propertyRestrictions": [
+        "[has output some Genetic linkage report]"
+      ]
+    },
+    "BLAST": {
+      "propertyRestrictions": [
+        "[is executed in some multiple sequence alignment]",
+        "[has specified data input some (biological sequence data and [has format specification some FASTA])]",
+        "[has specified data input some (biological sequence data and [has format specification some GenBank format])]",
+        "[output of some (software development process and [has participant hasValue NIH])]",
+        "[is executed in some pairwise sequence alignment]",
+        "[output of some (software publishing process and [has participant hasValue NIH])]"
+      ]
+    },
+    "bgx": {
+      "propertyRestrictions": [
+        "[has specified data input some [has format specification only (CEL binary format or CEL ASCII format)]]",
+        "[is published by hasValue Bioconductor]",
+        "[has specified data output some (Graph plot and [has format specification only R data frame])]",
+        "[is encoded in some R language]"
+      ]
+    },
+    "ssize": {
+      "propertyRestrictions": [
+        "[has specified data output some (Graph plot and [has format specification only R data frame])]",
+        "[has specified data input some [has format specification only R data frame]]",
+        "[is executed in some data visualization]",
+        "[is encoded in some R language]",
+        "[implements some RMA]",
+        "[is published by hasValue Bioconductor]"
+      ]
+    },
+    "Sequence set ID": {
+      "propertyRestrictions": [
+        "[is identifier of some Sequence set]"
+      ]
+    },
+    "Literature search": {
+      "propertyRestrictions": [
+        "[has topic some Literature and reference]",
+        "[has output some Citation]"
+      ]
+    },
+    "Sequence checksum generation": {
+      "propertyRestrictions": [
+        "[has input some Sequence]",
+        "[has topic some Data acquisition]"
+      ]
+    },
+    "rama": {
+      "propertyRestrictions": [
+        "[is published by hasValue Bioconductor]",
+        "[is executed in some (descriptive statistical calculation and differential expression analysis)]",
+        "[has specified data input some Gene expression dataset]",
+        "[is encoded in some R language]",
+        "[is specified data input of exactly 2 Gene expression dataset]",
+        "[implements some (Bayesian Model and Markov Chain Monte Carlo)]",
+        "[has specified data output some (Graph plot and [has format specification only R data frame])]"
+      ]
+    },
+    "Ontology name": {
+      "propertyRestrictions": [
+        "[is identifier of some Ontology]"
+      ]
+    },
+    "Polypeptide chain ID": {
+      "propertyRestrictions": [
+        "[is identifier of some Protein chain]"
+      ]
+    },
+    "GeneSpring": {
+      "propertyRestrictions": [
+        "[has specified data input some (Gene list and [has format specification some data format specification])]",
+        "[is encoded in some R language]",
+        "[output of some (software publishing process and [has participant hasValue Agilent Technologies])]",
+        "[output of some (software development process and [has participant hasValue Strand Life Sciences])]",
+        "[has specified data output some (Gene expression dataset and [has format specification some data format specification])]"
+      ]
+    },
+    "Matrix format": {
+      "propertyRestrictions": [
+        "[is format of some Matrix]"
+      ]
+    },
+    "GEMTools 2.4": {
+      "propertyRestrictions": [
+        "[output of some (software publishing process and [has participant hasValue Incyte Genomics])]"
+      ]
+    },
+    "Base position variability plotting": {
+      "propertyRestrictions": [
+        "[has output some Base position variability plot]",
+        "[has topic some Gene structure]"
+      ]
+    },
+    "Structure": {
+      "propertyRestrictions": [
+        "[has topic some Structure analysis]"
+      ]
+    },
+    "Microsoft Excel": {
+      "propertyRestrictions": [
+        "[has specified data output some (data and [has format specification some XLS spreadsheet])]",
+        "[output of some (software publishing process and [has participant hasValue Microsoft])]",
+        "[has interface some graphical user interface]",
+        "[has license some Proprietary commercial software license]",
+        "[is executed in some spreadsheet editing]",
+        "[output of some (software development process and [has participant hasValue Microsoft])]",
+        "[has specified data input some (data and [has format specification some XLS spreadsheet])]"
+      ]
+    },
+    "seqLogo": {
+      "propertyRestrictions": [
+        "[implements some Position weight matrix (PWM )]",
+        "[is published by hasValue Bioconductor]",
+        "[is encoded in some R language]",
+        "[has specified data output some [has format specification only R data frame]]",
+        "[has specified data input some [has format specification only R data frame]]"
+      ]
+    },
+    "RBGL": {
+      "propertyRestrictions": [
+        "[is executed in some descriptive statistical calculation]",
+        "[is encoded in some R language]",
+        "[is executed in some data visualization]",
+        "[implements some BGL]",
+        "[has specified data input some (data and [has format specification some gxl format])]",
+        "[has specified data input some (data and [has format specification some XML])]",
+        "[has specified data output some (Graph plot and [has format specification some image format])]"
+      ]
+    },
+    "Neurite measurement": {
+      "propertyRestrictions": [
+        "[has topic some Cell biology]"
+      ]
+    },
+    "Microarray experiment annotation ID": {
+      "propertyRestrictions": [
+        "[is identifier of some Experiment report]"
+      ]
+    },
+    "Gene expression data format": {
+      "propertyRestrictions": [
+        "[is format of some Gene expression data]"
+      ]
+    },
+    "Q 4.2": {
+      "propertyRestrictions": [
+        "[output of some (software publishing process and [has participant hasValue Numbers International Pty Ltd])]",
+        "[has documentation hasValue ns2:www.q-researchsoftware.com]"
+      ]
+    },
+    "goProfiles": {
+      "propertyRestrictions": [
+        "[has specified data output some Image]",
+        "[implements some Gene-Set Enrichment Analysis]",
+        "[has specified data input some Gene list]",
+        "[is encoded in some R language]",
+        "[is executed in some (data visualization and descriptive statistical calculation and differential expression analysis)]"
+      ]
+    },
+    "PCR primer design (for large scale sequencing)": {
+      "propertyRestrictions": [
+        "[has topic some Sequencing]"
+      ]
+    },
+    "Harshlight": {
+      "propertyRestrictions": [
+        "[is encoded in some R language]",
+        "[has specified data output some (data and [has format specification some PostScript])]",
+        "[implements some 'MAS5']",
+        "[implements some RMA]",
+        "[has specified data input some (Image and [has format specification some CEL binary format])]"
+      ]
+    },
+    "ClustalW 2.1": {
+      "propertyRestrictions": [
+        "[has documentation hasValue ns4:btm404]",
+        "[output of some (software publishing process and [has participant hasValue Conway Institute UCD Dublin])]",
+        "[has interface only command-line interface]",
+        "[has version hasValue ClustalW version 2.1]"
+      ]
+    },
+    "MPL v2.0": {
+      "propertyRestrictions": [
+        "[is compatible license of some GNU GPL v2]",
+        "[is compatible license of some GNU GPL v3]"
+      ]
+    },
+    "'externalVector'": {
+      "propertyRestrictions": [
+        "[is encoded in some R language]"
+      ]
+    },
+    "Gene expression data analysis": {
+      "propertyRestrictions": [
+        "[has topic some Gene expression]"
+      ]
+    },
+    "Protein-nucleic acid binding site analysis": {
+      "propertyRestrictions": [
+        "[has topic some Protein interactions]"
+      ]
+    },
+    "Comparison matrix name": {
+      "propertyRestrictions": [
+        "[is identifier of some Comparison matrix]"
+      ]
+    },
+    "Splice transcript prediction": {
+      "propertyRestrictions": [
+        "[has topic some Gene structure]"
+      ]
+    },
+    "exonmap": {
+      "propertyRestrictions": [
+        "[is executed in some differential expression analysis]",
+        "[has specified data input some [has format specification only (CDF binary format or CEL binary format or CDF ASCII format or CEL ASCII format)]]",
+        "[is published by hasValue Bioconductor]",
+        "[has specified data output some (Graph plot and [has format specification only R data frame])]",
+        "[is encoded in some R language]",
+        "[has specified data input some [has format specification only covdesc file]]",
+        "[implements some ('FDR' and RMA)]"
+      ]
+    },
+    "Translation initiation site prediction": {
+      "propertyRestrictions": [
+        "[has topic some Protein expression]"
+      ]
+    },
+    "Obsolete concept (EDAM)": {
+      "disjointWith": [
+        "role"
+      ]
+    },
+    "GeneticsBase": {
+      "propertyRestrictions": [
+        "[has specified data input some CSV data set]",
+        "[has specified data input some (Text data set and [has format specification some Textual format])]",
+        "[has specified data output some (Text data set and [has format specification some Textual format])]",
+        "[is published by hasValue Bioconductor]",
+        "[has specified data input some [has format specification only pedigree data file]]",
+        "[is encoded in some R language]"
+      ]
+    },
+    "SPIA": {
+      "propertyRestrictions": [
+        "[implements some Signaling Pathway Impact Analysis (SPIA) algorithm]",
+        "[has specified data input some Gene expression dataset]",
+        "[is published by hasValue Bioconductor]",
+        "[has specified data output some (Graph plot and [has format specification only R data frame])]",
+        "[is encoded in some R language]",
+        "[is executed in some (descriptive statistical calculation and differential expression analysis)]"
+      ]
+    },
+    "Dropbox": {
+      "propertyRestrictions": [
+        "[has website homepage hasValue www.dropbox.com]",
+        "[output of some (software publishing process and [has participant hasValue Dropbox])]",
+        "[has interface some application programming interface]",
+        "[output of some (software development process and [has participant hasValue Dropbox])]",
+        "[has interface some command-line interface]",
+        "[has license some Proprietary commercial software license]"
+      ]
+    },
+    "Rosetta Resolver": {
+      "propertyRestrictions": [
+        "[is developed by hasValue Rosetta Biosoftware]"
+      ]
+    },
+    "Sequence feature detection": {
+      "propertyRestrictions": [
+        "[has topic some Sequence sites, features and motifs]",
+        "[has output some Sequence features]"
+      ]
+    },
+    "Spotfire": {
+      "propertyRestrictions": [
+        "[is developed by hasValue TIBCO Software Inc]"
+      ]
+    },
+    "matlab software": {
+      "equivalentClass": [
+        "[is encoded in some MATLAB language]"
+      ]
+    },
+    "Affymetrix Expression Console": {
+      "propertyRestrictions": [
+        "[has specified data output some (data and [has format specification some CHP binary format])]",
+        "[implements some 'MAS5']",
+        "[has specified data input some (Image and [has format specification some CEL binary format])]",
+        "[output of some (software development process and [has participant hasValue Affymetrix])]",
+        "[implements some RMA]",
+        "[implements some PLIER (Probe Logarithmic Error Intensity Estimate) method]",
+        "[output of some (software publishing process and [has participant hasValue Affymetrix])]"
+      ]
+    },
+    "rsbml": {
+      "propertyRestrictions": [
+        "[is executed in some (parse and cross validation)]",
+        "[is encoded in some R language]",
+        "[is published by hasValue Bioconductor]",
+        "[has specified data input some [has format specification only SBML]]",
+        "[has specified data output some [has format specification only XML]]"
+      ]
+    },
+    "biomaRT": {
+      "propertyRestrictions": [
+        "[has specified data input some [has format specification only FASTA]]",
+        "[is encoded in some R language]",
+        "[is published by hasValue Bioconductor]"
+      ]
+    },
+    "rMAT": {
+      "propertyRestrictions": [
+        "[is executed in some (gene expression analysis and parse and data normalization)]",
+        "[is encoded in some R language]",
+        "[has specified data output some [has format specification only (BPMAP or CEL binary format)]]",
+        "[has specified data input some [has format specification only (BPMAP or CEL binary format)]]",
+        "[is published by hasValue Bioconductor]"
+      ]
+    },
+    "'betr'": {
+      "propertyRestrictions": [
+        "[is published by hasValue Bioconductor]",
+        "[is encoded in some R language]",
+        "[has specified data input some Gene list]",
+        "[implements some Bayesian Model]",
+        "[has specified data output some [has format specification only R data frame]]",
+        "[is executed in some differential expression analysis]"
+      ]
+    },
+    "Strain accession": {
+      "propertyRestrictions": [
+        "[is identifier of some Cell line report]"
+      ]
+    },
+    "'EBImage'": {
+      "propertyRestrictions": [
+        "[is encoded in some R language]",
+        "[has specified data input some (Text data set and [has format specification some Textual format])]",
+        "[has specified data input some (Image and [has format specification some CEL binary format])]",
+        "[has specified data output some (Image and [has format specification some image format])]"
+      ]
+    },
+    "Phylogenetic tree generation (from gene frequencies)": {
+      "propertyRestrictions": [
+        "[has topic some Gene expression]",
+        "[has input some Phylogenetic gene frequencies data]"
+      ]
+    },
+    "CRG RCoffee Web Tool": {
+      "propertyRestrictions": [
+        "[uses software some CRG TCoffee 9.02.r1228]",
+        "[has interface some web user interface]",
+        "[output of some (software publishing process and [has participant hasValue Centre for Genomic Regulation (CRG) of Barcelona])]",
+        "[has documentation hasValue ns6:gkn278]"
+      ]
+    },
+    "PROcess": {
+      "propertyRestrictions": [
+        "[is executed in some descriptive statistical calculation]",
+        "[is executed in some background correction]",
+        "[is encoded in some R language]",
+        "[implements some k-nearest neighbour classification]",
+        "[has specified data input some (CSV data set and [has format specification some data format specification])]",
+        "[has specified data output some (Graph plot and [has format specification some image format])]"
+      ]
+    },
+    "BAC": {
+      "propertyRestrictions": [
+        "[implements some Bayesian Model]",
+        "[has specified data input some (data and [has format specification some R data frame])]",
+        "[is encoded in some R language]",
+        "[is published by hasValue Bioconductor]",
+        "[has specified data output some [has format specification some BED]]"
+      ]
+    },
+    "BioXSD": {
+      "propertyRestrictions": [
+        "[is format of some Sequence]",
+        "[is format of some Sequence alignment]",
+        "[is format of some Sequence features]"
+      ]
+    },
+    "Endnote": {
+      "propertyRestrictions": [
+        "[has interface some graphical user interface]",
+        "[has license some Proprietary commercial software license]",
+        "[has declared status some Live]",
+        "[has website homepage hasValue http://www.endnote.com/]",
+        "[is executed in some citation management]",
+        "[output of some (software publishing process and [has participant hasValue Thompson Reuters])]"
+      ]
+    },
+    "vbmp": {
+      "propertyRestrictions": [
+        "[is executed in some cross validation]",
+        "[has specified data input some [has format specification only R data frame]]",
+        "[has specified data output some (Graph plot and [has format specification only R data frame])]",
+        "[is published by hasValue Bioconductor]",
+        "[is encoded in some R language]",
+        "[implements some Multinomial probit regression with Gaussian Process priors]"
+      ]
+    },
+    "Silicon Genetics Genespring": {
+      "propertyRestrictions": [
+        "[is developed by hasValue Agilent Technologies]"
+      ]
+    },
+    "Annotare": {
+      "propertyRestrictions": [
+        "[has license some MIT License]",
+        "[has website homepage hasValue http://code.google.com/p/annotare/]",
+        "[has version hasValue 1]",
+        "[output of some (software development process and [has participant hasValue Stanford University])]",
+        "[is executed in some annotation editing]",
+        "[has specified data output some (data and [has format specification some MAGE-TAB])]",
+        "[has specified data input some (data and [has format specification some MAGE-TAB])]",
+        "[has declared status some Latest release]",
+        "[has interface some graphical user interface]"
+      ]
+    },
+    "DAVID": {
+      "propertyRestrictions": [
+        "[has website homepage hasValue http://david.abcc.ncifcrf.gov/]",
+        "[is executed in some Gene-Set Enrichment Analysis]",
+        "[has interface some web user interface]",
+        "[has interface some web service]"
+      ]
+    },
+    "'codelink'": {
+      "propertyRestrictions": [
+        "[has specified data input some (XML or Text data set)]",
+        "[has specified data output some (Text data set and Graph plot)]",
+        "[is encoded in some R language]",
+        "[is executed in some (background correction and data normalization and descriptive statistical calculation and differential expression analysis)]"
+      ]
+    },
+    "gene2pathway": {
+      "propertyRestrictions": [
+        "[implements some Hierarchical clustering]",
+        "[has specified data input some Gene list]",
+        "[is published by hasValue Bioconductor]",
+        "[has specified data output some [has format specification only R data frame]]",
+        "[is encoded in some R language]"
+      ]
+    },
+    "Oligonucleotide probe annotation": {
+      "propertyRestrictions": [
+        "[has topic some Sequence design]"
+      ]
+    },
+    "weaver": {
+      "propertyRestrictions": [
+        "[is encoded in some R language]",
+        "[has specified data input some [has format specification only Rnw]]",
+        "[is published by hasValue Bioconductor]",
+        "[has specified data output some [has format specification only Rnw]]"
+      ]
+    },
+    "GSEABase": {
+      "propertyRestrictions": [
+        "[has specified data output some (data and [has format specification some R data frame])]",
+        "[is encoded in some R language]",
+        "[has specified data input some (data and [has format specification some XML])]",
+        "[has specified data output some (Gene expression dataset and [has format specification some data format specification])]"
+      ]
+    },
+    "Protein structure": {
+      "propertyRestrictions": [
+        "[has topic some Protein structure analysis]"
+      ]
+    },
+    "geneplotter": {
+      "propertyRestrictions": [
+        "[has specified data output some Graph plot]",
+        "[has specified data input some Gene expression dataset]",
+        "[is encoded in some R language]"
+      ]
+    },
+    "Protein folding analysis": {
+      "propertyRestrictions": [
+        "[has output some Protein structure report]",
+        "[has topic some Protein folding, stability and design]"
+      ]
+    },
+    "50-50 MANOVA": {
+      "propertyRestrictions": [
+        "[output of some (software publishing process and [has participant hasValue Matforsk])]",
+        "[is encoded in some R language]",
+        "[implements some 50-50 MANOVA algorithm]",
+        "[is encoded in some MATLAB language]"
+      ]
+    },
+    "affyPara": {
+      "propertyRestrictions": [
+        "[is published by hasValue Bioconductor]",
+        "[is executed in some (averaging and correction and data normalization)]",
+        "[has specified data input some [has format specification only (CEL binary format or CEL ASCII format)]]",
+        "[has specified data output some (Graph plot and [has format specification some R data frame])]",
+        "[is encoded in some R language]"
+      ]
+    },
+    "CRG TCoffee Web Tool": {
+      "propertyRestrictions": [
+        "[has interface some web user interface]",
+        "[uses software some CRG TCoffee 9.02.r1228]",
+        "[output of some (software publishing process and [has participant hasValue Centre for Genomic Regulation (CRG) of Barcelona])]",
+        "[has documentation hasValue ns6:gkr245]"
+      ]
+    },
+    "ScanArray": {
+      "propertyRestrictions": [
+        "[is developed by hasValue PerkinElmer]"
+      ]
+    },
+    "Codon usage table name": {
+      "propertyRestrictions": [
+        "[is identifier of some Genetic code]",
+        "[is identifier of some Codon usage table]"
+      ]
+    },
+    "'beadarraySNP'": {
+      "propertyRestrictions": [
+        "[has specified data output some Graph plot]",
+        "[has specified data input some Text data set]",
+        "[is executed in some data normalization]",
+        "[is encoded in some R language]"
+      ]
+    },
+    "MIRIAM data type name": {
+      "propertyRestrictions": [
+        "[is identifier of some Database metadata]"
+      ]
+    },
+    "Identifier": {
+      "disjointWith": [
+        "Report",
+        "Parameter"
+      ],
+      "propertyRestrictions": [
+        "[is identifier of some data]"
+      ]
+    },
+    "ChipSkipper": {
+      "propertyRestrictions": [
+        "[output of some (software publishing process and [has participant hasValue EMBL])]"
+      ]
+    },
+    "Obsolete": {
+      "disjointWith": [
+        "Maintained"
+      ]
+    },
+    "Map format": {
+      "propertyRestrictions": [
+        "[is format of some Map]"
+      ]
+    },
+    "Sequence cluster": {
+      "propertyRestrictions": [
+        "[has topic some Sequence comparison]",
+        "[has topic some Protein families]"
+      ]
+    },
+    "RMAGEML": {
+      "propertyRestrictions": [
+        "[has specified data input some [has format specification only MAGE-ML]]",
+        "[is encoded in some R language]",
+        "[is published by hasValue Bioconductor]",
+        "[has specified data output some (Text data set and [has format specification only R data frame])]"
+      ]
+    },
+    "flowViz": {
+      "propertyRestrictions": [
+        "[is encoded in some R language]",
+        "[is published by hasValue Bioconductor]",
+        "[has specified data input some [has format specification only Data File Standard for Flow Cytometry]]",
+        "[has specified data output some (Text data set and Graph plot)]"
+      ]
+    },
+    "BioPerl": {
+      "propertyRestrictions": [
+        "[has version hasValue 1.6.9]",
+        "[has interface some application programming interface]",
+        "[is executed in some biological data processing]",
+        "[has license some Artistic License v1.0]",
+        "[has declared status some Live]",
+        "[has website homepage hasValue ns2:www.bioperl.org]"
+      ]
+    },
+    "Molecular property identifier": {
+      "propertyRestrictions": [
+        "[is identifier of some Molecular property]"
+      ]
+    },
+    "3D profile-to-3D profile alignment": {
+      "propertyRestrictions": [
+        "[has output some Structural (3D) profile alignment]",
+        "[has input some Structural profile]"
+      ]
+    },
+    "Database search": {
+      "propertyRestrictions": [
+        "[has output some Database search results]"
+      ]
+    },
+    "software publisher organization": {
+      "equivalentClass": [
+        "[has_role some publisher role]"
+      ]
+    },
+    "Zinc finger prediction": {
+      "propertyRestrictions": [
+        "[has topic some Protein folding, stability and design]",
+        "[has output some Protein interaction report]"
+      ]
+    },
+    "Article": {
+      "propertyRestrictions": [
+        "[has topic some Literature and reference]"
+      ]
+    },
+    "'affycoretools'": {
+      "propertyRestrictions": [
+        "[implements some ('FDR' and RMA)]",
+        "[is executed in some differential expression analysis]",
+        "[has specified data output some (Text data set and HTML report and Graph plot)]",
+        "[has specified data input some (Text data set or Rnw)]",
+        "[is encoded in some R language]"
+      ]
+    },
+    "process": {
+      "disjointWith": [
+        "Obsolete concept (EDAM)"
+      ]
+    }
+  },
+  "properties": {
+    "has clause": {
+      "characteristics": [],
+      "domain": [
+        "None"
+      ],
+      "range": [
+        "license clause"
+      ],
+      "subPropertyOf": [
+        "is about"
+      ],
+      "inverseOf": []
+    },
+    "is executed in": {
+      "characteristics": [],
+      "domain": [
+        "software"
+      ],
+      "range": [
+        "information processing"
+      ],
+      "subPropertyOf": [],
+      "inverseOf": []
+    },
+    "is function of": {
+      "characteristics": [],
+      "domain": [
+        "information processing"
+      ],
+      "range": [
+        "None"
+      ],
+      "subPropertyOf": [],
+      "inverseOf": [
+        "has function"
+      ]
+    },
+    "is alternative format of": {
+      "characteristics": [
+        "Symmetric"
+      ],
+      "domain": [
+        "data format specification"
+      ],
+      "range": [
+        "data format specification"
+      ],
+      "subPropertyOf": [],
+      "inverseOf": []
+    },
+    "implements": {
+      "characteristics": [],
+      "domain": [
+        "software"
+      ],
+      "range": [
+        "algorithm"
+      ],
+      "subPropertyOf": [],
+      "inverseOf": []
+    },
+    "has_role": {
+      "characteristics": [],
+      "domain": [
+        "None"
+      ],
+      "range": [
+        "role"
+      ],
+      "subPropertyOf": [],
+      "inverseOf": []
+    },
+    "has declared status": {
+      "characteristics": [],
+      "domain": [
+        "None"
+      ],
+      "range": [
+        "Development status"
+      ],
+      "subPropertyOf": [
+        "is about"
+      ],
+      "inverseOf": []
+    },
+    "is specified data output of": {
+      "characteristics": [],
+      "domain": [
+        "data"
+      ],
+      "range": [
+        "software"
+      ],
+      "subPropertyOf": [
+        "output of"
+      ],
+      "inverseOf": [
+        "has specified data output"
+      ]
+    },
+    "has legal status": {
+      "characteristics": [],
+      "domain": [
+        "None"
+      ],
+      "range": [
+        "None"
+      ],
+      "subPropertyOf": [
+        "obsolete object property"
+      ],
+      "inverseOf": []
+    },
+    "is output of": {
+      "characteristics": [],
+      "domain": [
+        "data"
+      ],
+      "range": [
+        "information processing"
+      ],
+      "subPropertyOf": [],
+      "inverseOf": [
+        "has output"
+      ]
+    },
+    "part of": {
+      "characteristics": [
+        "Transitive"
+      ],
+      "domain": [
+        "None"
+      ],
+      "range": [
+        "None"
+      ],
+      "subPropertyOf": [],
+      "inverseOf": [
+        "has_part"
+      ]
+    },
+    "is implemented by": {
+      "characteristics": [],
+      "domain": [
+        "algorithm"
+      ],
+      "range": [
+        "software"
+      ],
+      "subPropertyOf": [],
+      "inverseOf": [
+        "implements"
+      ]
+    },
+    "is identifier of": {
+      "characteristics": [],
+      "domain": [
+        "Identifier"
+      ],
+      "range": [
+        "data"
+      ],
+      "subPropertyOf": [],
+      "inverseOf": [
+        "has identifier"
+      ]
+    },
+    "directly followed by": {
+      "characteristics": [],
+      "domain": [
+        "None"
+      ],
+      "range": [
+        "None"
+      ],
+      "subPropertyOf": [
+        "followed by"
+      ],
+      "inverseOf": [
+        "directly preceded by"
+      ]
+    },
+    "has version": {
+      "characteristics": [],
+      "domain": [
+        "None"
+      ],
+      "range": [
+        "version name"
+      ],
+      "subPropertyOf": [],
+      "inverseOf": [
+        "is version of"
+      ]
+    },
+    "has interface": {
+      "characteristics": [],
+      "domain": [
+        "None"
+      ],
+      "range": [
+        "software interface"
+      ],
+      "subPropertyOf": [],
+      "inverseOf": []
+    },
+    "has website homepage": {
+      "characteristics": [],
+      "domain": [
+        "None"
+      ],
+      "range": [
+        "rdfs:Literal"
+      ],
+      "subPropertyOf": [],
+      "inverseOf": []
+    },
+    "directly preceded by": {
+      "characteristics": [],
+      "domain": [
+        "None"
+      ],
+      "range": [
+        "None"
+      ],
+      "subPropertyOf": [
+        "preceded by"
+      ],
+      "inverseOf": []
+    },
+    "obsolete_is developed by": {
+      "characteristics": [],
+      "domain": [
+        "None"
+      ],
+      "range": [
+        "None"
+      ],
+      "subPropertyOf": [
+        "obsolete object property"
+      ],
+      "inverseOf": []
+    },
+    "output of": {
+      "characteristics": [],
+      "domain": [
+        "None"
+      ],
+      "range": [
+        "None"
+      ],
+      "subPropertyOf": [
+        "participates in"
+      ],
+      "inverseOf": []
+    },
+    "has format specification": {
+      "characteristics": [],
+      "domain": [
+        "information content entity"
+      ],
+      "range": [
+        "data format specification"
+      ],
+      "subPropertyOf": [
+        "is encoded in"
+      ],
+      "inverseOf": []
+    },
+    "has output": {
+      "characteristics": [],
+      "domain": [
+        "information processing"
+      ],
+      "range": [
+        "data"
+      ],
+      "subPropertyOf": [],
+      "inverseOf": []
+    },
+    "has input": {
+      "characteristics": [],
+      "domain": [
+        "information processing"
+      ],
+      "range": [
+        "data"
+      ],
+      "subPropertyOf": [],
+      "inverseOf": []
+    },
+    "is about": {
+      "characteristics": [],
+      "domain": [
+        "information content entity"
+      ],
+      "range": [
+        "None"
+      ],
+      "subPropertyOf": [],
+      "inverseOf": []
+    },
+    "has documentation": {
+      "characteristics": [],
+      "domain": [
+        "None"
+      ],
+      "range": [
+        "xsd:string"
+      ],
+      "subPropertyOf": [],
+      "inverseOf": []
+    },
+    "is encoded in": {
+      "characteristics": [],
+      "domain": [
+        "None"
+      ],
+      "range": [
+        "None"
+      ],
+      "subPropertyOf": [
+        "is about"
+      ],
+      "inverseOf": []
+    },
+    "is published by": {
+      "characteristics": [],
+      "domain": [
+        "(data format specification or software)"
+      ],
+      "range": [
+        "organization"
+      ],
+      "subPropertyOf": [
+        "owl:topObjectProperty"
+      ],
+      "inverseOf": []
+    },
+    "is version of": {
+      "characteristics": [],
+      "domain": [
+        "version name"
+      ],
+      "range": [
+        "None"
+      ],
+      "subPropertyOf": [],
+      "inverseOf": []
+    },
+    "is manufactured by": {
+      "characteristics": [],
+      "domain": [
+        "None"
+      ],
+      "range": [
+        "organization"
+      ],
+      "subPropertyOf": [],
+      "inverseOf": []
+    },
+    "has license": {
+      "characteristics": [],
+      "domain": [
+        "None"
+      ],
+      "range": [
+        "software license"
+      ],
+      "subPropertyOf": [
+        "is about"
+      ],
+      "inverseOf": []
+    },
+    "is specified data input of": {
+      "characteristics": [],
+      "domain": [
+        "data"
+      ],
+      "range": [
+        "software"
+      ],
+      "subPropertyOf": [
+        "input of"
+      ],
+      "inverseOf": [
+        "has specified data input"
+      ]
+    }
+  }
+}

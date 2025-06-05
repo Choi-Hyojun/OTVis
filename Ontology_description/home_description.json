@@ -1,0 +1,20 @@
+{
+  "classes": {
+    "FragmentedSleepProblem": {
+      "rdfs:comment": "Sleep fragmentation"
+    },
+    "Nocturia": {
+      "rdfs:comment": "If the individual visits the bathroom more than twice during the night"
+    },
+    "SleepDurationProblem": {
+      "rdfs:comment": "Sleep duration is less than 7 hours. "
+    },
+    "SleepEfficiencyProblem": {
+      "rdfs:comment": "Sleep efficiency is less than 85%."
+    },
+    "SleepLatencyProblem": {
+      "rdfs:comment": "Sleep latency over 30 minutes."
+    }
+  },
+  "properties": {}
+}

@@ -1,0 +1,78 @@
+{
+  "classes": {
+    "NamedPizza": {
+      "rdfs:comment": "A pizza that can be found on a pizza menu"
+    },
+    "CheeseyPizza": {
+      "rdfs:comment": "Any pizza that has at least 1 cheese topping."
+    },
+    "CheeseyVegetableTopping": {
+      "rdfs:comment": "This class will be inconsistent. This is because we have given it 2 disjoint parents, which means it could never have any members (as nothing can simultaneously be a CheeseTopping and a VegetableTopping). NB Called ProbeInconsistentTopping in the ProtegeOWL Tutorial."
+    },
+    "Country": {
+      "rdfs:comment": "A class that is equivalent to the set of individuals that are described in the enumeration - ie Countries can only be either America, England, France, Germany or Italy and nothing else. Note that these individuals have been asserted to be allDifferent from each other."
+    },
+    "Spiciness": {
+      "rdfs:comment": "A ValuePartition that describes only values from Hot, Medium or Mild. NB Subclasses can themselves be divided up into further partitions."
+    },
+    "IceCream": {
+      "rdfs:comment": "A class to demonstrate mistakes made with setting a property domain. The property hasTopping has a domain of Pizza. This means that the reasoner can infer that all individuals using the hasTopping property must be of type Pizza. Because of the restriction on this class, all members of IceCream must use the hasTopping property, and therefore must also be members of Pizza. However, Pizza and IceCream are disjoint, so this causes an inconsistency. If they were not disjoint, IceCream would be inferred to be a subclass of Pizza."
+    },
+    "InterestingPizza": {
+      "rdfs:comment": "Any pizza that has at least 3 toppings. Note that this is a cardinality constraint on the hasTopping property and NOT a qualified cardinality constraint (QCR). A QCR would specify from which class the members in this relationship must be. eg has at least 3 toppings from PizzaTopping. This is currently not supported in OWL."
+    },
+    "MeatyPizza": {
+      "rdfs:comment": "Any pizza that has at least one meat topping"
+    },
+    "NonVegetarianPizza": {
+      "rdfs:comment": "Any Pizza that is not a VegetarianPizza"
+    },
+    "VegetarianPizza": {
+      "rdfs:comment": "Any pizza that does not have fish topping and does not have meat topping is a VegetarianPizza. Members of this class do not need to have any toppings at all."
+    },
+    "RealItalianPizza": {
+      "rdfs:comment": "This defined class has conditions that are part of the definition: ie any Pizza that has the country of origin, Italy is a RealItalianPizza. It also has conditions that merely describe the members - that all RealItalianPizzas must only have ThinAndCrispy bases. In essence, all pizzas from Italy must have ThinAndCrispy bases."
+    },
+    "ValuePartition": {
+      "rdfs:comment": "A ValuePartition is a pattern that describes a restricted set of classes from which a property can be associated. The parent class is used in restrictions, and the covering axiom means that only members of the subclasses may be used as values. The possible subclasses cannot be extended without updating the ValuePartition class."
+    },
+    "SpicyPizza": {
+      "rdfs:comment": "Any pizza that has a spicy topping is a SpicyPizza"
+    },
+    "SpicyPizzaEquivalent": {
+      "rdfs:comment": "An alternative definition for the SpicyPizza which does away with needing a definition of SpicyTopping and uses a slightly more complicated restriction: Pizzas that have at least one topping that is both a PizzaTopping and has spiciness hot are members of this class."
+    },
+    "SpicyTopping": {
+      "rdfs:comment": "Any pizza topping that has spiciness Hot"
+    },
+    "UnclosedPizza": {
+      "rdfs:comment": "An unclosed Pizza cannot be inferred to be either a VegetarianPizza or a NonVegetarianPizza, because it might have other toppings."
+    },
+    "VegetarianPizzaEquivalent1": {
+      "rdfs:comment": "Any pizza that only has vegetarian toppings or no toppings is a VegetarianPizzaEquiv1. Should be inferred to be equivalent to VegetarianPizzaEquiv2.  Not equivalent to VegetarianPizza because PizzaTopping is not covering"
+    },
+    "VegetarianPizzaEquivalent2": {
+      "rdfs:comment": "An alternative to VegetarianPizzaEquiv1 that does not require a definition of VegetarianTopping. Perhaps more difficult to maintain. Not equivalent to VegetarianPizza"
+    },
+    "VegetarianTopping": {
+      "rdfs:comment": "An example of a covering axiom. VegetarianTopping is equivalent to the union of all toppings in the given axiom. VegetarianToppings can only be Cheese or Vegetable or....etc."
+    }
+  },
+  "properties": {
+    "hasIngredient": {
+      "rdfs:comment": "NB Transitive - the ingredients of ingredients are ingredients of the whole"
+    },
+    "isIngredientOf": {
+      "rdfs:comment": "The inverse property tree to hasIngredient - all subproperties and attributes of the properties should reflect those under hasIngredient."
+    },
+    "hasSpiciness": {
+      "rdfs:comment": "A property created to be used with the ValuePartition - Spiciness."
+    },
+    "hasTopping": {
+      "rdfs:comment": "Note that hasTopping is inverse functional because isToppingOf is functional"
+    },
+    "isToppingOf": {
+      "rdfs:comment": "Any given instance of topping should only be added to a single pizza (no cheap half-measures on our pizzas)"
+    }
+  }
+}

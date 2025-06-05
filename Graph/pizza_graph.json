@@ -1,0 +1,2023 @@
+{
+  "nodes": [
+    {
+      "id": "American",
+      "axioms": {
+        "disjointWith": [
+          "Mushroom",
+          "LaReine",
+          "Napoletana",
+          "Veneziana",
+          "AmericanHot",
+          "UnclosedPizza",
+          "PrinceCarlo",
+          "Capricciosa",
+          "FruttiDiMare",
+          "Siciliana",
+          "Cajun",
+          "Margherita",
+          "SloppyGiuseppe",
+          "Caprina",
+          "Soho",
+          "Parmense",
+          "PolloAdAstra",
+          "Fiorentina",
+          "Rosa",
+          "QuattroFormaggi",
+          "Giardiniera",
+          "FourSeasons"
+        ],
+        "propertyRestrictions": [
+          "[hasTopping some TomatoTopping]",
+          "[hasTopping some PeperoniSausageTopping]",
+          "[hasCountryOfOrigin hasValue America]",
+          "[hasTopping some MozzarellaTopping]",
+          "[hasTopping only (MozzarellaTopping or PeperoniSausageTopping or TomatoTopping)]"
+        ]
+      }
+    },
+    {
+      "id": "AmericanHot",
+      "axioms": {
+        "disjointWith": [
+          "Mushroom",
+          "LaReine",
+          "Napoletana",
+          "Veneziana",
+          "UnclosedPizza",
+          "PrinceCarlo",
+          "Capricciosa",
+          "FruttiDiMare",
+          "Siciliana",
+          "Cajun",
+          "Margherita",
+          "American",
+          "SloppyGiuseppe",
+          "Caprina",
+          "Soho",
+          "Parmense",
+          "PolloAdAstra",
+          "Fiorentina",
+          "Rosa",
+          "QuattroFormaggi",
+          "Giardiniera",
+          "FourSeasons"
+        ],
+        "propertyRestrictions": [
+          "[hasTopping some HotGreenPepperTopping]",
+          "[hasTopping some JalapenoPepperTopping]",
+          "[hasTopping some TomatoTopping]",
+          "[hasCountryOfOrigin hasValue America]",
+          "[hasTopping some PeperoniSausageTopping]",
+          "[hasTopping some MozzarellaTopping]",
+          "[hasTopping only (MozzarellaTopping or PeperoniSausageTopping or JalapenoPepperTopping or TomatoTopping or HotGreenPepperTopping)]"
+        ]
+      }
+    },
+    {
+      "id": "AnchoviesTopping",
+      "axioms": {
+        "disjointWith": [
+          "MixedSeafoodTopping",
+          "PrawnsTopping"
+        ]
+      }
+    },
+    {
+      "id": "ArtichokeTopping",
+      "axioms": {
+        "disjointWith": [
+          "RocketTopping",
+          "LeekTopping",
+          "OnionTopping",
+          "SpinachTopping",
+          "GarlicTopping",
+          "PepperTopping",
+          "AsparagusTopping",
+          "OliveTopping",
+          "CaperTopping",
+          "MushroomTopping",
+          "PetitPoisTopping",
+          "TomatoTopping"
+        ],
+        "propertyRestrictions": [
+          "[hasSpiciness some Mild]"
+        ]
+      }
+    },
+    {
+      "id": "AsparagusTopping",
+      "axioms": {
+        "disjointWith": [
+          "RocketTopping",
+          "LeekTopping",
+          "OnionTopping",
+          "SpinachTopping",
+          "GarlicTopping",
+          "ArtichokeTopping",
+          "PepperTopping",
+          "OliveTopping",
+          "CaperTopping",
+          "MushroomTopping",
+          "PetitPoisTopping",
+          "TomatoTopping"
+        ],
+        "propertyRestrictions": [
+          "[hasSpiciness some Mild]"
+        ]
+      }
+    },
+    {
+      "id": "Cajun",
+      "axioms": {
+        "disjointWith": [
+          "Mushroom",
+          "LaReine",
+          "Napoletana",
+          "Veneziana",
+          "AmericanHot",
+          "UnclosedPizza",
+          "PrinceCarlo",
+          "Capricciosa",
+          "FruttiDiMare",
+          "Siciliana",
+          "Margherita",
+          "American",
+          "SloppyGiuseppe",
+          "Caprina",
+          "Soho",
+          "Parmense",
+          "PolloAdAstra",
+          "Fiorentina",
+          "Rosa",
+          "QuattroFormaggi",
+          "Giardiniera",
+          "FourSeasons"
+        ],
+        "propertyRestrictions": [
+          "[hasTopping some TomatoTopping]",
+          "[hasTopping some TobascoPepperSauce]",
+          "[hasTopping only (PrawnsTopping or TobascoPepperSauce or MozzarellaTopping or TomatoTopping or OnionTopping or PeperonataTopping)]",
+          "[hasTopping some MozzarellaTopping]",
+          "[hasTopping some OnionTopping]",
+          "[hasTopping some PeperonataTopping]",
+          "[hasTopping some PrawnsTopping]"
+        ]
+      }
+    },
+    {
+      "id": "CajunSpiceTopping",
+      "axioms": {
+        "disjointWith": [
+          "RosemaryTopping"
+        ],
+        "propertyRestrictions": [
+          "[hasSpiciness some Hot]"
+        ]
+      }
+    },
+    {
+      "id": "CaperTopping",
+      "axioms": {
+        "disjointWith": [
+          "RocketTopping",
+          "LeekTopping",
+          "OnionTopping",
+          "SpinachTopping",
+          "GarlicTopping",
+          "ArtichokeTopping",
+          "PepperTopping",
+          "AsparagusTopping",
+          "OliveTopping",
+          "MushroomTopping",
+          "PetitPoisTopping",
+          "TomatoTopping"
+        ],
+        "propertyRestrictions": [
+          "[hasSpiciness some Mild]"
+        ]
+      }
+    },
+    {
+      "id": "Capricciosa",
+      "axioms": {
+        "disjointWith": [
+          "Mushroom",
+          "LaReine",
+          "Napoletana",
+          "Veneziana",
+          "AmericanHot",
+          "UnclosedPizza",
+          "PrinceCarlo",
+          "FruttiDiMare",
+          "Siciliana",
+          "Cajun",
+          "Margherita",
+          "American",
+          "SloppyGiuseppe",
+          "Caprina",
+          "Soho",
+          "Parmense",
+          "PolloAdAstra",
+          "Fiorentina",
+          "Rosa",
+          "QuattroFormaggi",
+          "Giardiniera",
+          "FourSeasons"
+        ],
+        "propertyRestrictions": [
+          "[hasTopping some TomatoTopping]",
+          "[hasTopping some HamTopping]",
+          "[hasTopping only (AnchoviesTopping or MozzarellaTopping or TomatoTopping or PeperonataTopping or HamTopping or CaperTopping or OliveTopping)]",
+          "[hasTopping some OliveTopping]",
+          "[hasTopping some MozzarellaTopping]",
+          "[hasTopping some AnchoviesTopping]",
+          "[hasTopping some PeperonataTopping]",
+          "[hasTopping some CaperTopping]"
+        ]
+      }
+    },
+    {
+      "id": "Caprina",
+      "axioms": {
+        "disjointWith": [
+          "Mushroom",
+          "LaReine",
+          "Napoletana",
+          "Veneziana",
+          "AmericanHot",
+          "UnclosedPizza",
+          "PrinceCarlo",
+          "Capricciosa",
+          "FruttiDiMare",
+          "Siciliana",
+          "Cajun",
+          "Margherita",
+          "American",
+          "SloppyGiuseppe",
+          "Soho",
+          "Parmense",
+          "PolloAdAstra",
+          "Fiorentina",
+          "Rosa",
+          "QuattroFormaggi",
+          "Giardiniera",
+          "FourSeasons"
+        ],
+        "propertyRestrictions": [
+          "[hasTopping some TomatoTopping]",
+          "[hasTopping some SundriedTomatoTopping]",
+          "[hasTopping some MozzarellaTopping]",
+          "[hasTopping only (MozzarellaTopping or TomatoTopping or SundriedTomatoTopping or GoatsCheeseTopping)]",
+          "[hasTopping some GoatsCheeseTopping]"
+        ]
+      }
+    },
+    {
+      "id": "CheeseTopping",
+      "axioms": {
+        "disjointWith": [
+          "MeatTopping",
+          "SauceTopping",
+          "VegetableTopping",
+          "FishTopping",
+          "HerbSpiceTopping",
+          "NutTopping",
+          "FruitTopping"
+        ]
+      }
+    },
+    {
+      "id": "CheeseyVegetableTopping",
+      "description": {
+        "rdfs:comment": "This class will be inconsistent. This is because we have given it 2 disjoint parents, which means it could never have any members (as nothing can simultaneously be a CheeseTopping and a VegetableTopping). NB Called ProbeInconsistentTopping in the ProtegeOWL Tutorial."
+      }
+    },
+    {
+      "id": "ChickenTopping",
+      "axioms": {
+        "disjointWith": [
+          "PeperoniSausageTopping",
+          "HotSpicedBeefTopping",
+          "HamTopping"
+        ],
+        "propertyRestrictions": [
+          "[hasSpiciness some Mild]"
+        ]
+      }
+    },
+    {
+      "id": "DeepPanBase",
+      "axioms": {
+        "disjointWith": [
+          "ThinAndCrispyBase"
+        ]
+      }
+    },
+    {
+      "id": "DomainConcept",
+      "axioms": {
+        "disjointWith": [
+          "ValuePartition"
+        ]
+      }
+    },
+    {
+      "id": "Fiorentina",
+      "axioms": {
+        "disjointWith": [
+          "Mushroom",
+          "LaReine",
+          "Napoletana",
+          "Veneziana",
+          "AmericanHot",
+          "UnclosedPizza",
+          "PrinceCarlo",
+          "Capricciosa",
+          "FruttiDiMare",
+          "Siciliana",
+          "Cajun",
+          "Margherita",
+          "American",
+          "SloppyGiuseppe",
+          "Caprina",
+          "Soho",
+          "Parmense",
+          "PolloAdAstra",
+          "Rosa",
+          "QuattroFormaggi",
+          "Giardiniera",
+          "FourSeasons"
+        ],
+        "propertyRestrictions": [
+          "[hasTopping some TomatoTopping]",
+          "[hasTopping only (MozzarellaTopping or GarlicTopping or TomatoTopping or SpinachTopping or OliveTopping or ParmesanTopping)]",
+          "[hasTopping some GarlicTopping]",
+          "[hasTopping some OliveTopping]",
+          "[hasTopping some MozzarellaTopping]",
+          "[hasTopping some ParmesanTopping]",
+          "[hasTopping some SpinachTopping]"
+        ]
+      }
+    },
+    {
+      "id": "FishTopping",
+      "axioms": {
+        "disjointWith": [
+          "MeatTopping",
+          "SauceTopping",
+          "VegetableTopping",
+          "CheeseTopping",
+          "HerbSpiceTopping",
+          "NutTopping",
+          "FruitTopping"
+        ],
+        "propertyRestrictions": [
+          "[hasSpiciness some Mild]"
+        ]
+      }
+    },
+    {
+      "id": "Food"
+    },
+    {
+      "id": "FourCheesesTopping",
+      "axioms": {
+        "disjointWith": [
+          "GoatsCheeseTopping",
+          "MozzarellaTopping",
+          "GorgonzolaTopping",
+          "ParmesanTopping"
+        ],
+        "propertyRestrictions": [
+          "[hasSpiciness some Mild]"
+        ]
+      }
+    },
+    {
+      "id": "FourSeasons",
+      "axioms": {
+        "disjointWith": [
+          "Mushroom",
+          "LaReine",
+          "Napoletana",
+          "Veneziana",
+          "AmericanHot",
+          "UnclosedPizza",
+          "PrinceCarlo",
+          "Capricciosa",
+          "FruttiDiMare",
+          "Siciliana",
+          "Cajun",
+          "Margherita",
+          "American",
+          "SloppyGiuseppe",
+          "Caprina",
+          "Soho",
+          "Parmense",
+          "PolloAdAstra",
+          "Fiorentina",
+          "Rosa",
+          "QuattroFormaggi",
+          "Giardiniera"
+        ],
+        "propertyRestrictions": [
+          "[hasTopping some MushroomTopping]",
+          "[hasTopping some TomatoTopping]",
+          "[hasTopping some PeperoniSausageTopping]",
+          "[hasTopping some OliveTopping]",
+          "[hasTopping some MozzarellaTopping]",
+          "[hasTopping only (AnchoviesTopping or MozzarellaTopping or PeperoniSausageTopping or TomatoTopping or CaperTopping or OliveTopping or MushroomTopping)]",
+          "[hasTopping some AnchoviesTopping]",
+          "[hasTopping some CaperTopping]"
+        ]
+      }
+    },
+    {
+      "id": "FruitTopping",
+      "axioms": {
+        "disjointWith": [
+          "MeatTopping",
+          "SauceTopping",
+          "VegetableTopping",
+          "CheeseTopping",
+          "FishTopping",
+          "HerbSpiceTopping",
+          "NutTopping"
+        ]
+      }
+    },
+    {
+      "id": "FruttiDiMare",
+      "axioms": {
+        "disjointWith": [
+          "Mushroom",
+          "LaReine",
+          "Napoletana",
+          "Veneziana",
+          "AmericanHot",
+          "UnclosedPizza",
+          "PrinceCarlo",
+          "Capricciosa",
+          "Siciliana",
+          "Cajun",
+          "Margherita",
+          "American",
+          "SloppyGiuseppe",
+          "Caprina",
+          "Soho",
+          "Parmense",
+          "PolloAdAstra",
+          "Fiorentina",
+          "Rosa",
+          "QuattroFormaggi",
+          "Giardiniera",
+          "FourSeasons"
+        ],
+        "propertyRestrictions": [
+          "[hasTopping only (GarlicTopping or TomatoTopping or MixedSeafoodTopping)]",
+          "[hasTopping some TomatoTopping]",
+          "[hasTopping some GarlicTopping]",
+          "[hasTopping some MixedSeafoodTopping]"
+        ]
+      }
+    },
+    {
+      "id": "GarlicTopping",
+      "axioms": {
+        "disjointWith": [
+          "RocketTopping",
+          "LeekTopping",
+          "OnionTopping",
+          "SpinachTopping",
+          "ArtichokeTopping",
+          "PepperTopping",
+          "AsparagusTopping",
+          "OliveTopping",
+          "CaperTopping",
+          "MushroomTopping",
+          "PetitPoisTopping",
+          "TomatoTopping"
+        ],
+        "propertyRestrictions": [
+          "[hasSpiciness some Medium]"
+        ]
+      }
+    },
+    {
+      "id": "Giardiniera",
+      "axioms": {
+        "disjointWith": [
+          "Mushroom",
+          "LaReine",
+          "Napoletana",
+          "Veneziana",
+          "AmericanHot",
+          "UnclosedPizza",
+          "PrinceCarlo",
+          "Capricciosa",
+          "FruttiDiMare",
+          "Siciliana",
+          "Cajun",
+          "Margherita",
+          "American",
+          "SloppyGiuseppe",
+          "Caprina",
+          "Soho",
+          "Parmense",
+          "PolloAdAstra",
+          "Fiorentina",
+          "Rosa",
+          "QuattroFormaggi",
+          "FourSeasons"
+        ],
+        "propertyRestrictions": [
+          "[hasTopping some MushroomTopping]",
+          "[hasTopping some TomatoTopping]",
+          "[hasTopping only (LeekTopping or MozzarellaTopping or TomatoTopping or PetitPoisTopping or PeperonataTopping or OliveTopping or MushroomTopping or SlicedTomatoTopping)]",
+          "[hasTopping some OliveTopping]",
+          "[hasTopping some MozzarellaTopping]",
+          "[hasTopping some SlicedTomatoTopping]",
+          "[hasTopping some PeperonataTopping]",
+          "[hasTopping some PetitPoisTopping]",
+          "[hasTopping some LeekTopping]"
+        ]
+      }
+    },
+    {
+      "id": "GoatsCheeseTopping",
+      "axioms": {
+        "disjointWith": [
+          "MozzarellaTopping",
+          "GorgonzolaTopping",
+          "ParmesanTopping",
+          "FourCheesesTopping"
+        ],
+        "propertyRestrictions": [
+          "[hasSpiciness some Mild]"
+        ]
+      }
+    },
+    {
+      "id": "GorgonzolaTopping",
+      "axioms": {
+        "disjointWith": [
+          "GoatsCheeseTopping",
+          "MozzarellaTopping",
+          "ParmesanTopping",
+          "FourCheesesTopping"
+        ],
+        "propertyRestrictions": [
+          "[hasSpiciness some Mild]"
+        ]
+      }
+    },
+    {
+      "id": "GreenPepperTopping",
+      "axioms": {
+        "disjointWith": [
+          "SweetPepperTopping",
+          "JalapenoPepperTopping",
+          "PeperonataTopping"
+        ]
+      }
+    },
+    {
+      "id": "HamTopping",
+      "axioms": {
+        "disjointWith": [
+          "PeperoniSausageTopping",
+          "HotSpicedBeefTopping",
+          "ChickenTopping"
+        ]
+      }
+    },
+    {
+      "id": "HerbSpiceTopping",
+      "axioms": {
+        "disjointWith": [
+          "MeatTopping",
+          "SauceTopping",
+          "VegetableTopping",
+          "CheeseTopping",
+          "FishTopping",
+          "NutTopping",
+          "FruitTopping"
+        ]
+      }
+    },
+    {
+      "id": "Hot",
+      "axioms": {
+        "disjointWith": [
+          "Mild",
+          "Medium"
+        ]
+      }
+    },
+    {
+      "id": "HotGreenPepperTopping",
+      "axioms": {
+        "propertyRestrictions": [
+          "[hasSpiciness some Hot]"
+        ]
+      }
+    },
+    {
+      "id": "HotSpicedBeefTopping",
+      "axioms": {
+        "disjointWith": [
+          "PeperoniSausageTopping",
+          "HamTopping",
+          "ChickenTopping"
+        ],
+        "propertyRestrictions": [
+          "[hasSpiciness some Hot]"
+        ]
+      }
+    },
+    {
+      "id": "IceCream",
+      "axioms": {
+        "disjointWith": [
+          "Pizza",
+          "PizzaTopping",
+          "PizzaBase"
+        ],
+        "propertyRestrictions": [
+          "[hasTopping some FruitTopping]"
+        ]
+      },
+      "description": {
+        "rdfs:comment": "A class to demonstrate mistakes made with setting a property domain. The property hasTopping has a domain of Pizza. This means that the reasoner can infer that all individuals using the hasTopping property must be of type Pizza. Because of the restriction on this class, all members of IceCream must use the hasTopping property, and therefore must also be members of Pizza. However, Pizza and IceCream are disjoint, so this causes an inconsistency. If they were not disjoint, IceCream would be inferred to be a subclass of Pizza."
+      }
+    },
+    {
+      "id": "JalapenoPepperTopping",
+      "axioms": {
+        "disjointWith": [
+          "SweetPepperTopping",
+          "GreenPepperTopping",
+          "PeperonataTopping"
+        ],
+        "propertyRestrictions": [
+          "[hasSpiciness some Hot]"
+        ]
+      }
+    },
+    {
+      "id": "LaReine",
+      "axioms": {
+        "disjointWith": [
+          "Mushroom",
+          "Napoletana",
+          "Veneziana",
+          "AmericanHot",
+          "UnclosedPizza",
+          "PrinceCarlo",
+          "Capricciosa",
+          "FruttiDiMare",
+          "Siciliana",
+          "Cajun",
+          "Margherita",
+          "American",
+          "SloppyGiuseppe",
+          "Caprina",
+          "Soho",
+          "Parmense",
+          "PolloAdAstra",
+          "Fiorentina",
+          "Rosa",
+          "QuattroFormaggi",
+          "Giardiniera",
+          "FourSeasons"
+        ],
+        "propertyRestrictions": [
+          "[hasTopping some MushroomTopping]",
+          "[hasTopping some TomatoTopping]",
+          "[hasTopping some HamTopping]",
+          "[hasTopping some OliveTopping]",
+          "[hasTopping some MozzarellaTopping]",
+          "[hasTopping only (MozzarellaTopping or TomatoTopping or HamTopping or OliveTopping or MushroomTopping)]"
+        ]
+      }
+    },
+    {
+      "id": "LeekTopping",
+      "axioms": {
+        "disjointWith": [
+          "RocketTopping",
+          "OnionTopping",
+          "SpinachTopping",
+          "GarlicTopping",
+          "ArtichokeTopping",
+          "PepperTopping",
+          "AsparagusTopping",
+          "OliveTopping",
+          "CaperTopping",
+          "MushroomTopping",
+          "PetitPoisTopping",
+          "TomatoTopping"
+        ],
+        "propertyRestrictions": [
+          "[hasSpiciness some Mild]"
+        ]
+      }
+    },
+    {
+      "id": "Margherita",
+      "axioms": {
+        "disjointWith": [
+          "Mushroom",
+          "LaReine",
+          "Napoletana",
+          "Veneziana",
+          "AmericanHot",
+          "UnclosedPizza",
+          "PrinceCarlo",
+          "Capricciosa",
+          "FruttiDiMare",
+          "Siciliana",
+          "Cajun",
+          "American",
+          "SloppyGiuseppe",
+          "Caprina",
+          "Soho",
+          "Parmense",
+          "PolloAdAstra",
+          "Fiorentina",
+          "Rosa",
+          "QuattroFormaggi",
+          "Giardiniera",
+          "FourSeasons"
+        ],
+        "propertyRestrictions": [
+          "[hasTopping some TomatoTopping]",
+          "[hasTopping some MozzarellaTopping]",
+          "[hasTopping only (MozzarellaTopping or TomatoTopping)]"
+        ]
+      }
+    },
+    {
+      "id": "MeatTopping",
+      "axioms": {
+        "disjointWith": [
+          "SauceTopping",
+          "VegetableTopping",
+          "CheeseTopping",
+          "FishTopping",
+          "HerbSpiceTopping",
+          "NutTopping",
+          "FruitTopping"
+        ]
+      }
+    },
+    {
+      "id": "Medium",
+      "axioms": {
+        "disjointWith": [
+          "Mild",
+          "Hot"
+        ]
+      }
+    },
+    {
+      "id": "Mild",
+      "axioms": {
+        "disjointWith": [
+          "Hot",
+          "Medium"
+        ]
+      }
+    },
+    {
+      "id": "MixedSeafoodTopping",
+      "axioms": {
+        "disjointWith": [
+          "AnchoviesTopping",
+          "PrawnsTopping"
+        ]
+      }
+    },
+    {
+      "id": "MozzarellaTopping",
+      "axioms": {
+        "disjointWith": [
+          "GoatsCheeseTopping",
+          "GorgonzolaTopping",
+          "ParmesanTopping",
+          "FourCheesesTopping"
+        ],
+        "propertyRestrictions": [
+          "[hasSpiciness some Mild]",
+          "[hasCountryOfOrigin hasValue Italy]"
+        ]
+      }
+    },
+    {
+      "id": "Mushroom",
+      "axioms": {
+        "disjointWith": [
+          "LaReine",
+          "Napoletana",
+          "Veneziana",
+          "AmericanHot",
+          "UnclosedPizza",
+          "PrinceCarlo",
+          "Capricciosa",
+          "FruttiDiMare",
+          "Siciliana",
+          "Cajun",
+          "Margherita",
+          "American",
+          "SloppyGiuseppe",
+          "Caprina",
+          "Soho",
+          "Parmense",
+          "PolloAdAstra",
+          "Fiorentina",
+          "Rosa",
+          "QuattroFormaggi",
+          "Giardiniera",
+          "FourSeasons"
+        ],
+        "propertyRestrictions": [
+          "[hasTopping some MushroomTopping]",
+          "[hasTopping only (MozzarellaTopping or TomatoTopping or MushroomTopping)]",
+          "[hasTopping some TomatoTopping]",
+          "[hasTopping some MozzarellaTopping]"
+        ]
+      }
+    },
+    {
+      "id": "MushroomTopping",
+      "axioms": {
+        "disjointWith": [
+          "RocketTopping",
+          "LeekTopping",
+          "OnionTopping",
+          "SpinachTopping",
+          "GarlicTopping",
+          "ArtichokeTopping",
+          "PepperTopping",
+          "AsparagusTopping",
+          "OliveTopping",
+          "CaperTopping",
+          "PetitPoisTopping",
+          "TomatoTopping"
+        ],
+        "propertyRestrictions": [
+          "[hasSpiciness some Mild]"
+        ]
+      }
+    },
+    {
+      "id": "NamedPizza",
+      "description": {
+        "rdfs:comment": "A pizza that can be found on a pizza menu"
+      }
+    },
+    {
+      "id": "Napoletana",
+      "axioms": {
+        "disjointWith": [
+          "Mushroom",
+          "LaReine",
+          "Veneziana",
+          "AmericanHot",
+          "UnclosedPizza",
+          "PrinceCarlo",
+          "Capricciosa",
+          "FruttiDiMare",
+          "Siciliana",
+          "Cajun",
+          "Margherita",
+          "American",
+          "SloppyGiuseppe",
+          "Caprina",
+          "Soho",
+          "Parmense",
+          "PolloAdAstra",
+          "Fiorentina",
+          "Rosa",
+          "QuattroFormaggi",
+          "Giardiniera",
+          "FourSeasons"
+        ],
+        "propertyRestrictions": [
+          "[hasTopping some TomatoTopping]",
+          "[hasTopping some OliveTopping]",
+          "[hasTopping some MozzarellaTopping]",
+          "[hasTopping some AnchoviesTopping]",
+          "[hasCountryOfOrigin hasValue Italy]",
+          "[hasTopping some CaperTopping]",
+          "[hasTopping only (AnchoviesTopping or MozzarellaTopping or TomatoTopping or CaperTopping or OliveTopping)]"
+        ]
+      }
+    },
+    {
+      "id": "NutTopping",
+      "axioms": {
+        "disjointWith": [
+          "MeatTopping",
+          "SauceTopping",
+          "VegetableTopping",
+          "CheeseTopping",
+          "FishTopping",
+          "HerbSpiceTopping",
+          "FruitTopping"
+        ],
+        "propertyRestrictions": [
+          "[hasSpiciness some Mild]"
+        ]
+      }
+    },
+    {
+      "id": "OliveTopping",
+      "axioms": {
+        "disjointWith": [
+          "RocketTopping",
+          "LeekTopping",
+          "OnionTopping",
+          "SpinachTopping",
+          "GarlicTopping",
+          "ArtichokeTopping",
+          "PepperTopping",
+          "AsparagusTopping",
+          "CaperTopping",
+          "MushroomTopping",
+          "PetitPoisTopping",
+          "TomatoTopping"
+        ],
+        "propertyRestrictions": [
+          "[hasSpiciness some Mild]"
+        ]
+      }
+    },
+    {
+      "id": "OnionTopping",
+      "axioms": {
+        "disjointWith": [
+          "RocketTopping",
+          "LeekTopping",
+          "SpinachTopping",
+          "GarlicTopping",
+          "ArtichokeTopping",
+          "PepperTopping",
+          "AsparagusTopping",
+          "OliveTopping",
+          "CaperTopping",
+          "MushroomTopping",
+          "PetitPoisTopping",
+          "TomatoTopping"
+        ],
+        "propertyRestrictions": [
+          "[hasSpiciness some Medium]"
+        ]
+      }
+    },
+    {
+      "id": "ParmaHamTopping",
+      "axioms": {
+        "propertyRestrictions": [
+          "[hasSpiciness some Mild]"
+        ]
+      }
+    },
+    {
+      "id": "Parmense",
+      "axioms": {
+        "disjointWith": [
+          "Mushroom",
+          "LaReine",
+          "Napoletana",
+          "Veneziana",
+          "AmericanHot",
+          "UnclosedPizza",
+          "PrinceCarlo",
+          "Capricciosa",
+          "FruttiDiMare",
+          "Siciliana",
+          "Cajun",
+          "Margherita",
+          "American",
+          "SloppyGiuseppe",
+          "Caprina",
+          "Soho",
+          "PolloAdAstra",
+          "Fiorentina",
+          "Rosa",
+          "QuattroFormaggi",
+          "Giardiniera",
+          "FourSeasons"
+        ],
+        "propertyRestrictions": [
+          "[hasTopping some TomatoTopping]",
+          "[hasTopping some HamTopping]",
+          "[hasTopping some ParmesanTopping]",
+          "[hasTopping some MozzarellaTopping]",
+          "[hasTopping some AsparagusTopping]",
+          "[hasTopping only (MozzarellaTopping or TomatoTopping or HamTopping or ParmesanTopping or AsparagusTopping)]"
+        ]
+      }
+    },
+    {
+      "id": "ParmesanTopping",
+      "axioms": {
+        "disjointWith": [
+          "GoatsCheeseTopping",
+          "MozzarellaTopping",
+          "GorgonzolaTopping",
+          "FourCheesesTopping"
+        ],
+        "propertyRestrictions": [
+          "[hasSpiciness some Mild]"
+        ]
+      }
+    },
+    {
+      "id": "PeperonataTopping",
+      "axioms": {
+        "disjointWith": [
+          "SweetPepperTopping",
+          "GreenPepperTopping",
+          "JalapenoPepperTopping"
+        ],
+        "propertyRestrictions": [
+          "[hasSpiciness some Medium]"
+        ]
+      }
+    },
+    {
+      "id": "PeperoniSausageTopping",
+      "axioms": {
+        "disjointWith": [
+          "HotSpicedBeefTopping",
+          "HamTopping",
+          "ChickenTopping"
+        ],
+        "propertyRestrictions": [
+          "[hasSpiciness some Medium]"
+        ]
+      }
+    },
+    {
+      "id": "PepperTopping",
+      "axioms": {
+        "disjointWith": [
+          "RocketTopping",
+          "LeekTopping",
+          "OnionTopping",
+          "SpinachTopping",
+          "GarlicTopping",
+          "ArtichokeTopping",
+          "AsparagusTopping",
+          "OliveTopping",
+          "CaperTopping",
+          "MushroomTopping",
+          "PetitPoisTopping",
+          "TomatoTopping"
+        ]
+      }
+    },
+    {
+      "id": "PetitPoisTopping",
+      "axioms": {
+        "disjointWith": [
+          "RocketTopping",
+          "LeekTopping",
+          "OnionTopping",
+          "SpinachTopping",
+          "GarlicTopping",
+          "ArtichokeTopping",
+          "PepperTopping",
+          "AsparagusTopping",
+          "OliveTopping",
+          "CaperTopping",
+          "MushroomTopping",
+          "TomatoTopping"
+        ],
+        "propertyRestrictions": [
+          "[hasSpiciness some Mild]"
+        ]
+      }
+    },
+    {
+      "id": "PineKernels"
+    },
+    {
+      "id": "Pizza",
+      "axioms": {
+        "disjointWith": [
+          "IceCream",
+          "PizzaTopping",
+          "PizzaBase"
+        ],
+        "propertyRestrictions": [
+          "[hasBase some PizzaBase]"
+        ]
+      }
+    },
+    {
+      "id": "PizzaBase",
+      "axioms": {
+        "disjointWith": [
+          "IceCream",
+          "Pizza",
+          "PizzaTopping"
+        ]
+      }
+    },
+    {
+      "id": "PizzaTopping",
+      "axioms": {
+        "disjointWith": [
+          "IceCream",
+          "Pizza",
+          "PizzaBase"
+        ]
+      }
+    },
+    {
+      "id": "PolloAdAstra",
+      "axioms": {
+        "disjointWith": [
+          "Mushroom",
+          "LaReine",
+          "Napoletana",
+          "Veneziana",
+          "AmericanHot",
+          "UnclosedPizza",
+          "PrinceCarlo",
+          "Capricciosa",
+          "FruttiDiMare",
+          "Siciliana",
+          "Cajun",
+          "Margherita",
+          "American",
+          "SloppyGiuseppe",
+          "Caprina",
+          "Soho",
+          "Parmense",
+          "Fiorentina",
+          "Rosa",
+          "QuattroFormaggi",
+          "Giardiniera",
+          "FourSeasons"
+        ],
+        "propertyRestrictions": [
+          "[hasTopping some RedOnionTopping]",
+          "[hasTopping some CajunSpiceTopping]",
+          "[hasTopping some TomatoTopping]",
+          "[hasTopping some GarlicTopping]",
+          "[hasTopping some SweetPepperTopping]",
+          "[hasTopping only (ChickenTopping or MozzarellaTopping or GarlicTopping or TomatoTopping or RedOnionTopping or CajunSpiceTopping or SweetPepperTopping)]",
+          "[hasTopping some MozzarellaTopping]",
+          "[hasTopping some ChickenTopping]"
+        ]
+      }
+    },
+    {
+      "id": "PrawnsTopping",
+      "axioms": {
+        "disjointWith": [
+          "MixedSeafoodTopping",
+          "AnchoviesTopping"
+        ]
+      }
+    },
+    {
+      "id": "PrinceCarlo",
+      "axioms": {
+        "disjointWith": [
+          "Mushroom",
+          "LaReine",
+          "Napoletana",
+          "Veneziana",
+          "AmericanHot",
+          "UnclosedPizza",
+          "Capricciosa",
+          "FruttiDiMare",
+          "Siciliana",
+          "Cajun",
+          "Margherita",
+          "American",
+          "SloppyGiuseppe",
+          "Caprina",
+          "Soho",
+          "Parmense",
+          "PolloAdAstra",
+          "Fiorentina",
+          "Rosa",
+          "QuattroFormaggi",
+          "Giardiniera",
+          "FourSeasons"
+        ],
+        "propertyRestrictions": [
+          "[hasTopping some TomatoTopping]",
+          "[hasTopping only (LeekTopping or RosemaryTopping or MozzarellaTopping or TomatoTopping or ParmesanTopping)]",
+          "[hasTopping some MozzarellaTopping]",
+          "[hasTopping some ParmesanTopping]",
+          "[hasTopping some LeekTopping]",
+          "[hasTopping some RosemaryTopping]"
+        ]
+      }
+    },
+    {
+      "id": "QuattroFormaggi",
+      "axioms": {
+        "disjointWith": [
+          "Mushroom",
+          "LaReine",
+          "Napoletana",
+          "Veneziana",
+          "AmericanHot",
+          "UnclosedPizza",
+          "PrinceCarlo",
+          "Capricciosa",
+          "FruttiDiMare",
+          "Siciliana",
+          "Cajun",
+          "Margherita",
+          "American",
+          "SloppyGiuseppe",
+          "Caprina",
+          "Soho",
+          "Parmense",
+          "PolloAdAstra",
+          "Fiorentina",
+          "Rosa",
+          "Giardiniera",
+          "FourSeasons"
+        ],
+        "propertyRestrictions": [
+          "[hasTopping some TomatoTopping]",
+          "[hasTopping some FourCheesesTopping]",
+          "[hasTopping only (FourCheesesTopping or TomatoTopping)]"
+        ]
+      }
+    },
+    {
+      "id": "RedOnionTopping"
+    },
+    {
+      "id": "RocketTopping",
+      "axioms": {
+        "disjointWith": [
+          "LeekTopping",
+          "OnionTopping",
+          "SpinachTopping",
+          "GarlicTopping",
+          "ArtichokeTopping",
+          "PepperTopping",
+          "AsparagusTopping",
+          "OliveTopping",
+          "CaperTopping",
+          "MushroomTopping",
+          "PetitPoisTopping",
+          "TomatoTopping"
+        ],
+        "propertyRestrictions": [
+          "[hasSpiciness some Medium]"
+        ]
+      }
+    },
+    {
+      "id": "Rosa",
+      "axioms": {
+        "disjointWith": [
+          "Mushroom",
+          "LaReine",
+          "Napoletana",
+          "Veneziana",
+          "AmericanHot",
+          "UnclosedPizza",
+          "PrinceCarlo",
+          "Capricciosa",
+          "FruttiDiMare",
+          "Siciliana",
+          "Cajun",
+          "Margherita",
+          "American",
+          "SloppyGiuseppe",
+          "Caprina",
+          "Soho",
+          "Parmense",
+          "PolloAdAstra",
+          "Fiorentina",
+          "QuattroFormaggi",
+          "Giardiniera",
+          "FourSeasons"
+        ],
+        "propertyRestrictions": [
+          "[hasTopping some TomatoTopping]",
+          "[hasTopping some GorgonzolaTopping]",
+          "[hasTopping only (MozzarellaTopping or TomatoTopping or GorgonzolaTopping)]",
+          "[hasTopping some MozzarellaTopping]"
+        ]
+      }
+    },
+    {
+      "id": "RosemaryTopping",
+      "axioms": {
+        "disjointWith": [
+          "CajunSpiceTopping"
+        ],
+        "propertyRestrictions": [
+          "[hasSpiciness some Mild]"
+        ]
+      }
+    },
+    {
+      "id": "SauceTopping",
+      "axioms": {
+        "disjointWith": [
+          "MeatTopping",
+          "VegetableTopping",
+          "CheeseTopping",
+          "FishTopping",
+          "HerbSpiceTopping",
+          "NutTopping",
+          "FruitTopping"
+        ]
+      }
+    },
+    {
+      "id": "Siciliana",
+      "axioms": {
+        "disjointWith": [
+          "Mushroom",
+          "LaReine",
+          "Napoletana",
+          "Veneziana",
+          "AmericanHot",
+          "UnclosedPizza",
+          "PrinceCarlo",
+          "Capricciosa",
+          "FruttiDiMare",
+          "Cajun",
+          "Margherita",
+          "American",
+          "SloppyGiuseppe",
+          "Caprina",
+          "Soho",
+          "Parmense",
+          "PolloAdAstra",
+          "Fiorentina",
+          "Rosa",
+          "QuattroFormaggi",
+          "Giardiniera",
+          "FourSeasons"
+        ],
+        "propertyRestrictions": [
+          "[hasTopping some TomatoTopping]",
+          "[hasTopping some GarlicTopping]",
+          "[hasTopping some HamTopping]",
+          "[hasTopping some ArtichokeTopping]",
+          "[hasTopping some OliveTopping]",
+          "[hasTopping some MozzarellaTopping]",
+          "[hasTopping some AnchoviesTopping]",
+          "[hasTopping only (AnchoviesTopping or MozzarellaTopping or GarlicTopping or ArtichokeTopping or TomatoTopping or HamTopping or OliveTopping)]"
+        ]
+      }
+    },
+    {
+      "id": "SlicedTomatoTopping",
+      "axioms": {
+        "disjointWith": [
+          "SundriedTomatoTopping"
+        ],
+        "propertyRestrictions": [
+          "[hasSpiciness some Mild]"
+        ]
+      }
+    },
+    {
+      "id": "SloppyGiuseppe",
+      "axioms": {
+        "disjointWith": [
+          "Mushroom",
+          "LaReine",
+          "Napoletana",
+          "Veneziana",
+          "AmericanHot",
+          "UnclosedPizza",
+          "PrinceCarlo",
+          "Capricciosa",
+          "FruttiDiMare",
+          "Siciliana",
+          "Cajun",
+          "Margherita",
+          "American",
+          "Caprina",
+          "Soho",
+          "Parmense",
+          "PolloAdAstra",
+          "Fiorentina",
+          "Rosa",
+          "QuattroFormaggi",
+          "Giardiniera",
+          "FourSeasons"
+        ],
+        "propertyRestrictions": [
+          "[hasTopping some HotSpicedBeefTopping]",
+          "[hasTopping some TomatoTopping]",
+          "[hasTopping some GreenPepperTopping]",
+          "[hasTopping some MozzarellaTopping]",
+          "[hasTopping some OnionTopping]",
+          "[hasTopping only (HotSpicedBeefTopping or MozzarellaTopping or TomatoTopping or OnionTopping or GreenPepperTopping)]"
+        ]
+      }
+    },
+    {
+      "id": "Soho",
+      "axioms": {
+        "disjointWith": [
+          "Mushroom",
+          "LaReine",
+          "Napoletana",
+          "Veneziana",
+          "AmericanHot",
+          "UnclosedPizza",
+          "PrinceCarlo",
+          "Capricciosa",
+          "FruttiDiMare",
+          "Siciliana",
+          "Cajun",
+          "Margherita",
+          "American",
+          "SloppyGiuseppe",
+          "Caprina",
+          "Parmense",
+          "PolloAdAstra",
+          "Fiorentina",
+          "Rosa",
+          "QuattroFormaggi",
+          "Giardiniera",
+          "FourSeasons"
+        ],
+        "propertyRestrictions": [
+          "[hasTopping some TomatoTopping]",
+          "[hasTopping only (MozzarellaTopping or GarlicTopping or TomatoTopping or RocketTopping or OliveTopping or ParmesanTopping)]",
+          "[hasTopping some GarlicTopping]",
+          "[hasTopping some OliveTopping]",
+          "[hasTopping some MozzarellaTopping]",
+          "[hasTopping some ParmesanTopping]",
+          "[hasTopping some RocketTopping]"
+        ]
+      }
+    },
+    {
+      "id": "Spiciness",
+      "axioms": {
+        "equivalentClass": [
+          "(Hot or Medium or Mild)"
+        ]
+      },
+      "description": {
+        "rdfs:comment": "A ValuePartition that describes only values from Hot, Medium or Mild. NB Subclasses can themselves be divided up into further partitions."
+      }
+    },
+    {
+      "id": "SpinachTopping",
+      "axioms": {
+        "disjointWith": [
+          "RocketTopping",
+          "LeekTopping",
+          "OnionTopping",
+          "GarlicTopping",
+          "ArtichokeTopping",
+          "PepperTopping",
+          "AsparagusTopping",
+          "OliveTopping",
+          "CaperTopping",
+          "MushroomTopping",
+          "PetitPoisTopping",
+          "TomatoTopping"
+        ],
+        "propertyRestrictions": [
+          "[hasSpiciness some Mild]"
+        ]
+      }
+    },
+    {
+      "id": "SultanaTopping",
+      "axioms": {
+        "propertyRestrictions": [
+          "[hasSpiciness some Medium]"
+        ]
+      }
+    },
+    {
+      "id": "SundriedTomatoTopping",
+      "axioms": {
+        "disjointWith": [
+          "SlicedTomatoTopping"
+        ],
+        "propertyRestrictions": [
+          "[hasSpiciness some Mild]"
+        ]
+      }
+    },
+    {
+      "id": "SweetPepperTopping",
+      "axioms": {
+        "disjointWith": [
+          "GreenPepperTopping",
+          "JalapenoPepperTopping",
+          "PeperonataTopping"
+        ],
+        "propertyRestrictions": [
+          "[hasSpiciness some Mild]"
+        ]
+      }
+    },
+    {
+      "id": "ThinAndCrispyBase",
+      "axioms": {
+        "disjointWith": [
+          "DeepPanBase"
+        ]
+      }
+    },
+    {
+      "id": "TobascoPepperSauce",
+      "axioms": {
+        "propertyRestrictions": [
+          "[hasSpiciness some Hot]"
+        ]
+      }
+    },
+    {
+      "id": "TomatoTopping",
+      "axioms": {
+        "disjointWith": [
+          "RocketTopping",
+          "LeekTopping",
+          "OnionTopping",
+          "SpinachTopping",
+          "GarlicTopping",
+          "ArtichokeTopping",
+          "PepperTopping",
+          "AsparagusTopping",
+          "OliveTopping",
+          "CaperTopping",
+          "MushroomTopping",
+          "PetitPoisTopping"
+        ],
+        "propertyRestrictions": [
+          "[hasSpiciness some Mild]"
+        ]
+      }
+    },
+    {
+      "id": "UnclosedPizza",
+      "axioms": {
+        "disjointWith": [
+          "Mushroom",
+          "LaReine",
+          "Napoletana",
+          "Veneziana",
+          "AmericanHot",
+          "PrinceCarlo",
+          "Capricciosa",
+          "FruttiDiMare",
+          "Siciliana",
+          "Cajun",
+          "Margherita",
+          "American",
+          "SloppyGiuseppe",
+          "Caprina",
+          "Soho",
+          "Parmense",
+          "PolloAdAstra",
+          "Fiorentina",
+          "Rosa",
+          "QuattroFormaggi",
+          "Giardiniera",
+          "FourSeasons"
+        ],
+        "propertyRestrictions": [
+          "[hasTopping some MozzarellaTopping]"
+        ]
+      },
+      "description": {
+        "rdfs:comment": "An unclosed Pizza cannot be inferred to be either a VegetarianPizza or a NonVegetarianPizza, because it might have other toppings."
+      }
+    },
+    {
+      "id": "ValuePartition",
+      "axioms": {
+        "disjointWith": [
+          "DomainConcept"
+        ]
+      },
+      "description": {
+        "rdfs:comment": "A ValuePartition is a pattern that describes a restricted set of classes from which a property can be associated. The parent class is used in restrictions, and the covering axiom means that only members of the subclasses may be used as values. The possible subclasses cannot be extended without updating the ValuePartition class."
+      }
+    },
+    {
+      "id": "VegetableTopping",
+      "axioms": {
+        "disjointWith": [
+          "MeatTopping",
+          "SauceTopping",
+          "CheeseTopping",
+          "FishTopping",
+          "HerbSpiceTopping",
+          "NutTopping",
+          "FruitTopping"
+        ]
+      }
+    },
+    {
+      "id": "Veneziana",
+      "axioms": {
+        "disjointWith": [
+          "Mushroom",
+          "LaReine",
+          "Napoletana",
+          "AmericanHot",
+          "UnclosedPizza",
+          "PrinceCarlo",
+          "Capricciosa",
+          "FruttiDiMare",
+          "Siciliana",
+          "Cajun",
+          "Margherita",
+          "American",
+          "SloppyGiuseppe",
+          "Caprina",
+          "Soho",
+          "Parmense",
+          "PolloAdAstra",
+          "Fiorentina",
+          "Rosa",
+          "QuattroFormaggi",
+          "Giardiniera",
+          "FourSeasons"
+        ],
+        "propertyRestrictions": [
+          "[hasTopping only (MozzarellaTopping or TomatoTopping or SultanaTopping or OnionTopping or CaperTopping or OliveTopping or PineKernels)]",
+          "[hasTopping some PineKernels]",
+          "[hasTopping some TomatoTopping]",
+          "[hasTopping some OliveTopping]",
+          "[hasTopping some SultanaTopping]",
+          "[hasTopping some MozzarellaTopping]",
+          "[hasTopping some OnionTopping]",
+          "[hasCountryOfOrigin hasValue Italy]",
+          "[hasTopping some CaperTopping]"
+        ]
+      }
+    },
+    {
+      "id": "owl:Thing"
+    }
+  ],
+  "links": [
+    {
+      "source": "American",
+      "target": "NamedPizza"
+    },
+    {
+      "source": "AmericanHot",
+      "target": "NamedPizza"
+    },
+    {
+      "source": "Cajun",
+      "target": "NamedPizza"
+    },
+    {
+      "source": "Capricciosa",
+      "target": "NamedPizza"
+    },
+    {
+      "source": "Caprina",
+      "target": "NamedPizza"
+    },
+    {
+      "source": "Fiorentina",
+      "target": "NamedPizza"
+    },
+    {
+      "source": "FourSeasons",
+      "target": "NamedPizza"
+    },
+    {
+      "source": "FruttiDiMare",
+      "target": "NamedPizza"
+    },
+    {
+      "source": "Giardiniera",
+      "target": "NamedPizza"
+    },
+    {
+      "source": "LaReine",
+      "target": "NamedPizza"
+    },
+    {
+      "source": "Margherita",
+      "target": "NamedPizza"
+    },
+    {
+      "source": "Mushroom",
+      "target": "NamedPizza"
+    },
+    {
+      "source": "Napoletana",
+      "target": "NamedPizza"
+    },
+    {
+      "source": "Parmense",
+      "target": "NamedPizza"
+    },
+    {
+      "source": "PolloAdAstra",
+      "target": "NamedPizza"
+    },
+    {
+      "source": "PrinceCarlo",
+      "target": "NamedPizza"
+    },
+    {
+      "source": "QuattroFormaggi",
+      "target": "NamedPizza"
+    },
+    {
+      "source": "Rosa",
+      "target": "NamedPizza"
+    },
+    {
+      "source": "Siciliana",
+      "target": "NamedPizza"
+    },
+    {
+      "source": "SloppyGiuseppe",
+      "target": "NamedPizza"
+    },
+    {
+      "source": "Soho",
+      "target": "NamedPizza"
+    },
+    {
+      "source": "UnclosedPizza",
+      "target": "NamedPizza"
+    },
+    {
+      "source": "Veneziana",
+      "target": "NamedPizza"
+    },
+    {
+      "source": "AnchoviesTopping",
+      "target": "FishTopping"
+    },
+    {
+      "source": "MixedSeafoodTopping",
+      "target": "FishTopping"
+    },
+    {
+      "source": "PrawnsTopping",
+      "target": "FishTopping"
+    },
+    {
+      "source": "ArtichokeTopping",
+      "target": "VegetableTopping"
+    },
+    {
+      "source": "AsparagusTopping",
+      "target": "VegetableTopping"
+    },
+    {
+      "source": "CaperTopping",
+      "target": "VegetableTopping"
+    },
+    {
+      "source": "CheeseyVegetableTopping",
+      "target": "VegetableTopping"
+    },
+    {
+      "source": "GarlicTopping",
+      "target": "VegetableTopping"
+    },
+    {
+      "source": "LeekTopping",
+      "target": "VegetableTopping"
+    },
+    {
+      "source": "MushroomTopping",
+      "target": "VegetableTopping"
+    },
+    {
+      "source": "OliveTopping",
+      "target": "VegetableTopping"
+    },
+    {
+      "source": "OnionTopping",
+      "target": "VegetableTopping"
+    },
+    {
+      "source": "PepperTopping",
+      "target": "VegetableTopping"
+    },
+    {
+      "source": "PetitPoisTopping",
+      "target": "VegetableTopping"
+    },
+    {
+      "source": "RocketTopping",
+      "target": "VegetableTopping"
+    },
+    {
+      "source": "SpinachTopping",
+      "target": "VegetableTopping"
+    },
+    {
+      "source": "TomatoTopping",
+      "target": "VegetableTopping"
+    },
+    {
+      "source": "CajunSpiceTopping",
+      "target": "HerbSpiceTopping"
+    },
+    {
+      "source": "RosemaryTopping",
+      "target": "HerbSpiceTopping"
+    },
+    {
+      "source": "CheeseTopping",
+      "target": "PizzaTopping"
+    },
+    {
+      "source": "FishTopping",
+      "target": "PizzaTopping"
+    },
+    {
+      "source": "FruitTopping",
+      "target": "PizzaTopping"
+    },
+    {
+      "source": "HerbSpiceTopping",
+      "target": "PizzaTopping"
+    },
+    {
+      "source": "MeatTopping",
+      "target": "PizzaTopping"
+    },
+    {
+      "source": "NutTopping",
+      "target": "PizzaTopping"
+    },
+    {
+      "source": "SauceTopping",
+      "target": "PizzaTopping"
+    },
+    {
+      "source": "VegetableTopping",
+      "target": "PizzaTopping"
+    },
+    {
+      "source": "CheeseyVegetableTopping",
+      "target": "CheeseTopping"
+    },
+    {
+      "source": "FourCheesesTopping",
+      "target": "CheeseTopping"
+    },
+    {
+      "source": "GoatsCheeseTopping",
+      "target": "CheeseTopping"
+    },
+    {
+      "source": "GorgonzolaTopping",
+      "target": "CheeseTopping"
+    },
+    {
+      "source": "MozzarellaTopping",
+      "target": "CheeseTopping"
+    },
+    {
+      "source": "ParmesanTopping",
+      "target": "CheeseTopping"
+    },
+    {
+      "source": "ChickenTopping",
+      "target": "MeatTopping"
+    },
+    {
+      "source": "HamTopping",
+      "target": "MeatTopping"
+    },
+    {
+      "source": "HotSpicedBeefTopping",
+      "target": "MeatTopping"
+    },
+    {
+      "source": "PeperoniSausageTopping",
+      "target": "MeatTopping"
+    },
+    {
+      "source": "DeepPanBase",
+      "target": "PizzaBase"
+    },
+    {
+      "source": "ThinAndCrispyBase",
+      "target": "PizzaBase"
+    },
+    {
+      "source": "Food",
+      "target": "DomainConcept"
+    },
+    {
+      "source": "GreenPepperTopping",
+      "target": "PepperTopping"
+    },
+    {
+      "source": "JalapenoPepperTopping",
+      "target": "PepperTopping"
+    },
+    {
+      "source": "PeperonataTopping",
+      "target": "PepperTopping"
+    },
+    {
+      "source": "SweetPepperTopping",
+      "target": "PepperTopping"
+    },
+    {
+      "source": "Hot",
+      "target": "Spiciness"
+    },
+    {
+      "source": "Medium",
+      "target": "Spiciness"
+    },
+    {
+      "source": "Mild",
+      "target": "Spiciness"
+    },
+    {
+      "source": "HotGreenPepperTopping",
+      "target": "GreenPepperTopping"
+    },
+    {
+      "source": "IceCream",
+      "target": "Food"
+    },
+    {
+      "source": "Pizza",
+      "target": "Food"
+    },
+    {
+      "source": "PizzaBase",
+      "target": "Food"
+    },
+    {
+      "source": "PizzaTopping",
+      "target": "Food"
+    },
+    {
+      "source": "NamedPizza",
+      "target": "Pizza"
+    },
+    {
+      "source": "ParmaHamTopping",
+      "target": "HamTopping"
+    },
+    {
+      "source": "PineKernels",
+      "target": "NutTopping"
+    },
+    {
+      "source": "RedOnionTopping",
+      "target": "OnionTopping"
+    },
+    {
+      "source": "SlicedTomatoTopping",
+      "target": "TomatoTopping"
+    },
+    {
+      "source": "SundriedTomatoTopping",
+      "target": "TomatoTopping"
+    },
+    {
+      "source": "Spiciness",
+      "target": "ValuePartition"
+    },
+    {
+      "source": "SultanaTopping",
+      "target": "FruitTopping"
+    },
+    {
+      "source": "TobascoPepperSauce",
+      "target": "SauceTopping"
+    },
+    {
+      "source": "DomainConcept",
+      "target": "owl:Thing"
+    },
+    {
+      "source": "ValuePartition",
+      "target": "owl:Thing"
+    }
+  ]
+}

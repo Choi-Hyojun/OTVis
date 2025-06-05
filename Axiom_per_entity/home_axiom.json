@@ -1,0 +1,554 @@
+{
+  "classes": {
+    "event:LongNap": {
+      "propertyRestrictions": [
+        "[highlight hasValue true]"
+      ]
+    },
+    "event:NapAfterLunch": {
+      "propertyRestrictions": [
+        "[highlight hasValue true]"
+      ]
+    },
+    "event:NightKitchenVisit": {
+      "propertyRestrictions": [
+        "[highlight hasValue true]"
+      ]
+    },
+    "event:NightLivingRoomVisit": {
+      "propertyRestrictions": [
+        "[highlight hasValue true]"
+      ]
+    },
+    "DaySummary": {
+      "propertyRestrictions": [
+        "[date exactly 1 xsd:dateTime]",
+        "[forPatient exactly 1 event:Patient]",
+        "[date some xsd:dateTime]",
+        "[forPatient some event:Patient]"
+      ]
+    },
+    "EatingSummary": {
+      "propertyRestrictions": [
+        "[eatingLocation only event:Place]",
+        "[eatingLocation exactly 1 event:Place]",
+        "[eatingDuration exactly 1 time:DurationDescription]",
+        "[eatingDuration only time:DurationDescription]"
+      ]
+    },
+    "ExerciseSummary": {
+      "propertyRestrictions": [
+        "[exerciseStartTime only time:Instant]",
+        "[distanceTravelled only xsd:double]",
+        "[strideLength exactly 1 xsd:double]",
+        "[exerciseDuration only time:DurationDescription]",
+        "[walkSpeed exactly 1 xsd:double]",
+        "[exerciseDuration exactly 1 time:DurationDescription]",
+        "[heartRate only xsd:double]",
+        "[heartRate exactly 1 xsd:double]",
+        "[walkSpeed only xsd:double]",
+        "[exerciseIntensity exactly 1]",
+        "[exerciseStartTime exactly 1 time:Instant]",
+        "[strideLength only xsd:double]",
+        "[distanceTravelled exactly 1 xsd:double]",
+        "[accelerometerCountsPerMinute exactly 1 xsd:int]",
+        "[exerciseIntensity only rdfs:Literal]",
+        "[accelerometerCountsPerMinute only xsd:int]"
+      ]
+    },
+    "MoodSummary": {
+      "propertyRestrictions": [
+        "[stressLevel exactly 1]",
+        "[physicalHygiene some owl:Thing]",
+        "[numberOfSocialInteractions exactly 1 xsd:int]",
+        "[numberOfSocialInteractions only xsd:int]",
+        "[stressLevel only rdfs:Literal]",
+        "[involvementInDiscussion some owl:Thing]"
+      ]
+    },
+    "Problem": {
+      "propertyRestrictions": [
+        "[possibleContributingFactor some event:Event]"
+      ]
+    },
+    "SleepSummary": {
+      "propertyRestrictions": [
+        "[totalDurationOfNaps exactly 1 xsd:int]",
+        "[sleepBedTime exactly 1 xsd:dateTime]",
+        "[duration only xsd:int]",
+        "[sleepEfficiency exactly 1 xsd:double]",
+        "[sleepMovementIndex only xsd:double]",
+        "[duration exactly 1 xsd:int]",
+        "[sleepMovementIndex exactly 1 xsd:double]",
+        "[numberOfNaps only xsd:int]",
+        "[totalDurationOfNaps only xsd:int]",
+        "[numberOfNaps exactly 1 xsd:int]",
+        "[numberOfArousals only xsd:int]",
+        "[numberOfAwakenings exactly 1 xsd:int]",
+        "[wakeUpTime only xsd:dateTime]",
+        "[numberOfBedExits only xsd:int]",
+        "[lightLevel only xsd:string]",
+        "[sleepTime exactly 1 xsd:dateTime]",
+        "[sleepBedTime only xsd:dateTime]",
+        "[numberOfAwakenings only xsd:int]",
+        "[lightLevel exactly 1 xsd:string]",
+        "[numberOfBedExits exactly 1 xsd:int]",
+        "[sleepLatency exactly 1 xsd:int]",
+        "[sleepEfficiency only xsd:double]",
+        "[sleepLatency only xsd:int]",
+        "[numberOfArousals exactly 1 xsd:int]",
+        "[sleepTime only xsd:dateTime]",
+        "[wakeUpTime exactly 1 xsd:dateTime]"
+      ]
+    },
+    "SocialSummary": {
+      "propertyRestrictions": [
+        "[numberOfSocialInteractions only xsd:int]",
+        "[numberOfFaceToFaceConversations only xsd:int]",
+        "[numberOfPhoneConversations exactly 1 xsd:int]",
+        "[numberOfCommunicativeAttempts exactly 1 xsd:int]",
+        "[numberOfCommunicativeAttempts only xsd:int]",
+        "[numberOfSocialInteractions exactly 1 xsd:int]",
+        "[numberOfPhoneConversations only xsd:int]",
+        "[numberOfFaceToFaceConversations exactly 1 xsd:int]"
+      ]
+    }
+  },
+  "properties": {
+    "distanceTravelled": {
+      "characteristics": [],
+      "domain": [
+        "None"
+      ],
+      "range": [
+        "None"
+      ],
+      "subPropertyOf": [],
+      "inverseOf": []
+    },
+    "sleepLatency": {
+      "characteristics": [],
+      "domain": [
+        "None"
+      ],
+      "range": [
+        "None"
+      ],
+      "subPropertyOf": [],
+      "inverseOf": []
+    },
+    "possibleContributingFactor": {
+      "characteristics": [],
+      "domain": [
+        "None"
+      ],
+      "range": [
+        "None"
+      ],
+      "subPropertyOf": [],
+      "inverseOf": []
+    },
+    "hasValue": {
+      "characteristics": [],
+      "domain": [
+        "None"
+      ],
+      "range": [
+        "None"
+      ],
+      "subPropertyOf": [],
+      "inverseOf": []
+    },
+    "walkSpeed": {
+      "characteristics": [],
+      "domain": [
+        "None"
+      ],
+      "range": [
+        "None"
+      ],
+      "subPropertyOf": [],
+      "inverseOf": []
+    },
+    "numberOfArousals": {
+      "characteristics": [],
+      "domain": [
+        "None"
+      ],
+      "range": [
+        "None"
+      ],
+      "subPropertyOf": [],
+      "inverseOf": []
+    },
+    "exerciseDuration": {
+      "characteristics": [],
+      "domain": [
+        "None"
+      ],
+      "range": [
+        "None"
+      ],
+      "subPropertyOf": [
+        "time:hasBeginning"
+      ],
+      "inverseOf": []
+    },
+    "sleepBedTime": {
+      "characteristics": [],
+      "domain": [
+        "None"
+      ],
+      "range": [
+        "None"
+      ],
+      "subPropertyOf": [],
+      "inverseOf": []
+    },
+    "numberOfBedExits": {
+      "characteristics": [],
+      "domain": [
+        "None"
+      ],
+      "range": [
+        "None"
+      ],
+      "subPropertyOf": [],
+      "inverseOf": []
+    },
+    "accelerometerCountsPerMinute": {
+      "characteristics": [],
+      "domain": [
+        "None"
+      ],
+      "range": [
+        "None"
+      ],
+      "subPropertyOf": [],
+      "inverseOf": []
+    },
+    "sleepMovementIndex": {
+      "characteristics": [],
+      "domain": [
+        "None"
+      ],
+      "range": [
+        "None"
+      ],
+      "subPropertyOf": [],
+      "inverseOf": []
+    },
+    "physicalHygiene": {
+      "characteristics": [],
+      "domain": [
+        "None"
+      ],
+      "range": [
+        "None"
+      ],
+      "subPropertyOf": [],
+      "inverseOf": []
+    },
+    "numberOfAwakenings": {
+      "characteristics": [],
+      "domain": [
+        "None"
+      ],
+      "range": [
+        "None"
+      ],
+      "subPropertyOf": [],
+      "inverseOf": []
+    },
+    "heartRate": {
+      "characteristics": [],
+      "domain": [
+        "None"
+      ],
+      "range": [
+        "None"
+      ],
+      "subPropertyOf": [],
+      "inverseOf": []
+    },
+    "forPatient": {
+      "characteristics": [],
+      "domain": [
+        "None"
+      ],
+      "range": [
+        "None"
+      ],
+      "subPropertyOf": [],
+      "inverseOf": []
+    },
+    "startTime": {
+      "characteristics": [],
+      "domain": [
+        "None"
+      ],
+      "range": [
+        "None"
+      ],
+      "subPropertyOf": [],
+      "inverseOf": []
+    },
+    "exerciseStartTime": {
+      "characteristics": [],
+      "domain": [
+        "None"
+      ],
+      "range": [
+        "None"
+      ],
+      "subPropertyOf": [
+        "time:hasBeginning"
+      ],
+      "inverseOf": []
+    },
+    "numberOfCommunicativeAttempts": {
+      "characteristics": [],
+      "domain": [
+        "None"
+      ],
+      "range": [
+        "None"
+      ],
+      "subPropertyOf": [],
+      "inverseOf": []
+    },
+    "totalDurationOfNaps": {
+      "characteristics": [],
+      "domain": [
+        "None"
+      ],
+      "range": [
+        "None"
+      ],
+      "subPropertyOf": [],
+      "inverseOf": []
+    },
+    "eatingLocation": {
+      "characteristics": [],
+      "domain": [
+        "EatingSummary"
+      ],
+      "range": [
+        "None"
+      ],
+      "subPropertyOf": [],
+      "inverseOf": []
+    },
+    "exerciseIntensity": {
+      "characteristics": [],
+      "domain": [
+        "None"
+      ],
+      "range": [
+        "None"
+      ],
+      "subPropertyOf": [],
+      "inverseOf": []
+    },
+    "numberOfPhoneConversations": {
+      "characteristics": [],
+      "domain": [
+        "None"
+      ],
+      "range": [
+        "None"
+      ],
+      "subPropertyOf": [],
+      "inverseOf": []
+    },
+    "endTime": {
+      "characteristics": [],
+      "domain": [
+        "None"
+      ],
+      "range": [
+        "None"
+      ],
+      "subPropertyOf": [],
+      "inverseOf": []
+    },
+    "lightLevel": {
+      "characteristics": [],
+      "domain": [
+        "None"
+      ],
+      "range": [
+        "None"
+      ],
+      "subPropertyOf": [],
+      "inverseOf": []
+    },
+    "duration": {
+      "characteristics": [],
+      "domain": [
+        "None"
+      ],
+      "range": [
+        "None"
+      ],
+      "subPropertyOf": [],
+      "inverseOf": []
+    },
+    "numberOfFaceToFaceConversations": {
+      "characteristics": [],
+      "domain": [
+        "None"
+      ],
+      "range": [
+        "None"
+      ],
+      "subPropertyOf": [],
+      "inverseOf": []
+    },
+    "strideLength": {
+      "characteristics": [],
+      "domain": [
+        "None"
+      ],
+      "range": [
+        "None"
+      ],
+      "subPropertyOf": [],
+      "inverseOf": []
+    },
+    "wakeUpTime": {
+      "characteristics": [],
+      "domain": [
+        "None"
+      ],
+      "range": [
+        "None"
+      ],
+      "subPropertyOf": [],
+      "inverseOf": []
+    },
+    "involvementInDiscussion": {
+      "characteristics": [],
+      "domain": [
+        "None"
+      ],
+      "range": [
+        "None"
+      ],
+      "subPropertyOf": [],
+      "inverseOf": []
+    },
+    "time:hasDurationDescription": {
+      "characteristics": [],
+      "domain": [
+        "None"
+      ],
+      "range": [
+        "None"
+      ],
+      "subPropertyOf": [],
+      "inverseOf": []
+    },
+    "date": {
+      "characteristics": [],
+      "domain": [
+        "None"
+      ],
+      "range": [
+        "None"
+      ],
+      "subPropertyOf": [],
+      "inverseOf": []
+    },
+    "sleepEfficiency": {
+      "characteristics": [],
+      "domain": [
+        "None"
+      ],
+      "range": [
+        "None"
+      ],
+      "subPropertyOf": [],
+      "inverseOf": []
+    },
+    "sleepTime": {
+      "characteristics": [],
+      "domain": [
+        "None"
+      ],
+      "range": [
+        "None"
+      ],
+      "subPropertyOf": [],
+      "inverseOf": []
+    },
+    "numberOfNaps": {
+      "characteristics": [],
+      "domain": [
+        "None"
+      ],
+      "range": [
+        "None"
+      ],
+      "subPropertyOf": [],
+      "inverseOf": []
+    },
+    "eatingDuration": {
+      "characteristics": [],
+      "domain": [
+        "EatingSummary"
+      ],
+      "range": [
+        "None"
+      ],
+      "subPropertyOf": [
+        "time:hasDurationDescription"
+      ],
+      "inverseOf": []
+    },
+    "numberOfSocialInteractions": {
+      "characteristics": [],
+      "domain": [
+        "None"
+      ],
+      "range": [
+        "None"
+      ],
+      "subPropertyOf": [],
+      "inverseOf": []
+    },
+    "time:hasBeginning": {
+      "characteristics": [],
+      "domain": [
+        "None"
+      ],
+      "range": [
+        "None"
+      ],
+      "subPropertyOf": [],
+      "inverseOf": []
+    },
+    "stressLevel": {
+      "characteristics": [],
+      "domain": [
+        "None"
+      ],
+      "range": [
+        "None"
+      ],
+      "subPropertyOf": [],
+      "inverseOf": []
+    },
+    "highlight": {
+      "characteristics": [],
+      "domain": [
+        "event:Event"
+      ],
+      "range": [
+        "xsd:boolean"
+      ],
+      "subPropertyOf": [],
+      "inverseOf": []
+    }
+  }
+}

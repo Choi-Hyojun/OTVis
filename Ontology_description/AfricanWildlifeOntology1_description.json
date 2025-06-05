@@ -1,0 +1,50 @@
+{
+  "classes": {
+    "AfricanWildlifeOntology1:Impala": {
+      "rdfs:comment": "An african antelope http://en.wikipedia.org/wiki/Impala"
+    },
+    "AfricanWildlifeOntology1:RockDassie": {
+      "rdfs:comment": [
+        "They eat grasses and broad-leafed plants",
+        "http://en.wikipedia.org/wiki/Rock_Hyrax"
+      ]
+    },
+    "AfricanWildlifeOntology1:Warthog": {
+      "rdfs:comment": "Warthogs are Omnivorous http://en.wikipedia.org/wiki/Warthog"
+    },
+    "AfricanWildlifeOntology1:branch": {
+      "rdfs:comment": "Branches are parts of trees."
+    },
+    "AfricanWildlifeOntology1:carnivore": {
+      "rdfs:comment": "Carnivores are exactly those animals that eat only animals."
+    },
+    "AfricanWildlifeOntology1:giraffe": {
+      "rdfs:comment": [
+        "Giraffes are herbivores, and they eat only leaves.",
+        "they also eat twigs"
+      ]
+    },
+    "AfricanWildlifeOntology1:herbivore": {
+      "rdfs:comment": "Herbivores are exactly those animals that eat only plants or parts of plants "
+    },
+    "AfricanWildlifeOntology1:leaf": {
+      "rdfs:comment": "Leaves are parts of branches."
+    },
+    "AfricanWildlifeOntology1:lion": {
+      "rdfs:comment": "Lions are animals that eat only herbivores."
+    },
+    "AfricanWildlifeOntology1:plant": {
+      "rdfs:comment": "Plants are disjoint from animals."
+    },
+    "AfricanWildlifeOntology1:tasty-plant": {
+      "rdfs:comment": "Plants eaten both by herbivores and carnivores"
+    },
+    "AfricanWildlifeOntology1:tree": {
+      "rdfs:comment": [
+        "Trees are a type of plant.",
+        "'plant' is here a shorthand for plant kingdom"
+      ]
+    }
+  },
+  "properties": {}
+}

@@ -1,0 +1,32 @@
+{
+  "classes": {
+    "ChangeOrientation": {
+      "rdfs:comment": "WIMU"
+    },
+    "ChangePosture": {
+      "rdfs:comment": "WIMU"
+    },
+    "Fall": {
+      "rdfs:comment": "if not supported by LCS"
+    },
+    "HeartRate": {
+      "rdfs:comment": "DTI-2"
+    },
+    "LongNap": {
+      "rdfs:comment": "duration of longer than 30 minutes"
+    },
+    "NightSleep": {
+      "rdfs:comment": "The entire sleep (including relevant inferences during the sleep)"
+    },
+    "Rest": {
+      "rdfs:comment": "DTI-2"
+    },
+    "Sleep": {
+      "rdfs:comment": "Gear 4 / DTI-2"
+    },
+    "StepCounting": {
+      "rdfs:comment": "WIMU"
+    }
+  },
+  "properties": {}
+}

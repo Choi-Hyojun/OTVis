@@ -1,0 +1,1899 @@
+{
+  "nodes": [
+    {
+      "id": "ns1:GRILL"
+    },
+    {
+      "id": "ns2:GATE"
+    },
+    {
+      "id": "ns2:LINE"
+    },
+    {
+      "id": "ns3:STRIP"
+    },
+    {
+      "id": "ns4:T면"
+    },
+    {
+      "id": "ns5:S작업"
+    },
+    {
+      "id": "ns6:g부"
+    },
+    {
+      "id": "owl:Thing"
+    },
+    {
+      "id": "untitled-ontology-39:ASSAY"
+    },
+    {
+      "id": "untitled-ontology-39:BURR"
+    },
+    {
+      "id": "untitled-ontology-39:Beam"
+    },
+    {
+      "id": "untitled-ontology-39:Bolt"
+    },
+    {
+      "id": "untitled-ontology-39:Braket"
+    },
+    {
+      "id": "untitled-ontology-39:Channel"
+    },
+    {
+      "id": "untitled-ontology-39:Checker"
+    },
+    {
+      "id": "untitled-ontology-39:Clip"
+    },
+    {
+      "id": "untitled-ontology-39:Comparison"
+    },
+    {
+      "id": "untitled-ontology-39:Connector"
+    },
+    {
+      "id": "untitled-ontology-39:Content"
+    },
+    {
+      "id": "untitled-ontology-39:Cover"
+    },
+    {
+      "id": "untitled-ontology-39:Cowl"
+    },
+    {
+      "id": "untitled-ontology-39:Door"
+    },
+    {
+      "id": "untitled-ontology-39:DoorBelt"
+    },
+    {
+      "id": "untitled-ontology-39:DoorFrame"
+    },
+    {
+      "id": "untitled-ontology-39:DoorHandle"
+    },
+    {
+      "id": "untitled-ontology-39:DoorLock"
+    },
+    {
+      "id": "untitled-ontology-39:DoorStay"
+    },
+    {
+      "id": "untitled-ontology-39:DoorType"
+    },
+    {
+      "id": "untitled-ontology-39:Element"
+    },
+    {
+      "id": "untitled-ontology-39:Fastner"
+    },
+    {
+      "id": "untitled-ontology-39:Flange"
+    },
+    {
+      "id": "untitled-ontology-39:Form"
+    },
+    {
+      "id": "untitled-ontology-39:FrontDoor"
+    },
+    {
+      "id": "untitled-ontology-39:Garnish"
+    },
+    {
+      "id": "untitled-ontology-39:Glass"
+    },
+    {
+      "id": "untitled-ontology-39:GlassRun"
+    },
+    {
+      "id": "untitled-ontology-39:Grommet"
+    },
+    {
+      "id": "untitled-ontology-39:HangerAttach"
+    },
+    {
+      "id": "untitled-ontology-39:HigherThan"
+    },
+    {
+      "id": "untitled-ontology-39:Hinge"
+    },
+    {
+      "id": "untitled-ontology-39:Hook"
+    },
+    {
+      "id": "untitled-ontology-39:H면"
+    },
+    {
+      "id": "untitled-ontology-39:Image"
+    },
+    {
+      "id": "untitled-ontology-39:InnerPanel"
+    },
+    {
+      "id": "untitled-ontology-39:InterSpace"
+    },
+    {
+      "id": "untitled-ontology-39:Issue"
+    },
+    {
+      "id": "untitled-ontology-39:Lamp"
+    },
+    {
+      "id": "untitled-ontology-39:Latch"
+    },
+    {
+      "id": "untitled-ontology-39:Location"
+    },
+    {
+      "id": "untitled-ontology-39:Logo"
+    },
+    {
+      "id": "untitled-ontology-39:LongerThan"
+    },
+    {
+      "id": "untitled-ontology-39:LowerThan"
+    },
+    {
+      "id": "untitled-ontology-39:L면"
+    },
+    {
+      "id": "untitled-ontology-39:MaterialEntity"
+    },
+    {
+      "id": "untitled-ontology-39:Member"
+    },
+    {
+      "id": "untitled-ontology-39:ModulationItems"
+    },
+    {
+      "id": "untitled-ontology-39:Nut"
+    },
+    {
+      "id": "untitled-ontology-39:OuterPanel"
+    },
+    {
+      "id": "untitled-ontology-39:OverslamBumper"
+    },
+    {
+      "id": "untitled-ontology-39:Pad"
+    },
+    {
+      "id": "untitled-ontology-39:Panel"
+    },
+    {
+      "id": "untitled-ontology-39:Pilar"
+    },
+    {
+      "id": "untitled-ontology-39:Purpose"
+    },
+    {
+      "id": "untitled-ontology-39:Rail"
+    },
+    {
+      "id": "untitled-ontology-39:RearDoor"
+    },
+    {
+      "id": "untitled-ontology-39:Reinf"
+    },
+    {
+      "id": "untitled-ontology-39:SKIN"
+    },
+    {
+      "id": "untitled-ontology-39:Screw"
+    },
+    {
+      "id": "untitled-ontology-39:SealerLine"
+    },
+    {
+      "id": "untitled-ontology-39:ShorterThan"
+    },
+    {
+      "id": "untitled-ontology-39:SideMirror"
+    },
+    {
+      "id": "untitled-ontology-39:Speaker"
+    },
+    {
+      "id": "untitled-ontology-39:Striker"
+    },
+    {
+      "id": "untitled-ontology-39:StyleLine"
+    },
+    {
+      "id": "untitled-ontology-39:SubComponent"
+    },
+    {
+      "id": "untitled-ontology-39:TR"
+    },
+    {
+      "id": "untitled-ontology-39:TRIM"
+    },
+    {
+      "id": "untitled-ontology-39:TR부"
+    },
+    {
+      "id": "untitled-ontology-39:Table"
+    },
+    {
+      "id": "untitled-ontology-39:TargetLocation"
+    },
+    {
+      "id": "untitled-ontology-39:Task"
+    },
+    {
+      "id": "untitled-ontology-39:TaskTable"
+    },
+    {
+      "id": "untitled-ontology-39:ToolingPin"
+    },
+    {
+      "id": "untitled-ontology-39:Trunk"
+    },
+    {
+      "id": "untitled-ontology-39:Type"
+    },
+    {
+      "id": "untitled-ontology-39:T면"
+    },
+    {
+      "id": "untitled-ontology-39:VehiclePart"
+    },
+    {
+      "id": "untitled-ontology-39:VehicleType"
+    },
+    {
+      "id": "untitled-ontology-39:VehicleTypeTable"
+    },
+    {
+      "id": "untitled-ontology-39:clinchg부"
+    },
+    {
+      "id": "untitled-ontology-39:가거치작업"
+    },
+    {
+      "id": "untitled-ontology-39:간격확보"
+    },
+    {
+      "id": "untitled-ontology-39:간섭"
+    },
+    {
+      "id": "untitled-ontology-39:값설정"
+    },
+    {
+      "id": "untitled-ontology-39:강도"
+    },
+    {
+      "id": "untitled-ontology-39:강도확보"
+    },
+    {
+      "id": "untitled-ontology-39:강성확보"
+    },
+    {
+      "id": "untitled-ontology-39:걸림턱작업"
+    },
+    {
+      "id": "untitled-ontology-39:겹침부"
+    },
+    {
+      "id": "untitled-ontology-39:고정"
+    },
+    {
+      "id": "untitled-ontology-39:고정홀"
+    },
+    {
+      "id": "untitled-ontology-39:곡선부"
+    },
+    {
+      "id": "untitled-ontology-39:골조부"
+    },
+    {
+      "id": "untitled-ontology-39:공간확보"
+    },
+    {
+      "id": "untitled-ontology-39:공정"
+    },
+    {
+      "id": "untitled-ontology-39:공정부"
+    },
+    {
+      "id": "untitled-ontology-39:구조적용"
+    },
+    {
+      "id": "untitled-ontology-39:굴곡"
+    },
+    {
+      "id": "untitled-ontology-39:그로멧홀"
+    },
+    {
+      "id": "untitled-ontology-39:그림_설명의_빗금부"
+    },
+    {
+      "id": "untitled-ontology-39:기준면"
+    },
+    {
+      "id": "untitled-ontology-39:기타공정"
+    },
+    {
+      "id": "untitled-ontology-39:끝단부"
+    },
+    {
+      "id": "untitled-ontology-39:끼움"
+    },
+    {
+      "id": "untitled-ontology-39:노이즈"
+    },
+    {
+      "id": "untitled-ontology-39:노출부"
+    },
+    {
+      "id": "untitled-ontology-39:노치적용"
+    },
+    {
+      "id": "untitled-ontology-39:누름부"
+    },
+    {
+      "id": "untitled-ontology-39:누수"
+    },
+    {
+      "id": "untitled-ontology-39:능선부"
+    },
+    {
+      "id": "untitled-ontology-39:단면"
+    },
+    {
+      "id": "untitled-ontology-39:단면확보"
+    },
+    {
+      "id": "untitled-ontology-39:단차적용"
+    },
+    {
+      "id": "untitled-ontology-39:단품"
+    },
+    {
+      "id": "untitled-ontology-39:덮기"
+    },
+    {
+      "id": "untitled-ontology-39:도장"
+    },
+    {
+      "id": "untitled-ontology-39:도포"
+    },
+    {
+      "id": "untitled-ontology-39:돌출부"
+    },
+    {
+      "id": "untitled-ontology-39:드레인유도"
+    },
+    {
+      "id": "untitled-ontology-39:드레인홀"
+    },
+    {
+      "id": "untitled-ontology-39:들뜸"
+    },
+    {
+      "id": "untitled-ontology-39:라운드처리"
+    },
+    {
+      "id": "untitled-ontology-39:마운팅"
+    },
+    {
+      "id": "untitled-ontology-39:마운팅부"
+    },
+    {
+      "id": "untitled-ontology-39:마운팅홀"
+    },
+    {
+      "id": "untitled-ontology-39:마킹적용"
+    },
+    {
+      "id": "untitled-ontology-39:말림"
+    },
+    {
+      "id": "untitled-ontology-39:매칭"
+    },
+    {
+      "id": "untitled-ontology-39:매칭면"
+    },
+    {
+      "id": "untitled-ontology-39:매칭부"
+    },
+    {
+      "id": "untitled-ontology-39:면"
+    },
+    {
+      "id": "untitled-ontology-39:면작업"
+    },
+    {
+      "id": "untitled-ontology-39:면적적용"
+    },
+    {
+      "id": "untitled-ontology-39:모따기"
+    },
+    {
+      "id": "untitled-ontology-39:박판부"
+    },
+    {
+      "id": "untitled-ontology-39:방지"
+    },
+    {
+      "id": "untitled-ontology-39:방향설정"
+    },
+    {
+      "id": "untitled-ontology-39:버링"
+    },
+    {
+      "id": "untitled-ontology-39:번호판"
+    },
+    {
+      "id": "untitled-ontology-39:변경"
+    },
+    {
+      "id": "untitled-ontology-39:변형"
+    },
+    {
+      "id": "untitled-ontology-39:부"
+    },
+    {
+      "id": "untitled-ontology-39:부착면"
+    },
+    {
+      "id": "untitled-ontology-39:부품적용"
+    },
+    {
+      "id": "untitled-ontology-39:불균일"
+    },
+    {
+      "id": "untitled-ontology-39:불량"
+    },
+    {
+      "id": "untitled-ontology-39:브레이징"
+    },
+    {
+      "id": "untitled-ontology-39:비용"
+    },
+    {
+      "id": "untitled-ontology-39:사이드부"
+    },
+    {
+      "id": "untitled-ontology-39:삭제"
+    },
+    {
+      "id": "untitled-ontology-39:산포"
+    },
+    {
+      "id": "untitled-ontology-39:삽입"
+    },
+    {
+      "id": "untitled-ontology-39:삽입부"
+    },
+    {
+      "id": "untitled-ontology-39:상단부"
+    },
+    {
+      "id": "untitled-ontology-39:색상설정"
+    },
+    {
+      "id": "untitled-ontology-39:생산성개선"
+    },
+    {
+      "id": "untitled-ontology-39:서변화"
+    },
+    {
+      "id": "untitled-ontology-39:선조립"
+    },
+    {
+      "id": "untitled-ontology-39:성형"
+    },
+    {
+      "id": "untitled-ontology-39:성형성확보"
+    },
+    {
+      "id": "untitled-ontology-39:성형성확보불가"
+    },
+    {
+      "id": "untitled-ontology-39:수직부"
+    },
+    {
+      "id": "untitled-ontology-39:수치적용"
+    },
+    {
+      "id": "untitled-ontology-39:수치확보"
+    },
+    {
+      "id": "untitled-ontology-39:스크래치"
+    },
+    {
+      "id": "untitled-ontology-39:스프링백"
+    },
+    {
+      "id": "untitled-ontology-39:시인성개선"
+    },
+    {
+      "id": "untitled-ontology-39:실러공정"
+    },
+    {
+      "id": "untitled-ontology-39:실러메움성향상"
+    },
+    {
+      "id": "untitled-ontology-39:실링면"
+    },
+    {
+      "id": "untitled-ontology-39:실링부"
+    },
+    {
+      "id": "untitled-ontology-39:압축"
+    },
+    {
+      "id": "untitled-ontology-39:연결"
+    },
+    {
+      "id": "untitled-ontology-39:연결부"
+    },
+    {
+      "id": "untitled-ontology-39:연장"
+    },
+    {
+      "id": "untitled-ontology-39:열림"
+    },
+    {
+      "id": "untitled-ontology-39:오버랩부"
+    },
+    {
+      "id": "untitled-ontology-39:오염"
+    },
+    {
+      "id": "untitled-ontology-39:와이어링"
+    },
+    {
+      "id": "untitled-ontology-39:왁스홀"
+    },
+    {
+      "id": "untitled-ontology-39:완화"
+    },
+    {
+      "id": "untitled-ontology-39:용접"
+    },
+    {
+      "id": "untitled-ontology-39:용접부"
+    },
+    {
+      "id": "untitled-ontology-39:용접점"
+    },
+    {
+      "id": "untitled-ontology-39:위치부"
+    },
+    {
+      "id": "untitled-ontology-39:위치설정"
+    },
+    {
+      "id": "untitled-ontology-39:유동"
+    },
+    {
+      "id": "untitled-ontology-39:유지보수"
+    },
+    {
+      "id": "untitled-ontology-39:이송"
+    },
+    {
+      "id": "untitled-ontology-39:이원화"
+    },
+    {
+      "id": "untitled-ontology-39:이종장착"
+    },
+    {
+      "id": "untitled-ontology-39:이탈"
+    },
+    {
+      "id": "untitled-ontology-39:일반부"
+    },
+    {
+      "id": "untitled-ontology-39:일원화"
+    },
+    {
+      "id": "untitled-ontology-39:작업"
+    },
+    {
+      "id": "untitled-ontology-39:작업부"
+    },
+    {
+      "id": "untitled-ontology-39:작업성확보"
+    },
+    {
+      "id": "untitled-ontology-39:장착"
+    },
+    {
+      "id": "untitled-ontology-39:장착면"
+    },
+    {
+      "id": "untitled-ontology-39:장착부"
+    },
+    {
+      "id": "untitled-ontology-39:장착홀부"
+    },
+    {
+      "id": "untitled-ontology-39:적용"
+    },
+    {
+      "id": "untitled-ontology-39:전방부"
+    },
+    {
+      "id": "untitled-ontology-39:전착"
+    },
+    {
+      "id": "untitled-ontology-39:전착액"
+    },
+    {
+      "id": "untitled-ontology-39:전착흐름자욱"
+    },
+    {
+      "id": "untitled-ontology-39:점"
+    },
+    {
+      "id": "untitled-ontology-39:점검"
+    },
+    {
+      "id": "untitled-ontology-39:접촉면"
+    },
+    {
+      "id": "untitled-ontology-39:접합부"
+    },
+    {
+      "id": "untitled-ontology-39:제작"
+    },
+    {
+      "id": "untitled-ontology-39:조건적용"
+    },
+    {
+      "id": "untitled-ontology-39:조립"
+    },
+    {
+      "id": "untitled-ontology-39:좌면"
+    },
+    {
+      "id": "untitled-ontology-39:주걱"
+    },
+    {
+      "id": "untitled-ontology-39:주름"
+    },
+    {
+      "id": "untitled-ontology-39:중앙부"
+    },
+    {
+      "id": "untitled-ontology-39:직선부"
+    },
+    {
+      "id": "untitled-ontology-39:직선화"
+    },
+    {
+      "id": "untitled-ontology-39:처짐"
+    },
+    {
+      "id": "untitled-ontology-39:체결"
+    },
+    {
+      "id": "untitled-ontology-39:체결부"
+    },
+    {
+      "id": "untitled-ontology-39:체결홀"
+    },
+    {
+      "id": "untitled-ontology-39:축소"
+    },
+    {
+      "id": "untitled-ontology-39:측면부"
+    },
+    {
+      "id": "untitled-ontology-39:측벽부"
+    },
+    {
+      "id": "untitled-ontology-39:치핑"
+    },
+    {
+      "id": "untitled-ontology-39:칠부족"
+    },
+    {
+      "id": "untitled-ontology-39:커넥터작업"
+    },
+    {
+      "id": "untitled-ontology-39:코너부"
+    },
+    {
+      "id": "untitled-ontology-39:쿼더런트부"
+    },
+    {
+      "id": "untitled-ontology-39:크기변경"
+    },
+    {
+      "id": "untitled-ontology-39:크랙"
+    },
+    {
+      "id": "untitled-ontology-39:타입적용"
+    },
+    {
+      "id": "untitled-ontology-39:터짐"
+    },
+    {
+      "id": "untitled-ontology-39:통과"
+    },
+    {
+      "id": "untitled-ontology-39:투입"
+    },
+    {
+      "id": "untitled-ontology-39:툴링홀"
+    },
+    {
+      "id": "untitled-ontology-39:틈새"
+    },
+    {
+      "id": "untitled-ontology-39:파팅"
+    },
+    {
+      "id": "untitled-ontology-39:펼침"
+    },
+    {
+      "id": "untitled-ontology-39:평면"
+    },
+    {
+      "id": "untitled-ontology-39:포밍"
+    },
+    {
+      "id": "untitled-ontology-39:포밍부"
+    },
+    {
+      "id": "untitled-ontology-39:품질확보"
+    },
+    {
+      "id": "untitled-ontology-39:프레스"
+    },
+    {
+      "id": "untitled-ontology-39:프레임홀"
+    },
+    {
+      "id": "untitled-ontology-39:피어싱"
+    },
+    {
+      "id": "untitled-ontology-39:피치설정"
+    },
+    {
+      "id": "untitled-ontology-39:하단부"
+    },
+    {
+      "id": "untitled-ontology-39:헤밍"
+    },
+    {
+      "id": "untitled-ontology-39:헤밍면"
+    },
+    {
+      "id": "untitled-ontology-39:헤밍부"
+    },
+    {
+      "id": "untitled-ontology-39:형상적용"
+    },
+    {
+      "id": "untitled-ontology-39:홀"
+    },
+    {
+      "id": "untitled-ontology-39:홀발생"
+    },
+    {
+      "id": "untitled-ontology-39:홀설정"
+    },
+    {
+      "id": "untitled-ontology-39:확대"
+    },
+    {
+      "id": "untitled-ontology-39:확보"
+    },
+    {
+      "id": "untitled-ontology-39:후방부"
+    },
+    {
+      "id": "untitled-ontology-39:후판부"
+    }
+  ],
+  "links": [
+    {
+      "source": "untitled-ontology-39:ASSAY",
+      "target": "untitled-ontology-39:ModulationItems"
+    },
+    {
+      "source": "untitled-ontology-39:BURR",
+      "target": "untitled-ontology-39:Issue"
+    },
+    {
+      "source": "untitled-ontology-39:간섭",
+      "target": "untitled-ontology-39:Issue"
+    },
+    {
+      "source": "untitled-ontology-39:강도",
+      "target": "untitled-ontology-39:Issue"
+    },
+    {
+      "source": "untitled-ontology-39:굴곡",
+      "target": "untitled-ontology-39:Issue"
+    },
+    {
+      "source": "untitled-ontology-39:노이즈",
+      "target": "untitled-ontology-39:Issue"
+    },
+    {
+      "source": "untitled-ontology-39:누수",
+      "target": "untitled-ontology-39:Issue"
+    },
+    {
+      "source": "untitled-ontology-39:들뜸",
+      "target": "untitled-ontology-39:Issue"
+    },
+    {
+      "source": "untitled-ontology-39:말림",
+      "target": "untitled-ontology-39:Issue"
+    },
+    {
+      "source": "untitled-ontology-39:변형",
+      "target": "untitled-ontology-39:Issue"
+    },
+    {
+      "source": "untitled-ontology-39:불균일",
+      "target": "untitled-ontology-39:Issue"
+    },
+    {
+      "source": "untitled-ontology-39:불량",
+      "target": "untitled-ontology-39:Issue"
+    },
+    {
+      "source": "untitled-ontology-39:비용",
+      "target": "untitled-ontology-39:Issue"
+    },
+    {
+      "source": "untitled-ontology-39:산포",
+      "target": "untitled-ontology-39:Issue"
+    },
+    {
+      "source": "untitled-ontology-39:성형성확보불가",
+      "target": "untitled-ontology-39:Issue"
+    },
+    {
+      "source": "untitled-ontology-39:스크래치",
+      "target": "untitled-ontology-39:Issue"
+    },
+    {
+      "source": "untitled-ontology-39:스프링백",
+      "target": "untitled-ontology-39:Issue"
+    },
+    {
+      "source": "untitled-ontology-39:열림",
+      "target": "untitled-ontology-39:Issue"
+    },
+    {
+      "source": "untitled-ontology-39:오염",
+      "target": "untitled-ontology-39:Issue"
+    },
+    {
+      "source": "untitled-ontology-39:유동",
+      "target": "untitled-ontology-39:Issue"
+    },
+    {
+      "source": "untitled-ontology-39:이종장착",
+      "target": "untitled-ontology-39:Issue"
+    },
+    {
+      "source": "untitled-ontology-39:이탈",
+      "target": "untitled-ontology-39:Issue"
+    },
+    {
+      "source": "untitled-ontology-39:전착흐름자욱",
+      "target": "untitled-ontology-39:Issue"
+    },
+    {
+      "source": "untitled-ontology-39:주름",
+      "target": "untitled-ontology-39:Issue"
+    },
+    {
+      "source": "untitled-ontology-39:처짐",
+      "target": "untitled-ontology-39:Issue"
+    },
+    {
+      "source": "untitled-ontology-39:치핑",
+      "target": "untitled-ontology-39:Issue"
+    },
+    {
+      "source": "untitled-ontology-39:칠부족",
+      "target": "untitled-ontology-39:Issue"
+    },
+    {
+      "source": "untitled-ontology-39:크랙",
+      "target": "untitled-ontology-39:Issue"
+    },
+    {
+      "source": "untitled-ontology-39:터짐",
+      "target": "untitled-ontology-39:Issue"
+    },
+    {
+      "source": "untitled-ontology-39:틈새",
+      "target": "untitled-ontology-39:Issue"
+    },
+    {
+      "source": "untitled-ontology-39:홀발생",
+      "target": "untitled-ontology-39:Issue"
+    },
+    {
+      "source": "untitled-ontology-39:Beam",
+      "target": "untitled-ontology-39:VehiclePart"
+    },
+    {
+      "source": "untitled-ontology-39:Channel",
+      "target": "untitled-ontology-39:VehiclePart"
+    },
+    {
+      "source": "untitled-ontology-39:Checker",
+      "target": "untitled-ontology-39:VehiclePart"
+    },
+    {
+      "source": "untitled-ontology-39:Cowl",
+      "target": "untitled-ontology-39:VehiclePart"
+    },
+    {
+      "source": "untitled-ontology-39:Door",
+      "target": "untitled-ontology-39:VehiclePart"
+    },
+    {
+      "source": "untitled-ontology-39:DoorBelt",
+      "target": "untitled-ontology-39:VehiclePart"
+    },
+    {
+      "source": "untitled-ontology-39:DoorFrame",
+      "target": "untitled-ontology-39:VehiclePart"
+    },
+    {
+      "source": "untitled-ontology-39:DoorHandle",
+      "target": "untitled-ontology-39:VehiclePart"
+    },
+    {
+      "source": "untitled-ontology-39:DoorLock",
+      "target": "untitled-ontology-39:VehiclePart"
+    },
+    {
+      "source": "untitled-ontology-39:Garnish",
+      "target": "untitled-ontology-39:VehiclePart"
+    },
+    {
+      "source": "untitled-ontology-39:Glass",
+      "target": "untitled-ontology-39:VehiclePart"
+    },
+    {
+      "source": "untitled-ontology-39:GlassRun",
+      "target": "untitled-ontology-39:VehiclePart"
+    },
+    {
+      "source": "untitled-ontology-39:HangerAttach",
+      "target": "untitled-ontology-39:VehiclePart"
+    },
+    {
+      "source": "untitled-ontology-39:Hinge",
+      "target": "untitled-ontology-39:VehiclePart"
+    },
+    {
+      "source": "untitled-ontology-39:Lamp",
+      "target": "untitled-ontology-39:VehiclePart"
+    },
+    {
+      "source": "untitled-ontology-39:Latch",
+      "target": "untitled-ontology-39:VehiclePart"
+    },
+    {
+      "source": "untitled-ontology-39:Member",
+      "target": "untitled-ontology-39:VehiclePart"
+    },
+    {
+      "source": "untitled-ontology-39:OverslamBumper",
+      "target": "untitled-ontology-39:VehiclePart"
+    },
+    {
+      "source": "untitled-ontology-39:Panel",
+      "target": "untitled-ontology-39:VehiclePart"
+    },
+    {
+      "source": "untitled-ontology-39:Pilar",
+      "target": "untitled-ontology-39:VehiclePart"
+    },
+    {
+      "source": "untitled-ontology-39:Rail",
+      "target": "untitled-ontology-39:VehiclePart"
+    },
+    {
+      "source": "untitled-ontology-39:Reinf",
+      "target": "untitled-ontology-39:VehiclePart"
+    },
+    {
+      "source": "untitled-ontology-39:SideMirror",
+      "target": "untitled-ontology-39:VehiclePart"
+    },
+    {
+      "source": "untitled-ontology-39:Speaker",
+      "target": "untitled-ontology-39:VehiclePart"
+    },
+    {
+      "source": "untitled-ontology-39:Striker",
+      "target": "untitled-ontology-39:VehiclePart"
+    },
+    {
+      "source": "untitled-ontology-39:TRIM",
+      "target": "untitled-ontology-39:VehiclePart"
+    },
+    {
+      "source": "untitled-ontology-39:Trunk",
+      "target": "untitled-ontology-39:VehiclePart"
+    },
+    {
+      "source": "ns1:GRILL",
+      "target": "untitled-ontology-39:VehiclePart"
+    },
+    {
+      "source": "ns2:GATE",
+      "target": "untitled-ontology-39:VehiclePart"
+    },
+    {
+      "source": "ns3:STRIP",
+      "target": "untitled-ontology-39:VehiclePart"
+    },
+    {
+      "source": "untitled-ontology-39:Bolt",
+      "target": "untitled-ontology-39:SubComponent"
+    },
+    {
+      "source": "untitled-ontology-39:Braket",
+      "target": "untitled-ontology-39:SubComponent"
+    },
+    {
+      "source": "untitled-ontology-39:Clip",
+      "target": "untitled-ontology-39:SubComponent"
+    },
+    {
+      "source": "untitled-ontology-39:Connector",
+      "target": "untitled-ontology-39:SubComponent"
+    },
+    {
+      "source": "untitled-ontology-39:Cover",
+      "target": "untitled-ontology-39:SubComponent"
+    },
+    {
+      "source": "untitled-ontology-39:DoorStay",
+      "target": "untitled-ontology-39:SubComponent"
+    },
+    {
+      "source": "untitled-ontology-39:Fastner",
+      "target": "untitled-ontology-39:SubComponent"
+    },
+    {
+      "source": "untitled-ontology-39:Flange",
+      "target": "untitled-ontology-39:SubComponent"
+    },
+    {
+      "source": "untitled-ontology-39:Form",
+      "target": "untitled-ontology-39:SubComponent"
+    },
+    {
+      "source": "untitled-ontology-39:Grommet",
+      "target": "untitled-ontology-39:SubComponent"
+    },
+    {
+      "source": "untitled-ontology-39:Hook",
+      "target": "untitled-ontology-39:SubComponent"
+    },
+    {
+      "source": "untitled-ontology-39:Logo",
+      "target": "untitled-ontology-39:SubComponent"
+    },
+    {
+      "source": "untitled-ontology-39:Nut",
+      "target": "untitled-ontology-39:SubComponent"
+    },
+    {
+      "source": "untitled-ontology-39:Pad",
+      "target": "untitled-ontology-39:SubComponent"
+    },
+    {
+      "source": "untitled-ontology-39:SKIN",
+      "target": "untitled-ontology-39:SubComponent"
+    },
+    {
+      "source": "untitled-ontology-39:Screw",
+      "target": "untitled-ontology-39:SubComponent"
+    },
+    {
+      "source": "untitled-ontology-39:SealerLine",
+      "target": "untitled-ontology-39:SubComponent"
+    },
+    {
+      "source": "untitled-ontology-39:StyleLine",
+      "target": "untitled-ontology-39:SubComponent"
+    },
+    {
+      "source": "untitled-ontology-39:ToolingPin",
+      "target": "untitled-ontology-39:SubComponent"
+    },
+    {
+      "source": "untitled-ontology-39:단품",
+      "target": "untitled-ontology-39:SubComponent"
+    },
+    {
+      "source": "untitled-ontology-39:번호판",
+      "target": "untitled-ontology-39:SubComponent"
+    },
+    {
+      "source": "untitled-ontology-39:전착액",
+      "target": "untitled-ontology-39:SubComponent"
+    },
+    {
+      "source": "ns2:LINE",
+      "target": "untitled-ontology-39:SubComponent"
+    },
+    {
+      "source": "untitled-ontology-39:DoorType",
+      "target": "untitled-ontology-39:Type"
+    },
+    {
+      "source": "untitled-ontology-39:VehicleType",
+      "target": "untitled-ontology-39:Type"
+    },
+    {
+      "source": "untitled-ontology-39:Element",
+      "target": "untitled-ontology-39:Location"
+    },
+    {
+      "source": "untitled-ontology-39:MaterialEntity",
+      "target": "untitled-ontology-39:Location"
+    },
+    {
+      "source": "untitled-ontology-39:ModulationItems",
+      "target": "untitled-ontology-39:Location"
+    },
+    {
+      "source": "untitled-ontology-39:TargetLocation",
+      "target": "untitled-ontology-39:Location"
+    },
+    {
+      "source": "untitled-ontology-39:FrontDoor",
+      "target": "untitled-ontology-39:Door"
+    },
+    {
+      "source": "untitled-ontology-39:RearDoor",
+      "target": "untitled-ontology-39:Door"
+    },
+    {
+      "source": "untitled-ontology-39:HigherThan",
+      "target": "untitled-ontology-39:Comparison"
+    },
+    {
+      "source": "untitled-ontology-39:LongerThan",
+      "target": "untitled-ontology-39:Comparison"
+    },
+    {
+      "source": "untitled-ontology-39:LowerThan",
+      "target": "untitled-ontology-39:Comparison"
+    },
+    {
+      "source": "untitled-ontology-39:ShorterThan",
+      "target": "untitled-ontology-39:Comparison"
+    },
+    {
+      "source": "untitled-ontology-39:H면",
+      "target": "untitled-ontology-39:면"
+    },
+    {
+      "source": "untitled-ontology-39:L면",
+      "target": "untitled-ontology-39:면"
+    },
+    {
+      "source": "untitled-ontology-39:T면",
+      "target": "untitled-ontology-39:면"
+    },
+    {
+      "source": "untitled-ontology-39:기준면",
+      "target": "untitled-ontology-39:면"
+    },
+    {
+      "source": "untitled-ontology-39:단면",
+      "target": "untitled-ontology-39:면"
+    },
+    {
+      "source": "untitled-ontology-39:매칭면",
+      "target": "untitled-ontology-39:면"
+    },
+    {
+      "source": "untitled-ontology-39:부착면",
+      "target": "untitled-ontology-39:면"
+    },
+    {
+      "source": "untitled-ontology-39:실링면",
+      "target": "untitled-ontology-39:면"
+    },
+    {
+      "source": "untitled-ontology-39:장착면",
+      "target": "untitled-ontology-39:면"
+    },
+    {
+      "source": "untitled-ontology-39:접촉면",
+      "target": "untitled-ontology-39:면"
+    },
+    {
+      "source": "untitled-ontology-39:좌면",
+      "target": "untitled-ontology-39:면"
+    },
+    {
+      "source": "untitled-ontology-39:평면",
+      "target": "untitled-ontology-39:면"
+    },
+    {
+      "source": "untitled-ontology-39:헤밍면",
+      "target": "untitled-ontology-39:면"
+    },
+    {
+      "source": "ns4:T면",
+      "target": "untitled-ontology-39:면"
+    },
+    {
+      "source": "untitled-ontology-39:Image",
+      "target": "untitled-ontology-39:Content"
+    },
+    {
+      "source": "untitled-ontology-39:Table",
+      "target": "untitled-ontology-39:Content"
+    },
+    {
+      "source": "untitled-ontology-39:InnerPanel",
+      "target": "untitled-ontology-39:Panel"
+    },
+    {
+      "source": "untitled-ontology-39:OuterPanel",
+      "target": "untitled-ontology-39:Panel"
+    },
+    {
+      "source": "untitled-ontology-39:InterSpace",
+      "target": "untitled-ontology-39:Element"
+    },
+    {
+      "source": "untitled-ontology-39:면",
+      "target": "untitled-ontology-39:Element"
+    },
+    {
+      "source": "untitled-ontology-39:부",
+      "target": "untitled-ontology-39:Element"
+    },
+    {
+      "source": "untitled-ontology-39:점",
+      "target": "untitled-ontology-39:Element"
+    },
+    {
+      "source": "untitled-ontology-39:홀",
+      "target": "untitled-ontology-39:Element"
+    },
+    {
+      "source": "untitled-ontology-39:Purpose",
+      "target": "untitled-ontology-39:Task"
+    },
+    {
+      "source": "untitled-ontology-39:값설정",
+      "target": "untitled-ontology-39:Task"
+    },
+    {
+      "source": "untitled-ontology-39:공정",
+      "target": "untitled-ontology-39:Task"
+    },
+    {
+      "source": "untitled-ontology-39:방지",
+      "target": "untitled-ontology-39:Task"
+    },
+    {
+      "source": "untitled-ontology-39:작업",
+      "target": "untitled-ontology-39:Task"
+    },
+    {
+      "source": "untitled-ontology-39:적용",
+      "target": "untitled-ontology-39:Task"
+    },
+    {
+      "source": "untitled-ontology-39:확보",
+      "target": "untitled-ontology-39:Task"
+    },
+    {
+      "source": "untitled-ontology-39:SubComponent",
+      "target": "untitled-ontology-39:MaterialEntity"
+    },
+    {
+      "source": "untitled-ontology-39:VehiclePart",
+      "target": "untitled-ontology-39:MaterialEntity"
+    },
+    {
+      "source": "untitled-ontology-39:TR",
+      "target": "untitled-ontology-39:공정"
+    },
+    {
+      "source": "untitled-ontology-39:기타공정",
+      "target": "untitled-ontology-39:공정"
+    },
+    {
+      "source": "untitled-ontology-39:마운팅",
+      "target": "untitled-ontology-39:공정"
+    },
+    {
+      "source": "untitled-ontology-39:버링",
+      "target": "untitled-ontology-39:공정"
+    },
+    {
+      "source": "untitled-ontology-39:브레이징",
+      "target": "untitled-ontology-39:공정"
+    },
+    {
+      "source": "untitled-ontology-39:실러공정",
+      "target": "untitled-ontology-39:공정"
+    },
+    {
+      "source": "untitled-ontology-39:용접",
+      "target": "untitled-ontology-39:공정"
+    },
+    {
+      "source": "untitled-ontology-39:전착",
+      "target": "untitled-ontology-39:공정"
+    },
+    {
+      "source": "untitled-ontology-39:포밍",
+      "target": "untitled-ontology-39:공정"
+    },
+    {
+      "source": "untitled-ontology-39:프레스",
+      "target": "untitled-ontology-39:공정"
+    },
+    {
+      "source": "untitled-ontology-39:피어싱",
+      "target": "untitled-ontology-39:공정"
+    },
+    {
+      "source": "untitled-ontology-39:헤밍",
+      "target": "untitled-ontology-39:공정"
+    },
+    {
+      "source": "untitled-ontology-39:TR부",
+      "target": "untitled-ontology-39:공정부"
+    },
+    {
+      "source": "untitled-ontology-39:clinchg부",
+      "target": "untitled-ontology-39:공정부"
+    },
+    {
+      "source": "untitled-ontology-39:노출부",
+      "target": "untitled-ontology-39:공정부"
+    },
+    {
+      "source": "untitled-ontology-39:돌출부",
+      "target": "untitled-ontology-39:공정부"
+    },
+    {
+      "source": "untitled-ontology-39:마운팅부",
+      "target": "untitled-ontology-39:공정부"
+    },
+    {
+      "source": "untitled-ontology-39:매칭부",
+      "target": "untitled-ontology-39:공정부"
+    },
+    {
+      "source": "untitled-ontology-39:실링부",
+      "target": "untitled-ontology-39:공정부"
+    },
+    {
+      "source": "untitled-ontology-39:연결부",
+      "target": "untitled-ontology-39:공정부"
+    },
+    {
+      "source": "untitled-ontology-39:오버랩부",
+      "target": "untitled-ontology-39:공정부"
+    },
+    {
+      "source": "untitled-ontology-39:용접부",
+      "target": "untitled-ontology-39:공정부"
+    },
+    {
+      "source": "untitled-ontology-39:장착부",
+      "target": "untitled-ontology-39:공정부"
+    },
+    {
+      "source": "untitled-ontology-39:장착홀부",
+      "target": "untitled-ontology-39:공정부"
+    },
+    {
+      "source": "untitled-ontology-39:접합부",
+      "target": "untitled-ontology-39:공정부"
+    },
+    {
+      "source": "untitled-ontology-39:체결부",
+      "target": "untitled-ontology-39:공정부"
+    },
+    {
+      "source": "untitled-ontology-39:포밍부",
+      "target": "untitled-ontology-39:공정부"
+    },
+    {
+      "source": "untitled-ontology-39:헤밍부",
+      "target": "untitled-ontology-39:공정부"
+    },
+    {
+      "source": "untitled-ontology-39:TaskTable",
+      "target": "untitled-ontology-39:Table"
+    },
+    {
+      "source": "untitled-ontology-39:VehicleTypeTable",
+      "target": "untitled-ontology-39:Table"
+    },
+    {
+      "source": "untitled-ontology-39:가거치작업",
+      "target": "untitled-ontology-39:작업"
+    },
+    {
+      "source": "untitled-ontology-39:걸림턱작업",
+      "target": "untitled-ontology-39:작업"
+    },
+    {
+      "source": "untitled-ontology-39:고정",
+      "target": "untitled-ontology-39:작업"
+    },
+    {
+      "source": "untitled-ontology-39:끼움",
+      "target": "untitled-ontology-39:작업"
+    },
+    {
+      "source": "untitled-ontology-39:덮기",
+      "target": "untitled-ontology-39:작업"
+    },
+    {
+      "source": "untitled-ontology-39:도장",
+      "target": "untitled-ontology-39:작업"
+    },
+    {
+      "source": "untitled-ontology-39:도포",
+      "target": "untitled-ontology-39:작업"
+    },
+    {
+      "source": "untitled-ontology-39:드레인유도",
+      "target": "untitled-ontology-39:작업"
+    },
+    {
+      "source": "untitled-ontology-39:라운드처리",
+      "target": "untitled-ontology-39:작업"
+    },
+    {
+      "source": "untitled-ontology-39:매칭",
+      "target": "untitled-ontology-39:작업"
+    },
+    {
+      "source": "untitled-ontology-39:면작업",
+      "target": "untitled-ontology-39:작업"
+    },
+    {
+      "source": "untitled-ontology-39:모따기",
+      "target": "untitled-ontology-39:작업"
+    },
+    {
+      "source": "untitled-ontology-39:변경",
+      "target": "untitled-ontology-39:작업"
+    },
+    {
+      "source": "untitled-ontology-39:삭제",
+      "target": "untitled-ontology-39:작업"
+    },
+    {
+      "source": "untitled-ontology-39:삽입",
+      "target": "untitled-ontology-39:작업"
+    },
+    {
+      "source": "untitled-ontology-39:서변화",
+      "target": "untitled-ontology-39:작업"
+    },
+    {
+      "source": "untitled-ontology-39:선조립",
+      "target": "untitled-ontology-39:작업"
+    },
+    {
+      "source": "untitled-ontology-39:성형",
+      "target": "untitled-ontology-39:작업"
+    },
+    {
+      "source": "untitled-ontology-39:압축",
+      "target": "untitled-ontology-39:작업"
+    },
+    {
+      "source": "untitled-ontology-39:연결",
+      "target": "untitled-ontology-39:작업"
+    },
+    {
+      "source": "untitled-ontology-39:연장",
+      "target": "untitled-ontology-39:작업"
+    },
+    {
+      "source": "untitled-ontology-39:와이어링",
+      "target": "untitled-ontology-39:작업"
+    },
+    {
+      "source": "untitled-ontology-39:완화",
+      "target": "untitled-ontology-39:작업"
+    },
+    {
+      "source": "untitled-ontology-39:유지보수",
+      "target": "untitled-ontology-39:작업"
+    },
+    {
+      "source": "untitled-ontology-39:이송",
+      "target": "untitled-ontology-39:작업"
+    },
+    {
+      "source": "untitled-ontology-39:장착",
+      "target": "untitled-ontology-39:작업"
+    },
+    {
+      "source": "untitled-ontology-39:점검",
+      "target": "untitled-ontology-39:작업"
+    },
+    {
+      "source": "untitled-ontology-39:제작",
+      "target": "untitled-ontology-39:작업"
+    },
+    {
+      "source": "untitled-ontology-39:조립",
+      "target": "untitled-ontology-39:작업"
+    },
+    {
+      "source": "untitled-ontology-39:주걱",
+      "target": "untitled-ontology-39:작업"
+    },
+    {
+      "source": "untitled-ontology-39:직선화",
+      "target": "untitled-ontology-39:작업"
+    },
+    {
+      "source": "untitled-ontology-39:체결",
+      "target": "untitled-ontology-39:작업"
+    },
+    {
+      "source": "untitled-ontology-39:커넥터작업",
+      "target": "untitled-ontology-39:작업"
+    },
+    {
+      "source": "untitled-ontology-39:통과",
+      "target": "untitled-ontology-39:작업"
+    },
+    {
+      "source": "untitled-ontology-39:투입",
+      "target": "untitled-ontology-39:작업"
+    },
+    {
+      "source": "untitled-ontology-39:파팅",
+      "target": "untitled-ontology-39:작업"
+    },
+    {
+      "source": "untitled-ontology-39:펼침",
+      "target": "untitled-ontology-39:작업"
+    },
+    {
+      "source": "ns5:S작업",
+      "target": "untitled-ontology-39:작업"
+    },
+    {
+      "source": "untitled-ontology-39:간격확보",
+      "target": "untitled-ontology-39:확보"
+    },
+    {
+      "source": "untitled-ontology-39:강도확보",
+      "target": "untitled-ontology-39:확보"
+    },
+    {
+      "source": "untitled-ontology-39:강성확보",
+      "target": "untitled-ontology-39:확보"
+    },
+    {
+      "source": "untitled-ontology-39:공간확보",
+      "target": "untitled-ontology-39:확보"
+    },
+    {
+      "source": "untitled-ontology-39:단면확보",
+      "target": "untitled-ontology-39:확보"
+    },
+    {
+      "source": "untitled-ontology-39:생산성개선",
+      "target": "untitled-ontology-39:확보"
+    },
+    {
+      "source": "untitled-ontology-39:성형성확보",
+      "target": "untitled-ontology-39:확보"
+    },
+    {
+      "source": "untitled-ontology-39:수치확보",
+      "target": "untitled-ontology-39:확보"
+    },
+    {
+      "source": "untitled-ontology-39:시인성개선",
+      "target": "untitled-ontology-39:확보"
+    },
+    {
+      "source": "untitled-ontology-39:실러메움성향상",
+      "target": "untitled-ontology-39:확보"
+    },
+    {
+      "source": "untitled-ontology-39:작업성확보",
+      "target": "untitled-ontology-39:확보"
+    },
+    {
+      "source": "untitled-ontology-39:품질확보",
+      "target": "untitled-ontology-39:확보"
+    },
+    {
+      "source": "untitled-ontology-39:겹침부",
+      "target": "untitled-ontology-39:위치부"
+    },
+    {
+      "source": "untitled-ontology-39:곡선부",
+      "target": "untitled-ontology-39:위치부"
+    },
+    {
+      "source": "untitled-ontology-39:골조부",
+      "target": "untitled-ontology-39:위치부"
+    },
+    {
+      "source": "untitled-ontology-39:그림_설명의_빗금부",
+      "target": "untitled-ontology-39:위치부"
+    },
+    {
+      "source": "untitled-ontology-39:끝단부",
+      "target": "untitled-ontology-39:위치부"
+    },
+    {
+      "source": "untitled-ontology-39:누름부",
+      "target": "untitled-ontology-39:위치부"
+    },
+    {
+      "source": "untitled-ontology-39:능선부",
+      "target": "untitled-ontology-39:위치부"
+    },
+    {
+      "source": "untitled-ontology-39:박판부",
+      "target": "untitled-ontology-39:위치부"
+    },
+    {
+      "source": "untitled-ontology-39:사이드부",
+      "target": "untitled-ontology-39:위치부"
+    },
+    {
+      "source": "untitled-ontology-39:삽입부",
+      "target": "untitled-ontology-39:위치부"
+    },
+    {
+      "source": "untitled-ontology-39:상단부",
+      "target": "untitled-ontology-39:위치부"
+    },
+    {
+      "source": "untitled-ontology-39:수직부",
+      "target": "untitled-ontology-39:위치부"
+    },
+    {
+      "source": "untitled-ontology-39:일반부",
+      "target": "untitled-ontology-39:위치부"
+    },
+    {
+      "source": "untitled-ontology-39:작업부",
+      "target": "untitled-ontology-39:위치부"
+    },
+    {
+      "source": "untitled-ontology-39:전방부",
+      "target": "untitled-ontology-39:위치부"
+    },
+    {
+      "source": "untitled-ontology-39:중앙부",
+      "target": "untitled-ontology-39:위치부"
+    },
+    {
+      "source": "untitled-ontology-39:직선부",
+      "target": "untitled-ontology-39:위치부"
+    },
+    {
+      "source": "untitled-ontology-39:측면부",
+      "target": "untitled-ontology-39:위치부"
+    },
+    {
+      "source": "untitled-ontology-39:측벽부",
+      "target": "untitled-ontology-39:위치부"
+    },
+    {
+      "source": "untitled-ontology-39:코너부",
+      "target": "untitled-ontology-39:위치부"
+    },
+    {
+      "source": "untitled-ontology-39:쿼더런트부",
+      "target": "untitled-ontology-39:위치부"
+    },
+    {
+      "source": "untitled-ontology-39:하단부",
+      "target": "untitled-ontology-39:위치부"
+    },
+    {
+      "source": "untitled-ontology-39:후방부",
+      "target": "untitled-ontology-39:위치부"
+    },
+    {
+      "source": "untitled-ontology-39:후판부",
+      "target": "untitled-ontology-39:위치부"
+    },
+    {
+      "source": "ns6:g부",
+      "target": "untitled-ontology-39:위치부"
+    },
+    {
+      "source": "untitled-ontology-39:고정홀",
+      "target": "untitled-ontology-39:홀"
+    },
+    {
+      "source": "untitled-ontology-39:그로멧홀",
+      "target": "untitled-ontology-39:홀"
+    },
+    {
+      "source": "untitled-ontology-39:드레인홀",
+      "target": "untitled-ontology-39:홀"
+    },
+    {
+      "source": "untitled-ontology-39:마운팅홀",
+      "target": "untitled-ontology-39:홀"
+    },
+    {
+      "source": "untitled-ontology-39:왁스홀",
+      "target": "untitled-ontology-39:홀"
+    },
+    {
+      "source": "untitled-ontology-39:체결홀",
+      "target": "untitled-ontology-39:홀"
+    },
+    {
+      "source": "untitled-ontology-39:툴링홀",
+      "target": "untitled-ontology-39:홀"
+    },
+    {
+      "source": "untitled-ontology-39:프레임홀",
+      "target": "untitled-ontology-39:홀"
+    },
+    {
+      "source": "untitled-ontology-39:공정부",
+      "target": "untitled-ontology-39:부"
+    },
+    {
+      "source": "untitled-ontology-39:위치부",
+      "target": "untitled-ontology-39:부"
+    },
+    {
+      "source": "untitled-ontology-39:구조적용",
+      "target": "untitled-ontology-39:적용"
+    },
+    {
+      "source": "untitled-ontology-39:노치적용",
+      "target": "untitled-ontology-39:적용"
+    },
+    {
+      "source": "untitled-ontology-39:단차적용",
+      "target": "untitled-ontology-39:적용"
+    },
+    {
+      "source": "untitled-ontology-39:마킹적용",
+      "target": "untitled-ontology-39:적용"
+    },
+    {
+      "source": "untitled-ontology-39:면적적용",
+      "target": "untitled-ontology-39:적용"
+    },
+    {
+      "source": "untitled-ontology-39:방향설정",
+      "target": "untitled-ontology-39:적용"
+    },
+    {
+      "source": "untitled-ontology-39:부품적용",
+      "target": "untitled-ontology-39:적용"
+    },
+    {
+      "source": "untitled-ontology-39:색상설정",
+      "target": "untitled-ontology-39:적용"
+    },
+    {
+      "source": "untitled-ontology-39:수치적용",
+      "target": "untitled-ontology-39:적용"
+    },
+    {
+      "source": "untitled-ontology-39:위치설정",
+      "target": "untitled-ontology-39:적용"
+    },
+    {
+      "source": "untitled-ontology-39:이원화",
+      "target": "untitled-ontology-39:적용"
+    },
+    {
+      "source": "untitled-ontology-39:일원화",
+      "target": "untitled-ontology-39:적용"
+    },
+    {
+      "source": "untitled-ontology-39:조건적용",
+      "target": "untitled-ontology-39:적용"
+    },
+    {
+      "source": "untitled-ontology-39:크기변경",
+      "target": "untitled-ontology-39:적용"
+    },
+    {
+      "source": "untitled-ontology-39:타입적용",
+      "target": "untitled-ontology-39:적용"
+    },
+    {
+      "source": "untitled-ontology-39:피치설정",
+      "target": "untitled-ontology-39:적용"
+    },
+    {
+      "source": "untitled-ontology-39:형상적용",
+      "target": "untitled-ontology-39:적용"
+    },
+    {
+      "source": "untitled-ontology-39:홀설정",
+      "target": "untitled-ontology-39:적용"
+    },
+    {
+      "source": "untitled-ontology-39:용접점",
+      "target": "untitled-ontology-39:점"
+    },
+    {
+      "source": "untitled-ontology-39:축소",
+      "target": "untitled-ontology-39:크기변경"
+    },
+    {
+      "source": "untitled-ontology-39:확대",
+      "target": "untitled-ontology-39:크기변경"
+    },
+    {
+      "source": "untitled-ontology-39:Type",
+      "target": "owl:Thing"
+    },
+    {
+      "source": "untitled-ontology-39:Comparison",
+      "target": "owl:Thing"
+    },
+    {
+      "source": "untitled-ontology-39:Location",
+      "target": "owl:Thing"
+    },
+    {
+      "source": "untitled-ontology-39:Content",
+      "target": "owl:Thing"
+    },
+    {
+      "source": "untitled-ontology-39:Task",
+      "target": "owl:Thing"
+    },
+    {
+      "source": "untitled-ontology-39:Issue",
+      "target": "owl:Thing"
+    }
+  ]
+}

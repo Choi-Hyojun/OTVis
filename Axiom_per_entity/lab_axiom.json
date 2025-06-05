@@ -1,0 +1,906 @@
+{
+  "classes": {
+    "ActivityStatusType": {
+      "equivalentClass": [
+        "{omitted, completed, incomplete}"
+      ]
+    },
+    "CountingType": {
+      "equivalentClass": [
+        "{_20_0, _305_285}"
+      ]
+    },
+    "DiagnosisType": {
+      "equivalentClass": [
+        "{predementia, dementia, healthy}"
+      ]
+    },
+    "GenderType": {
+      "equivalentClass": [
+        "{male, female}"
+      ]
+    },
+    "HealthyControlParticipant": {
+      "equivalentClass": [
+        "[hasRecord some (ClinicalRecord and [containsAssessment some (DiagnosisAssessment and [hasClinicalDiagnosis some {healthy}])])]"
+      ]
+    },
+    "LateralityType": {
+      "equivalentClass": [
+        "{left_handed, right_handed}"
+      ]
+    },
+    "PersonWithDementia": {
+      "equivalentClass": [
+        "[hasRecord some (ClinicalRecord and [containsAssessment some (DiagnosisAssessment and [hasClinicalDiagnosis some {dementia}])])]"
+      ]
+    },
+    "PersonWithPredementia": {
+      "equivalentClass": [
+        "[hasRecord some (ClinicalRecord and [containsAssessment some (DiagnosisAssessment and [hasClinicalDiagnosis some {predementia}])])]"
+      ]
+    },
+    "AutonomyAssessment": {
+      "propertyRestrictions": [
+        "[iadl_e only xsd:int]",
+        "[iadl_e exactly 1 xsd:int]"
+      ]
+    },
+    "ClinicalRecord": {
+      "propertyRestrictions": [
+        "[containsAssessment exactly 1 AutonomyAssessment]",
+        "[containsAssessment exactly 1 MotricityAbilitiesAssessment]",
+        "[containsAssessment exactly 1 CognitiveAbilitiesAssessment]",
+        "[containsAssessment only (AutonomyAssessment or CognitiveAbilitiesAssessment or DiagnosisAssessment or MotricityAbilitiesAssessment or NeuropsychiatricAndMoodAssessment)]",
+        "[containsAssessment exactly 1 DiagnosisAssessment]"
+      ]
+    },
+    "CognitiveAbilitiesAssessment": {
+      "propertyRestrictions": [
+        "[fabScore exactly 1 xsd:int]",
+        "[freeAndCuedRemindingAssessment exactly 1 xsd:string]",
+        "[hasMMSEScore exactly 1 xsd:int]",
+        "[trailMakingTest only xsd:string]",
+        "[trailMakingTest exactly 1 xsd:string]",
+        "[shortCognitiveBatteryAssessment only xsd:string]",
+        "[freeAndCuedRemindingAssessment only xsd:string]",
+        "[hasMMSEScore only xsd:int]",
+        "[shortCognitiveBatteryAssessment exactly 1 xsd:string]",
+        "[fabScore only xsd:int]"
+      ]
+    },
+    "CognitiveAbilitiesData": {
+      "propertyRestrictions": [
+        "[status exactly 1 ActivityStatusType]",
+        "[repetitions exactly 1]",
+        "[repetitions only rdfs:Literal]",
+        "[compliantInstructionsOrder only xsd:boolean]",
+        "[compliantInstructionsOrder exactly 1 xsd:boolean]",
+        "[taskDuration only time:DurationDescription]",
+        "[taskDuration exactly 1 time:DurationDescription]",
+        "[status only ActivityStatusType]"
+      ]
+    },
+    "CognitiveLoadAssessment": {
+      "propertyRestrictions": [
+        "[hasDualTaskScore exactly 1]",
+        "[hasMonoTaskScore exactly 1]",
+        "[hasMonoTaskScore only rdfs:Literal]",
+        "[hasDualTaskScore only rdfs:Literal]"
+      ]
+    },
+    "DemographicCharacteristicsRecord": {
+      "propertyRestrictions": [
+        "[dateOfBirth only xsd:dateTime]",
+        "[gender only GenderType]",
+        "[laterality only LateralityType]",
+        "[size exactly 1]",
+        "[educationLevel only rdfs:Literal]",
+        "[educationLevel exactly 1]",
+        "[gender exactly 1 GenderType]",
+        "[size only rdfs:Literal]",
+        "[dateOfBirth exactly 1 xsd:dateTime]"
+      ]
+    },
+    "DiagnosisAssessment": {
+      "propertyRestrictions": [
+        "[hasClinicalDiagnosis only DiagnosisType]",
+        "[hasClinicalDiagnosis exactly 1 DiagnosisType]"
+      ]
+    },
+    "DiscussionInvolvementData": {
+      "propertyRestrictions": [
+        "[verbalReactionSpontaneity exactly 1]",
+        "[verbalReactionSpontaneity only rdfs:Literal]"
+      ]
+    },
+    "DiscussionTask": {
+      "propertyRestrictions": [
+        "[measuredData some StressData]",
+        "[measuredData some MoodVoiceData]",
+        "[measuredData only (MoodVoiceData or StressData)]"
+      ]
+    },
+    "ExperimentalAssessment": {
+      "propertyRestrictions": [
+        "[hasScore only rdfs:Literal]",
+        "[hasScore exactly 1]"
+      ]
+    },
+    "ExperimentalDiagnosisAssessment": {
+      "propertyRestrictions": [
+        "[hasExperimentalDiagnosis only DiagnosisType]"
+      ]
+    },
+    "ExperimentalRecord": {
+      "propertyRestrictions": [
+        "[containsAssessment exactly 1 ExperimentalDiagnosisAssessment]",
+        "[containsAssessment exactly 1 CognitiveLoadAssessment]",
+        "[containsAssessment only (AbilityToOrganiseAssessment or ApathyAssessment or CognitiveLoadAssessment or ExperimentalDiagnosisAssessment or FunctionalAbilityAssessment or GaitAssessment or MemorySelfAppraisalAssessment or StressAssessment)]",
+        "[containsAssessment exactly 1 AbilityToOrganiseAssessment]",
+        "[containsAssessment exactly 1 FunctionalAbilityAssessment]",
+        "[containsAssessment exactly 1 MemorySelfAppraisalAssessment]",
+        "[containsAssessment exactly 1 GaitAssessment]",
+        "[containsAssessment exactly 1 ApathyAssessment]",
+        "[containsAssessment exactly 1 StressAssessment]"
+      ]
+    },
+    "FunctionalAbilitiesData": {
+      "propertyRestrictions": [
+        "[handTrajectory exactly 1 HandTrajectoryType]",
+        "[handTrajectory only HandTrajectoryType]"
+      ]
+    },
+    "GaitAssessment": {
+      "propertyRestrictions": [
+        "[hasMonoTaskScore exactly 1]",
+        "[hasMonoTaskScore only rdfs:Literal]",
+        "[hasDualTaskScore only rdfs:Literal]",
+        "[hasDualTaskScore exactly 1]"
+      ]
+    },
+    "GaitData": {
+      "propertyRestrictions": [
+        "[walkingSpeedInstantaneous only rdfs:Literal]",
+        "[walkingSpeed only rdfs:Literal]",
+        "[stepLength only rdfs:Literal]",
+        "[dynamicBalance exactly 1]",
+        "[walkingSpeedInstantaneous exactly 1]",
+        "[walkingSpeed exactly 1]",
+        "[stoppingDisplacement exactly 1 xsd:boolean]",
+        "[stepLength exactly 1]",
+        "[dynamicBalance only rdfs:Literal]",
+        "[stoppingDisplacement only xsd:boolean]"
+      ]
+    },
+    "LatencyData": {
+      "propertyRestrictions": [
+        "[latency exactly 1]",
+        "[latency only rdfs:Literal]"
+      ]
+    },
+    "MotricityAbilitiesAssessment": {
+      "propertyRestrictions": [
+        "[hasUPDRSScore exactly 1 xsd:int]",
+        "[hasUPDRSScore only xsd:int]"
+      ]
+    },
+    "NeuropsychiatricAndMoodAssessment": {
+      "propertyRestrictions": [
+        "[npi only xsd:string]",
+        "[npi exactly 1 xsd:string]",
+        "[dsm_ivDepressionCriteria exactly 1 xsd:string]",
+        "[apathyInventory exactly 1 xsd:string]",
+        "[dsm_ivDepressionCriteria only xsd:string]",
+        "[apathyInventory only xsd:string]"
+      ]
+    },
+    "OrganisationEfficiencyData": {
+      "propertyRestrictions": [
+        "[distanceWalked only rdfs:Literal]",
+        "[areasOfInterestExplored only rdfs:Literal]",
+        "[areasOfNoInterestExplored only rdfs:Literal]",
+        "[areasOfNoInterestExplored exactly 1]",
+        "[areasOfInterestExplored exactly 1]",
+        "[distanceWalked exactly 1]"
+      ]
+    },
+    "Person": {
+      "propertyRestrictions": [
+        "[participates some Protocol]",
+        "[hasRecord some ClinicalRecord]",
+        "[hasRecord only (ClinicalRecord or DemographicCharacteristicsRecord or ExperimentalRecord)]",
+        "[hasRecord some ExperimentalRecord]",
+        "[hasRecord some DemographicCharacteristicsRecord]",
+        "[participates only Protocol]"
+      ]
+    },
+    "Protocol": {
+      "propertyRestrictions": [
+        "[protocolStep some ProtocolStep]",
+        "[protocolStep only ProtocolStep]",
+        "[date exactly 1 xsd:dateTime]",
+        "[hasParticipant exactly 1 Person]",
+        "[hasParticipant only Person]",
+        "[date only xsd:dateTime]"
+      ]
+    },
+    "ProtocolStep": {
+      "propertyRestrictions": [
+        "[involvesTask some Task]",
+        "[endTime only time:Instant]",
+        "[startTime exactly 1 time:Instant]",
+        "[startTime only time:Instant]",
+        "[endTime exactly 1 time:Instant]",
+        "[involvesTask only Task]"
+      ]
+    },
+    "S1_DirectedActivitiesStep": {
+      "propertyRestrictions": [
+        "[involvesTask exactly 1 S1_P11_WalkingTask]",
+        "[involvesTask exactly 1 S1_P13_WalkingCountingBackwardsTask]",
+        "[involvesTask exactly 1 S1_P21_SentenceRepeatingTask]",
+        "[involvesTask only (S1_P11_WalkingTask or S1_P12_CountingBackwardsTask or S1_P13_WalkingCountingBackwardsTask or S1_P21_SentenceRepeatingTask or S1_P22_ArticulationControlTask or Task)]",
+        "[involvesTask exactly 1 S1_P22_ArticulationControlTask]",
+        "[involvesTask exactly 1 S1_P12_CountingBackwardsTask]"
+      ]
+    },
+    "S1_P11_WalkingTask": {
+      "propertyRestrictions": [
+        "[measuredData some LatencyData]",
+        "[measuredData only (GaitData or LatencyData or StressData)]",
+        "[measuredData some GaitData]"
+      ]
+    },
+    "S1_P12_CountingBackwardsTask": {
+      "propertyRestrictions": [
+        "[measuredData some LatencyData]",
+        "[measuredData only (LatencyData or MoodVoiceData or StressData)]",
+        "[countingType only {_20_0, _305_285}]",
+        "[measuredData some MoodVoiceData]"
+      ]
+    },
+    "S1_P13_WalkingCountingBackwardsTask": {
+      "propertyRestrictions": [
+        "[measuredData some MoodVoiceData]",
+        "[countingType only CountingType]",
+        "[measuredData some LatencyData]",
+        "[measuredData some GaitData]",
+        "[countingType some CountingType]",
+        "[measuredData only (GaitData or LatencyData or MoodVoiceData or StressData)]"
+      ]
+    },
+    "S1_P21_SentenceRepeatingTask": {
+      "propertyRestrictions": [
+        "[measuredData some MoodVoiceData]",
+        "[measuredData only (LatencyData or MoodVoiceData or StressData)]",
+        "[measuredData some LatencyData]"
+      ]
+    },
+    "S1_P22_ArticulationControlTask": {
+      "propertyRestrictions": [
+        "[measuredData some LatencyData]",
+        "[measuredData only (LatencyData or StressData)]"
+      ]
+    },
+    "S2_SemiDirectedActivitiesStep": {
+      "propertyRestrictions": [
+        "[involvesTask exactly 1 TurnOnTVTask]",
+        "[involvesTask exactly 1 WaterPlantTask]",
+        "[involvesTask exactly 1 PrepareHotTeaTask]",
+        "[involvesTask exactly 1 CallPsychologistTask]",
+        "[involvesTask exactly 1 AnswerPhoneTask]",
+        "[involvesTask exactly 1 FindBusLineOnMapTask]",
+        "[involvesTask only (AnswerPhoneTask or CallPsychologistTask or EstablishAccountBalanceTask or FindBusLineOnMapTask or LeaveRoomTask or PayBillTask or PrepareDrugBoxTask or PrepareHotTeaTask or Task or TurnOnTVTask or WaterPlantTask)]",
+        "[involvesTask exactly 1 PayBillTask]",
+        "[involvesTask exactly 1 EstablishAccountBalanceTask]",
+        "[involvesTask exactly 1 LeaveRoomTask]",
+        "[involvesTask exactly 1 PrepareDrugBoxTask]"
+      ]
+    },
+    "S3_DiscussionWithClinicianStep": {
+      "propertyRestrictions": [
+        "[involvesTask only (S3_P1_DirectedExpressionTask or S3_P21_PictureDescriptionTask or Task)]",
+        "[involvesTask exactly 1 S3_P1_DirectedExpressionTask]",
+        "[involvesTask exactly 1 S3_P21_PictureDescriptionTask]"
+      ]
+    },
+    "S3_P1_DirectedExpressionTask": {
+      "propertyRestrictions": [
+        "[measuredData some MoodVoiceData]",
+        "[measuredData only (MoodVoiceData or StressData)]"
+      ]
+    },
+    "SemiDirectedTask": {
+      "propertyRestrictions": [
+        "[measuredData some FunctionalAbilitiesData]",
+        "[measuredData some CognitiveAbilitiesData]",
+        "[measuredData only (CognitiveAbilitiesData or FunctionalAbilitiesData or StressData)]"
+      ]
+    },
+    "StressData": {
+      "propertyRestrictions": [
+        "[stressLevel exactly 1]",
+        "[stressLevel only rdfs:Literal]"
+      ]
+    },
+    "Task": {
+      "propertyRestrictions": [
+        "[startTime exactly 1 time:Instant]",
+        "[measuredData some StressData]",
+        "[startTime only time:Instant]",
+        "[endTime exactly 1 time:Instant]",
+        "[endTime only time:Instant]",
+        "[measuredData only StressData]"
+      ]
+    }
+  },
+  "properties": {
+    "handTrajectory": {
+      "characteristics": [],
+      "domain": [
+        "None"
+      ],
+      "range": [
+        "None"
+      ],
+      "subPropertyOf": [],
+      "inverseOf": []
+    },
+    "protocolStep": {
+      "characteristics": [],
+      "domain": [
+        "None"
+      ],
+      "range": [
+        "None"
+      ],
+      "subPropertyOf": [],
+      "inverseOf": []
+    },
+    "areasOfInterestExplored": {
+      "characteristics": [],
+      "domain": [
+        "None"
+      ],
+      "range": [
+        "rdfs:Literal"
+      ],
+      "subPropertyOf": [],
+      "inverseOf": []
+    },
+    "latency": {
+      "characteristics": [],
+      "domain": [
+        "None"
+      ],
+      "range": [
+        "None"
+      ],
+      "subPropertyOf": [],
+      "inverseOf": []
+    },
+    "hasMMSEScore": {
+      "characteristics": [],
+      "domain": [
+        "None"
+      ],
+      "range": [
+        "None"
+      ],
+      "subPropertyOf": [],
+      "inverseOf": []
+    },
+    "countingType": {
+      "characteristics": [],
+      "domain": [
+        "None"
+      ],
+      "range": [
+        "None"
+      ],
+      "subPropertyOf": [],
+      "inverseOf": []
+    },
+    "trailMakingTest": {
+      "characteristics": [],
+      "domain": [
+        "None"
+      ],
+      "range": [
+        "None"
+      ],
+      "subPropertyOf": [],
+      "inverseOf": []
+    },
+    "stepLength": {
+      "characteristics": [],
+      "domain": [
+        "None"
+      ],
+      "range": [
+        "None"
+      ],
+      "subPropertyOf": [
+        "owl:topDataProperty"
+      ],
+      "inverseOf": []
+    },
+    "walkingSpeed": {
+      "characteristics": [],
+      "domain": [
+        "None"
+      ],
+      "range": [
+        "None"
+      ],
+      "subPropertyOf": [],
+      "inverseOf": []
+    },
+    "date": {
+      "characteristics": [],
+      "domain": [
+        "None"
+      ],
+      "range": [
+        "None"
+      ],
+      "subPropertyOf": [],
+      "inverseOf": []
+    },
+    "hasUPDRSScore": {
+      "characteristics": [],
+      "domain": [
+        "None"
+      ],
+      "range": [
+        "None"
+      ],
+      "subPropertyOf": [],
+      "inverseOf": []
+    },
+    "involvesTask": {
+      "characteristics": [],
+      "domain": [
+        "None"
+      ],
+      "range": [
+        "None"
+      ],
+      "subPropertyOf": [],
+      "inverseOf": []
+    },
+    "hasExperimentalDiagnosis": {
+      "characteristics": [],
+      "domain": [
+        "None"
+      ],
+      "range": [
+        "None"
+      ],
+      "subPropertyOf": [
+        "hasDiagnosis"
+      ],
+      "inverseOf": []
+    },
+    "containedInContext": {
+      "characteristics": [],
+      "domain": [
+        "None"
+      ],
+      "range": [
+        "None"
+      ],
+      "subPropertyOf": [],
+      "inverseOf": []
+    },
+    "measuredData": {
+      "characteristics": [],
+      "domain": [
+        "None"
+      ],
+      "range": [
+        "None"
+      ],
+      "subPropertyOf": [],
+      "inverseOf": []
+    },
+    "educationLevel": {
+      "characteristics": [],
+      "domain": [
+        "None"
+      ],
+      "range": [
+        "None"
+      ],
+      "subPropertyOf": [],
+      "inverseOf": []
+    },
+    "compliantInstructionsOrder": {
+      "characteristics": [],
+      "domain": [
+        "None"
+      ],
+      "range": [
+        "xsd:boolean"
+      ],
+      "subPropertyOf": [],
+      "inverseOf": []
+    },
+    "dsm_ivDepressionCriteria": {
+      "characteristics": [],
+      "domain": [
+        "None"
+      ],
+      "range": [
+        "None"
+      ],
+      "subPropertyOf": [],
+      "inverseOf": []
+    },
+    "apathyInventory": {
+      "characteristics": [],
+      "domain": [
+        "None"
+      ],
+      "range": [
+        "None"
+      ],
+      "subPropertyOf": [
+        "owl:topDataProperty"
+      ],
+      "inverseOf": []
+    },
+    "hasRecord": {
+      "characteristics": [],
+      "domain": [
+        "None"
+      ],
+      "range": [
+        "None"
+      ],
+      "subPropertyOf": [],
+      "inverseOf": []
+    },
+    "repetitions": {
+      "characteristics": [],
+      "domain": [
+        "None"
+      ],
+      "range": [
+        "None"
+      ],
+      "subPropertyOf": [],
+      "inverseOf": []
+    },
+    "startTime": {
+      "characteristics": [],
+      "domain": [
+        "None"
+      ],
+      "range": [
+        "None"
+      ],
+      "subPropertyOf": [],
+      "inverseOf": []
+    },
+    "freeAndCuedRemindingAssessment": {
+      "characteristics": [],
+      "domain": [
+        "None"
+      ],
+      "range": [
+        "None"
+      ],
+      "subPropertyOf": [],
+      "inverseOf": []
+    },
+    "status": {
+      "characteristics": [],
+      "domain": [
+        "None"
+      ],
+      "range": [
+        "None"
+      ],
+      "subPropertyOf": [],
+      "inverseOf": []
+    },
+    "iadl_e": {
+      "characteristics": [],
+      "domain": [
+        "None"
+      ],
+      "range": [
+        "None"
+      ],
+      "subPropertyOf": [],
+      "inverseOf": []
+    },
+    "hasMonoTaskScore": {
+      "characteristics": [],
+      "domain": [
+        "None"
+      ],
+      "range": [
+        "None"
+      ],
+      "subPropertyOf": [
+        "hasScore"
+      ],
+      "inverseOf": []
+    },
+    "verbalReactionSpontaneity": {
+      "characteristics": [],
+      "domain": [
+        "None"
+      ],
+      "range": [
+        "None"
+      ],
+      "subPropertyOf": [],
+      "inverseOf": []
+    },
+    "stoppingDisplacement": {
+      "characteristics": [],
+      "domain": [
+        "None"
+      ],
+      "range": [
+        "None"
+      ],
+      "subPropertyOf": [],
+      "inverseOf": []
+    },
+    "containsAssessment": {
+      "characteristics": [],
+      "domain": [
+        "None"
+      ],
+      "range": [
+        "None"
+      ],
+      "subPropertyOf": [],
+      "inverseOf": []
+    },
+    "dynamicBalance": {
+      "characteristics": [],
+      "domain": [
+        "None"
+      ],
+      "range": [
+        "None"
+      ],
+      "subPropertyOf": [],
+      "inverseOf": []
+    },
+    "gender": {
+      "characteristics": [],
+      "domain": [
+        "None"
+      ],
+      "range": [
+        "None"
+      ],
+      "subPropertyOf": [],
+      "inverseOf": []
+    },
+    "hasParticipant": {
+      "characteristics": [],
+      "domain": [
+        "None"
+      ],
+      "range": [
+        "None"
+      ],
+      "subPropertyOf": [],
+      "inverseOf": []
+    },
+    "taskDuration": {
+      "characteristics": [],
+      "domain": [
+        "None"
+      ],
+      "range": [
+        "None"
+      ],
+      "subPropertyOf": [],
+      "inverseOf": []
+    },
+    "distanceWalked": {
+      "characteristics": [],
+      "domain": [
+        "None"
+      ],
+      "range": [
+        "None"
+      ],
+      "subPropertyOf": [],
+      "inverseOf": []
+    },
+    "participates": {
+      "characteristics": [],
+      "domain": [
+        "None"
+      ],
+      "range": [
+        "None"
+      ],
+      "subPropertyOf": [
+        "owl:topObjectProperty"
+      ],
+      "inverseOf": [
+        "hasParticipant"
+      ]
+    },
+    "size": {
+      "characteristics": [],
+      "domain": [
+        "None"
+      ],
+      "range": [
+        "None"
+      ],
+      "subPropertyOf": [],
+      "inverseOf": []
+    },
+    "stressLevel": {
+      "characteristics": [],
+      "domain": [
+        "None"
+      ],
+      "range": [
+        "None"
+      ],
+      "subPropertyOf": [],
+      "inverseOf": []
+    },
+    "fabScore": {
+      "characteristics": [],
+      "domain": [
+        "None"
+      ],
+      "range": [
+        "None"
+      ],
+      "subPropertyOf": [],
+      "inverseOf": []
+    },
+    "hasClinicalDiagnosis": {
+      "characteristics": [],
+      "domain": [
+        "None"
+      ],
+      "range": [
+        "None"
+      ],
+      "subPropertyOf": [
+        "hasDiagnosis"
+      ],
+      "inverseOf": []
+    },
+    "hasDiagnosis": {
+      "characteristics": [],
+      "domain": [
+        "None"
+      ],
+      "range": [
+        "None"
+      ],
+      "subPropertyOf": [],
+      "inverseOf": []
+    },
+    "dateOfBirth": {
+      "characteristics": [],
+      "domain": [
+        "None"
+      ],
+      "range": [
+        "None"
+      ],
+      "subPropertyOf": [],
+      "inverseOf": []
+    },
+    "shortCognitiveBatteryAssessment": {
+      "characteristics": [],
+      "domain": [
+        "None"
+      ],
+      "range": [
+        "None"
+      ],
+      "subPropertyOf": [],
+      "inverseOf": []
+    },
+    "areasOfNoInterestExplored": {
+      "characteristics": [],
+      "domain": [
+        "None"
+      ],
+      "range": [
+        "rdfs:Literal"
+      ],
+      "subPropertyOf": [],
+      "inverseOf": []
+    },
+    "endTime": {
+      "characteristics": [],
+      "domain": [
+        "None"
+      ],
+      "range": [
+        "None"
+      ],
+      "subPropertyOf": [],
+      "inverseOf": []
+    },
+    "npi": {
+      "characteristics": [],
+      "domain": [
+        "None"
+      ],
+      "range": [
+        "None"
+      ],
+      "subPropertyOf": [],
+      "inverseOf": []
+    },
+    "hasScore": {
+      "characteristics": [],
+      "domain": [
+        "None"
+      ],
+      "range": [
+        "None"
+      ],
+      "subPropertyOf": [],
+      "inverseOf": []
+    },
+    "laterality": {
+      "characteristics": [],
+      "domain": [
+        "None"
+      ],
+      "range": [
+        "None"
+      ],
+      "subPropertyOf": [],
+      "inverseOf": []
+    },
+    "before": {
+      "characteristics": [],
+      "domain": [
+        "None"
+      ],
+      "range": [
+        "None"
+      ],
+      "subPropertyOf": [],
+      "inverseOf": []
+    },
+    "hasDualTaskScore": {
+      "characteristics": [],
+      "domain": [
+        "None"
+      ],
+      "range": [
+        "None"
+      ],
+      "subPropertyOf": [
+        "hasScore"
+      ],
+      "inverseOf": []
+    },
+    "walkingSpeedInstantaneous": {
+      "characteristics": [],
+      "domain": [
+        "None"
+      ],
+      "range": [
+        "None"
+      ],
+      "subPropertyOf": [],
+      "inverseOf": []
+    }
+  }
+}

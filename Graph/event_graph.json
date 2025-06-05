@@ -1,0 +1,1022 @@
+{
+  "nodes": [
+    {
+      "id": "Active"
+    },
+    {
+      "id": "Activity",
+      "axioms": {
+        "propertyRestrictions": [
+          "[hasAgent exactly 1 Person]",
+          "[hasAgent some Person]"
+        ]
+      }
+    },
+    {
+      "id": "AlarmClock"
+    },
+    {
+      "id": "AlarmClockRinging",
+      "axioms": {
+        "propertyRestrictions": [
+          "[hasAgent some AlarmClock]"
+        ]
+      }
+    },
+    {
+      "id": "AmbientMeasurement",
+      "axioms": {
+        "propertyRestrictions": [
+          "[refersTo only Room]"
+        ]
+      }
+    },
+    {
+      "id": "AnswerPhoneCall"
+    },
+    {
+      "id": "Apnea"
+    },
+    {
+      "id": "Appliance"
+    },
+    {
+      "id": "Arousal"
+    },
+    {
+      "id": "AtomicActivity"
+    },
+    {
+      "id": "Bathroom"
+    },
+    {
+      "id": "Bed"
+    },
+    {
+      "id": "BedExit"
+    },
+    {
+      "id": "Bedroom"
+    },
+    {
+      "id": "Book"
+    },
+    {
+      "id": "Bucket"
+    },
+    {
+      "id": "Carer"
+    },
+    {
+      "id": "Chair"
+    },
+    {
+      "id": "ChangeOrientation",
+      "description": {
+        "rdfs:comment": "WIMU"
+      }
+    },
+    {
+      "id": "ChangePosture",
+      "description": {
+        "rdfs:comment": "WIMU"
+      }
+    },
+    {
+      "id": "Clinician"
+    },
+    {
+      "id": "Closed"
+    },
+    {
+      "id": "ComplexActivity"
+    },
+    {
+      "id": "Cooker"
+    },
+    {
+      "id": "Couch"
+    },
+    {
+      "id": "Cup"
+    },
+    {
+      "id": "Cuttlery"
+    },
+    {
+      "id": "Cycling"
+    },
+    {
+      "id": "DangerousBedExit"
+    },
+    {
+      "id": "DialNumber"
+    },
+    {
+      "id": "Door"
+    },
+    {
+      "id": "DoorBell"
+    },
+    {
+      "id": "DoorClosed",
+      "axioms": {
+        "propertyRestrictions": [
+          "[hasAgent some Door]"
+        ]
+      }
+    },
+    {
+      "id": "DoorOpen",
+      "axioms": {
+        "propertyRestrictions": [
+          "[hasAgent some Door]"
+        ]
+      }
+    },
+    {
+      "id": "Drink"
+    },
+    {
+      "id": "Eat"
+    },
+    {
+      "id": "Entity"
+    },
+    {
+      "id": "Event",
+      "axioms": {
+        "propertyRestrictions": [
+          "[startTime only time:Instant]",
+          "[duration only time:DurationDescription]",
+          "[startTime exactly 1 time:Instant]",
+          "[duration exactly 1 time:DurationDescription]"
+        ]
+      }
+    },
+    {
+      "id": "FaceToFaceInteraction"
+    },
+    {
+      "id": "Fall",
+      "description": {
+        "rdfs:comment": "if not supported by LCS"
+      }
+    },
+    {
+      "id": "FoodAndDrinkConsumption"
+    },
+    {
+      "id": "Fridge"
+    },
+    {
+      "id": "Furniture"
+    },
+    {
+      "id": "Glass"
+    },
+    {
+      "id": "HaveBreakfast"
+    },
+    {
+      "id": "HaveDinner"
+    },
+    {
+      "id": "HaveDrink"
+    },
+    {
+      "id": "HaveLunch"
+    },
+    {
+      "id": "HaveMeal"
+    },
+    {
+      "id": "HaveSnack"
+    },
+    {
+      "id": "HeartRate",
+      "axioms": {
+        "propertyRestrictions": [
+          "[hasRate exactly 1]",
+          "[hasRate some rdfs:Literal]"
+        ]
+      },
+      "description": {
+        "rdfs:comment": "DTI-2"
+      }
+    },
+    {
+      "id": "InLocation",
+      "axioms": {
+        "propertyRestrictions": [
+          "[roomLocalisation some Room]"
+        ]
+      }
+    },
+    {
+      "id": "InRoom",
+      "axioms": {
+        "propertyRestrictions": [
+          "[roomLocalisation some Place]"
+        ]
+      }
+    },
+    {
+      "id": "IndoorPhysicalActivity"
+    },
+    {
+      "id": "Kettle"
+    },
+    {
+      "id": "KettleOff",
+      "axioms": {
+        "propertyRestrictions": [
+          "[hasAgent some Kettle]"
+        ]
+      }
+    },
+    {
+      "id": "KettleOn",
+      "axioms": {
+        "propertyRestrictions": [
+          "[hasAgent some Kettle]"
+        ]
+      }
+    },
+    {
+      "id": "Kitchen"
+    },
+    {
+      "id": "KitchenPress"
+    },
+    {
+      "id": "LightLevel",
+      "axioms": {
+        "propertyRestrictions": [
+          "[hasLightLevel some rdfs:Literal]",
+          "[hasLightLevel exactly 1]"
+        ]
+      }
+    },
+    {
+      "id": "LivingRoom"
+    },
+    {
+      "id": "LongBedExit"
+    },
+    {
+      "id": "LongNap",
+      "description": {
+        "rdfs:comment": "duration of longer than 30 minutes"
+      }
+    },
+    {
+      "id": "LongTableExit"
+    },
+    {
+      "id": "Lying",
+      "axioms": {
+        "propertyRestrictions": [
+          "[objectLocalisation some Furniture]"
+        ]
+      }
+    },
+    {
+      "id": "MakePhoneCall"
+    },
+    {
+      "id": "Measurement",
+      "axioms": {
+        "propertyRestrictions": [
+          "[hasQuality only PhysicalQuality]",
+          "[refersTo exactly 1 Entity]",
+          "[hasValue exactly 1]",
+          "[hasValue some rdfs:Literal]",
+          "[hasQuality exactly 1 PhysicalQuality]",
+          "[refersTo only Entity]"
+        ]
+      }
+    },
+    {
+      "id": "Mop"
+    },
+    {
+      "id": "MoveLimb"
+    },
+    {
+      "id": "Moving"
+    },
+    {
+      "id": "Nap"
+    },
+    {
+      "id": "NapAfterLunch"
+    },
+    {
+      "id": "NearObject",
+      "axioms": {
+        "propertyRestrictions": [
+          "[objectLocalisation some Object]"
+        ]
+      }
+    },
+    {
+      "id": "NightBathroomVisit"
+    },
+    {
+      "id": "NightKitchenVisit"
+    },
+    {
+      "id": "NightLivingRoomVisit"
+    },
+    {
+      "id": "NightRoomVisit"
+    },
+    {
+      "id": "NightSleep",
+      "description": {
+        "rdfs:comment": "The entire sleep (including relevant inferences during the sleep)"
+      }
+    },
+    {
+      "id": "NoiseLevel",
+      "axioms": {
+        "propertyRestrictions": [
+          "[hasNoiseLevel exactly 1]",
+          "[hasNoiseLevel some rdfs:Literal]"
+        ]
+      }
+    },
+    {
+      "id": "Object"
+    },
+    {
+      "id": "ObjectEvent",
+      "axioms": {
+        "propertyRestrictions": [
+          "[hasAgent exactly 1 Object]",
+          "[hasAgent some Object]"
+        ]
+      }
+    },
+    {
+      "id": "Off"
+    },
+    {
+      "id": "On"
+    },
+    {
+      "id": "Open"
+    },
+    {
+      "id": "OutdoorPhysicalActivity"
+    },
+    {
+      "id": "Outdoors"
+    },
+    {
+      "id": "Patient"
+    },
+    {
+      "id": "Person"
+    },
+    {
+      "id": "PhoneRinging",
+      "axioms": {
+        "propertyRestrictions": [
+          "[hasAgent some Telephone]"
+        ]
+      }
+    },
+    {
+      "id": "PhysicalActivity"
+    },
+    {
+      "id": "PhysiologicalMeasurement",
+      "axioms": {
+        "propertyRestrictions": [
+          "[refersTo only Patient]"
+        ]
+      }
+    },
+    {
+      "id": "PickUpPhone"
+    },
+    {
+      "id": "Place"
+    },
+    {
+      "id": "Plate"
+    },
+    {
+      "id": "Posture"
+    },
+    {
+      "id": "PrepareDrink"
+    },
+    {
+      "id": "PrepareHotTea"
+    },
+    {
+      "id": "PrepareMeal"
+    },
+    {
+      "id": "RemoteControl"
+    },
+    {
+      "id": "Rest",
+      "description": {
+        "rdfs:comment": "DTI-2"
+      }
+    },
+    {
+      "id": "Ringing"
+    },
+    {
+      "id": "Room"
+    },
+    {
+      "id": "Running"
+    },
+    {
+      "id": "Sitting",
+      "axioms": {
+        "propertyRestrictions": [
+          "[objectLocalisation some Furniture]"
+        ]
+      }
+    },
+    {
+      "id": "SittingToStanding"
+    },
+    {
+      "id": "SkinConductivity",
+      "axioms": {
+        "propertyRestrictions": [
+          "[hasConductivity only rdfs:Literal]",
+          "[hasConductivity exactly 1]"
+        ]
+      }
+    },
+    {
+      "id": "SkinTemperature",
+      "axioms": {
+        "propertyRestrictions": [
+          "[hasTemperature some rdfs:Literal]",
+          "[hasTemperature exactly 1]"
+        ]
+      }
+    },
+    {
+      "id": "Sleep",
+      "description": {
+        "rdfs:comment": "Gear 4 / DTI-2"
+      }
+    },
+    {
+      "id": "SocialInteraction"
+    },
+    {
+      "id": "Speak"
+    },
+    {
+      "id": "StandingToSitting"
+    },
+    {
+      "id": "State"
+    },
+    {
+      "id": "StepCounting",
+      "description": {
+        "rdfs:comment": "WIMU"
+      }
+    },
+    {
+      "id": "TV"
+    },
+    {
+      "id": "Table"
+    },
+    {
+      "id": "TableExit"
+    },
+    {
+      "id": "Telephone"
+    },
+    {
+      "id": "TelephoneInteraction"
+    },
+    {
+      "id": "UseObject"
+    },
+    {
+      "id": "Walk"
+    },
+    {
+      "id": "WashingMachine"
+    },
+    {
+      "id": "WaterCan"
+    },
+    {
+      "id": "Window"
+    },
+    {
+      "id": "owl:Thing"
+    }
+  ],
+  "links": [
+    {
+      "source": "Active",
+      "target": "State"
+    },
+    {
+      "source": "Apnea",
+      "target": "State"
+    },
+    {
+      "source": "Arousal",
+      "target": "State"
+    },
+    {
+      "source": "MoveLimb",
+      "target": "State"
+    },
+    {
+      "source": "Posture",
+      "target": "State"
+    },
+    {
+      "source": "Rest",
+      "target": "State"
+    },
+    {
+      "source": "Activity",
+      "target": "Event"
+    },
+    {
+      "source": "Measurement",
+      "target": "Event"
+    },
+    {
+      "source": "ObjectEvent",
+      "target": "Event"
+    },
+    {
+      "source": "AlarmClock",
+      "target": "Object"
+    },
+    {
+      "source": "Appliance",
+      "target": "Object"
+    },
+    {
+      "source": "Book",
+      "target": "Object"
+    },
+    {
+      "source": "Bucket",
+      "target": "Object"
+    },
+    {
+      "source": "Cup",
+      "target": "Object"
+    },
+    {
+      "source": "Cuttlery",
+      "target": "Object"
+    },
+    {
+      "source": "Door",
+      "target": "Object"
+    },
+    {
+      "source": "DoorBell",
+      "target": "Object"
+    },
+    {
+      "source": "Furniture",
+      "target": "Object"
+    },
+    {
+      "source": "Glass",
+      "target": "Object"
+    },
+    {
+      "source": "KitchenPress",
+      "target": "Object"
+    },
+    {
+      "source": "Mop",
+      "target": "Object"
+    },
+    {
+      "source": "Plate",
+      "target": "Object"
+    },
+    {
+      "source": "RemoteControl",
+      "target": "Object"
+    },
+    {
+      "source": "Telephone",
+      "target": "Object"
+    },
+    {
+      "source": "WaterCan",
+      "target": "Object"
+    },
+    {
+      "source": "Window",
+      "target": "Object"
+    },
+    {
+      "source": "AlarmClockRinging",
+      "target": "Ringing"
+    },
+    {
+      "source": "PhoneRinging",
+      "target": "Ringing"
+    },
+    {
+      "source": "AmbientMeasurement",
+      "target": "Measurement"
+    },
+    {
+      "source": "PhysiologicalMeasurement",
+      "target": "Measurement"
+    },
+    {
+      "source": "AnswerPhoneCall",
+      "target": "TelephoneInteraction"
+    },
+    {
+      "source": "MakePhoneCall",
+      "target": "TelephoneInteraction"
+    },
+    {
+      "source": "AtomicActivity",
+      "target": "Activity"
+    },
+    {
+      "source": "ComplexActivity",
+      "target": "Activity"
+    },
+    {
+      "source": "Bathroom",
+      "target": "Room"
+    },
+    {
+      "source": "Bedroom",
+      "target": "Room"
+    },
+    {
+      "source": "Kitchen",
+      "target": "Room"
+    },
+    {
+      "source": "LivingRoom",
+      "target": "Room"
+    },
+    {
+      "source": "Bed",
+      "target": "Furniture"
+    },
+    {
+      "source": "Chair",
+      "target": "Furniture"
+    },
+    {
+      "source": "Couch",
+      "target": "Furniture"
+    },
+    {
+      "source": "Table",
+      "target": "Furniture"
+    },
+    {
+      "source": "BedExit",
+      "target": "ComplexActivity"
+    },
+    {
+      "source": "Fall",
+      "target": "ComplexActivity"
+    },
+    {
+      "source": "FoodAndDrinkConsumption",
+      "target": "ComplexActivity"
+    },
+    {
+      "source": "Nap",
+      "target": "ComplexActivity"
+    },
+    {
+      "source": "NightSleep",
+      "target": "ComplexActivity"
+    },
+    {
+      "source": "PrepareDrink",
+      "target": "ComplexActivity"
+    },
+    {
+      "source": "PrepareMeal",
+      "target": "ComplexActivity"
+    },
+    {
+      "source": "SocialInteraction",
+      "target": "ComplexActivity"
+    },
+    {
+      "source": "TableExit",
+      "target": "ComplexActivity"
+    },
+    {
+      "source": "Carer",
+      "target": "Person"
+    },
+    {
+      "source": "Clinician",
+      "target": "Person"
+    },
+    {
+      "source": "Patient",
+      "target": "Person"
+    },
+    {
+      "source": "ChangeOrientation",
+      "target": "AtomicActivity"
+    },
+    {
+      "source": "ChangePosture",
+      "target": "AtomicActivity"
+    },
+    {
+      "source": "DialNumber",
+      "target": "AtomicActivity"
+    },
+    {
+      "source": "Drink",
+      "target": "AtomicActivity"
+    },
+    {
+      "source": "Eat",
+      "target": "AtomicActivity"
+    },
+    {
+      "source": "InLocation",
+      "target": "AtomicActivity"
+    },
+    {
+      "source": "PhysicalActivity",
+      "target": "AtomicActivity"
+    },
+    {
+      "source": "PickUpPhone",
+      "target": "AtomicActivity"
+    },
+    {
+      "source": "Sleep",
+      "target": "AtomicActivity"
+    },
+    {
+      "source": "Speak",
+      "target": "AtomicActivity"
+    },
+    {
+      "source": "State",
+      "target": "AtomicActivity"
+    },
+    {
+      "source": "StepCounting",
+      "target": "AtomicActivity"
+    },
+    {
+      "source": "UseObject",
+      "target": "AtomicActivity"
+    },
+    {
+      "source": "Walk",
+      "target": "AtomicActivity"
+    },
+    {
+      "source": "Closed",
+      "target": "ObjectEvent"
+    },
+    {
+      "source": "Off",
+      "target": "ObjectEvent"
+    },
+    {
+      "source": "On",
+      "target": "ObjectEvent"
+    },
+    {
+      "source": "Open",
+      "target": "ObjectEvent"
+    },
+    {
+      "source": "Ringing",
+      "target": "ObjectEvent"
+    },
+    {
+      "source": "Cooker",
+      "target": "Appliance"
+    },
+    {
+      "source": "Fridge",
+      "target": "Appliance"
+    },
+    {
+      "source": "Kettle",
+      "target": "Appliance"
+    },
+    {
+      "source": "TV",
+      "target": "Appliance"
+    },
+    {
+      "source": "WashingMachine",
+      "target": "Appliance"
+    },
+    {
+      "source": "Cycling",
+      "target": "OutdoorPhysicalActivity"
+    },
+    {
+      "source": "Running",
+      "target": "OutdoorPhysicalActivity"
+    },
+    {
+      "source": "DangerousBedExit",
+      "target": "BedExit"
+    },
+    {
+      "source": "LongBedExit",
+      "target": "BedExit"
+    },
+    {
+      "source": "NightRoomVisit",
+      "target": "BedExit"
+    },
+    {
+      "source": "DoorClosed",
+      "target": "Closed"
+    },
+    {
+      "source": "DoorOpen",
+      "target": "Open"
+    },
+    {
+      "source": "FaceToFaceInteraction",
+      "target": "SocialInteraction"
+    },
+    {
+      "source": "TelephoneInteraction",
+      "target": "SocialInteraction"
+    },
+    {
+      "source": "HaveBreakfast",
+      "target": "HaveMeal"
+    },
+    {
+      "source": "HaveDinner",
+      "target": "HaveMeal"
+    },
+    {
+      "source": "HaveLunch",
+      "target": "HaveMeal"
+    },
+    {
+      "source": "HaveDrink",
+      "target": "FoodAndDrinkConsumption"
+    },
+    {
+      "source": "HaveMeal",
+      "target": "FoodAndDrinkConsumption"
+    },
+    {
+      "source": "HaveSnack",
+      "target": "FoodAndDrinkConsumption"
+    },
+    {
+      "source": "HeartRate",
+      "target": "PhysiologicalMeasurement"
+    },
+    {
+      "source": "SkinConductivity",
+      "target": "PhysiologicalMeasurement"
+    },
+    {
+      "source": "SkinTemperature",
+      "target": "PhysiologicalMeasurement"
+    },
+    {
+      "source": "InRoom",
+      "target": "InLocation"
+    },
+    {
+      "source": "NearObject",
+      "target": "InLocation"
+    },
+    {
+      "source": "Outdoors",
+      "target": "InLocation"
+    },
+    {
+      "source": "IndoorPhysicalActivity",
+      "target": "PhysicalActivity"
+    },
+    {
+      "source": "OutdoorPhysicalActivity",
+      "target": "PhysicalActivity"
+    },
+    {
+      "source": "KettleOff",
+      "target": "Off"
+    },
+    {
+      "source": "KettleOn",
+      "target": "On"
+    },
+    {
+      "source": "LightLevel",
+      "target": "AmbientMeasurement"
+    },
+    {
+      "source": "NoiseLevel",
+      "target": "AmbientMeasurement"
+    },
+    {
+      "source": "LongNap",
+      "target": "Nap"
+    },
+    {
+      "source": "NapAfterLunch",
+      "target": "Nap"
+    },
+    {
+      "source": "LongTableExit",
+      "target": "TableExit"
+    },
+    {
+      "source": "Lying",
+      "target": "Posture"
+    },
+    {
+      "source": "Sitting",
+      "target": "Posture"
+    },
+    {
+      "source": "Moving",
+      "target": "Active"
+    },
+    {
+      "source": "NightBathroomVisit",
+      "target": "NightRoomVisit"
+    },
+    {
+      "source": "NightKitchenVisit",
+      "target": "NightRoomVisit"
+    },
+    {
+      "source": "NightLivingRoomVisit",
+      "target": "NightRoomVisit"
+    },
+    {
+      "source": "Object",
+      "target": "Entity"
+    },
+    {
+      "source": "Person",
+      "target": "Entity"
+    },
+    {
+      "source": "Place",
+      "target": "Entity"
+    },
+    {
+      "source": "PrepareHotTea",
+      "target": "PrepareDrink"
+    },
+    {
+      "source": "Room",
+      "target": "Place"
+    },
+    {
+      "source": "SittingToStanding",
+      "target": "ChangePosture"
+    },
+    {
+      "source": "StandingToSitting",
+      "target": "ChangePosture"
+    },
+    {
+      "source": "Event",
+      "target": "owl:Thing"
+    },
+    {
+      "source": "Entity",
+      "target": "owl:Thing"
+    }
+  ]
+}

@@ -1,0 +1,753 @@
+{
+  "nodes": [
+    {
+      "id": "AbilityToOrganiseAssessment"
+    },
+    {
+      "id": "ActivityStatusType",
+      "axioms": {
+        "equivalentClass": [
+          "{omitted, completed, incomplete}"
+        ]
+      }
+    },
+    {
+      "id": "AnswerPhoneTask"
+    },
+    {
+      "id": "ApathyAssessment"
+    },
+    {
+      "id": "AutonomyAssessment",
+      "axioms": {
+        "propertyRestrictions": [
+          "[iadl_e only xsd:int]",
+          "[iadl_e exactly 1 xsd:int]"
+        ]
+      }
+    },
+    {
+      "id": "CallPsychologistTask"
+    },
+    {
+      "id": "ClinicalAssessment"
+    },
+    {
+      "id": "CognitiveAbilitiesAssessment",
+      "axioms": {
+        "propertyRestrictions": [
+          "[fabScore exactly 1 xsd:int]",
+          "[freeAndCuedRemindingAssessment exactly 1 xsd:string]",
+          "[hasMMSEScore exactly 1 xsd:int]",
+          "[trailMakingTest only xsd:string]",
+          "[trailMakingTest exactly 1 xsd:string]",
+          "[shortCognitiveBatteryAssessment only xsd:string]",
+          "[freeAndCuedRemindingAssessment only xsd:string]",
+          "[hasMMSEScore only xsd:int]",
+          "[shortCognitiveBatteryAssessment exactly 1 xsd:string]",
+          "[fabScore only xsd:int]"
+        ]
+      }
+    },
+    {
+      "id": "CognitiveAbilitiesData",
+      "axioms": {
+        "propertyRestrictions": [
+          "[status exactly 1 ActivityStatusType]",
+          "[repetitions exactly 1]",
+          "[repetitions only rdfs:Literal]",
+          "[compliantInstructionsOrder only xsd:boolean]",
+          "[compliantInstructionsOrder exactly 1 xsd:boolean]",
+          "[taskDuration only time:DurationDescription]",
+          "[taskDuration exactly 1 time:DurationDescription]",
+          "[status only ActivityStatusType]"
+        ]
+      }
+    },
+    {
+      "id": "CognitiveLoadAssessment",
+      "axioms": {
+        "propertyRestrictions": [
+          "[hasDualTaskScore exactly 1]",
+          "[hasMonoTaskScore exactly 1]",
+          "[hasMonoTaskScore only rdfs:Literal]",
+          "[hasDualTaskScore only rdfs:Literal]"
+        ]
+      }
+    },
+    {
+      "id": "CountingType",
+      "axioms": {
+        "equivalentClass": [
+          "{_20_0, _305_285}"
+        ]
+      }
+    },
+    {
+      "id": "DiagnosisAssessment",
+      "axioms": {
+        "propertyRestrictions": [
+          "[hasClinicalDiagnosis only DiagnosisType]",
+          "[hasClinicalDiagnosis exactly 1 DiagnosisType]"
+        ]
+      }
+    },
+    {
+      "id": "DiagnosisType",
+      "axioms": {
+        "equivalentClass": [
+          "{predementia, dementia, healthy}"
+        ]
+      }
+    },
+    {
+      "id": "DirectedDiscussionTask"
+    },
+    {
+      "id": "DirectedTask"
+    },
+    {
+      "id": "DiscussionInvolvementData",
+      "axioms": {
+        "propertyRestrictions": [
+          "[verbalReactionSpontaneity exactly 1]",
+          "[verbalReactionSpontaneity only rdfs:Literal]"
+        ]
+      }
+    },
+    {
+      "id": "DiscussionTask",
+      "axioms": {
+        "propertyRestrictions": [
+          "[measuredData some StressData]",
+          "[measuredData some MoodVoiceData]",
+          "[measuredData only (MoodVoiceData or StressData)]"
+        ]
+      }
+    },
+    {
+      "id": "EstablishAccountBalanceTask"
+    },
+    {
+      "id": "ExperimentalAssessment",
+      "axioms": {
+        "propertyRestrictions": [
+          "[hasScore only rdfs:Literal]",
+          "[hasScore exactly 1]"
+        ]
+      }
+    },
+    {
+      "id": "ExperimentalDiagnosisAssessment",
+      "axioms": {
+        "propertyRestrictions": [
+          "[hasExperimentalDiagnosis only DiagnosisType]"
+        ]
+      }
+    },
+    {
+      "id": "FindBusLineOnMapTask"
+    },
+    {
+      "id": "FreeDiscussionTask"
+    },
+    {
+      "id": "FunctionalAbilitiesData",
+      "axioms": {
+        "propertyRestrictions": [
+          "[handTrajectory exactly 1 HandTrajectoryType]",
+          "[handTrajectory only HandTrajectoryType]"
+        ]
+      }
+    },
+    {
+      "id": "FunctionalAbilityAssessment"
+    },
+    {
+      "id": "GaitAssessment",
+      "axioms": {
+        "propertyRestrictions": [
+          "[hasMonoTaskScore exactly 1]",
+          "[hasMonoTaskScore only rdfs:Literal]",
+          "[hasDualTaskScore only rdfs:Literal]",
+          "[hasDualTaskScore exactly 1]"
+        ]
+      }
+    },
+    {
+      "id": "GaitData",
+      "axioms": {
+        "propertyRestrictions": [
+          "[walkingSpeedInstantaneous only rdfs:Literal]",
+          "[walkingSpeed only rdfs:Literal]",
+          "[stepLength only rdfs:Literal]",
+          "[dynamicBalance exactly 1]",
+          "[walkingSpeedInstantaneous exactly 1]",
+          "[walkingSpeed exactly 1]",
+          "[stoppingDisplacement exactly 1 xsd:boolean]",
+          "[stepLength exactly 1]",
+          "[dynamicBalance only rdfs:Literal]",
+          "[stoppingDisplacement only xsd:boolean]"
+        ]
+      }
+    },
+    {
+      "id": "GenderType",
+      "axioms": {
+        "equivalentClass": [
+          "{male, female}"
+        ]
+      }
+    },
+    {
+      "id": "HandTrajectoryType"
+    },
+    {
+      "id": "HealthyControlParticipant",
+      "axioms": {
+        "equivalentClass": [
+          "[hasRecord some (ClinicalRecord and [containsAssessment some (DiagnosisAssessment and [hasClinicalDiagnosis some {healthy}])])]"
+        ]
+      }
+    },
+    {
+      "id": "LatencyData",
+      "axioms": {
+        "propertyRestrictions": [
+          "[latency exactly 1]",
+          "[latency only rdfs:Literal]"
+        ]
+      }
+    },
+    {
+      "id": "LateralityType",
+      "axioms": {
+        "equivalentClass": [
+          "{left_handed, right_handed}"
+        ]
+      }
+    },
+    {
+      "id": "LeaveRoomTask"
+    },
+    {
+      "id": "MeasuredData"
+    },
+    {
+      "id": "MemorySelfAppraisalAssessment"
+    },
+    {
+      "id": "MoodVoiceData"
+    },
+    {
+      "id": "MotricityAbilitiesAssessment",
+      "axioms": {
+        "propertyRestrictions": [
+          "[hasUPDRSScore exactly 1 xsd:int]",
+          "[hasUPDRSScore only xsd:int]"
+        ]
+      }
+    },
+    {
+      "id": "NeuropsychiatricAndMoodAssessment",
+      "axioms": {
+        "propertyRestrictions": [
+          "[npi only xsd:string]",
+          "[npi exactly 1 xsd:string]",
+          "[dsm_ivDepressionCriteria exactly 1 xsd:string]",
+          "[apathyInventory exactly 1 xsd:string]",
+          "[dsm_ivDepressionCriteria only xsd:string]",
+          "[apathyInventory only xsd:string]"
+        ]
+      }
+    },
+    {
+      "id": "OrganisationEfficiencyData",
+      "axioms": {
+        "propertyRestrictions": [
+          "[distanceWalked only rdfs:Literal]",
+          "[areasOfInterestExplored only rdfs:Literal]",
+          "[areasOfNoInterestExplored only rdfs:Literal]",
+          "[areasOfNoInterestExplored exactly 1]",
+          "[areasOfInterestExplored exactly 1]",
+          "[distanceWalked exactly 1]"
+        ]
+      }
+    },
+    {
+      "id": "PayBillTask"
+    },
+    {
+      "id": "Person",
+      "axioms": {
+        "propertyRestrictions": [
+          "[participates some Protocol]",
+          "[hasRecord some ClinicalRecord]",
+          "[hasRecord only (ClinicalRecord or DemographicCharacteristicsRecord or ExperimentalRecord)]",
+          "[hasRecord some ExperimentalRecord]",
+          "[hasRecord some DemographicCharacteristicsRecord]",
+          "[participates only Protocol]"
+        ]
+      }
+    },
+    {
+      "id": "PersonWithDementia",
+      "axioms": {
+        "equivalentClass": [
+          "[hasRecord some (ClinicalRecord and [containsAssessment some (DiagnosisAssessment and [hasClinicalDiagnosis some {dementia}])])]"
+        ]
+      }
+    },
+    {
+      "id": "PersonWithPredementia",
+      "axioms": {
+        "equivalentClass": [
+          "[hasRecord some (ClinicalRecord and [containsAssessment some (DiagnosisAssessment and [hasClinicalDiagnosis some {predementia}])])]"
+        ]
+      }
+    },
+    {
+      "id": "PrepareDrugBoxTask"
+    },
+    {
+      "id": "PrepareHotTeaTask"
+    },
+    {
+      "id": "ProtocolStep",
+      "axioms": {
+        "propertyRestrictions": [
+          "[involvesTask some Task]",
+          "[endTime only time:Instant]",
+          "[startTime exactly 1 time:Instant]",
+          "[startTime only time:Instant]",
+          "[endTime exactly 1 time:Instant]",
+          "[involvesTask only Task]"
+        ]
+      }
+    },
+    {
+      "id": "ReadArticleTask"
+    },
+    {
+      "id": "S1_DirectedActivitiesStep",
+      "axioms": {
+        "propertyRestrictions": [
+          "[involvesTask exactly 1 S1_P11_WalkingTask]",
+          "[involvesTask exactly 1 S1_P13_WalkingCountingBackwardsTask]",
+          "[involvesTask exactly 1 S1_P21_SentenceRepeatingTask]",
+          "[involvesTask only (S1_P11_WalkingTask or S1_P12_CountingBackwardsTask or S1_P13_WalkingCountingBackwardsTask or S1_P21_SentenceRepeatingTask or S1_P22_ArticulationControlTask or Task)]",
+          "[involvesTask exactly 1 S1_P22_ArticulationControlTask]",
+          "[involvesTask exactly 1 S1_P12_CountingBackwardsTask]"
+        ]
+      }
+    },
+    {
+      "id": "S1_P11_WalkingTask",
+      "axioms": {
+        "propertyRestrictions": [
+          "[measuredData some LatencyData]",
+          "[measuredData only (GaitData or LatencyData or StressData)]",
+          "[measuredData some GaitData]"
+        ]
+      }
+    },
+    {
+      "id": "S1_P12_CountingBackwardsTask",
+      "axioms": {
+        "propertyRestrictions": [
+          "[measuredData some LatencyData]",
+          "[measuredData only (LatencyData or MoodVoiceData or StressData)]",
+          "[countingType only {_20_0, _305_285}]",
+          "[measuredData some MoodVoiceData]"
+        ]
+      }
+    },
+    {
+      "id": "S1_P13_WalkingCountingBackwardsTask",
+      "axioms": {
+        "propertyRestrictions": [
+          "[measuredData some MoodVoiceData]",
+          "[countingType only CountingType]",
+          "[measuredData some LatencyData]",
+          "[measuredData some GaitData]",
+          "[countingType some CountingType]",
+          "[measuredData only (GaitData or LatencyData or MoodVoiceData or StressData)]"
+        ]
+      }
+    },
+    {
+      "id": "S1_P21_SentenceRepeatingTask",
+      "axioms": {
+        "propertyRestrictions": [
+          "[measuredData some MoodVoiceData]",
+          "[measuredData only (LatencyData or MoodVoiceData or StressData)]",
+          "[measuredData some LatencyData]"
+        ]
+      }
+    },
+    {
+      "id": "S1_P22_ArticulationControlTask",
+      "axioms": {
+        "propertyRestrictions": [
+          "[measuredData some LatencyData]",
+          "[measuredData only (LatencyData or StressData)]"
+        ]
+      }
+    },
+    {
+      "id": "S2_SemiDirectedActivitiesStep",
+      "axioms": {
+        "propertyRestrictions": [
+          "[involvesTask exactly 1 TurnOnTVTask]",
+          "[involvesTask exactly 1 WaterPlantTask]",
+          "[involvesTask exactly 1 PrepareHotTeaTask]",
+          "[involvesTask exactly 1 CallPsychologistTask]",
+          "[involvesTask exactly 1 AnswerPhoneTask]",
+          "[involvesTask exactly 1 FindBusLineOnMapTask]",
+          "[involvesTask only (AnswerPhoneTask or CallPsychologistTask or EstablishAccountBalanceTask or FindBusLineOnMapTask or LeaveRoomTask or PayBillTask or PrepareDrugBoxTask or PrepareHotTeaTask or Task or TurnOnTVTask or WaterPlantTask)]",
+          "[involvesTask exactly 1 PayBillTask]",
+          "[involvesTask exactly 1 EstablishAccountBalanceTask]",
+          "[involvesTask exactly 1 LeaveRoomTask]",
+          "[involvesTask exactly 1 PrepareDrugBoxTask]"
+        ]
+      }
+    },
+    {
+      "id": "S3_DiscussionWithClinicianStep",
+      "axioms": {
+        "propertyRestrictions": [
+          "[involvesTask only (S3_P1_DirectedExpressionTask or S3_P21_PictureDescriptionTask or Task)]",
+          "[involvesTask exactly 1 S3_P1_DirectedExpressionTask]",
+          "[involvesTask exactly 1 S3_P21_PictureDescriptionTask]"
+        ]
+      }
+    },
+    {
+      "id": "S3_P1_DirectedExpressionTask",
+      "axioms": {
+        "propertyRestrictions": [
+          "[measuredData some MoodVoiceData]",
+          "[measuredData only (MoodVoiceData or StressData)]"
+        ]
+      }
+    },
+    {
+      "id": "S3_P21_PictureDescriptionTask"
+    },
+    {
+      "id": "S3_P22_PictureDiscussionTask"
+    },
+    {
+      "id": "SemiDirectedTask",
+      "axioms": {
+        "propertyRestrictions": [
+          "[measuredData some FunctionalAbilitiesData]",
+          "[measuredData some CognitiveAbilitiesData]",
+          "[measuredData only (CognitiveAbilitiesData or FunctionalAbilitiesData or StressData)]"
+        ]
+      }
+    },
+    {
+      "id": "StressAssessment"
+    },
+    {
+      "id": "StressData",
+      "axioms": {
+        "propertyRestrictions": [
+          "[stressLevel exactly 1]",
+          "[stressLevel only rdfs:Literal]"
+        ]
+      }
+    },
+    {
+      "id": "Task",
+      "axioms": {
+        "propertyRestrictions": [
+          "[startTime exactly 1 time:Instant]",
+          "[measuredData some StressData]",
+          "[startTime only time:Instant]",
+          "[endTime exactly 1 time:Instant]",
+          "[endTime only time:Instant]",
+          "[measuredData only StressData]"
+        ]
+      }
+    },
+    {
+      "id": "TurnOnTVTask"
+    },
+    {
+      "id": "Type"
+    },
+    {
+      "id": "WaterPlantTask"
+    },
+    {
+      "id": "ns1:Person"
+    },
+    {
+      "id": "owl:Thing"
+    }
+  ],
+  "links": [
+    {
+      "source": "AbilityToOrganiseAssessment",
+      "target": "ExperimentalAssessment"
+    },
+    {
+      "source": "ApathyAssessment",
+      "target": "ExperimentalAssessment"
+    },
+    {
+      "source": "CognitiveLoadAssessment",
+      "target": "ExperimentalAssessment"
+    },
+    {
+      "source": "ExperimentalDiagnosisAssessment",
+      "target": "ExperimentalAssessment"
+    },
+    {
+      "source": "FunctionalAbilityAssessment",
+      "target": "ExperimentalAssessment"
+    },
+    {
+      "source": "GaitAssessment",
+      "target": "ExperimentalAssessment"
+    },
+    {
+      "source": "MemorySelfAppraisalAssessment",
+      "target": "ExperimentalAssessment"
+    },
+    {
+      "source": "StressAssessment",
+      "target": "ExperimentalAssessment"
+    },
+    {
+      "source": "ActivityStatusType",
+      "target": "Type"
+    },
+    {
+      "source": "CountingType",
+      "target": "Type"
+    },
+    {
+      "source": "DiagnosisType",
+      "target": "Type"
+    },
+    {
+      "source": "GenderType",
+      "target": "Type"
+    },
+    {
+      "source": "HandTrajectoryType",
+      "target": "Type"
+    },
+    {
+      "source": "LateralityType",
+      "target": "Type"
+    },
+    {
+      "source": "AnswerPhoneTask",
+      "target": "SemiDirectedTask"
+    },
+    {
+      "source": "CallPsychologistTask",
+      "target": "SemiDirectedTask"
+    },
+    {
+      "source": "EstablishAccountBalanceTask",
+      "target": "SemiDirectedTask"
+    },
+    {
+      "source": "FindBusLineOnMapTask",
+      "target": "SemiDirectedTask"
+    },
+    {
+      "source": "LeaveRoomTask",
+      "target": "SemiDirectedTask"
+    },
+    {
+      "source": "PayBillTask",
+      "target": "SemiDirectedTask"
+    },
+    {
+      "source": "PrepareDrugBoxTask",
+      "target": "SemiDirectedTask"
+    },
+    {
+      "source": "PrepareHotTeaTask",
+      "target": "SemiDirectedTask"
+    },
+    {
+      "source": "ReadArticleTask",
+      "target": "SemiDirectedTask"
+    },
+    {
+      "source": "TurnOnTVTask",
+      "target": "SemiDirectedTask"
+    },
+    {
+      "source": "WaterPlantTask",
+      "target": "SemiDirectedTask"
+    },
+    {
+      "source": "AutonomyAssessment",
+      "target": "ClinicalAssessment"
+    },
+    {
+      "source": "CognitiveAbilitiesAssessment",
+      "target": "ClinicalAssessment"
+    },
+    {
+      "source": "DiagnosisAssessment",
+      "target": "ClinicalAssessment"
+    },
+    {
+      "source": "MotricityAbilitiesAssessment",
+      "target": "ClinicalAssessment"
+    },
+    {
+      "source": "NeuropsychiatricAndMoodAssessment",
+      "target": "ClinicalAssessment"
+    },
+    {
+      "source": "CognitiveAbilitiesData",
+      "target": "MeasuredData"
+    },
+    {
+      "source": "DiscussionInvolvementData",
+      "target": "MeasuredData"
+    },
+    {
+      "source": "FunctionalAbilitiesData",
+      "target": "MeasuredData"
+    },
+    {
+      "source": "GaitData",
+      "target": "MeasuredData"
+    },
+    {
+      "source": "LatencyData",
+      "target": "MeasuredData"
+    },
+    {
+      "source": "MoodVoiceData",
+      "target": "MeasuredData"
+    },
+    {
+      "source": "OrganisationEfficiencyData",
+      "target": "MeasuredData"
+    },
+    {
+      "source": "StressData",
+      "target": "MeasuredData"
+    },
+    {
+      "source": "DirectedDiscussionTask",
+      "target": "DiscussionTask"
+    },
+    {
+      "source": "FreeDiscussionTask",
+      "target": "DiscussionTask"
+    },
+    {
+      "source": "DirectedTask",
+      "target": "Task"
+    },
+    {
+      "source": "DiscussionTask",
+      "target": "Task"
+    },
+    {
+      "source": "SemiDirectedTask",
+      "target": "Task"
+    },
+    {
+      "source": "HealthyControlParticipant",
+      "target": "Person"
+    },
+    {
+      "source": "PersonWithDementia",
+      "target": "Person"
+    },
+    {
+      "source": "PersonWithPredementia",
+      "target": "Person"
+    },
+    {
+      "source": "Person",
+      "target": "ns1:Person"
+    },
+    {
+      "source": "S1_DirectedActivitiesStep",
+      "target": "ProtocolStep"
+    },
+    {
+      "source": "S2_SemiDirectedActivitiesStep",
+      "target": "ProtocolStep"
+    },
+    {
+      "source": "S3_DiscussionWithClinicianStep",
+      "target": "ProtocolStep"
+    },
+    {
+      "source": "S1_P11_WalkingTask",
+      "target": "DirectedTask"
+    },
+    {
+      "source": "S1_P12_CountingBackwardsTask",
+      "target": "DirectedTask"
+    },
+    {
+      "source": "S1_P13_WalkingCountingBackwardsTask",
+      "target": "DirectedTask"
+    },
+    {
+      "source": "S1_P21_SentenceRepeatingTask",
+      "target": "DirectedTask"
+    },
+    {
+      "source": "S1_P22_ArticulationControlTask",
+      "target": "DirectedTask"
+    },
+    {
+      "source": "S3_P1_DirectedExpressionTask",
+      "target": "DirectedDiscussionTask"
+    },
+    {
+      "source": "S3_P21_PictureDescriptionTask",
+      "target": "FreeDiscussionTask"
+    },
+    {
+      "source": "S3_P22_PictureDiscussionTask",
+      "target": "FreeDiscussionTask"
+    },
+    {
+      "source": "Type",
+      "target": "owl:Thing"
+    },
+    {
+      "source": "ProtocolStep",
+      "target": "owl:Thing"
+    },
+    {
+      "source": "ns1:Person",
+      "target": "owl:Thing"
+    },
+    {
+      "source": "Task",
+      "target": "owl:Thing"
+    },
+    {
+      "source": "ClinicalAssessment",
+      "target": "owl:Thing"
+    },
+    {
+      "source": "MeasuredData",
+      "target": "owl:Thing"
+    },
+    {
+      "source": "ExperimentalAssessment",
+      "target": "owl:Thing"
+    }
+  ]
+}

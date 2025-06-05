@@ -1,0 +1,4257 @@
+{
+  "nodes": [
+    {
+      "id": "Add:complex"
+    },
+    {
+      "id": "Add:integer"
+    },
+    {
+      "id": "Add:rational"
+    },
+    {
+      "id": "Add:real"
+    },
+    {
+      "id": "Add:scaled"
+    },
+    {
+      "id": "And:boolean"
+    },
+    {
+      "id": "Append:sequence"
+    },
+    {
+      "id": "AttributeFunctionInvocation:class"
+    },
+    {
+      "id": "AttributeFunctionOverride:class"
+    },
+    {
+      "id": "AttributeReplace:class"
+    },
+    {
+      "id": "AttributeSelect:class"
+    },
+    {
+      "id": "Cast:choice"
+    },
+    {
+      "id": "DAG datatype",
+      "axioms": {
+        "propertyRestrictions": [
+          "[has_member some DAG datatype generator]"
+        ]
+      }
+    },
+    {
+      "id": "DAG datatype generator"
+    },
+    {
+      "id": "Datatype Specification Language Representation",
+      "axioms": {
+        "propertyRestrictions": [
+          "[represents some datatype]"
+        ]
+      }
+    },
+    {
+      "id": "Delete:bag",
+      "axioms": {
+        "disjointWith": [
+          "Delete:table"
+        ]
+      }
+    },
+    {
+      "id": "Delete:table"
+    },
+    {
+      "id": "Dereference:pointer"
+    },
+    {
+      "id": "Difference:set",
+      "axioms": {
+        "disjointWith": [
+          "Difference:time&date"
+        ]
+      }
+    },
+    {
+      "id": "Difference:time&date"
+    },
+    {
+      "id": "Discriminant:choice"
+    },
+    {
+      "id": "Divide:scaled"
+    },
+    {
+      "id": "Empty:bag"
+    },
+    {
+      "id": "Empty:sequence"
+    },
+    {
+      "id": "Empty:set"
+    },
+    {
+      "id": "Empty:table"
+    },
+    {
+      "id": "Equal:array"
+    },
+    {
+      "id": "Equal:bag"
+    },
+    {
+      "id": "Equal:boolean"
+    },
+    {
+      "id": "Equal:character"
+    },
+    {
+      "id": "Equal:choice"
+    },
+    {
+      "id": "Equal:class"
+    },
+    {
+      "id": "Equal:complex"
+    },
+    {
+      "id": "Equal:discrete"
+    },
+    {
+      "id": "Equal:enumerated"
+    },
+    {
+      "id": "Equal:integer"
+    },
+    {
+      "id": "Equal:ordinal"
+    },
+    {
+      "id": "Equal:pointer"
+    },
+    {
+      "id": "Equal:procedure"
+    },
+    {
+      "id": "Equal:rational"
+    },
+    {
+      "id": "Equal:real"
+    },
+    {
+      "id": "Equal:record"
+    },
+    {
+      "id": "Equal:scaled"
+    },
+    {
+      "id": "Equal:sequence"
+    },
+    {
+      "id": "Equal:set"
+    },
+    {
+      "id": "Equal:table"
+    },
+    {
+      "id": "Equal:time&date"
+    },
+    {
+      "id": "Equal:void"
+    },
+    {
+      "id": "Extend:time&date"
+    },
+    {
+      "id": "Fetch:table"
+    },
+    {
+      "id": "FieldReplace:record"
+    },
+    {
+      "id": "FieldSelect:record"
+    },
+    {
+      "id": "Head:sequence"
+    },
+    {
+      "id": "InOrder:enumerated"
+    },
+    {
+      "id": "InOrder:interger"
+    },
+    {
+      "id": "InOrder:ordinal"
+    },
+    {
+      "id": "InOrder:rational"
+    },
+    {
+      "id": "InOrder:real"
+    },
+    {
+      "id": "InOrder:scaled"
+    },
+    {
+      "id": "InOrder:time&date"
+    },
+    {
+      "id": "Insert:bag",
+      "axioms": {
+        "disjointWith": [
+          "Insert:table"
+        ]
+      }
+    },
+    {
+      "id": "Insert:table"
+    },
+    {
+      "id": "Intersection:set"
+    },
+    {
+      "id": "Invoke:procedure"
+    },
+    {
+      "id": "IsEmpty:bag"
+    },
+    {
+      "id": "IsEmpty:sequence"
+    },
+    {
+      "id": "IsEmpty:table"
+    },
+    {
+      "id": "Lsln:set"
+    },
+    {
+      "id": "MapToBag:table"
+    },
+    {
+      "id": "MapToTable:table"
+    },
+    {
+      "id": "Multiply:complex"
+    },
+    {
+      "id": "Multiply:integer"
+    },
+    {
+      "id": "Multiply:rational"
+    },
+    {
+      "id": "Multiply:real"
+    },
+    {
+      "id": "Multiply:scaled"
+    },
+    {
+      "id": "Negate:complex"
+    },
+    {
+      "id": "Negate:integer"
+    },
+    {
+      "id": "Negate:rational"
+    },
+    {
+      "id": "Negate:real"
+    },
+    {
+      "id": "Negate:scaled"
+    },
+    {
+      "id": "NonNegative:integer",
+      "axioms": {
+        "disjointWith": [
+          "NonNegative:rational"
+        ]
+      }
+    },
+    {
+      "id": "NonNegative:rational"
+    },
+    {
+      "id": "Not:boolean"
+    },
+    {
+      "id": "Or:boolean"
+    },
+    {
+      "id": "Promote:complex"
+    },
+    {
+      "id": "Promote:rational"
+    },
+    {
+      "id": "Promote:real"
+    },
+    {
+      "id": "Reciprocal:complex"
+    },
+    {
+      "id": "Reciprocal:rational"
+    },
+    {
+      "id": "Reciprocal:real"
+    },
+    {
+      "id": "Replace:array"
+    },
+    {
+      "id": "Round:scaled",
+      "axioms": {
+        "disjointWith": [
+          "Round:time&date"
+        ]
+      }
+    },
+    {
+      "id": "Round:time&date"
+    },
+    {
+      "id": "Select:array",
+      "axioms": {
+        "disjointWith": [
+          "Select:table"
+        ]
+      }
+    },
+    {
+      "id": "Select:bag",
+      "axioms": {
+        "disjointWith": [
+          "Select:set"
+        ]
+      }
+    },
+    {
+      "id": "Select:set"
+    },
+    {
+      "id": "Select:table"
+    },
+    {
+      "id": "Serialize:bag",
+      "axioms": {
+        "disjointWith": [
+          "Serialize:table"
+        ]
+      }
+    },
+    {
+      "id": "Serialize:table"
+    },
+    {
+      "id": "SetOf:set"
+    },
+    {
+      "id": "SquareRoot:complex"
+    },
+    {
+      "id": "Subset:set"
+    },
+    {
+      "id": "Successor:enumerated",
+      "axioms": {
+        "disjointWith": [
+          "Successor:ordinal"
+        ]
+      }
+    },
+    {
+      "id": "Successor:ordinal"
+    },
+    {
+      "id": "Tag:choice"
+    },
+    {
+      "id": "Tail:sequence"
+    },
+    {
+      "id": "Union:set"
+    },
+    {
+      "id": "access by value"
+    },
+    {
+      "id": "access type",
+      "axioms": {
+        "equivalentClass": [
+          "(direct access property or indirect acess property)"
+        ]
+      }
+    },
+    {
+      "id": "add operation"
+    },
+    {
+      "id": "aggregate datatype",
+      "axioms": {
+        "disjointWith": [
+          "non-aggregate datatype"
+        ],
+        "propertyRestrictions": [
+          "[has_member some aggregate generator]"
+        ]
+      },
+      "description": {
+        "rdfs:comment": "synonim: structured datatype"
+      }
+    },
+    {
+      "id": "aggregate field component",
+      "axioms": {
+        "disjointWith": [
+          "primitive field component"
+        ],
+        "propertyRestrictions": [
+          "[role_of some aggregate datatype]"
+        ]
+      }
+    },
+    {
+      "id": "aggregate generator",
+      "axioms": {
+        "equivalentClass": [
+          "(array generator or bag generator or class generator or record generator or sequence generator or set generator or table generator)"
+        ]
+      },
+      "description": {
+        "rdfs:comment": "synonim: aggregate datatype constructor"
+      }
+    },
+    {
+      "id": "aggregate generator property"
+    },
+    {
+      "id": "aggregate imposed ordering",
+      "axioms": {
+        "disjointWith": [
+          "aggregate-imposed identifier uniqueness",
+          "homogenity",
+          "agregate size",
+          "uniqueness",
+          "component mandatoriness",
+          "structurness",
+          "recursiveness",
+          "access type"
+        ],
+        "equivalentClass": [
+          "(ordered aggregate or unordered aggregate)"
+        ]
+      }
+    },
+    {
+      "id": "aggregate-imposed identifier uniqueness",
+      "axioms": {
+        "disjointWith": [
+          "homogenity",
+          "agregate size",
+          "uniqueness",
+          "component mandatoriness",
+          "structurness",
+          "recursiveness",
+          "access type"
+        ],
+        "equivalentClass": [
+          "(identifier not unique or identifier unique)"
+        ]
+      }
+    },
+    {
+      "id": "agregate size",
+      "axioms": {
+        "disjointWith": [
+          "uniqueness",
+          "component mandatoriness",
+          "structurness",
+          "recursiveness",
+          "access type"
+        ],
+        "equivalentClass": [
+          "(fixed size or variable size)"
+        ]
+      }
+    },
+    {
+      "id": "alternative component",
+      "axioms": {
+        "propertyRestrictions": [
+          "[has_member some tag-value list]",
+          "[has_member some alternative-type]"
+        ]
+      }
+    },
+    {
+      "id": "alternative-list",
+      "axioms": {
+        "propertyRestrictions": [
+          "[has_member some alternative component]"
+        ]
+      }
+    },
+    {
+      "id": "alternative-type",
+      "axioms": {
+        "propertyRestrictions": [
+          "[role_of some datatype]",
+          "[is_member_of some alternative component]"
+        ]
+      }
+    },
+    {
+      "id": "approximate",
+      "axioms": {
+        "disjointWith": [
+          "exact"
+        ]
+      }
+    },
+    {
+      "id": "array datatype",
+      "axioms": {
+        "disjointWith": [
+          "homogenous aggregate datatype with variable size"
+        ],
+        "propertyRestrictions": [
+          "[has_operation some Select:table]",
+          "[has_member some index-type list]",
+          "[has_quality some exact]",
+          "[has_operation some Replace:array]",
+          "[has_member some base type]",
+          "[has_quality some non-ordered]",
+          "[has_quality some non-numeric]",
+          "[has_operation some Equal:array]",
+          "[has_member some array generator]"
+        ]
+      }
+    },
+    {
+      "id": "array generator",
+      "axioms": {
+        "disjointWith": [
+          "homogenous aggregate generator with variable size"
+        ],
+        "propertyRestrictions": [
+          "[has_quality some unordered aggregate]",
+          "[has_quality some fixed size]",
+          "[has_quality some multi dimensional]",
+          "[has_quality some index access]",
+          "[has_quality some non-unique values]"
+        ]
+      }
+    },
+    {
+      "id": "attribute component",
+      "axioms": {
+        "propertyRestrictions": [
+          "[has_identifier some attribute identifier]"
+        ]
+      }
+    },
+    {
+      "id": "attribute identifier"
+    },
+    {
+      "id": "attribute-list",
+      "axioms": {
+        "propertyRestrictions": [
+          "[has_member some attribute component]"
+        ]
+      }
+    },
+    {
+      "id": "bag datatype",
+      "axioms": {
+        "disjointWith": [
+          "set datatype"
+        ],
+        "propertyRestrictions": [
+          "[has_quality some non-ordered]",
+          "[has_operation some Select:bag]",
+          "[has_operation some Insert:bag]",
+          "[has_member some base type]",
+          "[has_operation some Delete:bag]",
+          "[has_operation some IsEmpty:bag]",
+          "[has_operation some Equal:bag]",
+          "[has_member some bag generator]",
+          "[has_quality some non-numeric]",
+          "[has_operation some Serialize:bag]",
+          "[has_quality some exact]"
+        ]
+      }
+    },
+    {
+      "id": "bag generator",
+      "axioms": {
+        "disjointWith": [
+          "set generator"
+        ],
+        "propertyRestrictions": [
+          "[has_quality some non-unique values]",
+          "[has_quality some implementation dependent access]"
+        ]
+      }
+    },
+    {
+      "id": "base type",
+      "axioms": {
+        "propertyRestrictions": [
+          "[role_of some datatype]",
+          "[is_member_of some (array datatype or sequence datatype or bag datatype or set datatype or extended datatype)]"
+        ]
+      }
+    },
+    {
+      "id": "bit"
+    },
+    {
+      "id": "bit string"
+    },
+    {
+      "id": "boolean datatype",
+      "axioms": {
+        "propertyRestrictions": [
+          "[has_quality some non-ordered]",
+          "[has_quality some non-numeric]",
+          "[has_quality some exact]",
+          "[has_operation some Not:boolean]",
+          "[has_operation some And:boolean]",
+          "[has_operation some Or:boolean]",
+          "[has_operation some Equal:boolean]"
+        ]
+      }
+    },
+    {
+      "id": "boolean field component",
+      "axioms": {
+        "propertyRestrictions": [
+          "[role_of some boolean datatype]"
+        ]
+      }
+    },
+    {
+      "id": "boolean field-list",
+      "axioms": {
+        "disjointWith": [
+          "discrete field-list"
+        ],
+        "propertyRestrictions": [
+          "[has_member some boolean field component]"
+        ]
+      }
+    },
+    {
+      "id": "boolean operation"
+    },
+    {
+      "id": "bound"
+    },
+    {
+      "id": "bounded",
+      "axioms": {
+        "disjointWith": [
+          "unbounded"
+        ]
+      }
+    },
+    {
+      "id": "bounded above",
+      "axioms": {
+        "disjointWith": [
+          "bounded below"
+        ]
+      }
+    },
+    {
+      "id": "bounded below"
+    },
+    {
+      "id": "boundedness",
+      "axioms": {
+        "disjointWith": [
+          "equality"
+        ],
+        "equivalentClass": [
+          "(bounded or unbounded)"
+        ]
+      }
+    },
+    {
+      "id": "cardinality",
+      "axioms": {
+        "disjointWith": [
+          "order",
+          "boundedness",
+          "equality"
+        ],
+        "equivalentClass": [
+          "(countable or finite or uncountable)"
+        ]
+      }
+    },
+    {
+      "id": "character datatype",
+      "axioms": {
+        "disjointWith": [
+          "discrete datatype",
+          "boolean datatype"
+        ],
+        "propertyRestrictions": [
+          "[has_quality some exact]",
+          "[has_operation some Equal:character]",
+          "[has_identifier some character-set identifier]"
+        ]
+      }
+    },
+    {
+      "id": "character string"
+    },
+    {
+      "id": "character-set identifier"
+    },
+    {
+      "id": "characterizing operation",
+      "description": {
+        "rdfs:comment": "The set of characterising operations for a datatype comprises those operations on, or yielding values of, the datatype that distinguish this datatype from other datatypes having value spaces which are identical except possibly for substitution of symbols."
+      }
+    },
+    {
+      "id": "choice datatype",
+      "axioms": {
+        "propertyRestrictions": [
+          "[has_quality some exact]",
+          "[has_operation some Discriminant:choice]",
+          "[has_quality some non-ordered]",
+          "[has_operation some Tag:choice]",
+          "[has_operation some Cast:choice]",
+          "[has_operation some Equal:choice]",
+          "[has_member some tag-type]",
+          "[has_member some alternative-list]",
+          "[has_member some choice generator]"
+        ]
+      },
+      "description": {
+        "rdfs:comment": "whose values is a single value\nfrom any of a set of alternative datatypes. The alternative datatypes of a choice datatype are logically\ndistinguished by their correspondence to values of another datatype, called the tag datatype."
+      }
+    },
+    {
+      "id": "choice generator",
+      "axioms": {
+        "propertyRestrictions": [
+          "[is_member_of some choice datatype]"
+        ]
+      }
+    },
+    {
+      "id": "class datatype",
+      "axioms": {
+        "disjointWith": [
+          "record (tuple) datatype"
+        ],
+        "propertyRestrictions": [
+          "[has_operation some AttributeSelect:class]",
+          "[has_operation some AttributeReplace:class]",
+          "[has_operation some Equal:class]",
+          "[has_member some class generator]",
+          "[has_quality some non-ordered]",
+          "[has_quality some non-numeric]",
+          "[has_member some attribute-list]"
+        ]
+      }
+    },
+    {
+      "id": "class generator",
+      "axioms": {
+        "disjointWith": [
+          "record generator",
+          "table generator"
+        ],
+        "propertyRestrictions": [
+          "[has_quality some key access]",
+          "[has_quality some unordered aggregate]",
+          "[has_quality some non-unique values]",
+          "[has_quality some one dimensional]",
+          "[has_quality some fixed size]"
+        ]
+      }
+    },
+    {
+      "id": "complex datatype",
+      "axioms": {
+        "disjointWith": [
+          "numeric ordered primitive datatype"
+        ],
+        "propertyRestrictions": [
+          "[has_operation some Reciprocal:complex]",
+          "[has_operation some Negate:complex]",
+          "[has_quality some non-ordered]",
+          "[has_member some complex radix]",
+          "[has_quality some numeric]",
+          "[has_operation some SquareRoot:complex]",
+          "[has_operation some Multiply:complex]",
+          "[has_operation some Add:complex]",
+          "[has_quality some approximate]",
+          "[has_operation some Promote:complex]",
+          "[has_member some complex factor]",
+          "[has_operation some Equal:complex]"
+        ]
+      }
+    },
+    {
+      "id": "complex factor"
+    },
+    {
+      "id": "complex radix"
+    },
+    {
+      "id": "component mandatoriness",
+      "axioms": {
+        "disjointWith": [
+          "structurness",
+          "recursiveness",
+          "access type"
+        ],
+        "equivalentClass": [
+          "(component mandatory or component non-mandatory)"
+        ]
+      }
+    },
+    {
+      "id": "component mandatory",
+      "axioms": {
+        "disjointWith": [
+          "component non-mandatory"
+        ]
+      }
+    },
+    {
+      "id": "component non-mandatory"
+    },
+    {
+      "id": "countable"
+    },
+    {
+      "id": "data representational model"
+    },
+    {
+      "id": "datatype",
+      "axioms": {
+        "propertyRestrictions": [
+          "[has_quality some datatype property]",
+          "[has_operation some characterizing operation]",
+          "[has_attribute some value space]"
+        ]
+      }
+    },
+    {
+      "id": "datatype generator"
+    },
+    {
+      "id": "datatype property"
+    },
+    {
+      "id": "datatype role",
+      "axioms": {
+        "propertyRestrictions": [
+          "[role_of some datatype]"
+        ]
+      }
+    },
+    {
+      "id": "date and time datatype",
+      "axioms": {
+        "disjointWith": [
+          "ordinal datatype"
+        ],
+        "propertyRestrictions": [
+          "[has_operation some Extend:time&date]",
+          "[has_operation some Equal:time&date]",
+          "[has_operation some InOrder:time&date]",
+          "[has_member some date-time unit]",
+          "[has_operation some Difference:time&date]",
+          "[has_quality some unbounded]",
+          "[has_member some date-time radix]",
+          "[has_quality some exact]",
+          "[has_operation some Round:time&date]",
+          "[has_member some date-time factor]"
+        ]
+      }
+    },
+    {
+      "id": "date-time factor"
+    },
+    {
+      "id": "date-time radix"
+    },
+    {
+      "id": "date-time unit"
+    },
+    {
+      "id": "defined datatype",
+      "axioms": {
+        "propertyRestrictions": [
+          "[has_member some defined generator]",
+          "[has_member some defined datatype parameter-list]"
+        ]
+      }
+    },
+    {
+      "id": "defined datatype parameter",
+      "axioms": {
+        "propertyRestrictions": [
+          "[has_identifier some parameter identifier]",
+          "[is_member_of some defined datatype parameter-list]",
+          "[role_of some datatype]"
+        ]
+      }
+    },
+    {
+      "id": "defined datatype parameter-list",
+      "axioms": {
+        "propertyRestrictions": [
+          "[has_member some defined datatype parameter]"
+        ]
+      }
+    },
+    {
+      "id": "defined generator",
+      "axioms": {
+        "propertyRestrictions": [
+          "[is_member_of some defined datatype]"
+        ]
+      }
+    },
+    {
+      "id": "defined generator parameter",
+      "axioms": {
+        "propertyRestrictions": [
+          "[has_identifier some parameter identifier]"
+        ]
+      }
+    },
+    {
+      "id": "defined generator parameter-list"
+    },
+    {
+      "id": "delete operation"
+    },
+    {
+      "id": "descriptive field identifier",
+      "axioms": {
+        "disjointWith": [
+          "target field identifier"
+        ]
+      }
+    },
+    {
+      "id": "descriptive record of boolean field component",
+      "axioms": {
+        "propertyRestrictions": [
+          "[role_of some record of boolean datatype]"
+        ]
+      }
+    },
+    {
+      "id": "descriptive record of discrete field component",
+      "axioms": {
+        "propertyRestrictions": [
+          "[role_of some record of discrete datatype]"
+        ]
+      }
+    },
+    {
+      "id": "descriptive record of primitives field component",
+      "axioms": {
+        "propertyRestrictions": [
+          "[role_of some record of primitives datatype]"
+        ]
+      }
+    },
+    {
+      "id": "descriptive record of reals field component",
+      "axioms": {
+        "propertyRestrictions": [
+          "[role_of some record of real datatype]"
+        ]
+      }
+    },
+    {
+      "id": "descriptive set of integer field component",
+      "axioms": {
+        "propertyRestrictions": [
+          "[role_of some set of integer datatype]"
+        ]
+      }
+    },
+    {
+      "id": "descriptive strucured field component",
+      "axioms": {
+        "propertyRestrictions": [
+          "[role_of some (array datatype or class datatype or sequence datatype or bag datatype or set datatype)]"
+        ]
+      }
+    },
+    {
+      "id": "difference operation"
+    },
+    {
+      "id": "dimensionality",
+      "axioms": {
+        "equivalentClass": [
+          "(one dimensional or two dimensional or multi dimensional)"
+        ]
+      }
+    },
+    {
+      "id": "direct access property",
+      "axioms": {
+        "disjointWith": [
+          "indirect acess property"
+        ],
+        "equivalentClass": [
+          "(index access or key access)"
+        ]
+      }
+    },
+    {
+      "id": "directed labeled graph datatype generator"
+    },
+    {
+      "id": "direction"
+    },
+    {
+      "id": "directive information entity"
+    },
+    {
+      "id": "discrete base type",
+      "axioms": {
+        "disjointWith": [
+          "real base type"
+        ],
+        "propertyRestrictions": [
+          "[role_of some discrete datatype]"
+        ]
+      }
+    },
+    {
+      "id": "discrete datatype",
+      "axioms": {
+        "disjointWith": [
+          "boolean datatype"
+        ],
+        "propertyRestrictions": [
+          "[has_member some discrete-value-list]",
+          "[has_operation some Equal:discrete]",
+          "[has_quality some exact]"
+        ]
+      }
+    },
+    {
+      "id": "discrete field component",
+      "axioms": {
+        "disjointWith": [
+          "real field component",
+          "boolean field component"
+        ],
+        "propertyRestrictions": [
+          "[role_of some discrete datatype]"
+        ]
+      }
+    },
+    {
+      "id": "discrete field-list",
+      "axioms": {
+        "propertyRestrictions": [
+          "[has_member some discrete field component]"
+        ]
+      }
+    },
+    {
+      "id": "discrete-value identifier",
+      "axioms": {
+        "propertyRestrictions": [
+          "[has-value some rdfs:Literal]"
+        ]
+      }
+    },
+    {
+      "id": "discrete-value-list",
+      "axioms": {
+        "propertyRestrictions": [
+          "[has_member some discrete-value identifier]"
+        ]
+      }
+    },
+    {
+      "id": "dyadic aritmetic operation"
+    },
+    {
+      "id": "dyadic comparison operation"
+    },
+    {
+      "id": "dyadic logical operation"
+    },
+    {
+      "id": "dyadic operation",
+      "axioms": {
+        "disjointWith": [
+          "niladic operation",
+          "monadic operation",
+          "n-adic operation"
+        ]
+      },
+      "description": {
+        "rdfs:comment": "Dyadic operation maps a pair of values of the given datatype into a value of the given datatype or into a value of datatype Boolean"
+      }
+    },
+    {
+      "id": "dyadic retrieve operation"
+    },
+    {
+      "id": "dyadic select operation"
+    },
+    {
+      "id": "dyadic set operation"
+    },
+    {
+      "id": "dyadic updating operation"
+    },
+    {
+      "id": "edge component"
+    },
+    {
+      "id": "enumerated datatype",
+      "axioms": {
+        "disjointWith": [
+          "date and time datatype",
+          "ordinal datatype"
+        ],
+        "propertyRestrictions": [
+          "[has_operation some Equal:enumerated]",
+          "[has_member some enumerated-value-list]",
+          "[has_operation some Successor:enumerated]",
+          "[has_quality some bounded]",
+          "[has_operation some InOrder:enumerated]",
+          "[has_quality some exact]"
+        ]
+      },
+      "description": {
+        "rdfs:comment": "synonim: discrete datatype"
+      }
+    },
+    {
+      "id": "enumerated-value identifier",
+      "axioms": {
+        "propertyRestrictions": [
+          "[has-value some rdfs:Literal]"
+        ]
+      }
+    },
+    {
+      "id": "enumerated-value-list",
+      "axioms": {
+        "propertyRestrictions": [
+          "[has_member some enumerated-value identifier]"
+        ]
+      }
+    },
+    {
+      "id": "equal operation"
+    },
+    {
+      "id": "equality"
+    },
+    {
+      "id": "exact"
+    },
+    {
+      "id": "exactness",
+      "axioms": {
+        "disjointWith": [
+          "numericalness",
+          "cardinality",
+          "order",
+          "boundedness",
+          "equality"
+        ],
+        "equivalentClass": [
+          "(approximate or exact)"
+        ]
+      }
+    },
+    {
+      "id": "excluding subtype generator",
+      "axioms": {
+        "propertyRestrictions": [
+          "[has_member some select-list]"
+        ]
+      }
+    },
+    {
+      "id": "explicit subtype generator"
+    },
+    {
+      "id": "extended datatype",
+      "axioms": {
+        "propertyRestrictions": [
+          "[has_quality some datatype property]",
+          "[has_member some subtype generator]",
+          "[has_attribute some value space]",
+          "[has_member some base type]"
+        ]
+      },
+      "description": {
+        "rdfs:comment": "synonym: subtype"
+      }
+    },
+    {
+      "id": "extended-value identifier"
+    },
+    {
+      "id": "extended-value-list",
+      "axioms": {
+        "propertyRestrictions": [
+          "[has_identifier some extended-value identifier]"
+        ]
+      }
+    },
+    {
+      "id": "extending subtype generator",
+      "axioms": {
+        "propertyRestrictions": [
+          "[has_member some extended-value-list]"
+        ]
+      }
+    },
+    {
+      "id": "factor"
+    },
+    {
+      "id": "field component",
+      "axioms": {
+        "propertyRestrictions": [
+          "[role_of some datatype]",
+          "[has_identifier some field identifier]"
+        ]
+      }
+    },
+    {
+      "id": "field identifier"
+    },
+    {
+      "id": "field-list",
+      "axioms": {
+        "propertyRestrictions": [
+          "[has_member some field component]"
+        ]
+      }
+    },
+    {
+      "id": "finite"
+    },
+    {
+      "id": "fixed size",
+      "axioms": {
+        "disjointWith": [
+          "variable size"
+        ]
+      }
+    },
+    {
+      "id": "generated datatype",
+      "axioms": {
+        "disjointWith": [
+          "defined datatype"
+        ],
+        "propertyRestrictions": [
+          "[has_member some generated datatype generator]"
+        ]
+      }
+    },
+    {
+      "id": "generated datatype generator",
+      "axioms": {
+        "equivalentClass": [
+          "(non-aggregate generator or aggregate generator)"
+        ],
+        "propertyRestrictions": [
+          "[is_member_of some generated datatype]"
+        ]
+      },
+      "description": {
+        "rdfs:comment": "synonim: datatype constructor"
+      }
+    },
+    {
+      "id": "graph aggregate component"
+    },
+    {
+      "id": "heterogenous"
+    },
+    {
+      "id": "heterogenous aggregate datatype",
+      "axioms": {
+        "propertyRestrictions": [
+          "[has_member some heterogenous aggregate generator]"
+        ]
+      }
+    },
+    {
+      "id": "heterogenous aggregate generator",
+      "axioms": {
+        "equivalentClass": [
+          "(class generator or record generator or table datatype)"
+        ],
+        "propertyRestrictions": [
+          "[has_quality some heterogenous]"
+        ]
+      }
+    },
+    {
+      "id": "homogenity",
+      "axioms": {
+        "disjointWith": [
+          "agregate size",
+          "uniqueness",
+          "component mandatoriness",
+          "structurness",
+          "recursiveness",
+          "access type"
+        ],
+        "equivalentClass": [
+          "(homogenous or heterogenous)"
+        ]
+      }
+    },
+    {
+      "id": "homogenous",
+      "axioms": {
+        "disjointWith": [
+          "heterogenous"
+        ]
+      }
+    },
+    {
+      "id": "homogenous  unordered aggregate datatype with variable size",
+      "axioms": {
+        "propertyRestrictions": [
+          "[has_member some homogenous unordered aggregate generator with variable size]"
+        ]
+      }
+    },
+    {
+      "id": "homogenous aggregate datatype",
+      "axioms": {
+        "disjointWith": [
+          "heterogenous aggregate datatype"
+        ],
+        "propertyRestrictions": [
+          "[has_member some homogenous aggregate generator]"
+        ]
+      }
+    },
+    {
+      "id": "homogenous aggregate datatype with variable size",
+      "axioms": {
+        "propertyRestrictions": [
+          "[has_member some homogenous aggregate generator with variable size]"
+        ]
+      }
+    },
+    {
+      "id": "homogenous aggregate generator",
+      "axioms": {
+        "disjointWith": [
+          "heterogenous aggregate generator"
+        ],
+        "equivalentClass": [
+          "(array generator or bag generator or sequence generator or set generator)"
+        ],
+        "propertyRestrictions": [
+          "[has_quality some homogenous]"
+        ]
+      }
+    },
+    {
+      "id": "homogenous aggregate generator with variable size",
+      "axioms": {
+        "propertyRestrictions": [
+          "[has_quality some variable size]"
+        ]
+      }
+    },
+    {
+      "id": "homogenous unordered aggregate generator with variable size",
+      "axioms": {
+        "equivalentClass": [
+          "(bag generator or set generator)"
+        ],
+        "propertyRestrictions": [
+          "[has_quality some unordered aggregate]"
+        ]
+      }
+    },
+    {
+      "id": "identifier"
+    },
+    {
+      "id": "identifier not unique",
+      "axioms": {
+        "disjointWith": [
+          "identifier unique"
+        ]
+      }
+    },
+    {
+      "id": "identifier unique"
+    },
+    {
+      "id": "implementation dependent access"
+    },
+    {
+      "id": "in order operation"
+    },
+    {
+      "id": "index access",
+      "axioms": {
+        "disjointWith": [
+          "key access"
+        ]
+      }
+    },
+    {
+      "id": "index lowerbound",
+      "axioms": {
+        "propertyRestrictions": [
+          "[has-value exactly 1 xsd:integer]"
+        ]
+      }
+    },
+    {
+      "id": "index upperbound",
+      "axioms": {
+        "propertyRestrictions": [
+          "[has-value exactly 1 xsd:integer]"
+        ]
+      }
+    },
+    {
+      "id": "index-type",
+      "axioms": {
+        "propertyRestrictions": [
+          "[has_member some index upperbound]",
+          "[is_member_of some index-type list]",
+          "[role_of some datatype]",
+          "[has_member some index lowerbound]"
+        ]
+      }
+    },
+    {
+      "id": "index-type list",
+      "axioms": {
+        "propertyRestrictions": [
+          "[has_member some index-type]"
+        ]
+      }
+    },
+    {
+      "id": "indirect acess property",
+      "axioms": {
+        "equivalentClass": [
+          "(access by value or implementation dependent access or position access)"
+        ]
+      }
+    },
+    {
+      "id": "information artifact entity"
+    },
+    {
+      "id": "insert operation"
+    },
+    {
+      "id": "integer base datatype",
+      "axioms": {
+        "propertyRestrictions": [
+          "[role_of some integer datatype]"
+        ]
+      }
+    },
+    {
+      "id": "integer datatype",
+      "axioms": {
+        "disjointWith": [
+          "rational datatype"
+        ],
+        "propertyRestrictions": [
+          "[has_operation some NonNegative:integer]",
+          "[has_quality some ordered]",
+          "[has_operation some Equal:integer]",
+          "[has_operation some InOrder:interger]",
+          "[has_quality some numeric]",
+          "[has_quality some exact]",
+          "[has_operation some Add:integer]",
+          "[has_quality some unbounded]",
+          "[has_operation some Multiply:integer]",
+          "[has_operation some Negate:integer]"
+        ]
+      }
+    },
+    {
+      "id": "isEmpty operation"
+    },
+    {
+      "id": "key access"
+    },
+    {
+      "id": "label"
+    },
+    {
+      "id": "labeled dataset descriptive field component"
+    },
+    {
+      "id": "labeled dataset field-list",
+      "axioms": {
+        "propertyRestrictions": [
+          "[has_member some labeled dataset target field component]",
+          "[has_member some labeled dataset descriptive field component]"
+        ]
+      }
+    },
+    {
+      "id": "labeled dataset record datatype",
+      "axioms": {
+        "propertyRestrictions": [
+          "[has_member exactly 1 labeled dataset field-list]"
+        ]
+      }
+    },
+    {
+      "id": "labeled dataset target field component"
+    },
+    {
+      "id": "labeled graph datatype",
+      "axioms": {
+        "propertyRestrictions": [
+          "[has_member some directed labeled graph datatype generator]"
+        ]
+      }
+    },
+    {
+      "id": "list specification"
+    },
+    {
+      "id": "lower bound",
+      "axioms": {
+        "propertyRestrictions": [
+          "[has-value exactly 1 xsd:integer]"
+        ]
+      }
+    },
+    {
+      "id": "map operation"
+    },
+    {
+      "id": "maximum-size"
+    },
+    {
+      "id": "minimum-size"
+    },
+    {
+      "id": "modulo"
+    },
+    {
+      "id": "monadic aritmetic operation"
+    },
+    {
+      "id": "monadic operation",
+      "axioms": {
+        "disjointWith": [
+          "n-adic operation"
+        ]
+      },
+      "description": {
+        "rdfs:comment": "Monadic operations map a value of the given datatype into a value of the given datatype or into a value of datatype Boolean."
+      }
+    },
+    {
+      "id": "monadic retrive operation"
+    },
+    {
+      "id": "monadic select operation"
+    },
+    {
+      "id": "multi dimensional"
+    },
+    {
+      "id": "multiply operation"
+    },
+    {
+      "id": "n-adic operation",
+      "description": {
+        "rdfs:comment": "N-adic operations map ordered n-tuples of values, each of whichh is of a specified datatype, which may be the given datatype or a parametric datatype, into values of the given datatype or parametric datatype."
+      }
+    },
+    {
+      "id": "natural number"
+    },
+    {
+      "id": "negate operation"
+    },
+    {
+      "id": "niladic operation",
+      "axioms": {
+        "disjointWith": [
+          "monadic operation",
+          "n-adic operation"
+        ]
+      },
+      "description": {
+        "rdfs:comment": "Niladic operations yield values of the given datatype."
+      }
+    },
+    {
+      "id": "node component",
+      "axioms": {
+        "disjointWith": [
+          "edge component"
+        ]
+      }
+    },
+    {
+      "id": "non-aggregate datatype",
+      "axioms": {
+        "propertyRestrictions": [
+          "[has_member some non-aggregate generator]"
+        ]
+      }
+    },
+    {
+      "id": "non-aggregate generator",
+      "axioms": {
+        "disjointWith": [
+          "defined generator",
+          "aggregate datatype",
+          "aggregate generator"
+        ],
+        "equivalentClass": [
+          "(choice generator or pointer generator or procedure generator)"
+        ]
+      }
+    },
+    {
+      "id": "non-directed labeled graph datatype",
+      "axioms": {
+        "propertyRestrictions": [
+          "[has_member some non-directed labeled graph generator]",
+          "[has_member some graph aggregate component]"
+        ]
+      }
+    },
+    {
+      "id": "non-directed labeled graph generator"
+    },
+    {
+      "id": "non-numeric"
+    },
+    {
+      "id": "non-numeric ordered primitive datatype",
+      "axioms": {
+        "propertyRestrictions": [
+          "[has_quality some ordered]"
+        ]
+      }
+    },
+    {
+      "id": "non-numeric primitive datatype",
+      "axioms": {
+        "disjointWith": [
+          "numeric primitive datatype"
+        ],
+        "propertyRestrictions": [
+          "[has_quality some non-numeric]"
+        ]
+      }
+    },
+    {
+      "id": "non-numeric unordered primitive datatype",
+      "axioms": {
+        "disjointWith": [
+          "non-numeric ordered primitive datatype"
+        ],
+        "propertyRestrictions": [
+          "[has_quality some non-ordered]"
+        ]
+      }
+    },
+    {
+      "id": "non-ordered"
+    },
+    {
+      "id": "non-recursive"
+    },
+    {
+      "id": "non-unique values",
+      "axioms": {
+        "disjointWith": [
+          "unique values"
+        ]
+      }
+    },
+    {
+      "id": "nonNegative operation"
+    },
+    {
+      "id": "numeric",
+      "axioms": {
+        "disjointWith": [
+          "non-numeric"
+        ]
+      }
+    },
+    {
+      "id": "numeric ordered primitive datatype",
+      "axioms": {
+        "propertyRestrictions": [
+          "[has_quality some ordered]"
+        ]
+      }
+    },
+    {
+      "id": "numeric primitive datatype",
+      "axioms": {
+        "propertyRestrictions": [
+          "[has_quality some numeric]"
+        ]
+      }
+    },
+    {
+      "id": "numericalness",
+      "axioms": {
+        "disjointWith": [
+          "cardinality",
+          "order",
+          "boundedness",
+          "equality"
+        ],
+        "equivalentClass": [
+          "(numeric or non-numeric)"
+        ]
+      }
+    },
+    {
+      "id": "object identifier"
+    },
+    {
+      "id": "octet"
+    },
+    {
+      "id": "octet string"
+    },
+    {
+      "id": "one dimensional"
+    },
+    {
+      "id": "optional"
+    },
+    {
+      "id": "order",
+      "axioms": {
+        "disjointWith": [
+          "boundedness",
+          "equality"
+        ],
+        "equivalentClass": [
+          "(ordered or non-ordered)"
+        ]
+      }
+    },
+    {
+      "id": "ordered",
+      "axioms": {
+        "disjointWith": [
+          "non-ordered"
+        ]
+      }
+    },
+    {
+      "id": "ordered aggregate",
+      "axioms": {
+        "disjointWith": [
+          "unordered aggregate"
+        ]
+      }
+    },
+    {
+      "id": "ordinal datatype",
+      "axioms": {
+        "propertyRestrictions": [
+          "[has_operation some InOrder:ordinal]",
+          "[has_quality some bounded below]",
+          "[has_quality some unbounded above]",
+          "[has_quality some ordered]",
+          "[has_operation some Successor:ordinal]",
+          "[has_operation some Equal:ordinal]",
+          "[has_quality some non-numeric]",
+          "[has_quality some exact]"
+        ]
+      }
+    },
+    {
+      "id": "owl:Thing"
+    },
+    {
+      "id": "parameter",
+      "axioms": {
+        "propertyRestrictions": [
+          "[role_of some datatype]",
+          "[has_identifier some parameter identifier]"
+        ]
+      }
+    },
+    {
+      "id": "parameter identifier"
+    },
+    {
+      "id": "pointer datatype",
+      "axioms": {
+        "propertyRestrictions": [
+          "[has_quality some non-ordered]",
+          "[has_quality some non-numeric]",
+          "[has_member some pointer generator]",
+          "[has_member some pointer-element-type]",
+          "[has_operation some Equal:pointer]",
+          "[has_operation some Dereference:pointer]",
+          "[has_quality some exact]"
+        ]
+      },
+      "description": {
+        "rdfs:comment": "whose values constitutes a\nmeans of reference to values of another datatype, designated the element datatype. The values of a\npointer datatype are atomic."
+      }
+    },
+    {
+      "id": "pointer generator",
+      "axioms": {
+        "propertyRestrictions": [
+          "[is_member_of some pointer datatype]"
+        ]
+      }
+    },
+    {
+      "id": "pointer-element-type",
+      "axioms": {
+        "propertyRestrictions": [
+          "[role_of some datatype]"
+        ]
+      }
+    },
+    {
+      "id": "position access"
+    },
+    {
+      "id": "positive integer"
+    },
+    {
+      "id": "positive integer range generator"
+    },
+    {
+      "id": "primitive datatype",
+      "axioms": {
+        "disjointWith": [
+          "generated datatype",
+          "defined datatype"
+        ],
+        "propertyRestrictions": [
+          "[has_quality some equality]"
+        ]
+      }
+    },
+    {
+      "id": "primitive field component",
+      "axioms": {
+        "propertyRestrictions": [
+          "[role_of some primitive datatype]"
+        ]
+      }
+    },
+    {
+      "id": "primitive field-list",
+      "axioms": {
+        "propertyRestrictions": [
+          "[has_member some primitive field component]"
+        ]
+      }
+    },
+    {
+      "id": "private"
+    },
+    {
+      "id": "procedure datatype",
+      "axioms": {
+        "propertyRestrictions": [
+          "[has_quality some non-numeric]",
+          "[has_member some procedure generator]",
+          "[has_quality some exact]",
+          "[has_member some procedure-parameter-list]",
+          "[has_member some return-parameter specification]",
+          "[has_operation some Equal:procedure]",
+          "[has_quality some non-ordered]",
+          "[has_operation some Invoke:procedure]"
+        ]
+      },
+      "description": {
+        "rdfs:comment": "whose values is an\noperation on values of other datatypes, designated the parameter datatypes. That is, a procedure\ndatatype comprises the set of all operations on values of a particular collection of datatypes. All values of\na procedure datatype are conceptually atomic."
+      }
+    },
+    {
+      "id": "procedure generator"
+    },
+    {
+      "id": "procedure-parameter-list",
+      "axioms": {
+        "propertyRestrictions": [
+          "[has_member some procedure-paremeter declaration]"
+        ]
+      }
+    },
+    {
+      "id": "procedure-paremeter declaration",
+      "axioms": {
+        "propertyRestrictions": [
+          "[has_member some parameter]",
+          "[has_member some direction]"
+        ]
+      }
+    },
+    {
+      "id": "promote operation"
+    },
+    {
+      "id": "quality"
+    },
+    {
+      "id": "radix"
+    },
+    {
+      "id": "range",
+      "axioms": {
+        "propertyRestrictions": [
+          "[has_member some lower bound]",
+          "[has_member some upper bound]"
+        ]
+      }
+    },
+    {
+      "id": "range subtype generator",
+      "axioms": {
+        "propertyRestrictions": [
+          "[has_member some range]"
+        ]
+      }
+    },
+    {
+      "id": "rational datatype",
+      "axioms": {
+        "propertyRestrictions": [
+          "[has_operation some Multiply:rational]",
+          "[has_operation some Reciprocal:rational]",
+          "[has_quality some numeric]",
+          "[has_operation some NonNegative:rational]",
+          "[has_quality some ordered]",
+          "[has_operation some Promote:rational]",
+          "[has_operation some Equal:rational]",
+          "[has_operation some Add:rational]",
+          "[has_operation some Negate:rational]",
+          "[has_quality some exact]",
+          "[has_operation some InOrder:rational]",
+          "[has_quality some unbounded]"
+        ]
+      }
+    },
+    {
+      "id": "real base type",
+      "axioms": {
+        "propertyRestrictions": [
+          "[role_of some real datatype]"
+        ]
+      }
+    },
+    {
+      "id": "real datatype",
+      "axioms": {
+        "disjointWith": [
+          "integer datatype",
+          "rational datatype"
+        ],
+        "propertyRestrictions": [
+          "[has_operation some Multiply:real]",
+          "[has_quality some approximate]",
+          "[has_operation some Negate:real]",
+          "[has_member some real radix]",
+          "[has_quality some unbounded]",
+          "[has_operation some Reciprocal:real]",
+          "[has_operation some InOrder:real]",
+          "[has_operation some Add:real]",
+          "[has_operation some Promote:real]",
+          "[has_operation some Equal:real]",
+          "[has_member some real factor]"
+        ]
+      }
+    },
+    {
+      "id": "real factor"
+    },
+    {
+      "id": "real field component",
+      "axioms": {
+        "disjointWith": [
+          "boolean field component"
+        ],
+        "propertyRestrictions": [
+          "[role_of some real datatype]"
+        ]
+      }
+    },
+    {
+      "id": "real field-list",
+      "axioms": {
+        "disjointWith": [
+          "boolean field-list",
+          "discrete field-list"
+        ],
+        "propertyRestrictions": [
+          "[has_member some real field component]"
+        ]
+      }
+    },
+    {
+      "id": "real radix"
+    },
+    {
+      "id": "reciprocial operation"
+    },
+    {
+      "id": "record (tuple) datatype",
+      "axioms": {
+        "propertyRestrictions": [
+          "[has_quality some non-numeric]",
+          "[has_operation some FieldSelect:record]",
+          "[has_operation some Equal:record]",
+          "[has_quality some exact]",
+          "[has_quality some non-ordered]",
+          "[has_member some record generator]",
+          "[has_operation some FieldReplace:record]",
+          "[has_member some field-list]"
+        ]
+      },
+      "description": {
+        "rdfs:comment": "synonim: tuple datatype"
+      }
+    },
+    {
+      "id": "record generator",
+      "axioms": {
+        "disjointWith": [
+          "table datatype"
+        ],
+        "propertyRestrictions": [
+          "[has_quality some fixed size]",
+          "[has_quality some one dimensional]",
+          "[has_quality some unordered aggregate]",
+          "[has_quality some key access]",
+          "[has_quality some non-unique values]"
+        ]
+      }
+    },
+    {
+      "id": "record of boolean datatype",
+      "axioms": {
+        "disjointWith": [
+          "record of real datatype",
+          "record of discrete datatype"
+        ],
+        "propertyRestrictions": [
+          "[has_member some boolean field-list]"
+        ]
+      }
+    },
+    {
+      "id": "record of discrete datatype",
+      "axioms": {
+        "propertyRestrictions": [
+          "[has_member some discrete field-list]"
+        ]
+      }
+    },
+    {
+      "id": "record of primitives datatype",
+      "axioms": {
+        "propertyRestrictions": [
+          "[has_member some primitive field-list]"
+        ]
+      }
+    },
+    {
+      "id": "record of real datatype",
+      "axioms": {
+        "disjointWith": [
+          "record of discrete datatype"
+        ],
+        "propertyRestrictions": [
+          "[has_member some real field-list]"
+        ]
+      }
+    },
+    {
+      "id": "recursive",
+      "axioms": {
+        "disjointWith": [
+          "non-recursive"
+        ]
+      }
+    },
+    {
+      "id": "recursiveness",
+      "axioms": {
+        "disjointWith": [
+          "access type"
+        ],
+        "equivalentClass": [
+          "(recursive or non-recursive)"
+        ]
+      }
+    },
+    {
+      "id": "representation"
+    },
+    {
+      "id": "return-parameter specification",
+      "axioms": {
+        "propertyRestrictions": [
+          "[has_member some datatype]",
+          "[has_identifier some parameter identifier]"
+        ]
+      }
+    },
+    {
+      "id": "role"
+    },
+    {
+      "id": "round operation"
+    },
+    {
+      "id": "scaled datatype",
+      "axioms": {
+        "disjointWith": [
+          "integer datatype",
+          "rational datatype"
+        ],
+        "propertyRestrictions": [
+          "[has_quality some unbounded]",
+          "[has_operation some Divide:scaled]",
+          "[has_operation some InOrder:scaled]",
+          "[has_operation some Multiply:scaled]",
+          "[has_member some scaled radix]",
+          "[has_quality some exact]",
+          "[has_operation some Negate:scaled]",
+          "[has_operation some Round:scaled]",
+          "[has_operation some Add:scaled]",
+          "[has_member some scaled factor]",
+          "[has_operation some Equal:scaled]"
+        ]
+      }
+    },
+    {
+      "id": "scaled factor"
+    },
+    {
+      "id": "scaled radix"
+    },
+    {
+      "id": "select-item specification"
+    },
+    {
+      "id": "select-list",
+      "axioms": {
+        "propertyRestrictions": [
+          "[has_member some select-item specification]"
+        ]
+      }
+    },
+    {
+      "id": "selection subtype generator",
+      "axioms": {
+        "propertyRestrictions": [
+          "[has_member some select-list]"
+        ]
+      }
+    },
+    {
+      "id": "semi-structured"
+    },
+    {
+      "id": "sequence datatype",
+      "axioms": {
+        "disjointWith": [
+          "homogenous  unordered aggregate datatype with variable size"
+        ],
+        "propertyRestrictions": [
+          "[has_operation some Equal:sequence]",
+          "[has_quality some exact]",
+          "[has_operation some IsEmpty:sequence]",
+          "[has_quality some non-ordered]",
+          "[has_operation some Head:sequence]",
+          "[has_quality some non-numeric]",
+          "[has_member some base type]",
+          "[has_operation some Append:sequence]",
+          "[has_operation some Tail:sequence]",
+          "[has_member some sequence generator]"
+        ]
+      }
+    },
+    {
+      "id": "sequence generator",
+      "axioms": {
+        "disjointWith": [
+          "homogenous unordered aggregate generator with variable size"
+        ],
+        "propertyRestrictions": [
+          "[has_quality some non-unique values]",
+          "[has_quality some ordered aggregate]",
+          "[has_quality some position access]"
+        ]
+      }
+    },
+    {
+      "id": "sequence of discrete datatype",
+      "axioms": {
+        "propertyRestrictions": [
+          "[has_member some discrete base type]"
+        ]
+      }
+    },
+    {
+      "id": "sequence of real datatype",
+      "axioms": {
+        "propertyRestrictions": [
+          "[has_member some real base type]"
+        ]
+      }
+    },
+    {
+      "id": "serialize operation"
+    },
+    {
+      "id": "set datatype",
+      "axioms": {
+        "propertyRestrictions": [
+          "[has_quality some non-ordered]",
+          "[has_operation some Lsln:set]",
+          "[has_operation some Intersection:set]",
+          "[has_member some base type]",
+          "[has_operation some SetOf:set]",
+          "[has_member some set generator]",
+          "[has_operation some Select:set]",
+          "[has_operation some Equal:class]",
+          "[has_quality some non-numeric]",
+          "[has_quality some exact]",
+          "[has_operation some Empty:set]",
+          "[has_operation some Difference:set]",
+          "[has_operation some Union:set]",
+          "[has_operation some Subset:set]"
+        ]
+      }
+    },
+    {
+      "id": "set generator",
+      "axioms": {
+        "propertyRestrictions": [
+          "[has_quality some access by value]",
+          "[has_quality some unique values]"
+        ]
+      }
+    },
+    {
+      "id": "set of discrete datatype",
+      "axioms": {
+        "disjointWith": [
+          "set of real datatype"
+        ],
+        "propertyRestrictions": [
+          "[has_member some discrete base type]"
+        ]
+      }
+    },
+    {
+      "id": "set of integer datatype",
+      "axioms": {
+        "propertyRestrictions": [
+          "[has_member some integer base datatype]"
+        ]
+      }
+    },
+    {
+      "id": "set of real datatype",
+      "axioms": {
+        "propertyRestrictions": [
+          "[has_member some real base type]"
+        ]
+      }
+    },
+    {
+      "id": "size",
+      "axioms": {
+        "propertyRestrictions": [
+          "[has-value exactly 1 xsd:integer]"
+        ]
+      }
+    },
+    {
+      "id": "size subtype generator",
+      "axioms": {
+        "propertyRestrictions": [
+          "[has_member some size]"
+        ]
+      }
+    },
+    {
+      "id": "specification"
+    },
+    {
+      "id": "stack"
+    },
+    {
+      "id": "structured"
+    },
+    {
+      "id": "structurness",
+      "axioms": {
+        "disjointWith": [
+          "recursiveness",
+          "access type"
+        ],
+        "equivalentClass": [
+          "(structured or unstructured or semi-structured)"
+        ]
+      }
+    },
+    {
+      "id": "subtype generator"
+    },
+    {
+      "id": "successor operation"
+    },
+    {
+      "id": "table datatype",
+      "axioms": {
+        "disjointWith": [
+          "record (tuple) datatype"
+        ],
+        "propertyRestrictions": [
+          "[has_member some table generator]",
+          "[has_operation some IsEmpty:table]",
+          "[has_operation some MapToBag:table]",
+          "[has_operation some Insert:table]",
+          "[has_operation some Select:table]",
+          "[has_operation some MapToTable:table]",
+          "[has_member some field-list]",
+          "[has_quality some exact]",
+          "[has_operation some Delete:table]",
+          "[has_operation some Fetch:table]",
+          "[has_operation some Serialize:table]",
+          "[has_quality some non-numeric]"
+        ]
+      }
+    },
+    {
+      "id": "table generator",
+      "axioms": {
+        "propertyRestrictions": [
+          "[has_quality some non-unique values]",
+          "[has_quality some variable size]",
+          "[has_quality some unordered aggregate]",
+          "[has_quality some two dimensional]"
+        ]
+      }
+    },
+    {
+      "id": "tag-type",
+      "axioms": {
+        "propertyRestrictions": [
+          "[role_of some datatype]"
+        ]
+      }
+    },
+    {
+      "id": "tag-value list"
+    },
+    {
+      "id": "target DAG field component",
+      "axioms": {
+        "propertyRestrictions": [
+          "[role_of some DAG datatype]"
+        ]
+      }
+    },
+    {
+      "id": "target boolean field component",
+      "axioms": {
+        "propertyRestrictions": [
+          "[role_of some boolean datatype]"
+        ]
+      }
+    },
+    {
+      "id": "target discrete field component",
+      "axioms": {
+        "propertyRestrictions": [
+          "[role_of some discrete datatype]"
+        ]
+      }
+    },
+    {
+      "id": "target field identifier"
+    },
+    {
+      "id": "target hierarchical field component",
+      "axioms": {
+        "propertyRestrictions": [
+          "[role_of some (tree datatype or DAG datatype)]"
+        ]
+      }
+    },
+    {
+      "id": "target primitive field component",
+      "axioms": {
+        "propertyRestrictions": [
+          "[role_of some (real datatype or discrete datatype or boolean datatype)]"
+        ]
+      }
+    },
+    {
+      "id": "target real field component",
+      "axioms": {
+        "propertyRestrictions": [
+          "[role_of some real datatype]"
+        ]
+      }
+    },
+    {
+      "id": "target record of boolean field component",
+      "axioms": {
+        "propertyRestrictions": [
+          "[role_of some record of boolean datatype]"
+        ]
+      }
+    },
+    {
+      "id": "target record of discrete field component",
+      "axioms": {
+        "propertyRestrictions": [
+          "[role_of some record of discrete datatype]"
+        ]
+      }
+    },
+    {
+      "id": "target record of primitives field component",
+      "axioms": {
+        "propertyRestrictions": [
+          "[role_of some record of primitives datatype]"
+        ]
+      }
+    },
+    {
+      "id": "target record of reals field component",
+      "axioms": {
+        "propertyRestrictions": [
+          "[role_of some record of real datatype]"
+        ]
+      }
+    },
+    {
+      "id": "target sequence of real field component",
+      "axioms": {
+        "propertyRestrictions": [
+          "[role_of some sequence of real datatype]"
+        ]
+      }
+    },
+    {
+      "id": "target set of discrete field component",
+      "axioms": {
+        "propertyRestrictions": [
+          "[role_of some set of discrete datatype]"
+        ]
+      }
+    },
+    {
+      "id": "target structured field component",
+      "axioms": {
+        "propertyRestrictions": [
+          "[role_of some (table datatype or array datatype or class datatype or sequence datatype or bag datatype or set datatype)]"
+        ]
+      }
+    },
+    {
+      "id": "target tree field component",
+      "axioms": {
+        "propertyRestrictions": [
+          "[role_of some tree datatype]"
+        ]
+      }
+    },
+    {
+      "id": "time interval"
+    },
+    {
+      "id": "tree"
+    },
+    {
+      "id": "tree datatype",
+      "axioms": {
+        "disjointWith": [
+          "DAG datatype"
+        ],
+        "propertyRestrictions": [
+          "[has_member some tree datatype generator]"
+        ]
+      }
+    },
+    {
+      "id": "tree datatype generator",
+      "axioms": {
+        "disjointWith": [
+          "DAG datatype generator"
+        ]
+      }
+    },
+    {
+      "id": "two dimensional"
+    },
+    {
+      "id": "unbounded"
+    },
+    {
+      "id": "unbounded above",
+      "axioms": {
+        "disjointWith": [
+          "unbounded below"
+        ]
+      }
+    },
+    {
+      "id": "unbounded below"
+    },
+    {
+      "id": "uncountable"
+    },
+    {
+      "id": "unique values"
+    },
+    {
+      "id": "uniqueness",
+      "axioms": {
+        "disjointWith": [
+          "component mandatoriness",
+          "structurness",
+          "recursiveness",
+          "access type"
+        ],
+        "equivalentClass": [
+          "(non-unique values or unique values)"
+        ]
+      }
+    },
+    {
+      "id": "unlabeled dataset field-list",
+      "axioms": {
+        "propertyRestrictions": [
+          "[has_member some labeled dataset descriptive field component]"
+        ]
+      }
+    },
+    {
+      "id": "unlabeled dataset record datatype",
+      "axioms": {
+        "propertyRestrictions": [
+          "[has_member some unlabeled dataset field-list]"
+        ]
+      }
+    },
+    {
+      "id": "unordered aggregate"
+    },
+    {
+      "id": "unstructured"
+    },
+    {
+      "id": "upper bound",
+      "axioms": {
+        "propertyRestrictions": [
+          "[has-value exactly 1 xsd:integer]"
+        ]
+      }
+    },
+    {
+      "id": "value expression"
+    },
+    {
+      "id": "value space"
+    },
+    {
+      "id": "variable size"
+    },
+    {
+      "id": "vector datatype",
+      "axioms": {
+        "propertyRestrictions": [
+          "[has_member some vector generator]"
+        ]
+      }
+    },
+    {
+      "id": "vector generator"
+    },
+    {
+      "id": "void datatype",
+      "axioms": {
+        "disjointWith": [
+          "non-numeric primitive datatype",
+          "numeric primitive datatype",
+          "non-numeric unordered primitive datatype"
+        ],
+        "propertyRestrictions": [
+          "[has_operation some Equal:void]"
+        ]
+      }
+    }
+  ],
+  "links": [
+    {
+      "source": "Datatype Specification Language Representation",
+      "target": "representation"
+    },
+    {
+      "source": "list specification",
+      "target": "specification"
+    },
+    {
+      "source": "value space",
+      "target": "specification"
+    },
+    {
+      "source": "tag-value list",
+      "target": "specification"
+    },
+    {
+      "source": "procedure-paremeter declaration",
+      "target": "specification"
+    },
+    {
+      "source": "direction",
+      "target": "specification"
+    },
+    {
+      "source": "return-parameter specification",
+      "target": "specification"
+    },
+    {
+      "source": "defined generator parameter",
+      "target": "specification"
+    },
+    {
+      "source": "select-item specification",
+      "target": "specification"
+    },
+    {
+      "source": "datatype generator",
+      "target": "directive information entity"
+    },
+    {
+      "source": "characterizing operation",
+      "target": "directive information entity"
+    },
+    {
+      "source": "data representational model",
+      "target": "directive information entity"
+    },
+    {
+      "source": "datatype role",
+      "target": "role"
+    },
+    {
+      "source": "excluding subtype generator",
+      "target": "subtype generator"
+    },
+    {
+      "source": "explicit subtype generator",
+      "target": "subtype generator"
+    },
+    {
+      "source": "extending subtype generator",
+      "target": "subtype generator"
+    },
+    {
+      "source": "range subtype generator",
+      "target": "subtype generator"
+    },
+    {
+      "source": "selection subtype generator",
+      "target": "subtype generator"
+    },
+    {
+      "source": "size subtype generator",
+      "target": "subtype generator"
+    },
+    {
+      "source": "natural number",
+      "target": "defined datatype"
+    },
+    {
+      "source": "modulo",
+      "target": "defined datatype"
+    },
+    {
+      "source": "bit",
+      "target": "defined datatype"
+    },
+    {
+      "source": "bit string",
+      "target": "defined datatype"
+    },
+    {
+      "source": "character string",
+      "target": "defined datatype"
+    },
+    {
+      "source": "time interval",
+      "target": "defined datatype"
+    },
+    {
+      "source": "octet",
+      "target": "defined datatype"
+    },
+    {
+      "source": "octet string",
+      "target": "defined datatype"
+    },
+    {
+      "source": "private",
+      "target": "defined datatype"
+    },
+    {
+      "source": "object identifier",
+      "target": "defined datatype"
+    },
+    {
+      "source": "non-directed labeled graph datatype",
+      "target": "defined datatype"
+    },
+    {
+      "source": "labeled graph datatype",
+      "target": "defined datatype"
+    },
+    {
+      "source": "stack",
+      "target": "defined generator"
+    },
+    {
+      "source": "tree",
+      "target": "defined generator"
+    },
+    {
+      "source": "optional",
+      "target": "defined generator"
+    },
+    {
+      "source": "directed labeled graph datatype generator",
+      "target": "defined generator"
+    },
+    {
+      "source": "non-directed labeled graph generator",
+      "target": "defined generator"
+    },
+    {
+      "source": "vector generator",
+      "target": "defined generator"
+    },
+    {
+      "source": "array generator",
+      "target": "homogenous aggregate generator"
+    },
+    {
+      "source": "homogenous aggregate generator with variable size",
+      "target": "homogenous aggregate generator"
+    },
+    {
+      "source": "bag generator",
+      "target": "homogenous unordered aggregate generator with variable size"
+    },
+    {
+      "source": "set generator",
+      "target": "homogenous unordered aggregate generator with variable size"
+    },
+    {
+      "source": "class generator",
+      "target": "heterogenous aggregate generator"
+    },
+    {
+      "source": "record generator",
+      "target": "heterogenous aggregate generator"
+    },
+    {
+      "source": "table generator",
+      "target": "heterogenous aggregate generator"
+    },
+    {
+      "source": "sequence generator",
+      "target": "homogenous aggregate generator with variable size"
+    },
+    {
+      "source": "homogenous unordered aggregate generator with variable size",
+      "target": "homogenous aggregate generator with variable size"
+    },
+    {
+      "source": "choice generator",
+      "target": "non-aggregate generator"
+    },
+    {
+      "source": "pointer generator",
+      "target": "non-aggregate generator"
+    },
+    {
+      "source": "procedure generator",
+      "target": "non-aggregate generator"
+    },
+    {
+      "source": "table datatype",
+      "target": "heterogenous aggregate datatype"
+    },
+    {
+      "source": "class datatype",
+      "target": "heterogenous aggregate datatype"
+    },
+    {
+      "source": "record (tuple) datatype",
+      "target": "heterogenous aggregate datatype"
+    },
+    {
+      "source": "attribute identifier",
+      "target": "identifier"
+    },
+    {
+      "source": "parameter identifier",
+      "target": "identifier"
+    },
+    {
+      "source": "enumerated-value identifier",
+      "target": "identifier"
+    },
+    {
+      "source": "discrete-value identifier",
+      "target": "identifier"
+    },
+    {
+      "source": "extended-value identifier",
+      "target": "identifier"
+    },
+    {
+      "source": "character-set identifier",
+      "target": "identifier"
+    },
+    {
+      "source": "field identifier",
+      "target": "identifier"
+    },
+    {
+      "source": "aggregate imposed ordering",
+      "target": "aggregate generator property"
+    },
+    {
+      "source": "aggregate-imposed identifier uniqueness",
+      "target": "aggregate generator property"
+    },
+    {
+      "source": "homogenity",
+      "target": "aggregate generator property"
+    },
+    {
+      "source": "agregate size",
+      "target": "aggregate generator property"
+    },
+    {
+      "source": "uniqueness",
+      "target": "aggregate generator property"
+    },
+    {
+      "source": "component mandatoriness",
+      "target": "aggregate generator property"
+    },
+    {
+      "source": "structurness",
+      "target": "aggregate generator property"
+    },
+    {
+      "source": "recursiveness",
+      "target": "aggregate generator property"
+    },
+    {
+      "source": "access type",
+      "target": "aggregate generator property"
+    },
+    {
+      "source": "dimensionality",
+      "target": "aggregate generator property"
+    },
+    {
+      "source": "primitive datatype",
+      "target": "datatype"
+    },
+    {
+      "source": "generated datatype",
+      "target": "datatype"
+    },
+    {
+      "source": "defined datatype",
+      "target": "datatype"
+    },
+    {
+      "source": "defined datatype parameter",
+      "target": "datatype role"
+    },
+    {
+      "source": "field component",
+      "target": "datatype role"
+    },
+    {
+      "source": "tag-type",
+      "target": "datatype role"
+    },
+    {
+      "source": "alternative-type",
+      "target": "datatype role"
+    },
+    {
+      "source": "alternative component",
+      "target": "datatype role"
+    },
+    {
+      "source": "pointer-element-type",
+      "target": "datatype role"
+    },
+    {
+      "source": "parameter",
+      "target": "datatype role"
+    },
+    {
+      "source": "index-type",
+      "target": "datatype role"
+    },
+    {
+      "source": "base type",
+      "target": "datatype role"
+    },
+    {
+      "source": "attribute component",
+      "target": "datatype role"
+    },
+    {
+      "source": "real field-list",
+      "target": "field-list"
+    },
+    {
+      "source": "boolean field-list",
+      "target": "field-list"
+    },
+    {
+      "source": "discrete field-list",
+      "target": "field-list"
+    },
+    {
+      "source": "primitive field-list",
+      "target": "field-list"
+    },
+    {
+      "source": "labeled dataset field-list",
+      "target": "field-list"
+    },
+    {
+      "source": "unlabeled dataset field-list",
+      "target": "field-list"
+    },
+    {
+      "source": "date-time factor",
+      "target": "factor"
+    },
+    {
+      "source": "scaled factor",
+      "target": "factor"
+    },
+    {
+      "source": "real factor",
+      "target": "factor"
+    },
+    {
+      "source": "complex factor",
+      "target": "factor"
+    },
+    {
+      "source": "graph aggregate component",
+      "target": "aggregate field component"
+    },
+    {
+      "source": "dyadic operation",
+      "target": "characterizing operation"
+    },
+    {
+      "source": "niladic operation",
+      "target": "characterizing operation"
+    },
+    {
+      "source": "monadic operation",
+      "target": "characterizing operation"
+    },
+    {
+      "source": "n-adic operation",
+      "target": "characterizing operation"
+    },
+    {
+      "source": "attribute-list",
+      "target": "list specification"
+    },
+    {
+      "source": "discrete-value-list",
+      "target": "list specification"
+    },
+    {
+      "source": "alternative-list",
+      "target": "list specification"
+    },
+    {
+      "source": "procedure-parameter-list",
+      "target": "list specification"
+    },
+    {
+      "source": "defined generator parameter-list",
+      "target": "list specification"
+    },
+    {
+      "source": "defined datatype parameter-list",
+      "target": "list specification"
+    },
+    {
+      "source": "select-list",
+      "target": "list specification"
+    },
+    {
+      "source": "extended-value-list",
+      "target": "list specification"
+    },
+    {
+      "source": "index-type list",
+      "target": "list specification"
+    },
+    {
+      "source": "enumerated-value-list",
+      "target": "list specification"
+    },
+    {
+      "source": "field-list",
+      "target": "list specification"
+    },
+    {
+      "source": "tree datatype generator",
+      "target": "directed labeled graph datatype generator"
+    },
+    {
+      "source": "DAG datatype generator",
+      "target": "directed labeled graph datatype generator"
+    },
+    {
+      "source": "array datatype",
+      "target": "homogenous aggregate datatype"
+    },
+    {
+      "source": "homogenous aggregate datatype with variable size",
+      "target": "homogenous aggregate datatype"
+    },
+    {
+      "source": "scaled datatype",
+      "target": "numeric ordered primitive datatype"
+    },
+    {
+      "source": "real datatype",
+      "target": "numeric ordered primitive datatype"
+    },
+    {
+      "source": "integer datatype",
+      "target": "numeric ordered primitive datatype"
+    },
+    {
+      "source": "rational datatype",
+      "target": "numeric ordered primitive datatype"
+    },
+    {
+      "source": "non-aggregate generator",
+      "target": "generated datatype generator"
+    },
+    {
+      "source": "aggregate generator",
+      "target": "generated datatype generator"
+    },
+    {
+      "source": "identifier",
+      "target": "information artifact entity"
+    },
+    {
+      "source": "value expression",
+      "target": "information artifact entity"
+    },
+    {
+      "source": "label",
+      "target": "information artifact entity"
+    },
+    {
+      "source": "directive information entity",
+      "target": "information artifact entity"
+    },
+    {
+      "source": "representation",
+      "target": "information artifact entity"
+    },
+    {
+      "source": "specification",
+      "target": "information artifact entity"
+    },
+    {
+      "source": "exactness",
+      "target": "datatype property"
+    },
+    {
+      "source": "numericalness",
+      "target": "datatype property"
+    },
+    {
+      "source": "cardinality",
+      "target": "datatype property"
+    },
+    {
+      "source": "order",
+      "target": "datatype property"
+    },
+    {
+      "source": "boundedness",
+      "target": "datatype property"
+    },
+    {
+      "source": "equality",
+      "target": "datatype property"
+    },
+    {
+      "source": "vector datatype",
+      "target": "array datatype"
+    },
+    {
+      "source": "maximum-size",
+      "target": "size"
+    },
+    {
+      "source": "minimum-size",
+      "target": "size"
+    },
+    {
+      "source": "discrete field component",
+      "target": "primitive field component"
+    },
+    {
+      "source": "real field component",
+      "target": "primitive field component"
+    },
+    {
+      "source": "boolean field component",
+      "target": "primitive field component"
+    },
+    {
+      "source": "pointer datatype",
+      "target": "non-aggregate datatype"
+    },
+    {
+      "source": "choice datatype",
+      "target": "non-aggregate datatype"
+    },
+    {
+      "source": "procedure datatype",
+      "target": "non-aggregate datatype"
+    },
+    {
+      "source": "tree datatype",
+      "target": "labeled graph datatype"
+    },
+    {
+      "source": "DAG datatype",
+      "target": "labeled graph datatype"
+    },
+    {
+      "source": "aggregate generator property",
+      "target": "quality"
+    },
+    {
+      "source": "datatype property",
+      "target": "quality"
+    },
+    {
+      "source": "upper bound",
+      "target": "bound"
+    },
+    {
+      "source": "lower bound",
+      "target": "bound"
+    },
+    {
+      "source": "index upperbound",
+      "target": "bound"
+    },
+    {
+      "source": "index lowerbound",
+      "target": "bound"
+    },
+    {
+      "source": "character datatype",
+      "target": "non-numeric unordered primitive datatype"
+    },
+    {
+      "source": "discrete datatype",
+      "target": "non-numeric unordered primitive datatype"
+    },
+    {
+      "source": "boolean datatype",
+      "target": "non-numeric unordered primitive datatype"
+    },
+    {
+      "source": "defined generator",
+      "target": "datatype generator"
+    },
+    {
+      "source": "generated datatype generator",
+      "target": "datatype generator"
+    },
+    {
+      "source": "subtype generator",
+      "target": "datatype generator"
+    },
+    {
+      "source": "discrete base type",
+      "target": "base type"
+    },
+    {
+      "source": "real base type",
+      "target": "base type"
+    },
+    {
+      "source": "integer base datatype",
+      "target": "base type"
+    },
+    {
+      "source": "record of boolean datatype",
+      "target": "record (tuple) datatype"
+    },
+    {
+      "source": "record of real datatype",
+      "target": "record (tuple) datatype"
+    },
+    {
+      "source": "record of primitives datatype",
+      "target": "record (tuple) datatype"
+    },
+    {
+      "source": "record of discrete datatype",
+      "target": "record (tuple) datatype"
+    },
+    {
+      "source": "labeled dataset record datatype",
+      "target": "record (tuple) datatype"
+    },
+    {
+      "source": "unlabeled dataset record datatype",
+      "target": "record (tuple) datatype"
+    },
+    {
+      "source": "date-time unit",
+      "target": "label"
+    },
+    {
+      "source": "set of discrete datatype",
+      "target": "set datatype"
+    },
+    {
+      "source": "set of real datatype",
+      "target": "set datatype"
+    },
+    {
+      "source": "set of integer datatype",
+      "target": "set datatype"
+    },
+    {
+      "source": "aggregate datatype",
+      "target": "generated datatype"
+    },
+    {
+      "source": "non-aggregate datatype",
+      "target": "generated datatype"
+    },
+    {
+      "source": "enumerated datatype",
+      "target": "non-numeric ordered primitive datatype"
+    },
+    {
+      "source": "date and time datatype",
+      "target": "non-numeric ordered primitive datatype"
+    },
+    {
+      "source": "ordinal datatype",
+      "target": "non-numeric ordered primitive datatype"
+    },
+    {
+      "source": "date-time radix",
+      "target": "radix"
+    },
+    {
+      "source": "complex radix",
+      "target": "radix"
+    },
+    {
+      "source": "real radix",
+      "target": "radix"
+    },
+    {
+      "source": "scaled radix",
+      "target": "radix"
+    },
+    {
+      "source": "factor",
+      "target": "value expression"
+    },
+    {
+      "source": "size",
+      "target": "value expression"
+    },
+    {
+      "source": "radix",
+      "target": "value expression"
+    },
+    {
+      "source": "range",
+      "target": "value expression"
+    },
+    {
+      "source": "bound",
+      "target": "value expression"
+    },
+    {
+      "source": "datatype",
+      "target": "data representational model"
+    },
+    {
+      "source": "extended datatype",
+      "target": "data representational model"
+    },
+    {
+      "source": "complex datatype",
+      "target": "numeric primitive datatype"
+    },
+    {
+      "source": "numeric ordered primitive datatype",
+      "target": "numeric primitive datatype"
+    },
+    {
+      "source": "sequence of discrete datatype",
+      "target": "sequence datatype"
+    },
+    {
+      "source": "sequence of real datatype",
+      "target": "sequence datatype"
+    },
+    {
+      "source": "sequence datatype",
+      "target": "homogenous aggregate datatype with variable size"
+    },
+    {
+      "source": "homogenous  unordered aggregate datatype with variable size",
+      "target": "homogenous aggregate datatype with variable size"
+    },
+    {
+      "source": "bag datatype",
+      "target": "homogenous  unordered aggregate datatype with variable size"
+    },
+    {
+      "source": "set datatype",
+      "target": "homogenous  unordered aggregate datatype with variable size"
+    },
+    {
+      "source": "node component",
+      "target": "graph aggregate component"
+    },
+    {
+      "source": "edge component",
+      "target": "graph aggregate component"
+    },
+    {
+      "source": "aggregate field component",
+      "target": "field component"
+    },
+    {
+      "source": "primitive field component",
+      "target": "field component"
+    },
+    {
+      "source": "labeled dataset descriptive field component",
+      "target": "field component"
+    },
+    {
+      "source": "labeled dataset target field component",
+      "target": "field component"
+    },
+    {
+      "source": "void datatype",
+      "target": "primitive datatype"
+    },
+    {
+      "source": "non-numeric primitive datatype",
+      "target": "primitive datatype"
+    },
+    {
+      "source": "numeric primitive datatype",
+      "target": "primitive datatype"
+    },
+    {
+      "source": "homogenous aggregate generator",
+      "target": "aggregate generator"
+    },
+    {
+      "source": "heterogenous aggregate generator",
+      "target": "aggregate generator"
+    },
+    {
+      "source": "non-numeric unordered primitive datatype",
+      "target": "non-numeric primitive datatype"
+    },
+    {
+      "source": "non-numeric ordered primitive datatype",
+      "target": "non-numeric primitive datatype"
+    },
+    {
+      "source": "homogenous aggregate datatype",
+      "target": "aggregate datatype"
+    },
+    {
+      "source": "heterogenous aggregate datatype",
+      "target": "aggregate datatype"
+    },
+    {
+      "source": "direct access property",
+      "target": "access type"
+    },
+    {
+      "source": "indirect acess property",
+      "target": "access type"
+    },
+    {
+      "source": "add operation",
+      "target": "dyadic aritmetic operation"
+    },
+    {
+      "source": "multiply operation",
+      "target": "dyadic aritmetic operation"
+    },
+    {
+      "source": "Divide:scaled",
+      "target": "dyadic aritmetic operation"
+    },
+    {
+      "source": "delete operation",
+      "target": "dyadic updating operation"
+    },
+    {
+      "source": "insert operation",
+      "target": "dyadic updating operation"
+    },
+    {
+      "source": "Append:sequence",
+      "target": "dyadic updating operation"
+    },
+    {
+      "source": "AttributeFunctionOverride:class",
+      "target": "dyadic updating operation"
+    },
+    {
+      "source": "AttributeReplace:class",
+      "target": "dyadic updating operation"
+    },
+    {
+      "source": "FieldReplace:record",
+      "target": "dyadic updating operation"
+    },
+    {
+      "source": "difference operation",
+      "target": "dyadic operation"
+    },
+    {
+      "source": "dyadic select operation",
+      "target": "dyadic operation"
+    },
+    {
+      "source": "dyadic aritmetic operation",
+      "target": "dyadic operation"
+    },
+    {
+      "source": "dyadic logical operation",
+      "target": "dyadic operation"
+    },
+    {
+      "source": "dyadic set operation",
+      "target": "dyadic operation"
+    },
+    {
+      "source": "dyadic updating operation",
+      "target": "dyadic operation"
+    },
+    {
+      "source": "dyadic comparison operation",
+      "target": "dyadic operation"
+    },
+    {
+      "source": "dyadic retrieve operation",
+      "target": "dyadic operation"
+    },
+    {
+      "source": "equal operation",
+      "target": "dyadic comparison operation"
+    },
+    {
+      "source": "in order operation",
+      "target": "dyadic comparison operation"
+    },
+    {
+      "source": "isEmpty operation",
+      "target": "boolean operation"
+    },
+    {
+      "source": "nonNegative operation",
+      "target": "boolean operation"
+    },
+    {
+      "source": "SetOf:set",
+      "target": "boolean operation"
+    },
+    {
+      "source": "negate operation",
+      "target": "monadic operation"
+    },
+    {
+      "source": "promote operation",
+      "target": "monadic operation"
+    },
+    {
+      "source": "serialize operation",
+      "target": "monadic operation"
+    },
+    {
+      "source": "successor operation",
+      "target": "monadic operation"
+    },
+    {
+      "source": "Cast:choice",
+      "target": "monadic operation"
+    },
+    {
+      "source": "Dereference:pointer",
+      "target": "monadic operation"
+    },
+    {
+      "source": "Discriminant:choice",
+      "target": "monadic operation"
+    },
+    {
+      "source": "Extend:time&date",
+      "target": "monadic operation"
+    },
+    {
+      "source": "Invoke:procedure",
+      "target": "monadic operation"
+    },
+    {
+      "source": "Not:boolean",
+      "target": "monadic operation"
+    },
+    {
+      "source": "monadic aritmetic operation",
+      "target": "monadic operation"
+    },
+    {
+      "source": "monadic retrive operation",
+      "target": "monadic operation"
+    },
+    {
+      "source": "map operation",
+      "target": "monadic operation"
+    },
+    {
+      "source": "boolean operation",
+      "target": "monadic operation"
+    },
+    {
+      "source": "reciprocial operation",
+      "target": "monadic aritmetic operation"
+    },
+    {
+      "source": "round operation",
+      "target": "monadic aritmetic operation"
+    },
+    {
+      "source": "SquareRoot:complex",
+      "target": "monadic aritmetic operation"
+    },
+    {
+      "source": "monadic select operation",
+      "target": "monadic retrive operation"
+    },
+    {
+      "source": "AttributeFunctionInvocation:class",
+      "target": "monadic retrive operation"
+    },
+    {
+      "source": "AttributeSelect:class",
+      "target": "monadic retrive operation"
+    },
+    {
+      "source": "FieldSelect:record",
+      "target": "monadic retrive operation"
+    },
+    {
+      "source": "Head:sequence",
+      "target": "monadic retrive operation"
+    },
+    {
+      "source": "Tail:sequence",
+      "target": "monadic retrive operation"
+    },
+    {
+      "source": "countable",
+      "target": "cardinality"
+    },
+    {
+      "source": "finite",
+      "target": "cardinality"
+    },
+    {
+      "source": "uncountable",
+      "target": "cardinality"
+    },
+    {
+      "source": "bounded above",
+      "target": "bounded"
+    },
+    {
+      "source": "bounded below",
+      "target": "bounded"
+    },
+    {
+      "source": "unbounded above",
+      "target": "unbounded"
+    },
+    {
+      "source": "unbounded below",
+      "target": "unbounded"
+    },
+    {
+      "source": "bounded",
+      "target": "boundedness"
+    },
+    {
+      "source": "unbounded",
+      "target": "boundedness"
+    },
+    {
+      "source": "approximate",
+      "target": "exactness"
+    },
+    {
+      "source": "exact",
+      "target": "exactness"
+    },
+    {
+      "source": "numeric",
+      "target": "numericalness"
+    },
+    {
+      "source": "non-numeric",
+      "target": "numericalness"
+    },
+    {
+      "source": "ordered",
+      "target": "order"
+    },
+    {
+      "source": "non-ordered",
+      "target": "order"
+    },
+    {
+      "source": "Add:complex",
+      "target": "add operation"
+    },
+    {
+      "source": "Add:integer",
+      "target": "add operation"
+    },
+    {
+      "source": "Add:rational",
+      "target": "add operation"
+    },
+    {
+      "source": "Add:real",
+      "target": "add operation"
+    },
+    {
+      "source": "Add:scaled",
+      "target": "add operation"
+    },
+    {
+      "source": "Delete:bag",
+      "target": "delete operation"
+    },
+    {
+      "source": "Delete:table",
+      "target": "delete operation"
+    },
+    {
+      "source": "Difference:set",
+      "target": "difference operation"
+    },
+    {
+      "source": "Difference:time&date",
+      "target": "difference operation"
+    },
+    {
+      "source": "Select:array",
+      "target": "dyadic select operation"
+    },
+    {
+      "source": "Select:table",
+      "target": "dyadic select operation"
+    },
+    {
+      "source": "Equal:array",
+      "target": "equal operation"
+    },
+    {
+      "source": "Equal:bag",
+      "target": "equal operation"
+    },
+    {
+      "source": "Equal:boolean",
+      "target": "equal operation"
+    },
+    {
+      "source": "Equal:character",
+      "target": "equal operation"
+    },
+    {
+      "source": "Equal:choice",
+      "target": "equal operation"
+    },
+    {
+      "source": "Equal:class",
+      "target": "equal operation"
+    },
+    {
+      "source": "Equal:complex",
+      "target": "equal operation"
+    },
+    {
+      "source": "Equal:enumerated",
+      "target": "equal operation"
+    },
+    {
+      "source": "Equal:integer",
+      "target": "equal operation"
+    },
+    {
+      "source": "Equal:ordinal",
+      "target": "equal operation"
+    },
+    {
+      "source": "Equal:pointer",
+      "target": "equal operation"
+    },
+    {
+      "source": "Equal:procedure",
+      "target": "equal operation"
+    },
+    {
+      "source": "Equal:rational",
+      "target": "equal operation"
+    },
+    {
+      "source": "Equal:real",
+      "target": "equal operation"
+    },
+    {
+      "source": "Equal:record",
+      "target": "equal operation"
+    },
+    {
+      "source": "Equal:scaled",
+      "target": "equal operation"
+    },
+    {
+      "source": "Equal:sequence",
+      "target": "equal operation"
+    },
+    {
+      "source": "Equal:set",
+      "target": "equal operation"
+    },
+    {
+      "source": "Equal:discrete",
+      "target": "equal operation"
+    },
+    {
+      "source": "Equal:table",
+      "target": "equal operation"
+    },
+    {
+      "source": "Equal:time&date",
+      "target": "equal operation"
+    },
+    {
+      "source": "Equal:void",
+      "target": "equal operation"
+    },
+    {
+      "source": "InOrder:enumerated",
+      "target": "in order operation"
+    },
+    {
+      "source": "InOrder:interger",
+      "target": "in order operation"
+    },
+    {
+      "source": "InOrder:ordinal",
+      "target": "in order operation"
+    },
+    {
+      "source": "InOrder:rational",
+      "target": "in order operation"
+    },
+    {
+      "source": "InOrder:real",
+      "target": "in order operation"
+    },
+    {
+      "source": "InOrder:scaled",
+      "target": "in order operation"
+    },
+    {
+      "source": "InOrder:time&date",
+      "target": "in order operation"
+    },
+    {
+      "source": "Insert:bag",
+      "target": "insert operation"
+    },
+    {
+      "source": "Insert:table",
+      "target": "insert operation"
+    },
+    {
+      "source": "Multiply:complex",
+      "target": "multiply operation"
+    },
+    {
+      "source": "Multiply:integer",
+      "target": "multiply operation"
+    },
+    {
+      "source": "Multiply:rational",
+      "target": "multiply operation"
+    },
+    {
+      "source": "Multiply:real",
+      "target": "multiply operation"
+    },
+    {
+      "source": "Multiply:scaled",
+      "target": "multiply operation"
+    },
+    {
+      "source": "And:boolean",
+      "target": "dyadic logical operation"
+    },
+    {
+      "source": "Or:boolean",
+      "target": "dyadic logical operation"
+    },
+    {
+      "source": "Fetch:table",
+      "target": "dyadic retrieve operation"
+    },
+    {
+      "source": "Tag:choice",
+      "target": "dyadic retrieve operation"
+    },
+    {
+      "source": "Intersection:set",
+      "target": "dyadic set operation"
+    },
+    {
+      "source": "Lsln:set",
+      "target": "dyadic set operation"
+    },
+    {
+      "source": "Subset:set",
+      "target": "dyadic set operation"
+    },
+    {
+      "source": "Union:set",
+      "target": "dyadic set operation"
+    },
+    {
+      "source": "IsEmpty:bag",
+      "target": "isEmpty operation"
+    },
+    {
+      "source": "IsEmpty:sequence",
+      "target": "isEmpty operation"
+    },
+    {
+      "source": "IsEmpty:table",
+      "target": "isEmpty operation"
+    },
+    {
+      "source": "Select:bag",
+      "target": "monadic select operation"
+    },
+    {
+      "source": "Select:set",
+      "target": "monadic select operation"
+    },
+    {
+      "source": "Negate:complex",
+      "target": "negate operation"
+    },
+    {
+      "source": "Negate:integer",
+      "target": "negate operation"
+    },
+    {
+      "source": "Negate:rational",
+      "target": "negate operation"
+    },
+    {
+      "source": "Negate:real",
+      "target": "negate operation"
+    },
+    {
+      "source": "Negate:scaled",
+      "target": "negate operation"
+    },
+    {
+      "source": "NonNegative:integer",
+      "target": "nonNegative operation"
+    },
+    {
+      "source": "NonNegative:rational",
+      "target": "nonNegative operation"
+    },
+    {
+      "source": "Promote:complex",
+      "target": "promote operation"
+    },
+    {
+      "source": "Promote:rational",
+      "target": "promote operation"
+    },
+    {
+      "source": "Promote:real",
+      "target": "promote operation"
+    },
+    {
+      "source": "Reciprocal:rational",
+      "target": "reciprocial operation"
+    },
+    {
+      "source": "Reciprocal:real",
+      "target": "reciprocial operation"
+    },
+    {
+      "source": "Reciprocal:complex",
+      "target": "reciprocial operation"
+    },
+    {
+      "source": "Round:scaled",
+      "target": "round operation"
+    },
+    {
+      "source": "Round:time&date",
+      "target": "round operation"
+    },
+    {
+      "source": "Serialize:bag",
+      "target": "serialize operation"
+    },
+    {
+      "source": "Serialize:table",
+      "target": "serialize operation"
+    },
+    {
+      "source": "Successor:enumerated",
+      "target": "successor operation"
+    },
+    {
+      "source": "Successor:ordinal",
+      "target": "successor operation"
+    },
+    {
+      "source": "MapToBag:table",
+      "target": "map operation"
+    },
+    {
+      "source": "MapToTable:table",
+      "target": "map operation"
+    },
+    {
+      "source": "Replace:array",
+      "target": "n-adic operation"
+    },
+    {
+      "source": "Empty:bag",
+      "target": "niladic operation"
+    },
+    {
+      "source": "Empty:sequence",
+      "target": "niladic operation"
+    },
+    {
+      "source": "Empty:set",
+      "target": "niladic operation"
+    },
+    {
+      "source": "Empty:table",
+      "target": "niladic operation"
+    },
+    {
+      "source": "index access",
+      "target": "direct access property"
+    },
+    {
+      "source": "key access",
+      "target": "direct access property"
+    },
+    {
+      "source": "access by value",
+      "target": "indirect acess property"
+    },
+    {
+      "source": "implementation dependent access",
+      "target": "indirect acess property"
+    },
+    {
+      "source": "position access",
+      "target": "indirect acess property"
+    },
+    {
+      "source": "ordered aggregate",
+      "target": "aggregate imposed ordering"
+    },
+    {
+      "source": "unordered aggregate",
+      "target": "aggregate imposed ordering"
+    },
+    {
+      "source": "identifier not unique",
+      "target": "aggregate-imposed identifier uniqueness"
+    },
+    {
+      "source": "identifier unique",
+      "target": "aggregate-imposed identifier uniqueness"
+    },
+    {
+      "source": "fixed size",
+      "target": "agregate size"
+    },
+    {
+      "source": "variable size",
+      "target": "agregate size"
+    },
+    {
+      "source": "component mandatory",
+      "target": "component mandatoriness"
+    },
+    {
+      "source": "component non-mandatory",
+      "target": "component mandatoriness"
+    },
+    {
+      "source": "one dimensional",
+      "target": "dimensionality"
+    },
+    {
+      "source": "two dimensional",
+      "target": "dimensionality"
+    },
+    {
+      "source": "multi dimensional",
+      "target": "dimensionality"
+    },
+    {
+      "source": "homogenous",
+      "target": "homogenity"
+    },
+    {
+      "source": "heterogenous",
+      "target": "homogenity"
+    },
+    {
+      "source": "recursive",
+      "target": "recursiveness"
+    },
+    {
+      "source": "non-recursive",
+      "target": "recursiveness"
+    },
+    {
+      "source": "structured",
+      "target": "structurness"
+    },
+    {
+      "source": "unstructured",
+      "target": "structurness"
+    },
+    {
+      "source": "semi-structured",
+      "target": "structurness"
+    },
+    {
+      "source": "non-unique values",
+      "target": "uniqueness"
+    },
+    {
+      "source": "unique values",
+      "target": "uniqueness"
+    },
+    {
+      "source": "descriptive field identifier",
+      "target": "field identifier"
+    },
+    {
+      "source": "target field identifier",
+      "target": "field identifier"
+    },
+    {
+      "source": "target primitive field component",
+      "target": "labeled dataset target field component"
+    },
+    {
+      "source": "target boolean field component",
+      "target": "labeled dataset target field component"
+    },
+    {
+      "source": "target discrete field component",
+      "target": "labeled dataset target field component"
+    },
+    {
+      "source": "target real field component",
+      "target": "labeled dataset target field component"
+    },
+    {
+      "source": "target sequence of real field component",
+      "target": "labeled dataset target field component"
+    },
+    {
+      "source": "target hierarchical field component",
+      "target": "labeled dataset target field component"
+    },
+    {
+      "source": "target DAG field component",
+      "target": "labeled dataset target field component"
+    },
+    {
+      "source": "target tree field component",
+      "target": "labeled dataset target field component"
+    },
+    {
+      "source": "target set of discrete field component",
+      "target": "labeled dataset target field component"
+    },
+    {
+      "source": "target record of primitives field component",
+      "target": "labeled dataset target field component"
+    },
+    {
+      "source": "target record of boolean field component",
+      "target": "labeled dataset target field component"
+    },
+    {
+      "source": "target record of discrete field component",
+      "target": "labeled dataset target field component"
+    },
+    {
+      "source": "target record of reals field component",
+      "target": "labeled dataset target field component"
+    },
+    {
+      "source": "target structured field component",
+      "target": "labeled dataset target field component"
+    },
+    {
+      "source": "descriptive record of primitives field component",
+      "target": "labeled dataset descriptive field component"
+    },
+    {
+      "source": "descriptive record of reals field component",
+      "target": "labeled dataset descriptive field component"
+    },
+    {
+      "source": "descriptive record of boolean field component",
+      "target": "labeled dataset descriptive field component"
+    },
+    {
+      "source": "descriptive record of discrete field component",
+      "target": "labeled dataset descriptive field component"
+    },
+    {
+      "source": "descriptive set of integer field component",
+      "target": "labeled dataset descriptive field component"
+    },
+    {
+      "source": "descriptive strucured field component",
+      "target": "labeled dataset descriptive field component"
+    },
+    {
+      "source": "positive integer",
+      "target": "extended datatype"
+    },
+    {
+      "source": "positive integer range generator",
+      "target": "range subtype generator"
+    },
+    {
+      "source": "role",
+      "target": "owl:Thing"
+    },
+    {
+      "source": "quality",
+      "target": "owl:Thing"
+    },
+    {
+      "source": "information artifact entity",
+      "target": "owl:Thing"
+    }
+  ]
+}
