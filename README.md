@@ -1,19 +1,19 @@
 # OTVis
 
-OTVis는 OWL 온톨로지의 TBox 구조를 시각화하기 위한 도구 모음입니다. 파이썬 스크립트로 공리와 주석을 추출해 JSON으로 변환한 후, `index.html`에서 D3.js를 사용해 그래프로 표현합니다.
+OTVis is a collection of utilities for visualizing the TBox structure of OWL ontologies. The provided Python scripts extract axioms and annotations into JSON files and `index.html` uses D3.js to display them as a graph.
 
-## 디렉터리 구조
-- `Ontology/` – 입력 OWL 파일
-- `Axiom_per_entity/` – 개별 클래스/프로퍼티의 공리 정보(`*_axiom.json`)
-- `Ontology_description/` – 클래스와 프로퍼티 설명(`*_description.json`)
-- `Graph/` – 시각화용 그래프 데이터(`*_graph.json`)
-- `ontology_list.json` – 웹에서 선택할 수 있는 온톨로지 이름 목록
-- 주요 스크립트: `ontology_processing.py`, `description_extraction.py`, `convert_hierarchy.py`
+## Directory layout
+- `Ontology/` – input OWL files
+- `Axiom_per_entity/` – axioms for each class/property (`*_axiom.json`)
+- `Ontology_description/` – descriptions of classes and properties (`*_description.json`)
+- `Graph/` – graph data used by the viewer (`*_graph.json`)
+- `ontology_list.json` – list of ontology names shown on the web page
+- Main scripts: `ontology_processing.py`, `description_extraction.py`, `convert_hierarchy.py`
 
-## 파이썬 스크립트
+## Python scripts
 
 ### ontology_processing.py
-온톨로지에서 클래스 및 프로퍼티 공리를 수집하여 JSON으로 저장합니다.
+Collects class and property axioms from the ontology and saves them as JSON.
 
 ```python
 output = {"classes": class_axioms, "properties": prop_axioms}
@@ -22,7 +22,7 @@ with open(axioms_file, "w", encoding="utf-8") as af:
 ```
 
 ### description_extraction.py
-`rdfs:comment`와 `oboInOwl:hasDefinition` 등을 추출해 설명 파일을 만듭니다.
+Extracts `rdfs:comment` and `oboInOwl:hasDefinition` annotations into a description file.
 
 ```python
 output = {
@@ -37,7 +37,7 @@ with open(out_path, "w", encoding="utf-8") as f:
 ```
 
 ### convert_hierarchy.py
-클래스 계층을 읽어 그래프 JSON을 생성하며, 공리와 설명 정보를 병합합니다.
+Reads the class hierarchy to generate a graph JSON and merges the axiom and description information.
 
 ```python
 axiom_path = os.path.join(AXIOM_DIR, f"{base_name}_axiom.json")
@@ -50,8 +50,8 @@ if node in class_descriptions:
     node_dict["description"] = class_descriptions[node]
 ```
 
-## 웹 뷰어
-`index.html`은 D3.js로 인터랙티브 그래프를 표시합니다. 상단에서 온톨로지를 선택하고 특정 클래스로 포커스할 수 있습니다.
+## Web viewer
+`index.html` displays an interactive graph with D3.js. Use the top panel to select an ontology and focus on a specific class.
 
 ```html
 <div id="controls">
@@ -65,7 +65,7 @@ if node in class_descriptions:
 </div>
 ```
 
-온톨로지 목록을 읽어와 선택지를 채우고, `loadOntology()`에서 그래프 데이터를 불러옵니다.
+The page loads the ontology list and `loadOntology()` fetches the graph data.
 
 ```javascript
 fetch("ontology_list.json")
@@ -87,20 +87,21 @@ function loadOntology() {
 }
 ```
 
-## 사용 방법
-1. `Ontology/` 폴더에 OWL 파일을 넣고, 필요한 경우 `ontology_list.json`에 이름을 추가합니다.
-2. Python 3 환경에서 RDFlib을 설치합니다.
+## Usage
+1. Place OWL files in `Ontology/` and add their names to `ontology_list.json` if needed.
+2. Install RDFlib for Python 3.
    ```bash
    pip install rdflib
    ```
-3. 아래 스크립트를 순서대로 실행해 JSON 데이터를 생성합니다.
+3. Run the scripts in order to generate the JSON data.
    ```bash
    python ontology_processing.py
    python description_extraction.py
    python convert_hierarchy.py
    ```
-4. 로컬 웹 서버를 실행하고 브라우저에서 `index.html`을 열어 그래프를 확인합니다.
+4. Start a local web server and open `index.html` in your browser.
    ```bash
    python -m http.server
    ```
-   그 후 `http://localhost:8000/index.html`에 접속하면 됩니다.
+   Then visit `http://localhost:8000/index.html`.
+

@@ -1,3 +1,5 @@
+"""Convert class hierarchies to a graph JSON format and merge annotation data."""
+
 import os
 import json
 from rdflib import Graph, RDFS, OWL, BNode, URIRef
@@ -13,6 +15,7 @@ TARGET_WITH_LABEL = [
 ]
 
 def safe_qname(node, g, label_map=None):
+    """Return a qname or label for *node* if available."""
     if label_map and node in label_map:
         return label_map[node]
     try:
@@ -21,6 +24,7 @@ def safe_qname(node, g, label_map=None):
         return str(node)
 
 def extract_force_graph(file_path, output_path):
+    """Parse *file_path* and write a force-layout graph JSON to *output_path*."""
     g = Graph()
     if file_path.endswith((".owl", ".rdf")):
         parse_format = "xml"
@@ -58,7 +62,7 @@ def extract_force_graph(file_path, output_path):
             links.append({"source": r, "target": "owl:Thing"})
             nodes.add("owl:Thing")
 
-    # ------ 🔥 axiom 및 description 병합 ------
+    # ------ 🔥 merge axioms and descriptions ------
     axiom_path = os.path.join(AXIOM_DIR, f"{base_name}_axiom.json")
     desc_path = os.path.join(DESC_DIR, f"{base_name}_description.json")
     class_axioms = {}
@@ -79,10 +83,10 @@ def extract_force_graph(file_path, output_path):
     node_list = []
     for node in sorted(nodes):
         node_dict = {"id": node}
-        # axiom 병합
+        # merge axioms
         if node in class_axioms:
             node_dict["axioms"] = class_axioms[node]
-        # description 병합 (필드 그대로 모두 넣음)
+        # merge descriptions (include all fields as is)
         if node in class_descriptions:
             node_dict["description"] = class_descriptions[node]
         node_list.append(node_dict)
