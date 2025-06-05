@@ -1,16 +1,17 @@
+"""Extract annotations from OWL files and store them as JSON."""
+
 import os
 import json
 from rdflib import Graph, Namespace
 from rdflib.namespace import RDF, RDFS, OWL
 
-# ——————————————————————————————————————————
-# 1) owl files to be processed label replacement
+# Names of ontology files where labels should replace QNames
 TARGET_WITH_LABEL = [
     "swo_merged.owl",
     "OntoDT.owl"
 ]
 
-# input/output directory
+# Input and output directories
 INPUT_DIR = "Ontology"
 OUTPUT_DIR = "Ontology_description"
 os.makedirs(OUTPUT_DIR, exist_ok=True)
@@ -20,12 +21,7 @@ OBOINOWL = Namespace("http://www.geneontology.org/formats/oboInOwl#")
 
 
 def format_node(node, g, label_map=None):
-    """
-    node → human-readable string
-    1) if label_map[node] exists, return label_map[node]
-    2) else, return qname(node)
-    3) if failed, return str(node)
-    """
+    """Return a readable identifier for *node* using labels or qnames."""
     if label_map and node in label_map:
         return label_map[node]
     try:
@@ -124,3 +120,4 @@ for fname in os.listdir(INPUT_DIR):
     class_count = len(class_ann_dict)
     prop_count = len(prop_ann_dict)
     print(f"✔️ {fname} → {out_fname} saved (use_label={use_label}, #classes: {class_count}, #properties: {prop_count})")
+
