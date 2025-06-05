@@ -1,2 +1,2 @@
-# OTVis-
+# OTVis
 Ontology Tbox Visulization
