@@ -103,6 +103,27 @@
       <label>Focus class: </label>
       <input type="text" id="focus-id" placeholder="e.g., owl:Thing" />
       <button onclick="focusOnNode()">Focus</button>
+      <label>
+        <input type="checkbox" id="use-force" checked />
+        Force Simulation
+      </label>
+      <div id="force-controls" style="margin-top: 14px; display: none">
+        <label style="font-size: 13px"
+          >Charge Strength:
+          <input type="range" id="charge-strength" min="-300" max="0" value="-20" step="1" style="width: 120px" />
+          <span id="charge-strength-value">-20</span> </label
+        ><br />
+        <label style="font-size: 13px"
+          >Link Strength:
+          <input type="range" id="link-strength" min="0" max="1" value="0.05" step="0.01" style="width: 120px" />
+          <span id="link-strength-value">0.05</span> </label
+        ><br />
+        <label style="font-size: 13px"
+          >Link Distance:
+          <input type="range" id="link-distance" min="10" max="200" value="20" step="1" style="width: 120px" />
+          <span id="link-distance-value">20</span>
+        </label>
+      </div>
     </div>
 
     <div id="focus-visual">
@@ -166,6 +187,15 @@
 
     <script src="https://d3js.org/d3.v7.min.js"></script>
     <script>
+      // 슬라이더 show/hide 동기화
+      document.getElementById("use-force").addEventListener("change", function () {
+        document.getElementById("force-controls").style.display = this.checked ? "" : "none"
+      })
+      // 페이지 로드 시 한 번 상태 동기화
+      window.addEventListener("DOMContentLoaded", function () {
+        document.getElementById("force-controls").style.display = document.getElementById("use-force").checked ? "" : "none"
+      })
+
       const zoom = d3.zoom().on("zoom", (event) => {
         svgGroup.attr("transform", event.transform)
       })
@@ -178,6 +208,33 @@
       let allLinks = []
       let axiomLinks = []
       let currentFocusId = null
+      let forceParams = {
+        chargeStrength: -20,
+        linkStrength: 0.05,
+        linkDistance: 20
+      }
+
+      // 척력
+      document.getElementById("charge-strength").addEventListener("input", function () {
+        forceParams.chargeStrength = +this.value
+        document.getElementById("charge-strength-value").textContent = this.value
+        if (simulation) simulation.force("charge").strength(forceParams.chargeStrength)
+        if (simulation) simulation.alpha(0.3).restart()
+      })
+      // 링크 강도
+      document.getElementById("link-strength").addEventListener("input", function () {
+        forceParams.linkStrength = +this.value
+        document.getElementById("link-strength-value").textContent = this.value
+        if (simulation) simulation.force("link").strength(forceParams.linkStrength)
+        if (simulation) simulation.alpha(0.3).restart()
+      })
+      // 링크 거리
+      document.getElementById("link-distance").addEventListener("input", function () {
+        forceParams.linkDistance = +this.value
+        document.getElementById("link-distance-value").textContent = this.value
+        if (simulation) simulation.force("link").distance(forceParams.linkDistance)
+        if (simulation) simulation.alpha(0.3).restart()
+      })
 
       fetch("ontology_list.json")
         .then((res) => res.json())
@@ -193,61 +250,80 @@
 
       function loadOntology() {
         const name = document.getElementById("ontology-select").value
-        const filePath = `Graph/${name}_graph.json?v=${Date.now()}` // 캐시 방지
+        // 경로만 상황에 맞게 조정!
+        const filePath = `Graph_embedding/${name}_graph_embed.json?v=${Date.now()}`
 
         svgGroup.selectAll("#link-layer, #node-layer").remove()
         if (simulation) simulation.stop()
 
         d3.json(filePath)
           .then((data) => {
+            // 1. 노드 좌표 변환: 0~1 정규화값을 창 크기에 맞춰 실좌표로 변환
+            const width = window.innerWidth
+            const height = window.innerHeight
+            data.nodes.forEach((n) => {
+              // x/y가 없으면 x_norm/y_norm을 변환
+              if (typeof n.x !== "number" || typeof n.y !== "number") {
+                n.x = n.x_norm !== undefined ? n.x_norm * (width - 40) + 20 : Math.random() * (width - 40) + 20
+                n.y = n.y_norm !== undefined ? n.y_norm * (height - 40) + 20 : Math.random() * (height - 40) + 20
+              }
+            })
             allNodes = data.nodes
             allLinks = data.links
-            assignColors(data)
-            renderGraph(data)
-            document.getElementById("desc-axiom-panel").style.display = "none" // ontology reload 시 패널 숨김
+
+            // 2. 모드 체크박스 읽기
+            const useForce = document.getElementById("use-force").checked
+
+            if (useForce) {
+              renderGraphForce(data)
+            } else {
+              renderGraphFixed(data)
+            }
+            document.getElementById("desc-axiom-panel").style.display = "none"
           })
           .catch(() => alert("File not found: " + filePath))
       }
 
-      function assignColors(data) {
-        const childrenMap = new Map()
-        data.links.forEach((link) => {
-          if (!childrenMap.has(link.target)) childrenMap.set(link.target, [])
-          childrenMap.get(link.target).push(link.source)
-        })
+      /*
+        function assignColors(data) {
+          const childrenMap = new Map()
+          data.links.forEach((link) => {
+            if (!childrenMap.has(link.target)) childrenMap.set(link.target, [])
+            childrenMap.get(link.target).push(link.source)
+          })
 
-        const root = data.nodes.find((n) => n.id === "owl:Thing") || data.nodes[0]
-        const nodeColorMap = new Map()
+          const root = data.nodes.find((n) => n.id === "owl:Thing") || data.nodes[0]
+          const nodeColorMap = new Map()
 
-        function assignRecursive(nodeId, hue, depth) {
-          const saturation = 40
-          const lightness = 90 - depth * 5
-          nodeColorMap.set(nodeId, `hsl(${hue}, ${saturation}%, ${lightness}%)`)
+          function assignRecursive(nodeId, hue, depth) {
+            const saturation = 40
+            const lightness = 90 - depth * 5
+            nodeColorMap.set(nodeId, `hsl(${hue}, ${saturation}%, ${lightness}%)`)
 
-          const children = [...(childrenMap.get(nodeId) || [])]
-          if (children.length === 0) return
+            const children = [...(childrenMap.get(nodeId) || [])]
+            if (children.length === 0) return
 
-          const sharedHue = hue + (Math.random() - 0.5) * 20
-          children.forEach((childId) => {
+            const sharedHue = hue + (Math.random() - 0.5) * 20
+            children.forEach((childId) => {
             const childIsLeaf = !childrenMap.has(childId) || childrenMap.get(childId).length === 0
             const childHue = childIsLeaf ? sharedHue : (sharedHue + Math.random() * 30) % 360
             assignRecursive(childId, childHue, depth + 1)
+            })
+          }
+
+          assignRecursive(root.id, Math.random() * 360, 0)
+
+          data.nodes.forEach((n) => {
+            n.color = nodeColorMap.get(n.id) || "#eee"
           })
         }
+    */
 
-        assignRecursive(root.id, Math.random() * 360, 0)
-
-        data.nodes.forEach((n) => {
-          n.color = nodeColorMap.get(n.id) || "#eee"
-        })
-      }
-
-      function renderGraph(data) {
+      function renderGraphForce(data) {
         svgGroup.selectAll("#link-layer").remove()
         svgGroup.selectAll("#node-layer").remove()
         svgGroup.selectAll("#axiom-label-layer").remove()
 
-        // ... (node 생성 동일)
         const link = svgGroup
           .append("g")
           .attr("id", "link-layer")
@@ -289,7 +365,7 @@
           .attr("text-anchor", "middle")
           .attr("dominant-baseline", "middle")
           .text((d) => d.id)
-        // axiom label
+
         svgGroup
           .append("g")
           .attr("id", "axiom-label-layer")
@@ -309,10 +385,10 @@
             d3
               .forceLink(data.links)
               .id((d) => d.id)
-              .distance(40)
-              .strength((d) => (d._axiom ? 0.01 : 0.3)) // ← 여기!
+              .distance(forceParams.linkDistance)
+              .strength(forceParams.linkStrength)
           )
-          .force("charge", d3.forceManyBody().strength(-150))
+          .force("charge", d3.forceManyBody().strength(forceParams.chargeStrength))
           .force("center", d3.forceCenter(window.innerWidth / 2, window.innerHeight / 2))
           .force(
             "collide",
@@ -331,6 +407,77 @@
               .attr("x", (d) => (d.source.x + d.target.x) / 2)
               .attr("y", (d) => (d.source.y + d.target.y) / 2)
           })
+      }
+
+      function renderGraphFixed(data) {
+        svgGroup.selectAll("#link-layer").remove()
+        svgGroup.selectAll("#node-layer").remove()
+        svgGroup.selectAll("#axiom-label-layer").remove()
+
+        const link = svgGroup
+          .append("g")
+          .attr("id", "link-layer")
+          .selectAll("line")
+          .data(data.links)
+          .enter()
+          .append("line")
+          .attr("class", "link")
+          .attr("stroke-width", 1.5)
+          .attr("stroke", (d) => (d._axiom ? "#ff9900" : "#aaa"))
+          .attr("stroke-dasharray", (d) => (d._axiom ? "4 2" : null))
+          .attr("marker-end", "url(#arrow)")
+          .attr("x1", (d) => getNode(d.source).x)
+          .attr("y1", (d) => getNode(d.source).y)
+          .attr("x2", (d) => getNode(d.target).x)
+          .attr("y2", (d) => getNode(d.target).y)
+
+        const node = svgGroup
+          .append("g")
+          .attr("id", "node-layer")
+          .selectAll("g")
+          .data(data.nodes)
+          .enter()
+          .append("g")
+          .attr("class", "node")
+          .attr("transform", (d) => `translate(${d.x},${d.y})`)
+
+        node
+          .append("circle")
+          .attr("r", 24)
+          .attr("fill", (d) => d.color || "#eeeeee")
+          .attr("stroke", "#333")
+          .attr("stroke-width", 1.2)
+
+        node.on("click", (event, d) => {
+          document.getElementById("focus-id").value = d.id
+          focusOnNode()
+          showClassPanel(d)
+        })
+
+        node
+          .append("text")
+          .attr("text-anchor", "middle")
+          .attr("dominant-baseline", "middle")
+          .text((d) => d.id)
+
+        svgGroup
+          .append("g")
+          .attr("id", "axiom-label-layer")
+          .selectAll("text")
+          .data(data.links.filter((l) => l._axiom))
+          .enter()
+          .append("text")
+          .attr("font-size", "11px")
+          .attr("fill", "#d86e18")
+          .attr("text-anchor", "middle")
+          .attr("x", (d) => (getNode(d.source).x + getNode(d.target).x) / 2)
+          .attr("y", (d) => (getNode(d.source).y + getNode(d.target).y) / 2)
+          .text((d) => d.label)
+
+        function getNode(id) {
+          if (typeof id === "object") return id
+          return data.nodes.find((n) => n.id === id)
+        }
       }
 
       function focusOnNode() {

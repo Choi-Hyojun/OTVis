@@ -1,0 +1,1394 @@
+{
+  "nodes": [
+    {
+      "id": "Active",
+      "x_norm": 0.19106525182724,
+      "y_norm": 0.34491103887557983,
+      "color": "hsl(68, 60%, 62%)"
+    },
+    {
+      "id": "Activity",
+      "axioms": {
+        "propertyRestrictions": [
+          "[hasAgent exactly 1 Person]",
+          "[hasAgent some Person]"
+        ]
+      },
+      "x_norm": 0.8724511861801147,
+      "y_norm": 0.4003511369228363,
+      "color": "hsl(314, 60%, 64%)"
+    },
+    {
+      "id": "AlarmClock",
+      "x_norm": 0.3253105878829956,
+      "y_norm": 0.1719491183757782,
+      "color": "hsl(117, 60%, 56%)"
+    },
+    {
+      "id": "AlarmClockRinging",
+      "axioms": {
+        "propertyRestrictions": [
+          "[hasAgent some AlarmClock]"
+        ]
+      },
+      "x_norm": 0.29976582527160645,
+      "y_norm": 0.10235998779535294,
+      "color": "hsl(107, 60%, 53%)"
+    },
+    {
+      "id": "AmbientMeasurement",
+      "axioms": {
+        "propertyRestrictions": [
+          "[refersTo only Room]"
+        ]
+      },
+      "x_norm": 0.9392356872558594,
+      "y_norm": 0.5676432251930237,
+      "color": "hsl(338, 60%, 69%)"
+    },
+    {
+      "id": "AnswerPhoneCall",
+      "x_norm": 0.34549480676651,
+      "y_norm": 0.0,
+      "color": "hsl(124, 60%, 50%)"
+    },
+    {
+      "id": "Apnea",
+      "x_norm": 0.6686197519302368,
+      "y_norm": 0.5568192005157471,
+      "color": "hsl(240, 60%, 69%)"
+    },
+    {
+      "id": "Appliance",
+      "x_norm": 0.1463622748851776,
+      "y_norm": 0.6676781177520752,
+      "color": "hsl(52, 60%, 73%)"
+    },
+    {
+      "id": "Arousal",
+      "x_norm": 0.8323688507080078,
+      "y_norm": 0.5917862057685852,
+      "color": "hsl(299, 60%, 70%)"
+    },
+    {
+      "id": "AtomicActivity",
+      "x_norm": 0.991169273853302,
+      "y_norm": 0.3897940218448639,
+      "color": "hsl(356, 60%, 63%)"
+    },
+    {
+      "id": "Bathroom",
+      "x_norm": 0.2932598888874054,
+      "y_norm": 0.6073077321052551,
+      "color": "hsl(105, 60%, 71%)"
+    },
+    {
+      "id": "Bed",
+      "x_norm": 0.5110375881195068,
+      "y_norm": 0.684311032295227,
+      "color": "hsl(183, 60%, 73%)"
+    },
+    {
+      "id": "BedExit",
+      "x_norm": 0.6093361377716064,
+      "y_norm": 0.8465076684951782,
+      "color": "hsl(219, 60%, 79%)"
+    },
+    {
+      "id": "Bedroom",
+      "x_norm": 0.3287808299064636,
+      "y_norm": 0.6215207576751709,
+      "color": "hsl(118, 60%, 71%)"
+    },
+    {
+      "id": "Book",
+      "x_norm": 0.34240517020225525,
+      "y_norm": 0.5103681683540344,
+      "color": "hsl(123, 60%, 67%)"
+    },
+    {
+      "id": "Bucket",
+      "x_norm": 0.02458147704601288,
+      "y_norm": 0.6538003087043762,
+      "color": "hsl(8, 60%, 72%)"
+    },
+    {
+      "id": "Carer",
+      "x_norm": 0.42152413725852966,
+      "y_norm": 0.499651163816452,
+      "color": "hsl(151, 60%, 67%)"
+    },
+    {
+      "id": "Chair",
+      "x_norm": 0.5184274315834045,
+      "y_norm": 0.5454830527305603,
+      "color": "hsl(186, 60%, 69%)"
+    },
+    {
+      "id": "ChangeOrientation",
+      "description": {
+        "rdfs:comment": "WIMU"
+      },
+      "x_norm": 0.8993181586265564,
+      "y_norm": 0.5054877400398254,
+      "color": "hsl(323, 60%, 67%)"
+    },
+    {
+      "id": "ChangePosture",
+      "description": {
+        "rdfs:comment": "WIMU"
+      },
+      "x_norm": 0.8944440484046936,
+      "y_norm": 0.5198121666908264,
+      "color": "hsl(321, 60%, 68%)"
+    },
+    {
+      "id": "Clinician",
+      "x_norm": 0.43365028500556946,
+      "y_norm": 0.5389981269836426,
+      "color": "hsl(156, 60%, 68%)"
+    },
+    {
+      "id": "Closed",
+      "x_norm": 0.12960921227931976,
+      "y_norm": 0.31704747676849365,
+      "color": "hsl(46, 60%, 61%)"
+    },
+    {
+      "id": "ComplexActivity",
+      "x_norm": 0.9665231704711914,
+      "y_norm": 0.39142104983329773,
+      "color": "hsl(347, 60%, 63%)"
+    },
+    {
+      "id": "Cooker",
+      "x_norm": 0.13993044197559357,
+      "y_norm": 0.6492184400558472,
+      "color": "hsl(50, 60%, 72%)"
+    },
+    {
+      "id": "Couch",
+      "x_norm": 0.3917945623397827,
+      "y_norm": 0.6130237579345703,
+      "color": "hsl(141, 60%, 71%)"
+    },
+    {
+      "id": "Cup",
+      "x_norm": 0.1646868735551834,
+      "y_norm": 0.5834792256355286,
+      "color": "hsl(59, 60%, 70%)"
+    },
+    {
+      "id": "Cuttlery",
+      "x_norm": 0.39435210824012756,
+      "y_norm": 0.8884027004241943,
+      "color": "hsl(141, 60%, 81%)"
+    },
+    {
+      "id": "Cycling",
+      "x_norm": 0.786289632320404,
+      "y_norm": 0.408288836479187,
+      "color": "hsl(283, 60%, 64%)"
+    },
+    {
+      "id": "DangerousBedExit",
+      "x_norm": 0.5876066088676453,
+      "y_norm": 0.8226450085639954,
+      "color": "hsl(211, 60%, 78%)"
+    },
+    {
+      "id": "DialNumber",
+      "x_norm": 0.29605814814567566,
+      "y_norm": 0.07220705598592758,
+      "color": "hsl(106, 60%, 52%)"
+    },
+    {
+      "id": "Door",
+      "x_norm": 0.225385844707489,
+      "y_norm": 0.3063376843929291,
+      "color": "hsl(81, 60%, 60%)"
+    },
+    {
+      "id": "DoorBell",
+      "x_norm": 0.2564840018749237,
+      "y_norm": 0.1324518322944641,
+      "color": "hsl(92, 60%, 54%)"
+    },
+    {
+      "id": "DoorClosed",
+      "axioms": {
+        "propertyRestrictions": [
+          "[hasAgent some Door]"
+        ]
+      },
+      "x_norm": 0.17849035561084747,
+      "y_norm": 0.2582664489746094,
+      "color": "hsl(64, 60%, 59%)"
+    },
+    {
+      "id": "DoorOpen",
+      "axioms": {
+        "propertyRestrictions": [
+          "[hasAgent some Door]"
+        ]
+      },
+      "x_norm": 0.1556316316127777,
+      "y_norm": 0.2789206802845001,
+      "color": "hsl(56, 60%, 59%)"
+    },
+    {
+      "id": "Drink",
+      "x_norm": 0.1940673589706421,
+      "y_norm": 0.5397474765777588,
+      "color": "hsl(69, 60%, 68%)"
+    },
+    {
+      "id": "Eat",
+      "x_norm": 0.6907026171684265,
+      "y_norm": 0.6413751840591431,
+      "color": "hsl(248, 60%, 72%)"
+    },
+    {
+      "id": "Entity",
+      "x_norm": 0.42547255754470825,
+      "y_norm": 0.37612175941467285,
+      "color": "hsl(153, 60%, 63%)"
+    },
+    {
+      "id": "Event",
+      "axioms": {
+        "propertyRestrictions": [
+          "[startTime only time:Instant]",
+          "[duration only time:DurationDescription]",
+          "[startTime exactly 1 time:Instant]",
+          "[duration exactly 1 time:DurationDescription]"
+        ]
+      },
+      "x_norm": 0.3419530987739563,
+      "y_norm": 0.40292659401893616,
+      "color": "hsl(123, 60%, 64%)"
+    },
+    {
+      "id": "FaceToFaceInteraction",
+      "x_norm": 0.9216386675834656,
+      "y_norm": 0.6440480351448059,
+      "color": "hsl(331, 60%, 72%)"
+    },
+    {
+      "id": "Fall",
+      "description": {
+        "rdfs:comment": "if not supported by LCS"
+      },
+      "x_norm": 0.8197907209396362,
+      "y_norm": 0.36161360144615173,
+      "color": "hsl(295, 60%, 62%)"
+    },
+    {
+      "id": "FoodAndDrinkConsumption",
+      "x_norm": 0.800498902797699,
+      "y_norm": 0.647874116897583,
+      "color": "hsl(288, 60%, 72%)"
+    },
+    {
+      "id": "Fridge",
+      "x_norm": 0.20540454983711243,
+      "y_norm": 0.6810901761054993,
+      "color": "hsl(73, 60%, 73%)"
+    },
+    {
+      "id": "Furniture",
+      "x_norm": 0.4092971384525299,
+      "y_norm": 0.6323873996734619,
+      "color": "hsl(147, 60%, 72%)"
+    },
+    {
+      "id": "Glass",
+      "x_norm": 0.16599327325820923,
+      "y_norm": 0.5115901231765747,
+      "color": "hsl(59, 60%, 67%)"
+    },
+    {
+      "id": "HaveBreakfast",
+      "x_norm": 0.43714460730552673,
+      "y_norm": 0.9030091762542725,
+      "color": "hsl(157, 60%, 81%)"
+    },
+    {
+      "id": "HaveDinner",
+      "x_norm": 0.38418135046958923,
+      "y_norm": 0.9688682556152344,
+      "color": "hsl(138, 60%, 83%)"
+    },
+    {
+      "id": "HaveDrink",
+      "x_norm": 0.43075162172317505,
+      "y_norm": 0.9445052742958069,
+      "color": "hsl(155, 60%, 83%)"
+    },
+    {
+      "id": "HaveLunch",
+      "x_norm": 0.49204492568969727,
+      "y_norm": 0.9711822867393494,
+      "color": "hsl(177, 60%, 83%)"
+    },
+    {
+      "id": "HaveMeal",
+      "x_norm": 0.4156818985939026,
+      "y_norm": 0.987708330154419,
+      "color": "hsl(149, 60%, 84%)"
+    },
+    {
+      "id": "HaveSnack",
+      "x_norm": 0.40765380859375,
+      "y_norm": 1.0,
+      "color": "hsl(146, 60%, 85%)"
+    },
+    {
+      "id": "HeartRate",
+      "axioms": {
+        "propertyRestrictions": [
+          "[hasRate exactly 1]",
+          "[hasRate some rdfs:Literal]"
+        ]
+      },
+      "description": {
+        "rdfs:comment": "DTI-2"
+      },
+      "x_norm": 0.7995973229408264,
+      "y_norm": 0.5425233244895935,
+      "color": "hsl(287, 60%, 68%)"
+    },
+    {
+      "id": "InLocation",
+      "axioms": {
+        "propertyRestrictions": [
+          "[roomLocalisation some Room]"
+        ]
+      },
+      "x_norm": 0.6562463045120239,
+      "y_norm": 0.37153536081314087,
+      "color": "hsl(236, 60%, 63%)"
+    },
+    {
+      "id": "InRoom",
+      "axioms": {
+        "propertyRestrictions": [
+          "[roomLocalisation some Place]"
+        ]
+      },
+      "x_norm": 0.3223232924938202,
+      "y_norm": 0.6670641303062439,
+      "color": "hsl(116, 60%, 73%)"
+    },
+    {
+      "id": "IndoorPhysicalActivity",
+      "x_norm": 1.0,
+      "y_norm": 0.4490926265716553,
+      "color": "hsl(360, 60%, 65%)"
+    },
+    {
+      "id": "Kettle",
+      "x_norm": 0.03374546021223068,
+      "y_norm": 0.6563806533813477,
+      "color": "hsl(12, 60%, 72%)"
+    },
+    {
+      "id": "KettleOff",
+      "axioms": {
+        "propertyRestrictions": [
+          "[hasAgent some Kettle]"
+        ]
+      },
+      "x_norm": 0.010725118219852448,
+      "y_norm": 0.6072481274604797,
+      "color": "hsl(3, 60%, 71%)"
+    },
+    {
+      "id": "KettleOn",
+      "axioms": {
+        "propertyRestrictions": [
+          "[hasAgent some Kettle]"
+        ]
+      },
+      "x_norm": 0.0,
+      "y_norm": 0.6752026677131653,
+      "color": "hsl(0, 60%, 73%)"
+    },
+    {
+      "id": "Kitchen",
+      "x_norm": 0.21891221404075623,
+      "y_norm": 0.6576203107833862,
+      "color": "hsl(78, 60%, 73%)"
+    },
+    {
+      "id": "KitchenPress",
+      "x_norm": 0.16965676844120026,
+      "y_norm": 0.7020411491394043,
+      "color": "hsl(61, 60%, 74%)"
+    },
+    {
+      "id": "LightLevel",
+      "axioms": {
+        "propertyRestrictions": [
+          "[hasLightLevel some rdfs:Literal]",
+          "[hasLightLevel exactly 1]"
+        ]
+      },
+      "x_norm": 0.7497281432151794,
+      "y_norm": 0.7667237520217896,
+      "color": "hsl(269, 60%, 76%)"
+    },
+    {
+      "id": "LivingRoom",
+      "x_norm": 0.28063932061195374,
+      "y_norm": 0.6416383981704712,
+      "color": "hsl(101, 60%, 72%)"
+    },
+    {
+      "id": "LongBedExit",
+      "x_norm": 0.5465665459632874,
+      "y_norm": 0.8474254608154297,
+      "color": "hsl(196, 60%, 79%)"
+    },
+    {
+      "id": "LongNap",
+      "description": {
+        "rdfs:comment": "duration of longer than 30 minutes"
+      },
+      "x_norm": 0.5024041533470154,
+      "y_norm": 0.8329163193702698,
+      "color": "hsl(180, 60%, 79%)"
+    },
+    {
+      "id": "LongTableExit",
+      "x_norm": 0.47952038049697876,
+      "y_norm": 0.7952007055282593,
+      "color": "hsl(172, 60%, 77%)"
+    },
+    {
+      "id": "Lying",
+      "axioms": {
+        "propertyRestrictions": [
+          "[objectLocalisation some Furniture]"
+        ]
+      },
+      "x_norm": 0.5804713368415833,
+      "y_norm": 0.6164920330047607,
+      "color": "hsl(208, 60%, 71%)"
+    },
+    {
+      "id": "MakePhoneCall",
+      "x_norm": 0.36738455295562744,
+      "y_norm": 0.02794361487030983,
+      "color": "hsl(132, 60%, 50%)"
+    },
+    {
+      "id": "Measurement",
+      "axioms": {
+        "propertyRestrictions": [
+          "[hasQuality only PhysicalQuality]",
+          "[refersTo exactly 1 Entity]",
+          "[hasValue exactly 1]",
+          "[hasValue some rdfs:Literal]",
+          "[hasQuality exactly 1 PhysicalQuality]",
+          "[refersTo only Entity]"
+        ]
+      },
+      "x_norm": 0.5365279316902161,
+      "y_norm": 0.33769258856773376,
+      "color": "hsl(193, 60%, 61%)"
+    },
+    {
+      "id": "Mop",
+      "x_norm": 0.06018207594752312,
+      "y_norm": 0.622516930103302,
+      "color": "hsl(21, 60%, 71%)"
+    },
+    {
+      "id": "MoveLimb",
+      "x_norm": 0.7138394117355347,
+      "y_norm": 0.415172815322876,
+      "color": "hsl(256, 60%, 64%)"
+    },
+    {
+      "id": "Moving",
+      "x_norm": 0.7128825187683105,
+      "y_norm": 0.38277721405029297,
+      "color": "hsl(256, 60%, 63%)"
+    },
+    {
+      "id": "Nap",
+      "x_norm": 0.5954246520996094,
+      "y_norm": 0.683254599571228,
+      "color": "hsl(214, 60%, 73%)"
+    },
+    {
+      "id": "NapAfterLunch",
+      "x_norm": 0.6072491407394409,
+      "y_norm": 0.9145969152450562,
+      "color": "hsl(218, 60%, 82%)"
+    },
+    {
+      "id": "NearObject",
+      "axioms": {
+        "propertyRestrictions": [
+          "[objectLocalisation some Object]"
+        ]
+      },
+      "x_norm": 0.4639891982078552,
+      "y_norm": 0.31018152832984924,
+      "color": "hsl(167, 60%, 60%)"
+    },
+    {
+      "id": "NightBathroomVisit",
+      "x_norm": 0.723550021648407,
+      "y_norm": 0.8443148732185364,
+      "color": "hsl(260, 60%, 79%)"
+    },
+    {
+      "id": "NightKitchenVisit",
+      "x_norm": 0.6858242750167847,
+      "y_norm": 0.8892882466316223,
+      "color": "hsl(246, 60%, 81%)"
+    },
+    {
+      "id": "NightLivingRoomVisit",
+      "x_norm": 0.7114970088005066,
+      "y_norm": 0.8526677489280701,
+      "color": "hsl(256, 60%, 79%)"
+    },
+    {
+      "id": "NightRoomVisit",
+      "x_norm": 0.6801465153694153,
+      "y_norm": 0.8797659277915955,
+      "color": "hsl(244, 60%, 80%)"
+    },
+    {
+      "id": "NightSleep",
+      "description": {
+        "rdfs:comment": "The entire sleep (including relevant inferences during the sleep)"
+      },
+      "x_norm": 0.7031574249267578,
+      "y_norm": 0.8276172876358032,
+      "color": "hsl(253, 60%, 78%)"
+    },
+    {
+      "id": "NoiseLevel",
+      "axioms": {
+        "propertyRestrictions": [
+          "[hasNoiseLevel exactly 1]",
+          "[hasNoiseLevel some rdfs:Literal]"
+        ]
+      },
+      "x_norm": 0.40821996331214905,
+      "y_norm": 0.11490971595048904,
+      "color": "hsl(146, 60%, 54%)"
+    },
+    {
+      "id": "Object",
+      "x_norm": 0.45661571621894836,
+      "y_norm": 0.3762286305427551,
+      "color": "hsl(164, 60%, 63%)"
+    },
+    {
+      "id": "ObjectEvent",
+      "axioms": {
+        "propertyRestrictions": [
+          "[hasAgent exactly 1 Object]",
+          "[hasAgent some Object]"
+        ]
+      },
+      "x_norm": 0.4097645878791809,
+      "y_norm": 0.36903420090675354,
+      "color": "hsl(147, 60%, 62%)"
+    },
+    {
+      "id": "Off",
+      "x_norm": 0.09752333909273148,
+      "y_norm": 0.3622301518917084,
+      "color": "hsl(35, 60%, 62%)"
+    },
+    {
+      "id": "On",
+      "x_norm": 0.1343405395746231,
+      "y_norm": 0.3504616916179657,
+      "color": "hsl(48, 60%, 62%)"
+    },
+    {
+      "id": "Open",
+      "x_norm": 0.1234842836856842,
+      "y_norm": 0.3206097185611725,
+      "color": "hsl(44, 60%, 61%)"
+    },
+    {
+      "id": "OutdoorPhysicalActivity",
+      "x_norm": 0.9608820676803589,
+      "y_norm": 0.43922892212867737,
+      "color": "hsl(345, 60%, 65%)"
+    },
+    {
+      "id": "Outdoors",
+      "x_norm": 0.8304888606071472,
+      "y_norm": 0.36397403478622437,
+      "color": "hsl(298, 60%, 62%)"
+    },
+    {
+      "id": "Patient",
+      "x_norm": 0.4486483037471771,
+      "y_norm": 0.5160121321678162,
+      "color": "hsl(161, 60%, 68%)"
+    },
+    {
+      "id": "Person",
+      "x_norm": 0.46644771099090576,
+      "y_norm": 0.4217120409011841,
+      "color": "hsl(167, 60%, 64%)"
+    },
+    {
+      "id": "PhoneRinging",
+      "axioms": {
+        "propertyRestrictions": [
+          "[hasAgent some Telephone]"
+        ]
+      },
+      "x_norm": 0.2983808219432831,
+      "y_norm": 0.034984201192855835,
+      "color": "hsl(107, 60%, 51%)"
+    },
+    {
+      "id": "PhysicalActivity",
+      "x_norm": 0.9730076193809509,
+      "y_norm": 0.41165634989738464,
+      "color": "hsl(350, 60%, 64%)"
+    },
+    {
+      "id": "PhysiologicalMeasurement",
+      "axioms": {
+        "propertyRestrictions": [
+          "[refersTo only Patient]"
+        ]
+      },
+      "x_norm": 0.8743404150009155,
+      "y_norm": 0.5727364420890808,
+      "color": "hsl(314, 60%, 70%)"
+    },
+    {
+      "id": "PickUpPhone",
+      "x_norm": 0.2810627222061157,
+      "y_norm": 0.03352835774421692,
+      "color": "hsl(101, 60%, 51%)"
+    },
+    {
+      "id": "Place",
+      "x_norm": 0.33968663215637207,
+      "y_norm": 0.5276474952697754,
+      "color": "hsl(122, 60%, 68%)"
+    },
+    {
+      "id": "Plate",
+      "x_norm": 0.27930232882499695,
+      "y_norm": 0.7556151747703552,
+      "color": "hsl(100, 60%, 76%)"
+    },
+    {
+      "id": "Posture",
+      "x_norm": 0.6640576720237732,
+      "y_norm": 0.5289822816848755,
+      "color": "hsl(239, 60%, 68%)"
+    },
+    {
+      "id": "PrepareDrink",
+      "x_norm": 0.26545125246047974,
+      "y_norm": 0.8919278383255005,
+      "color": "hsl(95, 60%, 81%)"
+    },
+    {
+      "id": "PrepareHotTea",
+      "x_norm": 0.2768149673938751,
+      "y_norm": 0.8775349259376526,
+      "color": "hsl(99, 60%, 80%)"
+    },
+    {
+      "id": "PrepareMeal",
+      "x_norm": 0.2719805836677551,
+      "y_norm": 0.9000400900840759,
+      "color": "hsl(97, 60%, 81%)"
+    },
+    {
+      "id": "RemoteControl",
+      "x_norm": 0.33980458974838257,
+      "y_norm": 0.3110491931438446,
+      "color": "hsl(122, 60%, 60%)"
+    },
+    {
+      "id": "Rest",
+      "description": {
+        "rdfs:comment": "DTI-2"
+      },
+      "x_norm": 0.6281689405441284,
+      "y_norm": 0.627875566482544,
+      "color": "hsl(226, 60%, 71%)"
+    },
+    {
+      "id": "Ringing",
+      "x_norm": 0.27680227160453796,
+      "y_norm": 0.07135985046625137,
+      "color": "hsl(99, 60%, 52%)"
+    },
+    {
+      "id": "Room",
+      "x_norm": 0.3176952302455902,
+      "y_norm": 0.5734484195709229,
+      "color": "hsl(114, 60%, 70%)"
+    },
+    {
+      "id": "Running",
+      "x_norm": 0.7647292613983154,
+      "y_norm": 0.4582681953907013,
+      "color": "hsl(275, 60%, 66%)"
+    },
+    {
+      "id": "Sitting",
+      "axioms": {
+        "propertyRestrictions": [
+          "[objectLocalisation some Furniture]"
+        ]
+      },
+      "x_norm": 0.5931841135025024,
+      "y_norm": 0.5470890998840332,
+      "color": "hsl(213, 60%, 69%)"
+    },
+    {
+      "id": "SittingToStanding",
+      "x_norm": 0.6058387160301208,
+      "y_norm": 0.5228276252746582,
+      "color": "hsl(218, 60%, 68%)"
+    },
+    {
+      "id": "SkinConductivity",
+      "axioms": {
+        "propertyRestrictions": [
+          "[hasConductivity only rdfs:Literal]",
+          "[hasConductivity exactly 1]"
+        ]
+      },
+      "x_norm": 0.9221965670585632,
+      "y_norm": 0.6301136612892151,
+      "color": "hsl(331, 60%, 72%)"
+    },
+    {
+      "id": "SkinTemperature",
+      "axioms": {
+        "propertyRestrictions": [
+          "[hasTemperature some rdfs:Literal]",
+          "[hasTemperature exactly 1]"
+        ]
+      },
+      "x_norm": 0.8829144835472107,
+      "y_norm": 0.6065691709518433,
+      "color": "hsl(317, 60%, 71%)"
+    },
+    {
+      "id": "Sleep",
+      "description": {
+        "rdfs:comment": "Gear 4 / DTI-2"
+      },
+      "x_norm": 0.6306737065315247,
+      "y_norm": 0.6624831557273865,
+      "color": "hsl(227, 60%, 73%)"
+    },
+    {
+      "id": "SocialInteraction",
+      "x_norm": 0.844266951084137,
+      "y_norm": 0.4592851400375366,
+      "color": "hsl(303, 60%, 66%)"
+    },
+    {
+      "id": "Speak",
+      "x_norm": 0.27148327231407166,
+      "y_norm": 0.4516442120075226,
+      "color": "hsl(97, 60%, 65%)"
+    },
+    {
+      "id": "StandingToSitting",
+      "x_norm": 0.6764421463012695,
+      "y_norm": 0.4611769914627075,
+      "color": "hsl(243, 60%, 66%)"
+    },
+    {
+      "id": "State",
+      "x_norm": 0.27557530999183655,
+      "y_norm": 0.4596956968307495,
+      "color": "hsl(99, 60%, 66%)"
+    },
+    {
+      "id": "StepCounting",
+      "description": {
+        "rdfs:comment": "WIMU"
+      },
+      "x_norm": 0.7211256623268127,
+      "y_norm": 0.3213655948638916,
+      "color": "hsl(259, 60%, 61%)"
+    },
+    {
+      "id": "TV",
+      "x_norm": 0.2778095304965973,
+      "y_norm": 0.5328962206840515,
+      "color": "hsl(100, 60%, 68%)"
+    },
+    {
+      "id": "Table",
+      "x_norm": 0.4263596534729004,
+      "y_norm": 0.6950851082801819,
+      "color": "hsl(153, 60%, 74%)"
+    },
+    {
+      "id": "TableExit",
+      "x_norm": 0.4624188542366028,
+      "y_norm": 0.7585262060165405,
+      "color": "hsl(166, 60%, 76%)"
+    },
+    {
+      "id": "Telephone",
+      "x_norm": 0.2856856882572174,
+      "y_norm": 0.02636607363820076,
+      "color": "hsl(102, 60%, 50%)"
+    },
+    {
+      "id": "TelephoneInteraction",
+      "x_norm": 0.2971830666065216,
+      "y_norm": 0.00925973430275917,
+      "color": "hsl(106, 60%, 50%)"
+    },
+    {
+      "id": "UseObject",
+      "x_norm": 0.39206817746162415,
+      "y_norm": 0.3025081157684326,
+      "color": "hsl(141, 60%, 60%)"
+    },
+    {
+      "id": "Walk",
+      "x_norm": 0.7567220330238342,
+      "y_norm": 0.3431275188922882,
+      "color": "hsl(272, 60%, 62%)"
+    },
+    {
+      "id": "WashingMachine",
+      "x_norm": 0.15062637627124786,
+      "y_norm": 0.6876404881477356,
+      "color": "hsl(54, 60%, 74%)"
+    },
+    {
+      "id": "WaterCan",
+      "x_norm": 0.11567249894142151,
+      "y_norm": 0.7623023986816406,
+      "color": "hsl(41, 60%, 76%)"
+    },
+    {
+      "id": "Window",
+      "x_norm": 0.25051090121269226,
+      "y_norm": 0.34138765931129456,
+      "color": "hsl(90, 60%, 61%)"
+    },
+    {
+      "id": "owl:Thing",
+      "x_norm": 0.4391022324562073,
+      "y_norm": 0.3455379009246826,
+      "color": "hsl(158, 60%, 62%)"
+    }
+  ],
+  "links": [
+    {
+      "source": "Active",
+      "target": "State"
+    },
+    {
+      "source": "Apnea",
+      "target": "State"
+    },
+    {
+      "source": "Arousal",
+      "target": "State"
+    },
+    {
+      "source": "MoveLimb",
+      "target": "State"
+    },
+    {
+      "source": "Posture",
+      "target": "State"
+    },
+    {
+      "source": "Rest",
+      "target": "State"
+    },
+    {
+      "source": "Activity",
+      "target": "Event"
+    },
+    {
+      "source": "Measurement",
+      "target": "Event"
+    },
+    {
+      "source": "ObjectEvent",
+      "target": "Event"
+    },
+    {
+      "source": "AlarmClock",
+      "target": "Object"
+    },
+    {
+      "source": "Appliance",
+      "target": "Object"
+    },
+    {
+      "source": "Book",
+      "target": "Object"
+    },
+    {
+      "source": "Bucket",
+      "target": "Object"
+    },
+    {
+      "source": "Cup",
+      "target": "Object"
+    },
+    {
+      "source": "Cuttlery",
+      "target": "Object"
+    },
+    {
+      "source": "Door",
+      "target": "Object"
+    },
+    {
+      "source": "DoorBell",
+      "target": "Object"
+    },
+    {
+      "source": "Furniture",
+      "target": "Object"
+    },
+    {
+      "source": "Glass",
+      "target": "Object"
+    },
+    {
+      "source": "KitchenPress",
+      "target": "Object"
+    },
+    {
+      "source": "Mop",
+      "target": "Object"
+    },
+    {
+      "source": "Plate",
+      "target": "Object"
+    },
+    {
+      "source": "RemoteControl",
+      "target": "Object"
+    },
+    {
+      "source": "Telephone",
+      "target": "Object"
+    },
+    {
+      "source": "WaterCan",
+      "target": "Object"
+    },
+    {
+      "source": "Window",
+      "target": "Object"
+    },
+    {
+      "source": "AlarmClockRinging",
+      "target": "Ringing"
+    },
+    {
+      "source": "PhoneRinging",
+      "target": "Ringing"
+    },
+    {
+      "source": "AmbientMeasurement",
+      "target": "Measurement"
+    },
+    {
+      "source": "PhysiologicalMeasurement",
+      "target": "Measurement"
+    },
+    {
+      "source": "AnswerPhoneCall",
+      "target": "TelephoneInteraction"
+    },
+    {
+      "source": "MakePhoneCall",
+      "target": "TelephoneInteraction"
+    },
+    {
+      "source": "AtomicActivity",
+      "target": "Activity"
+    },
+    {
+      "source": "ComplexActivity",
+      "target": "Activity"
+    },
+    {
+      "source": "Bathroom",
+      "target": "Room"
+    },
+    {
+      "source": "Bedroom",
+      "target": "Room"
+    },
+    {
+      "source": "Kitchen",
+      "target": "Room"
+    },
+    {
+      "source": "LivingRoom",
+      "target": "Room"
+    },
+    {
+      "source": "Bed",
+      "target": "Furniture"
+    },
+    {
+      "source": "Chair",
+      "target": "Furniture"
+    },
+    {
+      "source": "Couch",
+      "target": "Furniture"
+    },
+    {
+      "source": "Table",
+      "target": "Furniture"
+    },
+    {
+      "source": "BedExit",
+      "target": "ComplexActivity"
+    },
+    {
+      "source": "Fall",
+      "target": "ComplexActivity"
+    },
+    {
+      "source": "FoodAndDrinkConsumption",
+      "target": "ComplexActivity"
+    },
+    {
+      "source": "Nap",
+      "target": "ComplexActivity"
+    },
+    {
+      "source": "NightSleep",
+      "target": "ComplexActivity"
+    },
+    {
+      "source": "PrepareDrink",
+      "target": "ComplexActivity"
+    },
+    {
+      "source": "PrepareMeal",
+      "target": "ComplexActivity"
+    },
+    {
+      "source": "SocialInteraction",
+      "target": "ComplexActivity"
+    },
+    {
+      "source": "TableExit",
+      "target": "ComplexActivity"
+    },
+    {
+      "source": "Carer",
+      "target": "Person"
+    },
+    {
+      "source": "Clinician",
+      "target": "Person"
+    },
+    {
+      "source": "Patient",
+      "target": "Person"
+    },
+    {
+      "source": "ChangeOrientation",
+      "target": "AtomicActivity"
+    },
+    {
+      "source": "ChangePosture",
+      "target": "AtomicActivity"
+    },
+    {
+      "source": "DialNumber",
+      "target": "AtomicActivity"
+    },
+    {
+      "source": "Drink",
+      "target": "AtomicActivity"
+    },
+    {
+      "source": "Eat",
+      "target": "AtomicActivity"
+    },
+    {
+      "source": "InLocation",
+      "target": "AtomicActivity"
+    },
+    {
+      "source": "PhysicalActivity",
+      "target": "AtomicActivity"
+    },
+    {
+      "source": "PickUpPhone",
+      "target": "AtomicActivity"
+    },
+    {
+      "source": "Sleep",
+      "target": "AtomicActivity"
+    },
+    {
+      "source": "Speak",
+      "target": "AtomicActivity"
+    },
+    {
+      "source": "State",
+      "target": "AtomicActivity"
+    },
+    {
+      "source": "StepCounting",
+      "target": "AtomicActivity"
+    },
+    {
+      "source": "UseObject",
+      "target": "AtomicActivity"
+    },
+    {
+      "source": "Walk",
+      "target": "AtomicActivity"
+    },
+    {
+      "source": "Closed",
+      "target": "ObjectEvent"
+    },
+    {
+      "source": "Off",
+      "target": "ObjectEvent"
+    },
+    {
+      "source": "On",
+      "target": "ObjectEvent"
+    },
+    {
+      "source": "Open",
+      "target": "ObjectEvent"
+    },
+    {
+      "source": "Ringing",
+      "target": "ObjectEvent"
+    },
+    {
+      "source": "Cooker",
+      "target": "Appliance"
+    },
+    {
+      "source": "Fridge",
+      "target": "Appliance"
+    },
+    {
+      "source": "Kettle",
+      "target": "Appliance"
+    },
+    {
+      "source": "TV",
+      "target": "Appliance"
+    },
+    {
+      "source": "WashingMachine",
+      "target": "Appliance"
+    },
+    {
+      "source": "Cycling",
+      "target": "OutdoorPhysicalActivity"
+    },
+    {
+      "source": "Running",
+      "target": "OutdoorPhysicalActivity"
+    },
+    {
+      "source": "DangerousBedExit",
+      "target": "BedExit"
+    },
+    {
+      "source": "LongBedExit",
+      "target": "BedExit"
+    },
+    {
+      "source": "NightRoomVisit",
+      "target": "BedExit"
+    },
+    {
+      "source": "DoorClosed",
+      "target": "Closed"
+    },
+    {
+      "source": "DoorOpen",
+      "target": "Open"
+    },
+    {
+      "source": "FaceToFaceInteraction",
+      "target": "SocialInteraction"
+    },
+    {
+      "source": "TelephoneInteraction",
+      "target": "SocialInteraction"
+    },
+    {
+      "source": "HaveBreakfast",
+      "target": "HaveMeal"
+    },
+    {
+      "source": "HaveDinner",
+      "target": "HaveMeal"
+    },
+    {
+      "source": "HaveLunch",
+      "target": "HaveMeal"
+    },
+    {
+      "source": "HaveDrink",
+      "target": "FoodAndDrinkConsumption"
+    },
+    {
+      "source": "HaveMeal",
+      "target": "FoodAndDrinkConsumption"
+    },
+    {
+      "source": "HaveSnack",
+      "target": "FoodAndDrinkConsumption"
+    },
+    {
+      "source": "HeartRate",
+      "target": "PhysiologicalMeasurement"
+    },
+    {
+      "source": "SkinConductivity",
+      "target": "PhysiologicalMeasurement"
+    },
+    {
+      "source": "SkinTemperature",
+      "target": "PhysiologicalMeasurement"
+    },
+    {
+      "source": "InRoom",
+      "target": "InLocation"
+    },
+    {
+      "source": "NearObject",
+      "target": "InLocation"
+    },
+    {
+      "source": "Outdoors",
+      "target": "InLocation"
+    },
+    {
+      "source": "IndoorPhysicalActivity",
+      "target": "PhysicalActivity"
+    },
+    {
+      "source": "OutdoorPhysicalActivity",
+      "target": "PhysicalActivity"
+    },
+    {
+      "source": "KettleOff",
+      "target": "Off"
+    },
+    {
+      "source": "KettleOn",
+      "target": "On"
+    },
+    {
+      "source": "LightLevel",
+      "target": "AmbientMeasurement"
+    },
+    {
+      "source": "NoiseLevel",
+      "target": "AmbientMeasurement"
+    },
+    {
+      "source": "LongNap",
+      "target": "Nap"
+    },
+    {
+      "source": "NapAfterLunch",
+      "target": "Nap"
+    },
+    {
+      "source": "LongTableExit",
+      "target": "TableExit"
+    },
+    {
+      "source": "Lying",
+      "target": "Posture"
+    },
+    {
+      "source": "Sitting",
+      "target": "Posture"
+    },
+    {
+      "source": "Moving",
+      "target": "Active"
+    },
+    {
+      "source": "NightBathroomVisit",
+      "target": "NightRoomVisit"
+    },
+    {
+      "source": "NightKitchenVisit",
+      "target": "NightRoomVisit"
+    },
+    {
+      "source": "NightLivingRoomVisit",
+      "target": "NightRoomVisit"
+    },
+    {
+      "source": "Object",
+      "target": "Entity"
+    },
+    {
+      "source": "Person",
+      "target": "Entity"
+    },
+    {
+      "source": "Place",
+      "target": "Entity"
+    },
+    {
+      "source": "PrepareHotTea",
+      "target": "PrepareDrink"
+    },
+    {
+      "source": "Room",
+      "target": "Place"
+    },
+    {
+      "source": "SittingToStanding",
+      "target": "ChangePosture"
+    },
+    {
+      "source": "StandingToSitting",
+      "target": "ChangePosture"
+    },
+    {
+      "source": "Event",
+      "target": "owl:Thing"
+    },
+    {
+      "source": "Entity",
+      "target": "owl:Thing"
+    }
+  ]
+}

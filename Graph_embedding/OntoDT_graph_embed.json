@@ -1,0 +1,5475 @@
+{
+  "nodes": [
+    {
+      "id": "Add:complex",
+      "x_norm": 0.3069480359554291,
+      "y_norm": 0.8629652857780457,
+      "color": "hsl(110, 60%, 80%)"
+    },
+    {
+      "id": "Add:integer",
+      "x_norm": 0.3909548223018646,
+      "y_norm": 0.7462834715843201,
+      "color": "hsl(140, 60%, 76%)"
+    },
+    {
+      "id": "Add:rational",
+      "x_norm": 0.3285495340824127,
+      "y_norm": 0.7789351344108582,
+      "color": "hsl(118, 60%, 77%)"
+    },
+    {
+      "id": "Add:real",
+      "x_norm": 0.3139437437057495,
+      "y_norm": 0.8267383575439453,
+      "color": "hsl(113, 60%, 78%)"
+    },
+    {
+      "id": "Add:scaled",
+      "x_norm": 0.19602584838867188,
+      "y_norm": 0.7641667723655701,
+      "color": "hsl(70, 60%, 76%)"
+    },
+    {
+      "id": "And:boolean",
+      "x_norm": 0.7575386166572571,
+      "y_norm": 0.15753504633903503,
+      "color": "hsl(272, 60%, 55%)"
+    },
+    {
+      "id": "Append:sequence",
+      "x_norm": 0.6165335774421692,
+      "y_norm": 0.7468568682670593,
+      "color": "hsl(221, 60%, 76%)"
+    },
+    {
+      "id": "AttributeFunctionInvocation:class",
+      "x_norm": 0.924997866153717,
+      "y_norm": 0.2524116039276123,
+      "color": "hsl(332, 60%, 58%)"
+    },
+    {
+      "id": "AttributeFunctionOverride:class",
+      "x_norm": 0.9269469380378723,
+      "y_norm": 0.2543080747127533,
+      "color": "hsl(333, 60%, 58%)"
+    },
+    {
+      "id": "AttributeReplace:class",
+      "x_norm": 0.9254674911499023,
+      "y_norm": 0.2546501159667969,
+      "color": "hsl(333, 60%, 58%)"
+    },
+    {
+      "id": "AttributeSelect:class",
+      "x_norm": 0.9334402680397034,
+      "y_norm": 0.2445950210094452,
+      "color": "hsl(336, 60%, 58%)"
+    },
+    {
+      "id": "Cast:choice",
+      "x_norm": 0.5040525794029236,
+      "y_norm": 0.3582833409309387,
+      "color": "hsl(181, 60%, 62%)"
+    },
+    {
+      "id": "DAG datatype",
+      "axioms": {
+        "propertyRestrictions": [
+          "[has_member some DAG datatype generator]"
+        ]
+      },
+      "x_norm": 0.5241345763206482,
+      "y_norm": 0.13316309452056885,
+      "color": "hsl(188, 60%, 54%)"
+    },
+    {
+      "id": "DAG datatype generator",
+      "x_norm": 0.5026161074638367,
+      "y_norm": 0.09206366539001465,
+      "color": "hsl(180, 60%, 53%)"
+    },
+    {
+      "id": "Datatype Specification Language Representation",
+      "axioms": {
+        "propertyRestrictions": [
+          "[represents some datatype]"
+        ]
+      },
+      "x_norm": 0.5757626891136169,
+      "y_norm": 0.1901090294122696,
+      "color": "hsl(207, 60%, 56%)"
+    },
+    {
+      "id": "Delete:bag",
+      "axioms": {
+        "disjointWith": [
+          "Delete:table"
+        ]
+      },
+      "x_norm": 0.80132657289505,
+      "y_norm": 0.7938113808631897,
+      "color": "hsl(288, 60%, 77%)"
+    },
+    {
+      "id": "Delete:table",
+      "x_norm": 0.7397760152816772,
+      "y_norm": 0.7503511905670166,
+      "color": "hsl(266, 60%, 76%)"
+    },
+    {
+      "id": "Dereference:pointer",
+      "x_norm": 0.5612452626228333,
+      "y_norm": 0.4340343773365021,
+      "color": "hsl(202, 60%, 65%)"
+    },
+    {
+      "id": "Difference:set",
+      "axioms": {
+        "disjointWith": [
+          "Difference:time&date"
+        ]
+      },
+      "x_norm": 0.6216301918029785,
+      "y_norm": 0.6564041972160339,
+      "color": "hsl(223, 60%, 72%)"
+    },
+    {
+      "id": "Difference:time&date",
+      "x_norm": 0.028815679252147675,
+      "y_norm": 0.8945780396461487,
+      "color": "hsl(10, 60%, 81%)"
+    },
+    {
+      "id": "Discriminant:choice",
+      "x_norm": 0.47569528222084045,
+      "y_norm": 0.300871878862381,
+      "color": "hsl(171, 60%, 60%)"
+    },
+    {
+      "id": "Divide:scaled",
+      "x_norm": 0.20278970897197723,
+      "y_norm": 0.7744561433792114,
+      "color": "hsl(73, 60%, 77%)"
+    },
+    {
+      "id": "Empty:bag",
+      "x_norm": 0.815660834312439,
+      "y_norm": 0.7965543270111084,
+      "color": "hsl(293, 60%, 77%)"
+    },
+    {
+      "id": "Empty:sequence",
+      "x_norm": 0.6080425977706909,
+      "y_norm": 0.7465565800666809,
+      "color": "hsl(218, 60%, 76%)"
+    },
+    {
+      "id": "Empty:set",
+      "x_norm": 0.668222963809967,
+      "y_norm": 0.6777628660202026,
+      "color": "hsl(240, 60%, 73%)"
+    },
+    {
+      "id": "Empty:table",
+      "x_norm": 0.7327364683151245,
+      "y_norm": 0.7297874689102173,
+      "color": "hsl(263, 60%, 75%)"
+    },
+    {
+      "id": "Equal:array",
+      "x_norm": 0.5270557403564453,
+      "y_norm": 0.667460560798645,
+      "color": "hsl(189, 60%, 73%)"
+    },
+    {
+      "id": "Equal:bag",
+      "x_norm": 0.8188758492469788,
+      "y_norm": 0.8040921092033386,
+      "color": "hsl(294, 60%, 78%)"
+    },
+    {
+      "id": "Equal:boolean",
+      "x_norm": 0.5270244479179382,
+      "y_norm": 0.6336822509765625,
+      "color": "hsl(189, 60%, 72%)"
+    },
+    {
+      "id": "Equal:character",
+      "x_norm": 0.4965948164463043,
+      "y_norm": 0.6576570272445679,
+      "color": "hsl(178, 60%, 73%)"
+    },
+    {
+      "id": "Equal:choice",
+      "x_norm": 0.4978533685207367,
+      "y_norm": 0.6462222933769226,
+      "color": "hsl(179, 60%, 72%)"
+    },
+    {
+      "id": "Equal:class",
+      "x_norm": 0.5087094902992249,
+      "y_norm": 0.6590448021888733,
+      "color": "hsl(183, 60%, 73%)"
+    },
+    {
+      "id": "Equal:complex",
+      "x_norm": 0.2967982590198517,
+      "y_norm": 0.8737414479255676,
+      "color": "hsl(106, 60%, 80%)"
+    },
+    {
+      "id": "Equal:discrete",
+      "x_norm": 0.47389984130859375,
+      "y_norm": 0.682472825050354,
+      "color": "hsl(170, 60%, 73%)"
+    },
+    {
+      "id": "Equal:enumerated",
+      "x_norm": 0.4869536757469177,
+      "y_norm": 0.689548671245575,
+      "color": "hsl(175, 60%, 74%)"
+    },
+    {
+      "id": "Equal:integer",
+      "x_norm": 0.4204955995082855,
+      "y_norm": 0.7079008221626282,
+      "color": "hsl(151, 60%, 74%)"
+    },
+    {
+      "id": "Equal:ordinal",
+      "x_norm": 0.3100263476371765,
+      "y_norm": 0.6392323970794678,
+      "color": "hsl(111, 60%, 72%)"
+    },
+    {
+      "id": "Equal:pointer",
+      "x_norm": 0.5174575448036194,
+      "y_norm": 0.6429643630981445,
+      "color": "hsl(186, 60%, 72%)"
+    },
+    {
+      "id": "Equal:procedure",
+      "x_norm": 0.518829345703125,
+      "y_norm": 0.6823683381080627,
+      "color": "hsl(186, 60%, 73%)"
+    },
+    {
+      "id": "Equal:rational",
+      "x_norm": 0.3390377163887024,
+      "y_norm": 0.7641403675079346,
+      "color": "hsl(122, 60%, 76%)"
+    },
+    {
+      "id": "Equal:real",
+      "x_norm": 0.4261965751647949,
+      "y_norm": 0.7109534740447998,
+      "color": "hsl(153, 60%, 74%)"
+    },
+    {
+      "id": "Equal:record",
+      "x_norm": 0.5025731325149536,
+      "y_norm": 0.6832247972488403,
+      "color": "hsl(180, 60%, 73%)"
+    },
+    {
+      "id": "Equal:scaled",
+      "x_norm": 0.20525160431861877,
+      "y_norm": 0.7528966069221497,
+      "color": "hsl(73, 60%, 76%)"
+    },
+    {
+      "id": "Equal:sequence",
+      "x_norm": 0.5560417771339417,
+      "y_norm": 0.7275727391242981,
+      "color": "hsl(200, 60%, 75%)"
+    },
+    {
+      "id": "Equal:set",
+      "x_norm": 0.558861255645752,
+      "y_norm": 0.6777033805847168,
+      "color": "hsl(201, 60%, 73%)"
+    },
+    {
+      "id": "Equal:table",
+      "x_norm": 0.5309550166130066,
+      "y_norm": 0.6783076524734497,
+      "color": "hsl(191, 60%, 73%)"
+    },
+    {
+      "id": "Equal:time&date",
+      "x_norm": 0.04365867003798485,
+      "y_norm": 0.9002405405044556,
+      "color": "hsl(15, 60%, 81%)"
+    },
+    {
+      "id": "Equal:void",
+      "x_norm": 0.5175940990447998,
+      "y_norm": 0.6422595977783203,
+      "color": "hsl(186, 60%, 72%)"
+    },
+    {
+      "id": "Extend:time&date",
+      "x_norm": 0.025430506095290184,
+      "y_norm": 0.8862053751945496,
+      "color": "hsl(9, 60%, 81%)"
+    },
+    {
+      "id": "Fetch:table",
+      "x_norm": 0.755285382270813,
+      "y_norm": 0.729165256023407,
+      "color": "hsl(271, 60%, 75%)"
+    },
+    {
+      "id": "FieldReplace:record",
+      "x_norm": 0.8934589624404907,
+      "y_norm": 0.19397671520709991,
+      "color": "hsl(321, 60%, 56%)"
+    },
+    {
+      "id": "FieldSelect:record",
+      "x_norm": 0.8843535780906677,
+      "y_norm": 0.17914503812789917,
+      "color": "hsl(318, 60%, 56%)"
+    },
+    {
+      "id": "Head:sequence",
+      "x_norm": 0.5940823554992676,
+      "y_norm": 0.7410084009170532,
+      "color": "hsl(213, 60%, 75%)"
+    },
+    {
+      "id": "InOrder:enumerated",
+      "x_norm": 0.25563228130340576,
+      "y_norm": 0.6602380275726318,
+      "color": "hsl(92, 60%, 73%)"
+    },
+    {
+      "id": "InOrder:interger",
+      "x_norm": 0.24038970470428467,
+      "y_norm": 0.6718554496765137,
+      "color": "hsl(86, 60%, 73%)"
+    },
+    {
+      "id": "InOrder:ordinal",
+      "x_norm": 0.2639750838279724,
+      "y_norm": 0.6572282910346985,
+      "color": "hsl(95, 60%, 73%)"
+    },
+    {
+      "id": "InOrder:rational",
+      "x_norm": 0.29782140254974365,
+      "y_norm": 0.7439008355140686,
+      "color": "hsl(107, 60%, 76%)"
+    },
+    {
+      "id": "InOrder:real",
+      "x_norm": 0.2405487298965454,
+      "y_norm": 0.6846415400505066,
+      "color": "hsl(86, 60%, 73%)"
+    },
+    {
+      "id": "InOrder:scaled",
+      "x_norm": 0.20207014679908752,
+      "y_norm": 0.7502827644348145,
+      "color": "hsl(72, 60%, 76%)"
+    },
+    {
+      "id": "InOrder:time&date",
+      "x_norm": 0.05621659755706787,
+      "y_norm": 0.8632912635803223,
+      "color": "hsl(20, 60%, 80%)"
+    },
+    {
+      "id": "Insert:bag",
+      "axioms": {
+        "disjointWith": [
+          "Insert:table"
+        ]
+      },
+      "x_norm": 0.8007235527038574,
+      "y_norm": 0.787764847278595,
+      "color": "hsl(288, 60%, 77%)"
+    },
+    {
+      "id": "Insert:table",
+      "x_norm": 0.723905086517334,
+      "y_norm": 0.7599760890007019,
+      "color": "hsl(260, 60%, 76%)"
+    },
+    {
+      "id": "Intersection:set",
+      "x_norm": 0.6113296151161194,
+      "y_norm": 0.6603929996490479,
+      "color": "hsl(220, 60%, 73%)"
+    },
+    {
+      "id": "Invoke:procedure",
+      "x_norm": 0.6874914169311523,
+      "y_norm": 0.48369088768959045,
+      "color": "hsl(247, 60%, 66%)"
+    },
+    {
+      "id": "IsEmpty:bag",
+      "x_norm": 0.8101405501365662,
+      "y_norm": 0.8034232258796692,
+      "color": "hsl(291, 60%, 78%)"
+    },
+    {
+      "id": "IsEmpty:sequence",
+      "x_norm": 0.5885668992996216,
+      "y_norm": 0.7745591998100281,
+      "color": "hsl(211, 60%, 77%)"
+    },
+    {
+      "id": "IsEmpty:table",
+      "x_norm": 0.7275004982948303,
+      "y_norm": 0.7173703908920288,
+      "color": "hsl(261, 60%, 75%)"
+    },
+    {
+      "id": "Lsln:set",
+      "x_norm": 0.6378940939903259,
+      "y_norm": 0.6414358019828796,
+      "color": "hsl(229, 60%, 72%)"
+    },
+    {
+      "id": "MapToBag:table",
+      "x_norm": 0.7693780064582825,
+      "y_norm": 0.7674725651741028,
+      "color": "hsl(276, 60%, 76%)"
+    },
+    {
+      "id": "MapToTable:table",
+      "x_norm": 0.737054705619812,
+      "y_norm": 0.7546765804290771,
+      "color": "hsl(265, 60%, 76%)"
+    },
+    {
+      "id": "Multiply:complex",
+      "x_norm": 0.2871547341346741,
+      "y_norm": 0.8694418668746948,
+      "color": "hsl(103, 60%, 80%)"
+    },
+    {
+      "id": "Multiply:integer",
+      "x_norm": 0.3651060461997986,
+      "y_norm": 0.7344592213630676,
+      "color": "hsl(131, 60%, 75%)"
+    },
+    {
+      "id": "Multiply:rational",
+      "x_norm": 0.3194124400615692,
+      "y_norm": 0.7895905375480652,
+      "color": "hsl(114, 60%, 77%)"
+    },
+    {
+      "id": "Multiply:real",
+      "x_norm": 0.29117467999458313,
+      "y_norm": 0.8009181022644043,
+      "color": "hsl(104, 60%, 78%)"
+    },
+    {
+      "id": "Multiply:scaled",
+      "x_norm": 0.2104886919260025,
+      "y_norm": 0.7652648091316223,
+      "color": "hsl(75, 60%, 76%)"
+    },
+    {
+      "id": "Negate:complex",
+      "x_norm": 0.3605920076370239,
+      "y_norm": 0.8549967408180237,
+      "color": "hsl(129, 60%, 79%)"
+    },
+    {
+      "id": "Negate:integer",
+      "x_norm": 0.38710904121398926,
+      "y_norm": 0.7740594148635864,
+      "color": "hsl(139, 60%, 77%)"
+    },
+    {
+      "id": "Negate:rational",
+      "x_norm": 0.3623850643634796,
+      "y_norm": 0.8132529854774475,
+      "color": "hsl(130, 60%, 78%)"
+    },
+    {
+      "id": "Negate:real",
+      "x_norm": 0.3833901882171631,
+      "y_norm": 0.8460710644721985,
+      "color": "hsl(138, 60%, 79%)"
+    },
+    {
+      "id": "Negate:scaled",
+      "x_norm": 0.35938745737075806,
+      "y_norm": 0.8373829126358032,
+      "color": "hsl(129, 60%, 79%)"
+    },
+    {
+      "id": "NonNegative:integer",
+      "axioms": {
+        "disjointWith": [
+          "NonNegative:rational"
+        ]
+      },
+      "x_norm": 0.3861981928348541,
+      "y_norm": 0.7506380677223206,
+      "color": "hsl(139, 60%, 76%)"
+    },
+    {
+      "id": "NonNegative:rational",
+      "x_norm": 0.3634975850582123,
+      "y_norm": 0.78753662109375,
+      "color": "hsl(130, 60%, 77%)"
+    },
+    {
+      "id": "Not:boolean",
+      "x_norm": 0.7531453967094421,
+      "y_norm": 0.16130267083644867,
+      "color": "hsl(271, 60%, 55%)"
+    },
+    {
+      "id": "Or:boolean",
+      "x_norm": 0.749734103679657,
+      "y_norm": 0.16119571030139923,
+      "color": "hsl(269, 60%, 55%)"
+    },
+    {
+      "id": "Promote:complex",
+      "x_norm": 0.33471253514289856,
+      "y_norm": 0.9183083176612854,
+      "color": "hsl(120, 60%, 82%)"
+    },
+    {
+      "id": "Promote:rational",
+      "x_norm": 0.3456907868385315,
+      "y_norm": 0.913472592830658,
+      "color": "hsl(124, 60%, 81%)"
+    },
+    {
+      "id": "Promote:real",
+      "x_norm": 0.35102930665016174,
+      "y_norm": 0.9214256405830383,
+      "color": "hsl(126, 60%, 82%)"
+    },
+    {
+      "id": "Reciprocal:complex",
+      "x_norm": 0.29929324984550476,
+      "y_norm": 0.851544201374054,
+      "color": "hsl(107, 60%, 79%)"
+    },
+    {
+      "id": "Reciprocal:rational",
+      "x_norm": 0.3077099919319153,
+      "y_norm": 0.7944793105125427,
+      "color": "hsl(110, 60%, 77%)"
+    },
+    {
+      "id": "Reciprocal:real",
+      "x_norm": 0.28448107838630676,
+      "y_norm": 0.8091956973075867,
+      "color": "hsl(102, 60%, 78%)"
+    },
+    {
+      "id": "Replace:array",
+      "x_norm": 0.7052018642425537,
+      "y_norm": 0.6620779037475586,
+      "color": "hsl(253, 60%, 73%)"
+    },
+    {
+      "id": "Round:scaled",
+      "axioms": {
+        "disjointWith": [
+          "Round:time&date"
+        ]
+      },
+      "x_norm": 0.1725768893957138,
+      "y_norm": 0.7651903033256531,
+      "color": "hsl(62, 60%, 76%)"
+    },
+    {
+      "id": "Round:time&date",
+      "x_norm": 0.062080398201942444,
+      "y_norm": 0.8605486154556274,
+      "color": "hsl(22, 60%, 80%)"
+    },
+    {
+      "id": "Select:array",
+      "axioms": {
+        "disjointWith": [
+          "Select:table"
+        ]
+      },
+      "x_norm": 0.7737668752670288,
+      "y_norm": 0.680880606174469,
+      "color": "hsl(278, 60%, 73%)"
+    },
+    {
+      "id": "Select:bag",
+      "axioms": {
+        "disjointWith": [
+          "Select:set"
+        ]
+      },
+      "x_norm": 0.8015972375869751,
+      "y_norm": 0.7590887546539307,
+      "color": "hsl(288, 60%, 76%)"
+    },
+    {
+      "id": "Select:set",
+      "x_norm": 0.7675278186798096,
+      "y_norm": 0.682410478591919,
+      "color": "hsl(276, 60%, 73%)"
+    },
+    {
+      "id": "Select:table",
+      "x_norm": 0.7697107791900635,
+      "y_norm": 0.7007951736450195,
+      "color": "hsl(277, 60%, 74%)"
+    },
+    {
+      "id": "Serialize:bag",
+      "axioms": {
+        "disjointWith": [
+          "Serialize:table"
+        ]
+      },
+      "x_norm": 0.792323112487793,
+      "y_norm": 0.7899437546730042,
+      "color": "hsl(285, 60%, 77%)"
+    },
+    {
+      "id": "Serialize:table",
+      "x_norm": 0.7431585192680359,
+      "y_norm": 0.760546088218689,
+      "color": "hsl(267, 60%, 76%)"
+    },
+    {
+      "id": "SetOf:set",
+      "x_norm": 0.6355055570602417,
+      "y_norm": 0.6551490426063538,
+      "color": "hsl(228, 60%, 72%)"
+    },
+    {
+      "id": "SquareRoot:complex",
+      "x_norm": 0.2838880121707916,
+      "y_norm": 0.8871579170227051,
+      "color": "hsl(102, 60%, 81%)"
+    },
+    {
+      "id": "Subset:set",
+      "x_norm": 0.6174605488777161,
+      "y_norm": 0.6540367603302002,
+      "color": "hsl(222, 60%, 72%)"
+    },
+    {
+      "id": "Successor:enumerated",
+      "axioms": {
+        "disjointWith": [
+          "Successor:ordinal"
+        ]
+      },
+      "x_norm": 0.2827867269515991,
+      "y_norm": 0.6585400104522705,
+      "color": "hsl(101, 60%, 73%)"
+    },
+    {
+      "id": "Successor:ordinal",
+      "x_norm": 0.286143034696579,
+      "y_norm": 0.6539297699928284,
+      "color": "hsl(103, 60%, 72%)"
+    },
+    {
+      "id": "Tag:choice",
+      "x_norm": 0.5294415354728699,
+      "y_norm": 0.3431006073951721,
+      "color": "hsl(190, 60%, 62%)"
+    },
+    {
+      "id": "Tail:sequence",
+      "x_norm": 0.5908600091934204,
+      "y_norm": 0.757002055644989,
+      "color": "hsl(212, 60%, 76%)"
+    },
+    {
+      "id": "Union:set",
+      "x_norm": 0.6191891431808472,
+      "y_norm": 0.6559922695159912,
+      "color": "hsl(222, 60%, 72%)"
+    },
+    {
+      "id": "access by value",
+      "x_norm": 0.704996645450592,
+      "y_norm": 0.3742300570011139,
+      "color": "hsl(253, 60%, 63%)"
+    },
+    {
+      "id": "access type",
+      "axioms": {
+        "equivalentClass": [
+          "(direct access property or indirect acess property)"
+        ]
+      },
+      "x_norm": 0.6303274631500244,
+      "y_norm": 0.3637166917324066,
+      "color": "hsl(226, 60%, 62%)"
+    },
+    {
+      "id": "add operation",
+      "x_norm": 0.41532212495803833,
+      "y_norm": 0.8197239637374878,
+      "color": "hsl(149, 60%, 78%)"
+    },
+    {
+      "id": "aggregate datatype",
+      "axioms": {
+        "disjointWith": [
+          "non-aggregate datatype"
+        ],
+        "propertyRestrictions": [
+          "[has_member some aggregate generator]"
+        ]
+      },
+      "description": {
+        "rdfs:comment": "synonim: structured datatype"
+      },
+      "x_norm": 0.07452502101659775,
+      "y_norm": 0.19194439053535461,
+      "color": "hsl(26, 60%, 56%)"
+    },
+    {
+      "id": "aggregate field component",
+      "axioms": {
+        "disjointWith": [
+          "primitive field component"
+        ],
+        "propertyRestrictions": [
+          "[role_of some aggregate datatype]"
+        ]
+      },
+      "x_norm": 0.0405769944190979,
+      "y_norm": 0.11980657279491425,
+      "color": "hsl(14, 60%, 54%)"
+    },
+    {
+      "id": "aggregate generator",
+      "axioms": {
+        "equivalentClass": [
+          "(array generator or bag generator or class generator or record generator or sequence generator or set generator or table generator)"
+        ]
+      },
+      "description": {
+        "rdfs:comment": "synonim: aggregate datatype constructor"
+      },
+      "x_norm": 0.016948433592915535,
+      "y_norm": 0.16320529580116272,
+      "color": "hsl(6, 60%, 55%)"
+    },
+    {
+      "id": "aggregate generator property",
+      "x_norm": 0.01563134230673313,
+      "y_norm": 0.1515977531671524,
+      "color": "hsl(5, 60%, 55%)"
+    },
+    {
+      "id": "aggregate imposed ordering",
+      "axioms": {
+        "disjointWith": [
+          "aggregate-imposed identifier uniqueness",
+          "homogenity",
+          "agregate size",
+          "uniqueness",
+          "component mandatoriness",
+          "structurness",
+          "recursiveness",
+          "access type"
+        ],
+        "equivalentClass": [
+          "(ordered aggregate or unordered aggregate)"
+        ]
+      },
+      "x_norm": 0.0,
+      "y_norm": 0.17790639400482178,
+      "color": "hsl(0, 60%, 56%)"
+    },
+    {
+      "id": "aggregate-imposed identifier uniqueness",
+      "axioms": {
+        "disjointWith": [
+          "homogenity",
+          "agregate size",
+          "uniqueness",
+          "component mandatoriness",
+          "structurness",
+          "recursiveness",
+          "access type"
+        ],
+        "equivalentClass": [
+          "(identifier not unique or identifier unique)"
+        ]
+      },
+      "x_norm": 0.8775886297225952,
+      "y_norm": 0.4311028718948364,
+      "color": "hsl(315, 60%, 65%)"
+    },
+    {
+      "id": "agregate size",
+      "axioms": {
+        "disjointWith": [
+          "uniqueness",
+          "component mandatoriness",
+          "structurness",
+          "recursiveness",
+          "access type"
+        ],
+        "equivalentClass": [
+          "(fixed size or variable size)"
+        ]
+      },
+      "x_norm": 0.1168801560997963,
+      "y_norm": 0.47037068009376526,
+      "color": "hsl(42, 60%, 66%)"
+    },
+    {
+      "id": "alternative component",
+      "axioms": {
+        "propertyRestrictions": [
+          "[has_member some tag-value list]",
+          "[has_member some alternative-type]"
+        ]
+      },
+      "x_norm": 0.9939028024673462,
+      "y_norm": 0.18204307556152344,
+      "color": "hsl(357, 60%, 56%)"
+    },
+    {
+      "id": "alternative-list",
+      "axioms": {
+        "propertyRestrictions": [
+          "[has_member some alternative component]"
+        ]
+      },
+      "x_norm": 0.7445020079612732,
+      "y_norm": 0.30966776609420776,
+      "color": "hsl(268, 60%, 60%)"
+    },
+    {
+      "id": "alternative-type",
+      "axioms": {
+        "propertyRestrictions": [
+          "[role_of some datatype]",
+          "[is_member_of some alternative component]"
+        ]
+      },
+      "x_norm": 0.5201178193092346,
+      "y_norm": 0.26566770672798157,
+      "color": "hsl(187, 60%, 59%)"
+    },
+    {
+      "id": "approximate",
+      "axioms": {
+        "disjointWith": [
+          "exact"
+        ]
+      },
+      "x_norm": 0.14126111567020416,
+      "y_norm": 0.48330193758010864,
+      "color": "hsl(50, 60%, 66%)"
+    },
+    {
+      "id": "array datatype",
+      "axioms": {
+        "disjointWith": [
+          "homogenous aggregate datatype with variable size"
+        ],
+        "propertyRestrictions": [
+          "[has_operation some Select:table]",
+          "[has_member some index-type list]",
+          "[has_quality some exact]",
+          "[has_operation some Replace:array]",
+          "[has_member some base type]",
+          "[has_quality some non-ordered]",
+          "[has_quality some non-numeric]",
+          "[has_operation some Equal:array]",
+          "[has_member some array generator]"
+        ]
+      },
+      "x_norm": 0.5254961252212524,
+      "y_norm": 0.21652279794216156,
+      "color": "hsl(189, 60%, 57%)"
+    },
+    {
+      "id": "array generator",
+      "axioms": {
+        "disjointWith": [
+          "homogenous aggregate generator with variable size"
+        ],
+        "propertyRestrictions": [
+          "[has_quality some unordered aggregate]",
+          "[has_quality some fixed size]",
+          "[has_quality some multi dimensional]",
+          "[has_quality some index access]",
+          "[has_quality some non-unique values]"
+        ]
+      },
+      "x_norm": 0.6388921737670898,
+      "y_norm": 0.5502039194107056,
+      "color": "hsl(230, 60%, 69%)"
+    },
+    {
+      "id": "attribute component",
+      "axioms": {
+        "propertyRestrictions": [
+          "[has_identifier some attribute identifier]"
+        ]
+      },
+      "x_norm": 0.9579077959060669,
+      "y_norm": 0.19917014241218567,
+      "color": "hsl(344, 60%, 56%)"
+    },
+    {
+      "id": "attribute identifier",
+      "x_norm": 0.877941370010376,
+      "y_norm": 0.3666924834251404,
+      "color": "hsl(316, 60%, 62%)"
+    },
+    {
+      "id": "attribute-list",
+      "axioms": {
+        "propertyRestrictions": [
+          "[has_member some attribute component]"
+        ]
+      },
+      "x_norm": 0.8413224220275879,
+      "y_norm": 0.2611425518989563,
+      "color": "hsl(302, 60%, 59%)"
+    },
+    {
+      "id": "bag datatype",
+      "axioms": {
+        "disjointWith": [
+          "set datatype"
+        ],
+        "propertyRestrictions": [
+          "[has_quality some non-ordered]",
+          "[has_operation some Select:bag]",
+          "[has_operation some Insert:bag]",
+          "[has_member some base type]",
+          "[has_operation some Delete:bag]",
+          "[has_operation some IsEmpty:bag]",
+          "[has_operation some Equal:bag]",
+          "[has_member some bag generator]",
+          "[has_quality some non-numeric]",
+          "[has_operation some Serialize:bag]",
+          "[has_quality some exact]"
+        ]
+      },
+      "x_norm": 0.5482122898101807,
+      "y_norm": 0.2117479294538498,
+      "color": "hsl(197, 60%, 57%)"
+    },
+    {
+      "id": "bag generator",
+      "axioms": {
+        "disjointWith": [
+          "set generator"
+        ],
+        "propertyRestrictions": [
+          "[has_quality some non-unique values]",
+          "[has_quality some implementation dependent access]"
+        ]
+      },
+      "x_norm": 0.8122037649154663,
+      "y_norm": 0.8047984838485718,
+      "color": "hsl(292, 60%, 78%)"
+    },
+    {
+      "id": "base type",
+      "axioms": {
+        "propertyRestrictions": [
+          "[role_of some datatype]",
+          "[is_member_of some (array datatype or sequence datatype or bag datatype or set datatype or extended datatype)]"
+        ]
+      },
+      "x_norm": 0.4429139494895935,
+      "y_norm": 0.24589033424854279,
+      "color": "hsl(159, 60%, 58%)"
+    },
+    {
+      "id": "bit",
+      "x_norm": 0.23008371889591217,
+      "y_norm": 0.50528484582901,
+      "color": "hsl(82, 60%, 67%)"
+    },
+    {
+      "id": "bit string",
+      "x_norm": 0.3610893189907074,
+      "y_norm": 0.4538685977458954,
+      "color": "hsl(129, 60%, 65%)"
+    },
+    {
+      "id": "boolean datatype",
+      "axioms": {
+        "propertyRestrictions": [
+          "[has_quality some non-ordered]",
+          "[has_quality some non-numeric]",
+          "[has_quality some exact]",
+          "[has_operation some Not:boolean]",
+          "[has_operation some And:boolean]",
+          "[has_operation some Or:boolean]",
+          "[has_operation some Equal:boolean]"
+        ]
+      },
+      "x_norm": 0.6992168426513672,
+      "y_norm": 0.15051251649856567,
+      "color": "hsl(251, 60%, 55%)"
+    },
+    {
+      "id": "boolean field component",
+      "axioms": {
+        "propertyRestrictions": [
+          "[role_of some boolean datatype]"
+        ]
+      },
+      "x_norm": 0.8542802929878235,
+      "y_norm": 0.12347067147493362,
+      "color": "hsl(307, 60%, 54%)"
+    },
+    {
+      "id": "boolean field-list",
+      "axioms": {
+        "disjointWith": [
+          "discrete field-list"
+        ],
+        "propertyRestrictions": [
+          "[has_member some boolean field component]"
+        ]
+      },
+      "x_norm": 0.8181155323982239,
+      "y_norm": 0.15773509442806244,
+      "color": "hsl(294, 60%, 55%)"
+    },
+    {
+      "id": "boolean operation",
+      "x_norm": 0.7523037791252136,
+      "y_norm": 0.17224851250648499,
+      "color": "hsl(270, 60%, 56%)"
+    },
+    {
+      "id": "bound",
+      "x_norm": 0.044795211404561996,
+      "y_norm": 0.5185794234275818,
+      "color": "hsl(16, 60%, 68%)"
+    },
+    {
+      "id": "bounded",
+      "axioms": {
+        "disjointWith": [
+          "unbounded"
+        ]
+      },
+      "x_norm": 0.01857331581413746,
+      "y_norm": 0.5376162528991699,
+      "color": "hsl(6, 60%, 68%)"
+    },
+    {
+      "id": "bounded above",
+      "axioms": {
+        "disjointWith": [
+          "bounded below"
+        ]
+      },
+      "x_norm": 0.00591019494459033,
+      "y_norm": 0.5392662286758423,
+      "color": "hsl(2, 60%, 68%)"
+    },
+    {
+      "id": "bounded below",
+      "x_norm": 0.001188635011203587,
+      "y_norm": 0.5443763732910156,
+      "color": "hsl(0, 60%, 69%)"
+    },
+    {
+      "id": "boundedness",
+      "axioms": {
+        "disjointWith": [
+          "equality"
+        ],
+        "equivalentClass": [
+          "(bounded or unbounded)"
+        ]
+      },
+      "x_norm": 0.012439497746527195,
+      "y_norm": 0.5354474782943726,
+      "color": "hsl(4, 60%, 68%)"
+    },
+    {
+      "id": "cardinality",
+      "axioms": {
+        "disjointWith": [
+          "order",
+          "boundedness",
+          "equality"
+        ],
+        "equivalentClass": [
+          "(countable or finite or uncountable)"
+        ]
+      },
+      "x_norm": 0.11045239865779877,
+      "y_norm": 0.5811725854873657,
+      "color": "hsl(39, 60%, 70%)"
+    },
+    {
+      "id": "character datatype",
+      "axioms": {
+        "disjointWith": [
+          "discrete datatype",
+          "boolean datatype"
+        ],
+        "propertyRestrictions": [
+          "[has_quality some exact]",
+          "[has_operation some Equal:character]",
+          "[has_identifier some character-set identifier]"
+        ]
+      },
+      "x_norm": 0.5362684726715088,
+      "y_norm": 0.18945766985416412,
+      "color": "hsl(193, 60%, 56%)"
+    },
+    {
+      "id": "character string",
+      "x_norm": 0.38262251019477844,
+      "y_norm": 0.44425198435783386,
+      "color": "hsl(137, 60%, 65%)"
+    },
+    {
+      "id": "character-set identifier",
+      "x_norm": 0.8732043504714966,
+      "y_norm": 0.38080549240112305,
+      "color": "hsl(314, 60%, 63%)"
+    },
+    {
+      "id": "characterizing operation",
+      "description": {
+        "rdfs:comment": "The set of characterising operations for a datatype comprises those operations on, or yielding values of, the datatype that distinguish this datatype from other datatypes having value spaces which are identical except possibly for substitution of symbols."
+      },
+      "x_norm": 0.5145008563995361,
+      "y_norm": 0.8558008670806885,
+      "color": "hsl(185, 60%, 79%)"
+    },
+    {
+      "id": "choice datatype",
+      "axioms": {
+        "propertyRestrictions": [
+          "[has_quality some exact]",
+          "[has_operation some Discriminant:choice]",
+          "[has_quality some non-ordered]",
+          "[has_operation some Tag:choice]",
+          "[has_operation some Cast:choice]",
+          "[has_operation some Equal:choice]",
+          "[has_member some tag-type]",
+          "[has_member some alternative-list]",
+          "[has_member some choice generator]"
+        ]
+      },
+      "description": {
+        "rdfs:comment": "whose values is a single value\nfrom any of a set of alternative datatypes. The alternative datatypes of a choice datatype are logically\ndistinguished by their correspondence to values of another datatype, called the tag datatype."
+      },
+      "x_norm": 0.46983811259269714,
+      "y_norm": 0.2858468294143677,
+      "color": "hsl(169, 60%, 60%)"
+    },
+    {
+      "id": "choice generator",
+      "axioms": {
+        "propertyRestrictions": [
+          "[is_member_of some choice datatype]"
+        ]
+      },
+      "x_norm": 0.5128922462463379,
+      "y_norm": 0.3612736463546753,
+      "color": "hsl(184, 60%, 62%)"
+    },
+    {
+      "id": "class datatype",
+      "axioms": {
+        "disjointWith": [
+          "record (tuple) datatype"
+        ],
+        "propertyRestrictions": [
+          "[has_operation some AttributeSelect:class]",
+          "[has_operation some AttributeReplace:class]",
+          "[has_operation some Equal:class]",
+          "[has_member some class generator]",
+          "[has_quality some non-ordered]",
+          "[has_quality some non-numeric]",
+          "[has_member some attribute-list]"
+        ]
+      },
+      "x_norm": 0.5300242304801941,
+      "y_norm": 0.19486364722251892,
+      "color": "hsl(190, 60%, 56%)"
+    },
+    {
+      "id": "class generator",
+      "axioms": {
+        "disjointWith": [
+          "record generator",
+          "table generator"
+        ],
+        "propertyRestrictions": [
+          "[has_quality some key access]",
+          "[has_quality some unordered aggregate]",
+          "[has_quality some non-unique values]",
+          "[has_quality some one dimensional]",
+          "[has_quality some fixed size]"
+        ]
+      },
+      "x_norm": 0.6367037296295166,
+      "y_norm": 0.5257517099380493,
+      "color": "hsl(229, 60%, 68%)"
+    },
+    {
+      "id": "complex datatype",
+      "axioms": {
+        "disjointWith": [
+          "numeric ordered primitive datatype"
+        ],
+        "propertyRestrictions": [
+          "[has_operation some Reciprocal:complex]",
+          "[has_operation some Negate:complex]",
+          "[has_quality some non-ordered]",
+          "[has_member some complex radix]",
+          "[has_quality some numeric]",
+          "[has_operation some SquareRoot:complex]",
+          "[has_operation some Multiply:complex]",
+          "[has_operation some Add:complex]",
+          "[has_quality some approximate]",
+          "[has_operation some Promote:complex]",
+          "[has_member some complex factor]",
+          "[has_operation some Equal:complex]"
+        ]
+      },
+      "x_norm": 0.4960753321647644,
+      "y_norm": 0.18646977841854095,
+      "color": "hsl(178, 60%, 56%)"
+    },
+    {
+      "id": "complex factor",
+      "x_norm": 0.26661747694015503,
+      "y_norm": 0.8575255870819092,
+      "color": "hsl(95, 60%, 80%)"
+    },
+    {
+      "id": "complex radix",
+      "x_norm": 0.23321357369422913,
+      "y_norm": 0.8786216378211975,
+      "color": "hsl(83, 60%, 80%)"
+    },
+    {
+      "id": "component mandatoriness",
+      "axioms": {
+        "disjointWith": [
+          "structurness",
+          "recursiveness",
+          "access type"
+        ],
+        "equivalentClass": [
+          "(component mandatory or component non-mandatory)"
+        ]
+      },
+      "x_norm": 0.9857411980628967,
+      "y_norm": 0.19356177747249603,
+      "color": "hsl(354, 60%, 56%)"
+    },
+    {
+      "id": "component mandatory",
+      "axioms": {
+        "disjointWith": [
+          "component non-mandatory"
+        ]
+      },
+      "x_norm": 0.9904893040657043,
+      "y_norm": 0.19016818702220917,
+      "color": "hsl(356, 60%, 56%)"
+    },
+    {
+      "id": "component non-mandatory",
+      "x_norm": 0.9875245690345764,
+      "y_norm": 0.16846726834774017,
+      "color": "hsl(355, 60%, 55%)"
+    },
+    {
+      "id": "countable",
+      "x_norm": 0.12336323410272598,
+      "y_norm": 0.5856208205223083,
+      "color": "hsl(44, 60%, 70%)"
+    },
+    {
+      "id": "data representational model",
+      "x_norm": 0.48499295115470886,
+      "y_norm": 0.23789635300636292,
+      "color": "hsl(174, 60%, 58%)"
+    },
+    {
+      "id": "datatype",
+      "axioms": {
+        "propertyRestrictions": [
+          "[has_quality some datatype property]",
+          "[has_operation some characterizing operation]",
+          "[has_attribute some value space]"
+        ]
+      },
+      "x_norm": 0.510444700717926,
+      "y_norm": 0.23418709635734558,
+      "color": "hsl(183, 60%, 58%)"
+    },
+    {
+      "id": "datatype generator",
+      "x_norm": 0.5166665315628052,
+      "y_norm": 0.10448364913463593,
+      "color": "hsl(185, 60%, 53%)"
+    },
+    {
+      "id": "datatype property",
+      "x_norm": 0.524516761302948,
+      "y_norm": 0.17773345112800598,
+      "color": "hsl(188, 60%, 56%)"
+    },
+    {
+      "id": "datatype role",
+      "axioms": {
+        "propertyRestrictions": [
+          "[role_of some datatype]"
+        ]
+      },
+      "x_norm": 0.529633641242981,
+      "y_norm": 0.21662285923957825,
+      "color": "hsl(190, 60%, 57%)"
+    },
+    {
+      "id": "date and time datatype",
+      "axioms": {
+        "disjointWith": [
+          "ordinal datatype"
+        ],
+        "propertyRestrictions": [
+          "[has_operation some Extend:time&date]",
+          "[has_operation some Equal:time&date]",
+          "[has_operation some InOrder:time&date]",
+          "[has_member some date-time unit]",
+          "[has_operation some Difference:time&date]",
+          "[has_quality some unbounded]",
+          "[has_member some date-time radix]",
+          "[has_quality some exact]",
+          "[has_operation some Round:time&date]",
+          "[has_member some date-time factor]"
+        ]
+      },
+      "x_norm": 0.03031548298895359,
+      "y_norm": 0.8922213315963745,
+      "color": "hsl(10, 60%, 81%)"
+    },
+    {
+      "id": "date-time factor",
+      "x_norm": 0.041796788573265076,
+      "y_norm": 0.8916492462158203,
+      "color": "hsl(15, 60%, 81%)"
+    },
+    {
+      "id": "date-time radix",
+      "x_norm": 0.04615700989961624,
+      "y_norm": 0.8950015306472778,
+      "color": "hsl(16, 60%, 81%)"
+    },
+    {
+      "id": "date-time unit",
+      "x_norm": 0.027875659987330437,
+      "y_norm": 0.8940707445144653,
+      "color": "hsl(10, 60%, 81%)"
+    },
+    {
+      "id": "defined datatype",
+      "axioms": {
+        "propertyRestrictions": [
+          "[has_member some defined generator]",
+          "[has_member some defined datatype parameter-list]"
+        ]
+      },
+      "x_norm": 0.5277073979377747,
+      "y_norm": 0.20137406885623932,
+      "color": "hsl(189, 60%, 57%)"
+    },
+    {
+      "id": "defined datatype parameter",
+      "axioms": {
+        "propertyRestrictions": [
+          "[has_identifier some parameter identifier]",
+          "[is_member_of some defined datatype parameter-list]",
+          "[role_of some datatype]"
+        ]
+      },
+      "x_norm": 0.5562142133712769,
+      "y_norm": 0.21620889008045197,
+      "color": "hsl(200, 60%, 57%)"
+    },
+    {
+      "id": "defined datatype parameter-list",
+      "axioms": {
+        "propertyRestrictions": [
+          "[has_member some defined datatype parameter]"
+        ]
+      },
+      "x_norm": 0.5636637806892395,
+      "y_norm": 0.20202429592609406,
+      "color": "hsl(202, 60%, 57%)"
+    },
+    {
+      "id": "defined generator",
+      "axioms": {
+        "propertyRestrictions": [
+          "[is_member_of some defined datatype]"
+        ]
+      },
+      "x_norm": 0.6401857733726501,
+      "y_norm": 0.5355058908462524,
+      "color": "hsl(230, 60%, 68%)"
+    },
+    {
+      "id": "defined generator parameter",
+      "axioms": {
+        "propertyRestrictions": [
+          "[has_identifier some parameter identifier]"
+        ]
+      },
+      "x_norm": 0.6503515839576721,
+      "y_norm": 0.5091994404792786,
+      "color": "hsl(234, 60%, 67%)"
+    },
+    {
+      "id": "defined generator parameter-list",
+      "x_norm": 0.6616758108139038,
+      "y_norm": 0.49270495772361755,
+      "color": "hsl(238, 60%, 67%)"
+    },
+    {
+      "id": "delete operation",
+      "x_norm": 0.6594284176826477,
+      "y_norm": 0.8247566223144531,
+      "color": "hsl(237, 60%, 78%)"
+    },
+    {
+      "id": "descriptive field identifier",
+      "axioms": {
+        "disjointWith": [
+          "target field identifier"
+        ]
+      },
+      "x_norm": 0.8858683705329895,
+      "y_norm": 0.3465801179409027,
+      "color": "hsl(318, 60%, 62%)"
+    },
+    {
+      "id": "descriptive record of boolean field component",
+      "axioms": {
+        "propertyRestrictions": [
+          "[role_of some record of boolean datatype]"
+        ]
+      },
+      "x_norm": 0.8401486277580261,
+      "y_norm": 0.1253630816936493,
+      "color": "hsl(302, 60%, 54%)"
+    },
+    {
+      "id": "descriptive record of discrete field component",
+      "axioms": {
+        "propertyRestrictions": [
+          "[role_of some record of discrete datatype]"
+        ]
+      },
+      "x_norm": 0.8632618188858032,
+      "y_norm": 0.15177148580551147,
+      "color": "hsl(310, 60%, 55%)"
+    },
+    {
+      "id": "descriptive record of primitives field component",
+      "axioms": {
+        "propertyRestrictions": [
+          "[role_of some record of primitives datatype]"
+        ]
+      },
+      "x_norm": 0.8773072957992554,
+      "y_norm": 0.15835389494895935,
+      "color": "hsl(315, 60%, 55%)"
+    },
+    {
+      "id": "descriptive record of reals field component",
+      "axioms": {
+        "propertyRestrictions": [
+          "[role_of some record of real datatype]"
+        ]
+      },
+      "x_norm": 0.8820937275886536,
+      "y_norm": 0.11703939735889435,
+      "color": "hsl(317, 60%, 54%)"
+    },
+    {
+      "id": "descriptive set of integer field component",
+      "axioms": {
+        "propertyRestrictions": [
+          "[role_of some set of integer datatype]"
+        ]
+      },
+      "x_norm": 0.8677918910980225,
+      "y_norm": 0.1381491869688034,
+      "color": "hsl(312, 60%, 54%)"
+    },
+    {
+      "id": "descriptive strucured field component",
+      "axioms": {
+        "propertyRestrictions": [
+          "[role_of some (array datatype or class datatype or sequence datatype or bag datatype or set datatype)]"
+        ]
+      },
+      "x_norm": 0.8475353121757507,
+      "y_norm": 0.15596219897270203,
+      "color": "hsl(305, 60%, 55%)"
+    },
+    {
+      "id": "difference operation",
+      "x_norm": 0.4879496097564697,
+      "y_norm": 0.7895997762680054,
+      "color": "hsl(175, 60%, 77%)"
+    },
+    {
+      "id": "dimensionality",
+      "axioms": {
+        "equivalentClass": [
+          "(one dimensional or two dimensional or multi dimensional)"
+        ]
+      },
+      "x_norm": 0.20402172207832336,
+      "y_norm": 0.34806838631629944,
+      "color": "hsl(73, 60%, 62%)"
+    },
+    {
+      "id": "direct access property",
+      "axioms": {
+        "disjointWith": [
+          "indirect acess property"
+        ],
+        "equivalentClass": [
+          "(index access or key access)"
+        ]
+      },
+      "x_norm": 0.6581953167915344,
+      "y_norm": 0.36035585403442383,
+      "color": "hsl(236, 60%, 62%)"
+    },
+    {
+      "id": "directed labeled graph datatype generator",
+      "x_norm": 0.6228212118148804,
+      "y_norm": 0.04186549037694931,
+      "color": "hsl(224, 60%, 51%)"
+    },
+    {
+      "id": "direction",
+      "x_norm": 0.20486611127853394,
+      "y_norm": 0.5872998237609863,
+      "color": "hsl(73, 60%, 70%)"
+    },
+    {
+      "id": "directive information entity",
+      "x_norm": 0.8301225304603577,
+      "y_norm": 0.314037024974823,
+      "color": "hsl(298, 60%, 60%)"
+    },
+    {
+      "id": "discrete base type",
+      "axioms": {
+        "disjointWith": [
+          "real base type"
+        ],
+        "propertyRestrictions": [
+          "[role_of some discrete datatype]"
+        ]
+      },
+      "x_norm": 0.42026641964912415,
+      "y_norm": 0.24022804200649261,
+      "color": "hsl(151, 60%, 58%)"
+    },
+    {
+      "id": "discrete datatype",
+      "axioms": {
+        "disjointWith": [
+          "boolean datatype"
+        ],
+        "propertyRestrictions": [
+          "[has_member some discrete-value-list]",
+          "[has_operation some Equal:discrete]",
+          "[has_quality some exact]"
+        ]
+      },
+      "x_norm": 0.4162106215953827,
+      "y_norm": 0.22399379312992096,
+      "color": "hsl(149, 60%, 57%)"
+    },
+    {
+      "id": "discrete field component",
+      "axioms": {
+        "disjointWith": [
+          "real field component",
+          "boolean field component"
+        ],
+        "propertyRestrictions": [
+          "[role_of some discrete datatype]"
+        ]
+      },
+      "x_norm": 0.9014567732810974,
+      "y_norm": 0.1330835223197937,
+      "color": "hsl(324, 60%, 54%)"
+    },
+    {
+      "id": "discrete field-list",
+      "axioms": {
+        "propertyRestrictions": [
+          "[has_member some discrete field component]"
+        ]
+      },
+      "x_norm": 0.8383825421333313,
+      "y_norm": 0.21157392859458923,
+      "color": "hsl(301, 60%, 57%)"
+    },
+    {
+      "id": "discrete-value identifier",
+      "axioms": {
+        "propertyRestrictions": [
+          "[has-value some rdfs:Literal]"
+        ]
+      },
+      "x_norm": 0.830421507358551,
+      "y_norm": 0.3880579173564911,
+      "color": "hsl(298, 60%, 63%)"
+    },
+    {
+      "id": "discrete-value-list",
+      "axioms": {
+        "propertyRestrictions": [
+          "[has_member some discrete-value identifier]"
+        ]
+      },
+      "x_norm": 0.7893821001052856,
+      "y_norm": 0.3587022125720978,
+      "color": "hsl(284, 60%, 62%)"
+    },
+    {
+      "id": "dyadic aritmetic operation",
+      "x_norm": 0.5397652983665466,
+      "y_norm": 0.9611014127731323,
+      "color": "hsl(194, 60%, 83%)"
+    },
+    {
+      "id": "dyadic comparison operation",
+      "x_norm": 0.5628024339675903,
+      "y_norm": 0.9997332096099854,
+      "color": "hsl(202, 60%, 84%)"
+    },
+    {
+      "id": "dyadic logical operation",
+      "x_norm": 0.5564900636672974,
+      "y_norm": 0.9874461889266968,
+      "color": "hsl(200, 60%, 84%)"
+    },
+    {
+      "id": "dyadic operation",
+      "axioms": {
+        "disjointWith": [
+          "niladic operation",
+          "monadic operation",
+          "n-adic operation"
+        ]
+      },
+      "description": {
+        "rdfs:comment": "Dyadic operation maps a pair of values of the given datatype into a value of the given datatype or into a value of datatype Boolean"
+      },
+      "x_norm": 0.5447518825531006,
+      "y_norm": 0.9932317733764648,
+      "color": "hsl(196, 60%, 84%)"
+    },
+    {
+      "id": "dyadic retrieve operation",
+      "x_norm": 0.5512833595275879,
+      "y_norm": 0.9912521243095398,
+      "color": "hsl(198, 60%, 84%)"
+    },
+    {
+      "id": "dyadic select operation",
+      "x_norm": 0.5434132814407349,
+      "y_norm": 1.0,
+      "color": "hsl(195, 60%, 85%)"
+    },
+    {
+      "id": "dyadic set operation",
+      "x_norm": 0.5595154762268066,
+      "y_norm": 0.988174319267273,
+      "color": "hsl(201, 60%, 84%)"
+    },
+    {
+      "id": "dyadic updating operation",
+      "x_norm": 0.5533822774887085,
+      "y_norm": 0.9789578914642334,
+      "color": "hsl(199, 60%, 84%)"
+    },
+    {
+      "id": "edge component",
+      "x_norm": 0.9981052279472351,
+      "y_norm": 0.1819332242012024,
+      "color": "hsl(359, 60%, 56%)"
+    },
+    {
+      "id": "enumerated datatype",
+      "axioms": {
+        "disjointWith": [
+          "date and time datatype",
+          "ordinal datatype"
+        ],
+        "propertyRestrictions": [
+          "[has_operation some Equal:enumerated]",
+          "[has_member some enumerated-value-list]",
+          "[has_operation some Successor:enumerated]",
+          "[has_quality some bounded]",
+          "[has_operation some InOrder:enumerated]",
+          "[has_quality some exact]"
+        ]
+      },
+      "description": {
+        "rdfs:comment": "synonim: discrete datatype"
+      },
+      "x_norm": 0.4901356101036072,
+      "y_norm": 0.249822199344635,
+      "color": "hsl(176, 60%, 58%)"
+    },
+    {
+      "id": "enumerated-value identifier",
+      "axioms": {
+        "propertyRestrictions": [
+          "[has-value some rdfs:Literal]"
+        ]
+      },
+      "x_norm": 0.816996693611145,
+      "y_norm": 0.3643954396247864,
+      "color": "hsl(294, 60%, 62%)"
+    },
+    {
+      "id": "enumerated-value-list",
+      "axioms": {
+        "propertyRestrictions": [
+          "[has_member some enumerated-value identifier]"
+        ]
+      },
+      "x_norm": 0.7749486565589905,
+      "y_norm": 0.3345997631549835,
+      "color": "hsl(278, 60%, 61%)"
+    },
+    {
+      "id": "equal operation",
+      "x_norm": 0.4927334487438202,
+      "y_norm": 0.7314286231994629,
+      "color": "hsl(177, 60%, 75%)"
+    },
+    {
+      "id": "equality",
+      "x_norm": 0.47692012786865234,
+      "y_norm": 0.6957353353500366,
+      "color": "hsl(171, 60%, 74%)"
+    },
+    {
+      "id": "exact",
+      "x_norm": 0.18804961442947388,
+      "y_norm": 0.48361533880233765,
+      "color": "hsl(67, 60%, 66%)"
+    },
+    {
+      "id": "exactness",
+      "axioms": {
+        "disjointWith": [
+          "numericalness",
+          "cardinality",
+          "order",
+          "boundedness",
+          "equality"
+        ],
+        "equivalentClass": [
+          "(approximate or exact)"
+        ]
+      },
+      "x_norm": 0.13638180494308472,
+      "y_norm": 0.35842466354370117,
+      "color": "hsl(49, 60%, 62%)"
+    },
+    {
+      "id": "excluding subtype generator",
+      "axioms": {
+        "propertyRestrictions": [
+          "[has_member some select-list]"
+        ]
+      },
+      "x_norm": 0.4254569411277771,
+      "y_norm": 0.002424688544124365,
+      "color": "hsl(153, 60%, 50%)"
+    },
+    {
+      "id": "explicit subtype generator",
+      "x_norm": 0.43010494112968445,
+      "y_norm": 0.012394979596138,
+      "color": "hsl(154, 60%, 50%)"
+    },
+    {
+      "id": "extended datatype",
+      "axioms": {
+        "propertyRestrictions": [
+          "[has_quality some datatype property]",
+          "[has_member some subtype generator]",
+          "[has_attribute some value space]",
+          "[has_member some base type]"
+        ]
+      },
+      "description": {
+        "rdfs:comment": "synonym: subtype"
+      },
+      "x_norm": 0.5142581462860107,
+      "y_norm": 0.18694202601909637,
+      "color": "hsl(185, 60%, 56%)"
+    },
+    {
+      "id": "extended-value identifier",
+      "x_norm": 0.8377768993377686,
+      "y_norm": 0.37295180559158325,
+      "color": "hsl(301, 60%, 63%)"
+    },
+    {
+      "id": "extended-value-list",
+      "axioms": {
+        "propertyRestrictions": [
+          "[has_identifier some extended-value identifier]"
+        ]
+      },
+      "x_norm": 0.7832756638526917,
+      "y_norm": 0.32918867468833923,
+      "color": "hsl(281, 60%, 61%)"
+    },
+    {
+      "id": "extending subtype generator",
+      "axioms": {
+        "propertyRestrictions": [
+          "[has_member some extended-value-list]"
+        ]
+      },
+      "x_norm": 0.41408994793891907,
+      "y_norm": 0.010389392264187336,
+      "color": "hsl(149, 60%, 50%)"
+    },
+    {
+      "id": "factor",
+      "x_norm": 0.24880622327327728,
+      "y_norm": 0.8198983669281006,
+      "color": "hsl(89, 60%, 78%)"
+    },
+    {
+      "id": "field component",
+      "axioms": {
+        "propertyRestrictions": [
+          "[role_of some datatype]",
+          "[has_identifier some field identifier]"
+        ]
+      },
+      "x_norm": 0.947028398513794,
+      "y_norm": 0.1366816908121109,
+      "color": "hsl(340, 60%, 54%)"
+    },
+    {
+      "id": "field identifier",
+      "x_norm": 0.8877694606781006,
+      "y_norm": 0.35873156785964966,
+      "color": "hsl(319, 60%, 62%)"
+    },
+    {
+      "id": "field-list",
+      "axioms": {
+        "propertyRestrictions": [
+          "[has_member some field component]"
+        ]
+      },
+      "x_norm": 0.8348984718322754,
+      "y_norm": 0.23023970425128937,
+      "color": "hsl(300, 60%, 58%)"
+    },
+    {
+      "id": "finite",
+      "x_norm": 0.08181910961866379,
+      "y_norm": 0.5543922781944275,
+      "color": "hsl(29, 60%, 69%)"
+    },
+    {
+      "id": "fixed size",
+      "axioms": {
+        "disjointWith": [
+          "variable size"
+        ]
+      },
+      "x_norm": 0.12493318319320679,
+      "y_norm": 0.4722837805747986,
+      "color": "hsl(44, 60%, 66%)"
+    },
+    {
+      "id": "generated datatype",
+      "axioms": {
+        "disjointWith": [
+          "defined datatype"
+        ],
+        "propertyRestrictions": [
+          "[has_member some generated datatype generator]"
+        ]
+      },
+      "x_norm": 0.5149402618408203,
+      "y_norm": 0.14400039613246918,
+      "color": "hsl(185, 60%, 55%)"
+    },
+    {
+      "id": "generated datatype generator",
+      "axioms": {
+        "equivalentClass": [
+          "(non-aggregate generator or aggregate generator)"
+        ],
+        "propertyRestrictions": [
+          "[is_member_of some generated datatype]"
+        ]
+      },
+      "description": {
+        "rdfs:comment": "synonim: datatype constructor"
+      },
+      "x_norm": 0.5040438175201416,
+      "y_norm": 0.07054447382688522,
+      "color": "hsl(181, 60%, 52%)"
+    },
+    {
+      "id": "graph aggregate component",
+      "x_norm": 0.03221052139997482,
+      "y_norm": 0.13510902225971222,
+      "color": "hsl(11, 60%, 54%)"
+    },
+    {
+      "id": "heterogenous",
+      "x_norm": 0.06982336193323135,
+      "y_norm": 0.23656731843948364,
+      "color": "hsl(25, 60%, 58%)"
+    },
+    {
+      "id": "heterogenous aggregate datatype",
+      "axioms": {
+        "propertyRestrictions": [
+          "[has_member some heterogenous aggregate generator]"
+        ]
+      },
+      "x_norm": 0.06804307550191879,
+      "y_norm": 0.20298577845096588,
+      "color": "hsl(24, 60%, 57%)"
+    },
+    {
+      "id": "heterogenous aggregate generator",
+      "axioms": {
+        "equivalentClass": [
+          "(class generator or record generator or table datatype)"
+        ],
+        "propertyRestrictions": [
+          "[has_quality some heterogenous]"
+        ]
+      },
+      "x_norm": 0.02731006219983101,
+      "y_norm": 0.17327222228050232,
+      "color": "hsl(9, 60%, 56%)"
+    },
+    {
+      "id": "homogenity",
+      "axioms": {
+        "disjointWith": [
+          "agregate size",
+          "uniqueness",
+          "component mandatoriness",
+          "structurness",
+          "recursiveness",
+          "access type"
+        ],
+        "equivalentClass": [
+          "(homogenous or heterogenous)"
+        ]
+      },
+      "x_norm": 0.09067726135253906,
+      "y_norm": 0.25841060280799866,
+      "color": "hsl(32, 60%, 59%)"
+    },
+    {
+      "id": "homogenous",
+      "axioms": {
+        "disjointWith": [
+          "heterogenous"
+        ]
+      },
+      "x_norm": 0.08443241566419601,
+      "y_norm": 0.25167152285575867,
+      "color": "hsl(30, 60%, 58%)"
+    },
+    {
+      "id": "homogenous  unordered aggregate datatype with variable size",
+      "axioms": {
+        "propertyRestrictions": [
+          "[has_member some homogenous unordered aggregate generator with variable size]"
+        ]
+      },
+      "x_norm": 0.05965529382228851,
+      "y_norm": 0.19911649823188782,
+      "color": "hsl(21, 60%, 56%)"
+    },
+    {
+      "id": "homogenous aggregate datatype",
+      "axioms": {
+        "disjointWith": [
+          "heterogenous aggregate datatype"
+        ],
+        "propertyRestrictions": [
+          "[has_member some homogenous aggregate generator]"
+        ]
+      },
+      "x_norm": 0.07849033921957016,
+      "y_norm": 0.2093665599822998,
+      "color": "hsl(28, 60%, 57%)"
+    },
+    {
+      "id": "homogenous aggregate datatype with variable size",
+      "axioms": {
+        "propertyRestrictions": [
+          "[has_member some homogenous aggregate generator with variable size]"
+        ]
+      },
+      "x_norm": 0.07342629879713058,
+      "y_norm": 0.21155543625354767,
+      "color": "hsl(26, 60%, 57%)"
+    },
+    {
+      "id": "homogenous aggregate generator",
+      "axioms": {
+        "disjointWith": [
+          "heterogenous aggregate generator"
+        ],
+        "equivalentClass": [
+          "(array generator or bag generator or sequence generator or set generator)"
+        ],
+        "propertyRestrictions": [
+          "[has_quality some homogenous]"
+        ]
+      },
+      "x_norm": 0.03449910506606102,
+      "y_norm": 0.18140557408332825,
+      "color": "hsl(12, 60%, 56%)"
+    },
+    {
+      "id": "homogenous aggregate generator with variable size",
+      "axioms": {
+        "propertyRestrictions": [
+          "[has_quality some variable size]"
+        ]
+      },
+      "x_norm": 0.026767220348119736,
+      "y_norm": 0.17014548182487488,
+      "color": "hsl(9, 60%, 55%)"
+    },
+    {
+      "id": "homogenous unordered aggregate generator with variable size",
+      "axioms": {
+        "equivalentClass": [
+          "(bag generator or set generator)"
+        ],
+        "propertyRestrictions": [
+          "[has_quality some unordered aggregate]"
+        ]
+      },
+      "x_norm": 0.028685182332992554,
+      "y_norm": 0.17159736156463623,
+      "color": "hsl(10, 60%, 56%)"
+    },
+    {
+      "id": "identifier",
+      "x_norm": 0.8621488809585571,
+      "y_norm": 0.3927331864833832,
+      "color": "hsl(310, 60%, 63%)"
+    },
+    {
+      "id": "identifier not unique",
+      "axioms": {
+        "disjointWith": [
+          "identifier unique"
+        ]
+      },
+      "x_norm": 0.8852633833885193,
+      "y_norm": 0.42003756761550903,
+      "color": "hsl(318, 60%, 64%)"
+    },
+    {
+      "id": "identifier unique",
+      "x_norm": 0.8768645524978638,
+      "y_norm": 0.428199827671051,
+      "color": "hsl(315, 60%, 64%)"
+    },
+    {
+      "id": "implementation dependent access",
+      "x_norm": 0.6522455811500549,
+      "y_norm": 0.3755719065666199,
+      "color": "hsl(234, 60%, 63%)"
+    },
+    {
+      "id": "in order operation",
+      "x_norm": 0.4783620238304138,
+      "y_norm": 0.839187502861023,
+      "color": "hsl(172, 60%, 79%)"
+    },
+    {
+      "id": "index access",
+      "axioms": {
+        "disjointWith": [
+          "key access"
+        ]
+      },
+      "x_norm": 0.6090282797813416,
+      "y_norm": 0.3436492681503296,
+      "color": "hsl(219, 60%, 62%)"
+    },
+    {
+      "id": "index lowerbound",
+      "axioms": {
+        "propertyRestrictions": [
+          "[has-value exactly 1 xsd:integer]"
+        ]
+      },
+      "x_norm": 0.026726780459284782,
+      "y_norm": 0.5193830132484436,
+      "color": "hsl(9, 60%, 68%)"
+    },
+    {
+      "id": "index upperbound",
+      "axioms": {
+        "propertyRestrictions": [
+          "[has-value exactly 1 xsd:integer]"
+        ]
+      },
+      "x_norm": 0.020428908988833427,
+      "y_norm": 0.5271478891372681,
+      "color": "hsl(7, 60%, 68%)"
+    },
+    {
+      "id": "index-type",
+      "axioms": {
+        "propertyRestrictions": [
+          "[has_member some index upperbound]",
+          "[is_member_of some index-type list]",
+          "[role_of some datatype]",
+          "[has_member some index lowerbound]"
+        ]
+      },
+      "x_norm": 0.5848131775856018,
+      "y_norm": 0.3082340955734253,
+      "color": "hsl(210, 60%, 60%)"
+    },
+    {
+      "id": "index-type list",
+      "axioms": {
+        "propertyRestrictions": [
+          "[has_member some index-type]"
+        ]
+      },
+      "x_norm": 0.6614759564399719,
+      "y_norm": 0.31798696517944336,
+      "color": "hsl(238, 60%, 61%)"
+    },
+    {
+      "id": "indirect acess property",
+      "axioms": {
+        "equivalentClass": [
+          "(access by value or implementation dependent access or position access)"
+        ]
+      },
+      "x_norm": 0.689917266368866,
+      "y_norm": 0.36758074164390564,
+      "color": "hsl(248, 60%, 62%)"
+    },
+    {
+      "id": "information artifact entity",
+      "x_norm": 0.8127807378768921,
+      "y_norm": 0.283229798078537,
+      "color": "hsl(292, 60%, 59%)"
+    },
+    {
+      "id": "insert operation",
+      "x_norm": 0.6688345670700073,
+      "y_norm": 0.8045701384544373,
+      "color": "hsl(240, 60%, 78%)"
+    },
+    {
+      "id": "integer base datatype",
+      "axioms": {
+        "propertyRestrictions": [
+          "[role_of some integer datatype]"
+        ]
+      },
+      "x_norm": 0.4214436411857605,
+      "y_norm": 0.2559534013271332,
+      "color": "hsl(151, 60%, 58%)"
+    },
+    {
+      "id": "integer datatype",
+      "axioms": {
+        "disjointWith": [
+          "rational datatype"
+        ],
+        "propertyRestrictions": [
+          "[has_operation some NonNegative:integer]",
+          "[has_quality some ordered]",
+          "[has_operation some Equal:integer]",
+          "[has_operation some InOrder:interger]",
+          "[has_quality some numeric]",
+          "[has_quality some exact]",
+          "[has_operation some Add:integer]",
+          "[has_quality some unbounded]",
+          "[has_operation some Multiply:integer]",
+          "[has_operation some Negate:integer]"
+        ]
+      },
+      "x_norm": 0.42728155851364136,
+      "y_norm": 0.23241423070430756,
+      "color": "hsl(153, 60%, 58%)"
+    },
+    {
+      "id": "isEmpty operation",
+      "x_norm": 0.5587495565414429,
+      "y_norm": 0.8646051287651062,
+      "color": "hsl(201, 60%, 80%)"
+    },
+    {
+      "id": "key access",
+      "x_norm": 0.6186999082565308,
+      "y_norm": 0.3744540214538574,
+      "color": "hsl(222, 60%, 63%)"
+    },
+    {
+      "id": "label",
+      "x_norm": 0.689159095287323,
+      "y_norm": 0.05429001525044441,
+      "color": "hsl(248, 60%, 51%)"
+    },
+    {
+      "id": "labeled dataset descriptive field component",
+      "x_norm": 0.7312483191490173,
+      "y_norm": 0.04995236173272133,
+      "color": "hsl(263, 60%, 51%)"
+    },
+    {
+      "id": "labeled dataset field-list",
+      "axioms": {
+        "propertyRestrictions": [
+          "[has_member some labeled dataset target field component]",
+          "[has_member some labeled dataset descriptive field component]"
+        ]
+      },
+      "x_norm": 0.7277271747589111,
+      "y_norm": 0.04697354510426521,
+      "color": "hsl(261, 60%, 51%)"
+    },
+    {
+      "id": "labeled dataset record datatype",
+      "axioms": {
+        "propertyRestrictions": [
+          "[has_member exactly 1 labeled dataset field-list]"
+        ]
+      },
+      "x_norm": 0.6920431852340698,
+      "y_norm": 0.054514192044734955,
+      "color": "hsl(249, 60%, 51%)"
+    },
+    {
+      "id": "labeled dataset target field component",
+      "x_norm": 0.7841951847076416,
+      "y_norm": 0.05051914229989052,
+      "color": "hsl(282, 60%, 51%)"
+    },
+    {
+      "id": "labeled graph datatype",
+      "axioms": {
+        "propertyRestrictions": [
+          "[has_member some directed labeled graph datatype generator]"
+        ]
+      },
+      "x_norm": 0.6665670871734619,
+      "y_norm": 0.04293981194496155,
+      "color": "hsl(239, 60%, 51%)"
+    },
+    {
+      "id": "list specification",
+      "x_norm": 0.7445453405380249,
+      "y_norm": 0.3227810561656952,
+      "color": "hsl(268, 60%, 61%)"
+    },
+    {
+      "id": "lower bound",
+      "axioms": {
+        "propertyRestrictions": [
+          "[has-value exactly 1 xsd:integer]"
+        ]
+      },
+      "x_norm": 0.01849261298775673,
+      "y_norm": 0.5299773812294006,
+      "color": "hsl(6, 60%, 68%)"
+    },
+    {
+      "id": "map operation",
+      "x_norm": 0.5805699229240417,
+      "y_norm": 0.8906335830688477,
+      "color": "hsl(209, 60%, 81%)"
+    },
+    {
+      "id": "maximum-size",
+      "x_norm": 0.10897905379533768,
+      "y_norm": 0.4713314175605774,
+      "color": "hsl(39, 60%, 66%)"
+    },
+    {
+      "id": "minimum-size",
+      "x_norm": 0.11045420914888382,
+      "y_norm": 0.48223936557769775,
+      "color": "hsl(39, 60%, 66%)"
+    },
+    {
+      "id": "modulo",
+      "x_norm": 0.3638109266757965,
+      "y_norm": 0.7107054591178894,
+      "color": "hsl(130, 60%, 74%)"
+    },
+    {
+      "id": "monadic aritmetic operation",
+      "x_norm": 0.5633460283279419,
+      "y_norm": 0.9032821655273438,
+      "color": "hsl(202, 60%, 81%)"
+    },
+    {
+      "id": "monadic operation",
+      "axioms": {
+        "disjointWith": [
+          "n-adic operation"
+        ]
+      },
+      "description": {
+        "rdfs:comment": "Monadic operations map a value of the given datatype into a value of the given datatype or into a value of datatype Boolean."
+      },
+      "x_norm": 0.5740412473678589,
+      "y_norm": 0.8953168988227844,
+      "color": "hsl(206, 60%, 81%)"
+    },
+    {
+      "id": "monadic retrive operation",
+      "x_norm": 0.5872059464454651,
+      "y_norm": 0.8883465528488159,
+      "color": "hsl(211, 60%, 81%)"
+    },
+    {
+      "id": "monadic select operation",
+      "x_norm": 0.5917643904685974,
+      "y_norm": 0.8910037875175476,
+      "color": "hsl(213, 60%, 81%)"
+    },
+    {
+      "id": "multi dimensional",
+      "x_norm": 0.21141543984413147,
+      "y_norm": 0.3422868549823761,
+      "color": "hsl(76, 60%, 61%)"
+    },
+    {
+      "id": "multiply operation",
+      "x_norm": 0.35411888360977173,
+      "y_norm": 0.8204174041748047,
+      "color": "hsl(127, 60%, 78%)"
+    },
+    {
+      "id": "n-adic operation",
+      "description": {
+        "rdfs:comment": "N-adic operations map ordered n-tuples of values, each of whichh is of a specified datatype, which may be the given datatype or a parametric datatype, into values of the given datatype or parametric datatype."
+      },
+      "x_norm": 0.514165461063385,
+      "y_norm": 0.9087105393409729,
+      "color": "hsl(185, 60%, 81%)"
+    },
+    {
+      "id": "natural number",
+      "x_norm": 0.3833882212638855,
+      "y_norm": 0.7082628011703491,
+      "color": "hsl(138, 60%, 74%)"
+    },
+    {
+      "id": "negate operation",
+      "x_norm": 0.4451478123664856,
+      "y_norm": 0.85616135597229,
+      "color": "hsl(160, 60%, 79%)"
+    },
+    {
+      "id": "niladic operation",
+      "axioms": {
+        "disjointWith": [
+          "monadic operation",
+          "n-adic operation"
+        ]
+      },
+      "description": {
+        "rdfs:comment": "Niladic operations yield values of the given datatype."
+      },
+      "x_norm": 0.5066316723823547,
+      "y_norm": 0.8993349671363831,
+      "color": "hsl(182, 60%, 81%)"
+    },
+    {
+      "id": "node component",
+      "axioms": {
+        "disjointWith": [
+          "edge component"
+        ]
+      },
+      "x_norm": 1.0,
+      "y_norm": 0.18064020574092865,
+      "color": "hsl(360, 60%, 56%)"
+    },
+    {
+      "id": "non-aggregate datatype",
+      "axioms": {
+        "propertyRestrictions": [
+          "[has_member some non-aggregate generator]"
+        ]
+      },
+      "x_norm": 0.09738944470882416,
+      "y_norm": 0.19007651507854462,
+      "color": "hsl(35, 60%, 56%)"
+    },
+    {
+      "id": "non-aggregate generator",
+      "axioms": {
+        "disjointWith": [
+          "defined generator",
+          "aggregate datatype",
+          "aggregate generator"
+        ],
+        "equivalentClass": [
+          "(choice generator or pointer generator or procedure generator)"
+        ]
+      },
+      "x_norm": 0.02077993005514145,
+      "y_norm": 0.16492682695388794,
+      "color": "hsl(7, 60%, 55%)"
+    },
+    {
+      "id": "non-directed labeled graph datatype",
+      "axioms": {
+        "propertyRestrictions": [
+          "[has_member some non-directed labeled graph generator]",
+          "[has_member some graph aggregate component]"
+        ]
+      },
+      "x_norm": 0.6413570046424866,
+      "y_norm": 0.038058117032051086,
+      "color": "hsl(230, 60%, 51%)"
+    },
+    {
+      "id": "non-directed labeled graph generator",
+      "x_norm": 0.6399438977241516,
+      "y_norm": 0.044224098324775696,
+      "color": "hsl(230, 60%, 51%)"
+    },
+    {
+      "id": "non-numeric",
+      "x_norm": 0.3716655671596527,
+      "y_norm": 0.5241604447364807,
+      "color": "hsl(133, 60%, 68%)"
+    },
+    {
+      "id": "non-numeric ordered primitive datatype",
+      "axioms": {
+        "propertyRestrictions": [
+          "[has_quality some ordered]"
+        ]
+      },
+      "x_norm": 0.37063169479370117,
+      "y_norm": 0.2796955704689026,
+      "color": "hsl(133, 60%, 59%)"
+    },
+    {
+      "id": "non-numeric primitive datatype",
+      "axioms": {
+        "disjointWith": [
+          "numeric primitive datatype"
+        ],
+        "propertyRestrictions": [
+          "[has_quality some non-numeric]"
+        ]
+      },
+      "x_norm": 0.38049009442329407,
+      "y_norm": 0.27899110317230225,
+      "color": "hsl(136, 60%, 59%)"
+    },
+    {
+      "id": "non-numeric unordered primitive datatype",
+      "axioms": {
+        "disjointWith": [
+          "non-numeric ordered primitive datatype"
+        ],
+        "propertyRestrictions": [
+          "[has_quality some non-ordered]"
+        ]
+      },
+      "x_norm": 0.3738841712474823,
+      "y_norm": 0.27489984035491943,
+      "color": "hsl(134, 60%, 59%)"
+    },
+    {
+      "id": "non-ordered",
+      "x_norm": 0.23447482287883759,
+      "y_norm": 0.6112857460975647,
+      "color": "hsl(84, 60%, 71%)"
+    },
+    {
+      "id": "non-recursive",
+      "x_norm": 0.5524450540542603,
+      "y_norm": 0.7969480752944946,
+      "color": "hsl(198, 60%, 77%)"
+    },
+    {
+      "id": "non-unique values",
+      "axioms": {
+        "disjointWith": [
+          "unique values"
+        ]
+      },
+      "x_norm": 0.8607828617095947,
+      "y_norm": 0.44995737075805664,
+      "color": "hsl(309, 60%, 65%)"
+    },
+    {
+      "id": "nonNegative operation",
+      "x_norm": 0.43404048681259155,
+      "y_norm": 0.8137884736061096,
+      "color": "hsl(156, 60%, 78%)"
+    },
+    {
+      "id": "numeric",
+      "axioms": {
+        "disjointWith": [
+          "non-numeric"
+        ]
+      },
+      "x_norm": 0.3643389940261841,
+      "y_norm": 0.5458353161811829,
+      "color": "hsl(131, 60%, 69%)"
+    },
+    {
+      "id": "numeric ordered primitive datatype",
+      "axioms": {
+        "propertyRestrictions": [
+          "[has_quality some ordered]"
+        ]
+      },
+      "x_norm": 0.3644076883792877,
+      "y_norm": 0.2827516496181488,
+      "color": "hsl(131, 60%, 59%)"
+    },
+    {
+      "id": "numeric primitive datatype",
+      "axioms": {
+        "propertyRestrictions": [
+          "[has_quality some numeric]"
+        ]
+      },
+      "x_norm": 0.3911898732185364,
+      "y_norm": 0.27126750349998474,
+      "color": "hsl(140, 60%, 59%)"
+    },
+    {
+      "id": "numericalness",
+      "axioms": {
+        "disjointWith": [
+          "cardinality",
+          "order",
+          "boundedness",
+          "equality"
+        ],
+        "equivalentClass": [
+          "(numeric or non-numeric)"
+        ]
+      },
+      "x_norm": 0.35726243257522583,
+      "y_norm": 0.5129488706588745,
+      "color": "hsl(128, 60%, 67%)"
+    },
+    {
+      "id": "object identifier",
+      "x_norm": 0.8800495266914368,
+      "y_norm": 0.37944355607032776,
+      "color": "hsl(316, 60%, 63%)"
+    },
+    {
+      "id": "octet",
+      "x_norm": 0.3261685073375702,
+      "y_norm": 0.4874326288700104,
+      "color": "hsl(117, 60%, 67%)"
+    },
+    {
+      "id": "octet string",
+      "x_norm": 0.3623576760292053,
+      "y_norm": 0.45427465438842773,
+      "color": "hsl(130, 60%, 65%)"
+    },
+    {
+      "id": "one dimensional",
+      "x_norm": 0.20015600323677063,
+      "y_norm": 0.3492099344730377,
+      "color": "hsl(72, 60%, 62%)"
+    },
+    {
+      "id": "optional",
+      "x_norm": 0.9842303395271301,
+      "y_norm": 0.21308714151382446,
+      "color": "hsl(354, 60%, 57%)"
+    },
+    {
+      "id": "order",
+      "axioms": {
+        "disjointWith": [
+          "boundedness",
+          "equality"
+        ],
+        "equivalentClass": [
+          "(ordered or non-ordered)"
+        ]
+      },
+      "x_norm": 0.22773496806621552,
+      "y_norm": 0.6009459495544434,
+      "color": "hsl(81, 60%, 71%)"
+    },
+    {
+      "id": "ordered",
+      "axioms": {
+        "disjointWith": [
+          "non-ordered"
+        ]
+      },
+      "x_norm": 0.2122042328119278,
+      "y_norm": 0.5879486799240112,
+      "color": "hsl(76, 60%, 70%)"
+    },
+    {
+      "id": "ordered aggregate",
+      "axioms": {
+        "disjointWith": [
+          "unordered aggregate"
+        ]
+      },
+      "x_norm": 0.0006047540809959173,
+      "y_norm": 0.17873813211917877,
+      "color": "hsl(0, 60%, 56%)"
+    },
+    {
+      "id": "ordinal datatype",
+      "axioms": {
+        "propertyRestrictions": [
+          "[has_operation some InOrder:ordinal]",
+          "[has_quality some bounded below]",
+          "[has_quality some unbounded above]",
+          "[has_quality some ordered]",
+          "[has_operation some Successor:ordinal]",
+          "[has_operation some Equal:ordinal]",
+          "[has_quality some non-numeric]",
+          "[has_quality some exact]"
+        ]
+      },
+      "x_norm": 0.293194055557251,
+      "y_norm": 0.6131736636161804,
+      "color": "hsl(105, 60%, 71%)"
+    },
+    {
+      "id": "owl:Thing",
+      "x_norm": 0.6865085363388062,
+      "y_norm": 0.18515419960021973,
+      "color": "hsl(247, 60%, 56%)"
+    },
+    {
+      "id": "parameter",
+      "axioms": {
+        "propertyRestrictions": [
+          "[role_of some datatype]",
+          "[has_identifier some parameter identifier]"
+        ]
+      },
+      "x_norm": 0.7308496832847595,
+      "y_norm": 0.42994189262390137,
+      "color": "hsl(263, 60%, 65%)"
+    },
+    {
+      "id": "parameter identifier",
+      "x_norm": 0.8389103412628174,
+      "y_norm": 0.3935103416442871,
+      "color": "hsl(302, 60%, 63%)"
+    },
+    {
+      "id": "pointer datatype",
+      "axioms": {
+        "propertyRestrictions": [
+          "[has_quality some non-ordered]",
+          "[has_quality some non-numeric]",
+          "[has_member some pointer generator]",
+          "[has_member some pointer-element-type]",
+          "[has_operation some Equal:pointer]",
+          "[has_operation some Dereference:pointer]",
+          "[has_quality some exact]"
+        ]
+      },
+      "description": {
+        "rdfs:comment": "whose values constitutes a\nmeans of reference to values of another datatype, designated the element datatype. The values of a\npointer datatype are atomic."
+      },
+      "x_norm": 0.530078649520874,
+      "y_norm": 0.29790204763412476,
+      "color": "hsl(190, 60%, 60%)"
+    },
+    {
+      "id": "pointer generator",
+      "axioms": {
+        "propertyRestrictions": [
+          "[is_member_of some pointer datatype]"
+        ]
+      },
+      "x_norm": 0.5808034539222717,
+      "y_norm": 0.48598554730415344,
+      "color": "hsl(209, 60%, 67%)"
+    },
+    {
+      "id": "pointer-element-type",
+      "axioms": {
+        "propertyRestrictions": [
+          "[role_of some datatype]"
+        ]
+      },
+      "x_norm": 0.5542359948158264,
+      "y_norm": 0.3641882836818695,
+      "color": "hsl(199, 60%, 62%)"
+    },
+    {
+      "id": "position access",
+      "x_norm": 0.6317129135131836,
+      "y_norm": 0.37662994861602783,
+      "color": "hsl(227, 60%, 63%)"
+    },
+    {
+      "id": "positive integer",
+      "x_norm": 0.39037463068962097,
+      "y_norm": 0.7138022184371948,
+      "color": "hsl(140, 60%, 74%)"
+    },
+    {
+      "id": "positive integer range generator",
+      "x_norm": 0.4422205686569214,
+      "y_norm": 0.5817491412162781,
+      "color": "hsl(159, 60%, 70%)"
+    },
+    {
+      "id": "primitive datatype",
+      "axioms": {
+        "disjointWith": [
+          "generated datatype",
+          "defined datatype"
+        ],
+        "propertyRestrictions": [
+          "[has_quality some equality]"
+        ]
+      },
+      "x_norm": 0.4275801479816437,
+      "y_norm": 0.27427589893341064,
+      "color": "hsl(153, 60%, 59%)"
+    },
+    {
+      "id": "primitive field component",
+      "axioms": {
+        "propertyRestrictions": [
+          "[role_of some primitive datatype]"
+        ]
+      },
+      "x_norm": 0.9095756411552429,
+      "y_norm": 0.16583949327468872,
+      "color": "hsl(327, 60%, 55%)"
+    },
+    {
+      "id": "primitive field-list",
+      "axioms": {
+        "propertyRestrictions": [
+          "[has_member some primitive field component]"
+        ]
+      },
+      "x_norm": 0.8605020642280579,
+      "y_norm": 0.19194813072681427,
+      "color": "hsl(309, 60%, 56%)"
+    },
+    {
+      "id": "private",
+      "x_norm": 0.14246433973312378,
+      "y_norm": 0.5704559683799744,
+      "color": "hsl(51, 60%, 69%)"
+    },
+    {
+      "id": "procedure datatype",
+      "axioms": {
+        "propertyRestrictions": [
+          "[has_quality some non-numeric]",
+          "[has_member some procedure generator]",
+          "[has_quality some exact]",
+          "[has_member some procedure-parameter-list]",
+          "[has_member some return-parameter specification]",
+          "[has_operation some Equal:procedure]",
+          "[has_quality some non-ordered]",
+          "[has_operation some Invoke:procedure]"
+        ]
+      },
+      "description": {
+        "rdfs:comment": "whose values is an\noperation on values of other datatypes, designated the parameter datatypes. That is, a procedure\ndatatype comprises the set of all operations on values of a particular collection of datatypes. All values of\na procedure datatype are conceptually atomic."
+      },
+      "x_norm": 0.5859155058860779,
+      "y_norm": 0.23127155005931854,
+      "color": "hsl(210, 60%, 58%)"
+    },
+    {
+      "id": "procedure generator",
+      "x_norm": 0.6842217445373535,
+      "y_norm": 0.4716572165489197,
+      "color": "hsl(246, 60%, 66%)"
+    },
+    {
+      "id": "procedure-parameter-list",
+      "axioms": {
+        "propertyRestrictions": [
+          "[has_member some procedure-paremeter declaration]"
+        ]
+      },
+      "x_norm": 0.7001699805259705,
+      "y_norm": 0.4459739327430725,
+      "color": "hsl(252, 60%, 65%)"
+    },
+    {
+      "id": "procedure-paremeter declaration",
+      "axioms": {
+        "propertyRestrictions": [
+          "[has_member some parameter]",
+          "[has_member some direction]"
+        ]
+      },
+      "x_norm": 0.7010697722434998,
+      "y_norm": 0.45742088556289673,
+      "color": "hsl(252, 60%, 66%)"
+    },
+    {
+      "id": "promote operation",
+      "x_norm": 0.37014761567115784,
+      "y_norm": 0.924565851688385,
+      "color": "hsl(133, 60%, 82%)"
+    },
+    {
+      "id": "quality",
+      "x_norm": 0.19570063054561615,
+      "y_norm": 0.5269625782966614,
+      "color": "hsl(70, 60%, 68%)"
+    },
+    {
+      "id": "radix",
+      "x_norm": 0.19348642230033875,
+      "y_norm": 0.8693073391914368,
+      "color": "hsl(69, 60%, 80%)"
+    },
+    {
+      "id": "range",
+      "axioms": {
+        "propertyRestrictions": [
+          "[has_member some lower bound]",
+          "[has_member some upper bound]"
+        ]
+      },
+      "x_norm": 0.1351374089717865,
+      "y_norm": 0.4886114299297333,
+      "color": "hsl(48, 60%, 67%)"
+    },
+    {
+      "id": "range subtype generator",
+      "axioms": {
+        "propertyRestrictions": [
+          "[has_member some range]"
+        ]
+      },
+      "x_norm": 0.4209820628166199,
+      "y_norm": 0.013035286217927933,
+      "color": "hsl(151, 60%, 50%)"
+    },
+    {
+      "id": "rational datatype",
+      "axioms": {
+        "propertyRestrictions": [
+          "[has_operation some Multiply:rational]",
+          "[has_operation some Reciprocal:rational]",
+          "[has_quality some numeric]",
+          "[has_operation some NonNegative:rational]",
+          "[has_quality some ordered]",
+          "[has_operation some Promote:rational]",
+          "[has_operation some Equal:rational]",
+          "[has_operation some Add:rational]",
+          "[has_operation some Negate:rational]",
+          "[has_quality some exact]",
+          "[has_operation some InOrder:rational]",
+          "[has_quality some unbounded]"
+        ]
+      },
+      "x_norm": 0.4544047713279724,
+      "y_norm": 0.19627822935581207,
+      "color": "hsl(163, 60%, 56%)"
+    },
+    {
+      "id": "real base type",
+      "axioms": {
+        "propertyRestrictions": [
+          "[role_of some real datatype]"
+        ]
+      },
+      "x_norm": 0.4430270195007324,
+      "y_norm": 0.2010948210954666,
+      "color": "hsl(159, 60%, 57%)"
+    },
+    {
+      "id": "real datatype",
+      "axioms": {
+        "disjointWith": [
+          "integer datatype",
+          "rational datatype"
+        ],
+        "propertyRestrictions": [
+          "[has_operation some Multiply:real]",
+          "[has_quality some approximate]",
+          "[has_operation some Negate:real]",
+          "[has_member some real radix]",
+          "[has_quality some unbounded]",
+          "[has_operation some Reciprocal:real]",
+          "[has_operation some InOrder:real]",
+          "[has_operation some Add:real]",
+          "[has_operation some Promote:real]",
+          "[has_operation some Equal:real]",
+          "[has_member some real factor]"
+        ]
+      },
+      "x_norm": 0.46726056933403015,
+      "y_norm": 0.14998115599155426,
+      "color": "hsl(168, 60%, 55%)"
+    },
+    {
+      "id": "real factor",
+      "x_norm": 0.2651134431362152,
+      "y_norm": 0.8011963367462158,
+      "color": "hsl(95, 60%, 78%)"
+    },
+    {
+      "id": "real field component",
+      "axioms": {
+        "disjointWith": [
+          "boolean field component"
+        ],
+        "propertyRestrictions": [
+          "[role_of some real datatype]"
+        ]
+      },
+      "x_norm": 0.9366928339004517,
+      "y_norm": 0.12724190950393677,
+      "color": "hsl(337, 60%, 54%)"
+    },
+    {
+      "id": "real field-list",
+      "axioms": {
+        "disjointWith": [
+          "boolean field-list",
+          "discrete field-list"
+        ],
+        "propertyRestrictions": [
+          "[has_member some real field component]"
+        ]
+      },
+      "x_norm": 0.8759897351264954,
+      "y_norm": 0.21261991560459137,
+      "color": "hsl(315, 60%, 57%)"
+    },
+    {
+      "id": "real radix",
+      "x_norm": 0.20922014117240906,
+      "y_norm": 0.8635369539260864,
+      "color": "hsl(75, 60%, 80%)"
+    },
+    {
+      "id": "reciprocial operation",
+      "x_norm": 0.5122743844985962,
+      "y_norm": 0.8737100958824158,
+      "color": "hsl(184, 60%, 80%)"
+    },
+    {
+      "id": "record (tuple) datatype",
+      "axioms": {
+        "propertyRestrictions": [
+          "[has_quality some non-numeric]",
+          "[has_operation some FieldSelect:record]",
+          "[has_operation some Equal:record]",
+          "[has_quality some exact]",
+          "[has_quality some non-ordered]",
+          "[has_member some record generator]",
+          "[has_operation some FieldReplace:record]",
+          "[has_member some field-list]"
+        ]
+      },
+      "description": {
+        "rdfs:comment": "synonim: tuple datatype"
+      },
+      "x_norm": 0.4446905553340912,
+      "y_norm": 0.1855122596025467,
+      "color": "hsl(160, 60%, 56%)"
+    },
+    {
+      "id": "record generator",
+      "axioms": {
+        "disjointWith": [
+          "table datatype"
+        ],
+        "propertyRestrictions": [
+          "[has_quality some fixed size]",
+          "[has_quality some one dimensional]",
+          "[has_quality some unordered aggregate]",
+          "[has_quality some key access]",
+          "[has_quality some non-unique values]"
+        ]
+      },
+      "x_norm": 0.6492162942886353,
+      "y_norm": 0.56440669298172,
+      "color": "hsl(233, 60%, 69%)"
+    },
+    {
+      "id": "record of boolean datatype",
+      "axioms": {
+        "disjointWith": [
+          "record of real datatype",
+          "record of discrete datatype"
+        ],
+        "propertyRestrictions": [
+          "[has_member some boolean field-list]"
+        ]
+      },
+      "x_norm": 0.6836637854576111,
+      "y_norm": 0.13975797593593597,
+      "color": "hsl(246, 60%, 54%)"
+    },
+    {
+      "id": "record of discrete datatype",
+      "axioms": {
+        "propertyRestrictions": [
+          "[has_member some discrete field-list]"
+        ]
+      },
+      "x_norm": 0.4205378293991089,
+      "y_norm": 0.19942498207092285,
+      "color": "hsl(151, 60%, 56%)"
+    },
+    {
+      "id": "record of primitives datatype",
+      "axioms": {
+        "propertyRestrictions": [
+          "[has_member some primitive field-list]"
+        ]
+      },
+      "x_norm": 0.41114652156829834,
+      "y_norm": 0.27015769481658936,
+      "color": "hsl(148, 60%, 59%)"
+    },
+    {
+      "id": "record of real datatype",
+      "axioms": {
+        "disjointWith": [
+          "record of discrete datatype"
+        ],
+        "propertyRestrictions": [
+          "[has_member some real field-list]"
+        ]
+      },
+      "x_norm": 0.4658767282962799,
+      "y_norm": 0.14220817387104034,
+      "color": "hsl(167, 60%, 54%)"
+    },
+    {
+      "id": "recursive",
+      "axioms": {
+        "disjointWith": [
+          "non-recursive"
+        ]
+      },
+      "x_norm": 0.557000458240509,
+      "y_norm": 0.7971938848495483,
+      "color": "hsl(200, 60%, 77%)"
+    },
+    {
+      "id": "recursiveness",
+      "axioms": {
+        "disjointWith": [
+          "access type"
+        ],
+        "equivalentClass": [
+          "(recursive or non-recursive)"
+        ]
+      },
+      "x_norm": 0.5588225722312927,
+      "y_norm": 0.8046294450759888,
+      "color": "hsl(201, 60%, 78%)"
+    },
+    {
+      "id": "representation",
+      "x_norm": 0.4517088532447815,
+      "y_norm": 0.38051527738571167,
+      "color": "hsl(162, 60%, 63%)"
+    },
+    {
+      "id": "return-parameter specification",
+      "axioms": {
+        "propertyRestrictions": [
+          "[has_member some datatype]",
+          "[has_identifier some parameter identifier]"
+        ]
+      },
+      "x_norm": 0.7368440628051758,
+      "y_norm": 0.41995906829833984,
+      "color": "hsl(265, 60%, 64%)"
+    },
+    {
+      "id": "role",
+      "x_norm": 0.4643819034099579,
+      "y_norm": 0.3840785026550293,
+      "color": "hsl(167, 60%, 63%)"
+    },
+    {
+      "id": "round operation",
+      "x_norm": 0.17161501944065094,
+      "y_norm": 0.7815238833427429,
+      "color": "hsl(61, 60%, 77%)"
+    },
+    {
+      "id": "scaled datatype",
+      "axioms": {
+        "disjointWith": [
+          "integer datatype",
+          "rational datatype"
+        ],
+        "propertyRestrictions": [
+          "[has_quality some unbounded]",
+          "[has_operation some Divide:scaled]",
+          "[has_operation some InOrder:scaled]",
+          "[has_operation some Multiply:scaled]",
+          "[has_member some scaled radix]",
+          "[has_quality some exact]",
+          "[has_operation some Negate:scaled]",
+          "[has_operation some Round:scaled]",
+          "[has_operation some Add:scaled]",
+          "[has_member some scaled factor]",
+          "[has_operation some Equal:scaled]"
+        ]
+      },
+      "x_norm": 0.5049414038658142,
+      "y_norm": 0.18765820562839508,
+      "color": "hsl(181, 60%, 56%)"
+    },
+    {
+      "id": "scaled factor",
+      "x_norm": 0.21232737600803375,
+      "y_norm": 0.7852278351783752,
+      "color": "hsl(76, 60%, 77%)"
+    },
+    {
+      "id": "scaled radix",
+      "x_norm": 0.19866858422756195,
+      "y_norm": 0.837285041809082,
+      "color": "hsl(71, 60%, 79%)"
+    },
+    {
+      "id": "select-item specification",
+      "x_norm": 0.7859558463096619,
+      "y_norm": 0.6430208086967468,
+      "color": "hsl(282, 60%, 72%)"
+    },
+    {
+      "id": "select-list",
+      "axioms": {
+        "propertyRestrictions": [
+          "[has_member some select-item specification]"
+        ]
+      },
+      "x_norm": 0.7934965491294861,
+      "y_norm": 0.6669934988021851,
+      "color": "hsl(285, 60%, 73%)"
+    },
+    {
+      "id": "selection subtype generator",
+      "axioms": {
+        "propertyRestrictions": [
+          "[has_member some select-list]"
+        ]
+      },
+      "x_norm": 0.42238280177116394,
+      "y_norm": 0.004313701763749123,
+      "color": "hsl(152, 60%, 50%)"
+    },
+    {
+      "id": "semi-structured",
+      "x_norm": 0.70973140001297,
+      "y_norm": 0.25665032863616943,
+      "color": "hsl(255, 60%, 58%)"
+    },
+    {
+      "id": "sequence datatype",
+      "axioms": {
+        "disjointWith": [
+          "homogenous  unordered aggregate datatype with variable size"
+        ],
+        "propertyRestrictions": [
+          "[has_operation some Equal:sequence]",
+          "[has_quality some exact]",
+          "[has_operation some IsEmpty:sequence]",
+          "[has_quality some non-ordered]",
+          "[has_operation some Head:sequence]",
+          "[has_quality some non-numeric]",
+          "[has_member some base type]",
+          "[has_operation some Append:sequence]",
+          "[has_operation some Tail:sequence]",
+          "[has_member some sequence generator]"
+        ]
+      },
+      "x_norm": 0.4475253224372864,
+      "y_norm": 0.16825886070728302,
+      "color": "hsl(161, 60%, 55%)"
+    },
+    {
+      "id": "sequence generator",
+      "axioms": {
+        "disjointWith": [
+          "homogenous unordered aggregate generator with variable size"
+        ],
+        "propertyRestrictions": [
+          "[has_quality some non-unique values]",
+          "[has_quality some ordered aggregate]",
+          "[has_quality some position access]"
+        ]
+      },
+      "x_norm": 0.6235879063606262,
+      "y_norm": 0.5508837699890137,
+      "color": "hsl(224, 60%, 69%)"
+    },
+    {
+      "id": "sequence of discrete datatype",
+      "axioms": {
+        "propertyRestrictions": [
+          "[has_member some discrete base type]"
+        ]
+      },
+      "x_norm": 0.4137159585952759,
+      "y_norm": 0.18412934243679047,
+      "color": "hsl(148, 60%, 56%)"
+    },
+    {
+      "id": "sequence of real datatype",
+      "axioms": {
+        "propertyRestrictions": [
+          "[has_member some real base type]"
+        ]
+      },
+      "x_norm": 0.4329775273799896,
+      "y_norm": 0.150182843208313,
+      "color": "hsl(155, 60%, 55%)"
+    },
+    {
+      "id": "serialize operation",
+      "x_norm": 0.7275700569152832,
+      "y_norm": 0.8035663962364197,
+      "color": "hsl(261, 60%, 78%)"
+    },
+    {
+      "id": "set datatype",
+      "axioms": {
+        "propertyRestrictions": [
+          "[has_quality some non-ordered]",
+          "[has_operation some Lsln:set]",
+          "[has_operation some Intersection:set]",
+          "[has_member some base type]",
+          "[has_operation some SetOf:set]",
+          "[has_member some set generator]",
+          "[has_operation some Select:set]",
+          "[has_operation some Equal:class]",
+          "[has_quality some non-numeric]",
+          "[has_quality some exact]",
+          "[has_operation some Empty:set]",
+          "[has_operation some Difference:set]",
+          "[has_operation some Union:set]",
+          "[has_operation some Subset:set]"
+        ]
+      },
+      "x_norm": 0.5155512690544128,
+      "y_norm": 0.1692049354314804,
+      "color": "hsl(185, 60%, 55%)"
+    },
+    {
+      "id": "set generator",
+      "axioms": {
+        "propertyRestrictions": [
+          "[has_quality some access by value]",
+          "[has_quality some unique values]"
+        ]
+      },
+      "x_norm": 0.638167142868042,
+      "y_norm": 0.5698508620262146,
+      "color": "hsl(229, 60%, 69%)"
+    },
+    {
+      "id": "set of discrete datatype",
+      "axioms": {
+        "disjointWith": [
+          "set of real datatype"
+        ],
+        "propertyRestrictions": [
+          "[has_member some discrete base type]"
+        ]
+      },
+      "x_norm": 0.42795759439468384,
+      "y_norm": 0.20793220400810242,
+      "color": "hsl(154, 60%, 57%)"
+    },
+    {
+      "id": "set of integer datatype",
+      "axioms": {
+        "propertyRestrictions": [
+          "[has_member some integer base datatype]"
+        ]
+      },
+      "x_norm": 0.43039700388908386,
+      "y_norm": 0.2538439631462097,
+      "color": "hsl(154, 60%, 58%)"
+    },
+    {
+      "id": "set of real datatype",
+      "axioms": {
+        "propertyRestrictions": [
+          "[has_member some real base type]"
+        ]
+      },
+      "x_norm": 0.44497284293174744,
+      "y_norm": 0.13258008658885956,
+      "color": "hsl(160, 60%, 54%)"
+    },
+    {
+      "id": "size",
+      "axioms": {
+        "propertyRestrictions": [
+          "[has-value exactly 1 xsd:integer]"
+        ]
+      },
+      "x_norm": 0.1342376172542572,
+      "y_norm": 0.47876647114753723,
+      "color": "hsl(48, 60%, 66%)"
+    },
+    {
+      "id": "size subtype generator",
+      "axioms": {
+        "propertyRestrictions": [
+          "[has_member some size]"
+        ]
+      },
+      "x_norm": 0.4346889555454254,
+      "y_norm": 0.0,
+      "color": "hsl(156, 60%, 50%)"
+    },
+    {
+      "id": "specification",
+      "x_norm": 0.728971540927887,
+      "y_norm": 0.33064672350883484,
+      "color": "hsl(262, 60%, 61%)"
+    },
+    {
+      "id": "stack",
+      "x_norm": 0.5328684449195862,
+      "y_norm": 0.48050081729888916,
+      "color": "hsl(191, 60%, 66%)"
+    },
+    {
+      "id": "structured",
+      "x_norm": 0.7017530798912048,
+      "y_norm": 0.25910401344299316,
+      "color": "hsl(252, 60%, 59%)"
+    },
+    {
+      "id": "structurness",
+      "axioms": {
+        "disjointWith": [
+          "recursiveness",
+          "access type"
+        ],
+        "equivalentClass": [
+          "(structured or unstructured or semi-structured)"
+        ]
+      },
+      "x_norm": 0.7033388018608093,
+      "y_norm": 0.23843683302402496,
+      "color": "hsl(253, 60%, 58%)"
+    },
+    {
+      "id": "subtype generator",
+      "x_norm": 0.4302420914173126,
+      "y_norm": 0.011396123096346855,
+      "color": "hsl(154, 60%, 50%)"
+    },
+    {
+      "id": "successor operation",
+      "x_norm": 0.5120993256568909,
+      "y_norm": 0.8689696788787842,
+      "color": "hsl(184, 60%, 80%)"
+    },
+    {
+      "id": "table datatype",
+      "axioms": {
+        "disjointWith": [
+          "record (tuple) datatype"
+        ],
+        "propertyRestrictions": [
+          "[has_member some table generator]",
+          "[has_operation some IsEmpty:table]",
+          "[has_operation some MapToBag:table]",
+          "[has_operation some Insert:table]",
+          "[has_operation some Select:table]",
+          "[has_operation some MapToTable:table]",
+          "[has_member some field-list]",
+          "[has_quality some exact]",
+          "[has_operation some Delete:table]",
+          "[has_operation some Fetch:table]",
+          "[has_operation some Serialize:table]",
+          "[has_quality some non-numeric]"
+        ]
+      },
+      "x_norm": 0.4960694909095764,
+      "y_norm": 0.19707928597927094,
+      "color": "hsl(178, 60%, 56%)"
+    },
+    {
+      "id": "table generator",
+      "axioms": {
+        "propertyRestrictions": [
+          "[has_quality some non-unique values]",
+          "[has_quality some variable size]",
+          "[has_quality some unordered aggregate]",
+          "[has_quality some two dimensional]"
+        ]
+      },
+      "x_norm": 0.7188779711723328,
+      "y_norm": 0.6715927124023438,
+      "color": "hsl(258, 60%, 73%)"
+    },
+    {
+      "id": "tag-type",
+      "axioms": {
+        "propertyRestrictions": [
+          "[role_of some datatype]"
+        ]
+      },
+      "x_norm": 0.5677797794342041,
+      "y_norm": 0.2785050868988037,
+      "color": "hsl(204, 60%, 59%)"
+    },
+    {
+      "id": "tag-value list",
+      "x_norm": 0.7863808274269104,
+      "y_norm": 0.3091522455215454,
+      "color": "hsl(283, 60%, 60%)"
+    },
+    {
+      "id": "target DAG field component",
+      "axioms": {
+        "propertyRestrictions": [
+          "[role_of some DAG datatype]"
+        ]
+      },
+      "x_norm": 0.903252124786377,
+      "y_norm": 0.08566685020923615,
+      "color": "hsl(325, 60%, 52%)"
+    },
+    {
+      "id": "target boolean field component",
+      "axioms": {
+        "propertyRestrictions": [
+          "[role_of some boolean datatype]"
+        ]
+      },
+      "x_norm": 0.8685941696166992,
+      "y_norm": 0.0931897982954979,
+      "color": "hsl(312, 60%, 53%)"
+    },
+    {
+      "id": "target discrete field component",
+      "axioms": {
+        "propertyRestrictions": [
+          "[role_of some discrete datatype]"
+        ]
+      },
+      "x_norm": 0.9236869812011719,
+      "y_norm": 0.0899602547287941,
+      "color": "hsl(332, 60%, 53%)"
+    },
+    {
+      "id": "target field identifier",
+      "x_norm": 0.889802873134613,
+      "y_norm": 0.35235098004341125,
+      "color": "hsl(320, 60%, 62%)"
+    },
+    {
+      "id": "target hierarchical field component",
+      "axioms": {
+        "propertyRestrictions": [
+          "[role_of some (tree datatype or DAG datatype)]"
+        ]
+      },
+      "x_norm": 0.9046396017074585,
+      "y_norm": 0.07701370865106583,
+      "color": "hsl(325, 60%, 52%)"
+    },
+    {
+      "id": "target primitive field component",
+      "axioms": {
+        "propertyRestrictions": [
+          "[role_of some (real datatype or discrete datatype or boolean datatype)]"
+        ]
+      },
+      "x_norm": 0.9256171584129333,
+      "y_norm": 0.12355352938175201,
+      "color": "hsl(333, 60%, 54%)"
+    },
+    {
+      "id": "target real field component",
+      "axioms": {
+        "propertyRestrictions": [
+          "[role_of some real datatype]"
+        ]
+      },
+      "x_norm": 0.954113781452179,
+      "y_norm": 0.10353696346282959,
+      "color": "hsl(343, 60%, 53%)"
+    },
+    {
+      "id": "target record of boolean field component",
+      "axioms": {
+        "propertyRestrictions": [
+          "[role_of some record of boolean datatype]"
+        ]
+      },
+      "x_norm": 0.8617525100708008,
+      "y_norm": 0.09696419537067413,
+      "color": "hsl(310, 60%, 53%)"
+    },
+    {
+      "id": "target record of discrete field component",
+      "axioms": {
+        "propertyRestrictions": [
+          "[role_of some record of discrete datatype]"
+        ]
+      },
+      "x_norm": 0.9040130376815796,
+      "y_norm": 0.10538602620363235,
+      "color": "hsl(325, 60%, 53%)"
+    },
+    {
+      "id": "target record of primitives field component",
+      "axioms": {
+        "propertyRestrictions": [
+          "[role_of some record of primitives datatype]"
+        ]
+      },
+      "x_norm": 0.90468430519104,
+      "y_norm": 0.14295460283756256,
+      "color": "hsl(325, 60%, 55%)"
+    },
+    {
+      "id": "target record of reals field component",
+      "axioms": {
+        "propertyRestrictions": [
+          "[role_of some record of real datatype]"
+        ]
+      },
+      "x_norm": 0.9290176630020142,
+      "y_norm": 0.10718230158090591,
+      "color": "hsl(334, 60%, 53%)"
+    },
+    {
+      "id": "target sequence of real field component",
+      "axioms": {
+        "propertyRestrictions": [
+          "[role_of some sequence of real datatype]"
+        ]
+      },
+      "x_norm": 0.9488746523857117,
+      "y_norm": 0.09325435012578964,
+      "color": "hsl(341, 60%, 53%)"
+    },
+    {
+      "id": "target set of discrete field component",
+      "axioms": {
+        "propertyRestrictions": [
+          "[role_of some set of discrete datatype]"
+        ]
+      },
+      "x_norm": 0.9043686389923096,
+      "y_norm": 0.08987027406692505,
+      "color": "hsl(325, 60%, 53%)"
+    },
+    {
+      "id": "target structured field component",
+      "axioms": {
+        "propertyRestrictions": [
+          "[role_of some (table datatype or array datatype or class datatype or sequence datatype or bag datatype or set datatype)]"
+        ]
+      },
+      "x_norm": 0.9090145230293274,
+      "y_norm": 0.08187287300825119,
+      "color": "hsl(327, 60%, 52%)"
+    },
+    {
+      "id": "target tree field component",
+      "axioms": {
+        "propertyRestrictions": [
+          "[role_of some tree datatype]"
+        ]
+      },
+      "x_norm": 0.9096758365631104,
+      "y_norm": 0.06538265943527222,
+      "color": "hsl(327, 60%, 52%)"
+    },
+    {
+      "id": "time interval",
+      "x_norm": 0.02398630604147911,
+      "y_norm": 0.8915116786956787,
+      "color": "hsl(8, 60%, 81%)"
+    },
+    {
+      "id": "tree",
+      "x_norm": 0.6326255202293396,
+      "y_norm": 0.15532025694847107,
+      "color": "hsl(227, 60%, 55%)"
+    },
+    {
+      "id": "tree datatype",
+      "axioms": {
+        "disjointWith": [
+          "DAG datatype"
+        ],
+        "propertyRestrictions": [
+          "[has_member some tree datatype generator]"
+        ]
+      },
+      "x_norm": 0.5795331597328186,
+      "y_norm": 0.11067166179418564,
+      "color": "hsl(208, 60%, 53%)"
+    },
+    {
+      "id": "tree datatype generator",
+      "axioms": {
+        "disjointWith": [
+          "DAG datatype generator"
+        ]
+      },
+      "x_norm": 0.5678675770759583,
+      "y_norm": 0.08759487420320511,
+      "color": "hsl(204, 60%, 53%)"
+    },
+    {
+      "id": "two dimensional",
+      "x_norm": 0.20469260215759277,
+      "y_norm": 0.34577664732933044,
+      "color": "hsl(73, 60%, 62%)"
+    },
+    {
+      "id": "unbounded",
+      "x_norm": 0.024475540965795517,
+      "y_norm": 0.554797887802124,
+      "color": "hsl(8, 60%, 69%)"
+    },
+    {
+      "id": "unbounded above",
+      "axioms": {
+        "disjointWith": [
+          "unbounded below"
+        ]
+      },
+      "x_norm": 0.017705371603369713,
+      "y_norm": 0.5581793189048767,
+      "color": "hsl(6, 60%, 69%)"
+    },
+    {
+      "id": "unbounded below",
+      "x_norm": 0.01632748171687126,
+      "y_norm": 0.5510455965995789,
+      "color": "hsl(5, 60%, 69%)"
+    },
+    {
+      "id": "uncountable",
+      "x_norm": 0.11805617809295654,
+      "y_norm": 0.5917223691940308,
+      "color": "hsl(42, 60%, 70%)"
+    },
+    {
+      "id": "unique values",
+      "x_norm": 0.8596215844154358,
+      "y_norm": 0.4458427131175995,
+      "color": "hsl(309, 60%, 65%)"
+    },
+    {
+      "id": "uniqueness",
+      "axioms": {
+        "disjointWith": [
+          "component mandatoriness",
+          "structurness",
+          "recursiveness",
+          "access type"
+        ],
+        "equivalentClass": [
+          "(non-unique values or unique values)"
+        ]
+      },
+      "x_norm": 0.8765774369239807,
+      "y_norm": 0.4556436836719513,
+      "color": "hsl(315, 60%, 65%)"
+    },
+    {
+      "id": "unlabeled dataset field-list",
+      "axioms": {
+        "propertyRestrictions": [
+          "[has_member some labeled dataset descriptive field component]"
+        ]
+      },
+      "x_norm": 0.7143433690071106,
+      "y_norm": 0.05518599599599838,
+      "color": "hsl(257, 60%, 51%)"
+    },
+    {
+      "id": "unlabeled dataset record datatype",
+      "axioms": {
+        "propertyRestrictions": [
+          "[has_member some unlabeled dataset field-list]"
+        ]
+      },
+      "x_norm": 0.6885265707969666,
+      "y_norm": 0.05352955684065819,
+      "color": "hsl(247, 60%, 51%)"
+    },
+    {
+      "id": "unordered aggregate",
+      "x_norm": 0.006965312175452709,
+      "y_norm": 0.16361044347286224,
+      "color": "hsl(2, 60%, 55%)"
+    },
+    {
+      "id": "unstructured",
+      "x_norm": 0.7039675712585449,
+      "y_norm": 0.25652357935905457,
+      "color": "hsl(253, 60%, 58%)"
+    },
+    {
+      "id": "upper bound",
+      "axioms": {
+        "propertyRestrictions": [
+          "[has-value exactly 1 xsd:integer]"
+        ]
+      },
+      "x_norm": 0.02786240167915821,
+      "y_norm": 0.5276157259941101,
+      "color": "hsl(10, 60%, 68%)"
+    },
+    {
+      "id": "value expression",
+      "x_norm": 0.739189088344574,
+      "y_norm": 0.4058789312839508,
+      "color": "hsl(266, 60%, 64%)"
+    },
+    {
+      "id": "value space",
+      "x_norm": 0.7574059963226318,
+      "y_norm": 0.3887685537338257,
+      "color": "hsl(272, 60%, 63%)"
+    },
+    {
+      "id": "variable size",
+      "x_norm": 0.1222972571849823,
+      "y_norm": 0.46198752522468567,
+      "color": "hsl(44, 60%, 66%)"
+    },
+    {
+      "id": "vector datatype",
+      "axioms": {
+        "propertyRestrictions": [
+          "[has_member some vector generator]"
+        ]
+      },
+      "x_norm": 0.513063907623291,
+      "y_norm": 0.2011147439479828,
+      "color": "hsl(184, 60%, 57%)"
+    },
+    {
+      "id": "vector generator",
+      "x_norm": 0.6245849132537842,
+      "y_norm": 0.5323115587234497,
+      "color": "hsl(224, 60%, 68%)"
+    },
+    {
+      "id": "void datatype",
+      "axioms": {
+        "disjointWith": [
+          "non-numeric primitive datatype",
+          "numeric primitive datatype",
+          "non-numeric unordered primitive datatype"
+        ],
+        "propertyRestrictions": [
+          "[has_operation some Equal:void]"
+        ]
+      },
+      "x_norm": 0.5449273586273193,
+      "y_norm": 0.22254431247711182,
+      "color": "hsl(196, 60%, 57%)"
+    }
+  ],
+  "links": [
+    {
+      "source": "Datatype Specification Language Representation",
+      "target": "representation"
+    },
+    {
+      "source": "list specification",
+      "target": "specification"
+    },
+    {
+      "source": "value space",
+      "target": "specification"
+    },
+    {
+      "source": "tag-value list",
+      "target": "specification"
+    },
+    {
+      "source": "procedure-paremeter declaration",
+      "target": "specification"
+    },
+    {
+      "source": "direction",
+      "target": "specification"
+    },
+    {
+      "source": "return-parameter specification",
+      "target": "specification"
+    },
+    {
+      "source": "defined generator parameter",
+      "target": "specification"
+    },
+    {
+      "source": "select-item specification",
+      "target": "specification"
+    },
+    {
+      "source": "datatype generator",
+      "target": "directive information entity"
+    },
+    {
+      "source": "characterizing operation",
+      "target": "directive information entity"
+    },
+    {
+      "source": "data representational model",
+      "target": "directive information entity"
+    },
+    {
+      "source": "datatype role",
+      "target": "role"
+    },
+    {
+      "source": "excluding subtype generator",
+      "target": "subtype generator"
+    },
+    {
+      "source": "explicit subtype generator",
+      "target": "subtype generator"
+    },
+    {
+      "source": "extending subtype generator",
+      "target": "subtype generator"
+    },
+    {
+      "source": "range subtype generator",
+      "target": "subtype generator"
+    },
+    {
+      "source": "selection subtype generator",
+      "target": "subtype generator"
+    },
+    {
+      "source": "size subtype generator",
+      "target": "subtype generator"
+    },
+    {
+      "source": "natural number",
+      "target": "defined datatype"
+    },
+    {
+      "source": "modulo",
+      "target": "defined datatype"
+    },
+    {
+      "source": "bit",
+      "target": "defined datatype"
+    },
+    {
+      "source": "bit string",
+      "target": "defined datatype"
+    },
+    {
+      "source": "character string",
+      "target": "defined datatype"
+    },
+    {
+      "source": "time interval",
+      "target": "defined datatype"
+    },
+    {
+      "source": "octet",
+      "target": "defined datatype"
+    },
+    {
+      "source": "octet string",
+      "target": "defined datatype"
+    },
+    {
+      "source": "private",
+      "target": "defined datatype"
+    },
+    {
+      "source": "object identifier",
+      "target": "defined datatype"
+    },
+    {
+      "source": "non-directed labeled graph datatype",
+      "target": "defined datatype"
+    },
+    {
+      "source": "labeled graph datatype",
+      "target": "defined datatype"
+    },
+    {
+      "source": "stack",
+      "target": "defined generator"
+    },
+    {
+      "source": "tree",
+      "target": "defined generator"
+    },
+    {
+      "source": "optional",
+      "target": "defined generator"
+    },
+    {
+      "source": "directed labeled graph datatype generator",
+      "target": "defined generator"
+    },
+    {
+      "source": "non-directed labeled graph generator",
+      "target": "defined generator"
+    },
+    {
+      "source": "vector generator",
+      "target": "defined generator"
+    },
+    {
+      "source": "array generator",
+      "target": "homogenous aggregate generator"
+    },
+    {
+      "source": "homogenous aggregate generator with variable size",
+      "target": "homogenous aggregate generator"
+    },
+    {
+      "source": "bag generator",
+      "target": "homogenous unordered aggregate generator with variable size"
+    },
+    {
+      "source": "set generator",
+      "target": "homogenous unordered aggregate generator with variable size"
+    },
+    {
+      "source": "class generator",
+      "target": "heterogenous aggregate generator"
+    },
+    {
+      "source": "record generator",
+      "target": "heterogenous aggregate generator"
+    },
+    {
+      "source": "table generator",
+      "target": "heterogenous aggregate generator"
+    },
+    {
+      "source": "sequence generator",
+      "target": "homogenous aggregate generator with variable size"
+    },
+    {
+      "source": "homogenous unordered aggregate generator with variable size",
+      "target": "homogenous aggregate generator with variable size"
+    },
+    {
+      "source": "choice generator",
+      "target": "non-aggregate generator"
+    },
+    {
+      "source": "pointer generator",
+      "target": "non-aggregate generator"
+    },
+    {
+      "source": "procedure generator",
+      "target": "non-aggregate generator"
+    },
+    {
+      "source": "table datatype",
+      "target": "heterogenous aggregate datatype"
+    },
+    {
+      "source": "class datatype",
+      "target": "heterogenous aggregate datatype"
+    },
+    {
+      "source": "record (tuple) datatype",
+      "target": "heterogenous aggregate datatype"
+    },
+    {
+      "source": "attribute identifier",
+      "target": "identifier"
+    },
+    {
+      "source": "parameter identifier",
+      "target": "identifier"
+    },
+    {
+      "source": "enumerated-value identifier",
+      "target": "identifier"
+    },
+    {
+      "source": "discrete-value identifier",
+      "target": "identifier"
+    },
+    {
+      "source": "extended-value identifier",
+      "target": "identifier"
+    },
+    {
+      "source": "character-set identifier",
+      "target": "identifier"
+    },
+    {
+      "source": "field identifier",
+      "target": "identifier"
+    },
+    {
+      "source": "aggregate imposed ordering",
+      "target": "aggregate generator property"
+    },
+    {
+      "source": "aggregate-imposed identifier uniqueness",
+      "target": "aggregate generator property"
+    },
+    {
+      "source": "homogenity",
+      "target": "aggregate generator property"
+    },
+    {
+      "source": "agregate size",
+      "target": "aggregate generator property"
+    },
+    {
+      "source": "uniqueness",
+      "target": "aggregate generator property"
+    },
+    {
+      "source": "component mandatoriness",
+      "target": "aggregate generator property"
+    },
+    {
+      "source": "structurness",
+      "target": "aggregate generator property"
+    },
+    {
+      "source": "recursiveness",
+      "target": "aggregate generator property"
+    },
+    {
+      "source": "access type",
+      "target": "aggregate generator property"
+    },
+    {
+      "source": "dimensionality",
+      "target": "aggregate generator property"
+    },
+    {
+      "source": "primitive datatype",
+      "target": "datatype"
+    },
+    {
+      "source": "generated datatype",
+      "target": "datatype"
+    },
+    {
+      "source": "defined datatype",
+      "target": "datatype"
+    },
+    {
+      "source": "defined datatype parameter",
+      "target": "datatype role"
+    },
+    {
+      "source": "field component",
+      "target": "datatype role"
+    },
+    {
+      "source": "tag-type",
+      "target": "datatype role"
+    },
+    {
+      "source": "alternative-type",
+      "target": "datatype role"
+    },
+    {
+      "source": "alternative component",
+      "target": "datatype role"
+    },
+    {
+      "source": "pointer-element-type",
+      "target": "datatype role"
+    },
+    {
+      "source": "parameter",
+      "target": "datatype role"
+    },
+    {
+      "source": "index-type",
+      "target": "datatype role"
+    },
+    {
+      "source": "base type",
+      "target": "datatype role"
+    },
+    {
+      "source": "attribute component",
+      "target": "datatype role"
+    },
+    {
+      "source": "real field-list",
+      "target": "field-list"
+    },
+    {
+      "source": "boolean field-list",
+      "target": "field-list"
+    },
+    {
+      "source": "discrete field-list",
+      "target": "field-list"
+    },
+    {
+      "source": "primitive field-list",
+      "target": "field-list"
+    },
+    {
+      "source": "labeled dataset field-list",
+      "target": "field-list"
+    },
+    {
+      "source": "unlabeled dataset field-list",
+      "target": "field-list"
+    },
+    {
+      "source": "date-time factor",
+      "target": "factor"
+    },
+    {
+      "source": "scaled factor",
+      "target": "factor"
+    },
+    {
+      "source": "real factor",
+      "target": "factor"
+    },
+    {
+      "source": "complex factor",
+      "target": "factor"
+    },
+    {
+      "source": "graph aggregate component",
+      "target": "aggregate field component"
+    },
+    {
+      "source": "dyadic operation",
+      "target": "characterizing operation"
+    },
+    {
+      "source": "niladic operation",
+      "target": "characterizing operation"
+    },
+    {
+      "source": "monadic operation",
+      "target": "characterizing operation"
+    },
+    {
+      "source": "n-adic operation",
+      "target": "characterizing operation"
+    },
+    {
+      "source": "attribute-list",
+      "target": "list specification"
+    },
+    {
+      "source": "discrete-value-list",
+      "target": "list specification"
+    },
+    {
+      "source": "alternative-list",
+      "target": "list specification"
+    },
+    {
+      "source": "procedure-parameter-list",
+      "target": "list specification"
+    },
+    {
+      "source": "defined generator parameter-list",
+      "target": "list specification"
+    },
+    {
+      "source": "defined datatype parameter-list",
+      "target": "list specification"
+    },
+    {
+      "source": "select-list",
+      "target": "list specification"
+    },
+    {
+      "source": "extended-value-list",
+      "target": "list specification"
+    },
+    {
+      "source": "index-type list",
+      "target": "list specification"
+    },
+    {
+      "source": "enumerated-value-list",
+      "target": "list specification"
+    },
+    {
+      "source": "field-list",
+      "target": "list specification"
+    },
+    {
+      "source": "tree datatype generator",
+      "target": "directed labeled graph datatype generator"
+    },
+    {
+      "source": "DAG datatype generator",
+      "target": "directed labeled graph datatype generator"
+    },
+    {
+      "source": "array datatype",
+      "target": "homogenous aggregate datatype"
+    },
+    {
+      "source": "homogenous aggregate datatype with variable size",
+      "target": "homogenous aggregate datatype"
+    },
+    {
+      "source": "scaled datatype",
+      "target": "numeric ordered primitive datatype"
+    },
+    {
+      "source": "real datatype",
+      "target": "numeric ordered primitive datatype"
+    },
+    {
+      "source": "integer datatype",
+      "target": "numeric ordered primitive datatype"
+    },
+    {
+      "source": "rational datatype",
+      "target": "numeric ordered primitive datatype"
+    },
+    {
+      "source": "non-aggregate generator",
+      "target": "generated datatype generator"
+    },
+    {
+      "source": "aggregate generator",
+      "target": "generated datatype generator"
+    },
+    {
+      "source": "identifier",
+      "target": "information artifact entity"
+    },
+    {
+      "source": "value expression",
+      "target": "information artifact entity"
+    },
+    {
+      "source": "label",
+      "target": "information artifact entity"
+    },
+    {
+      "source": "directive information entity",
+      "target": "information artifact entity"
+    },
+    {
+      "source": "representation",
+      "target": "information artifact entity"
+    },
+    {
+      "source": "specification",
+      "target": "information artifact entity"
+    },
+    {
+      "source": "exactness",
+      "target": "datatype property"
+    },
+    {
+      "source": "numericalness",
+      "target": "datatype property"
+    },
+    {
+      "source": "cardinality",
+      "target": "datatype property"
+    },
+    {
+      "source": "order",
+      "target": "datatype property"
+    },
+    {
+      "source": "boundedness",
+      "target": "datatype property"
+    },
+    {
+      "source": "equality",
+      "target": "datatype property"
+    },
+    {
+      "source": "vector datatype",
+      "target": "array datatype"
+    },
+    {
+      "source": "maximum-size",
+      "target": "size"
+    },
+    {
+      "source": "minimum-size",
+      "target": "size"
+    },
+    {
+      "source": "discrete field component",
+      "target": "primitive field component"
+    },
+    {
+      "source": "real field component",
+      "target": "primitive field component"
+    },
+    {
+      "source": "boolean field component",
+      "target": "primitive field component"
+    },
+    {
+      "source": "pointer datatype",
+      "target": "non-aggregate datatype"
+    },
+    {
+      "source": "choice datatype",
+      "target": "non-aggregate datatype"
+    },
+    {
+      "source": "procedure datatype",
+      "target": "non-aggregate datatype"
+    },
+    {
+      "source": "tree datatype",
+      "target": "labeled graph datatype"
+    },
+    {
+      "source": "DAG datatype",
+      "target": "labeled graph datatype"
+    },
+    {
+      "source": "aggregate generator property",
+      "target": "quality"
+    },
+    {
+      "source": "datatype property",
+      "target": "quality"
+    },
+    {
+      "source": "upper bound",
+      "target": "bound"
+    },
+    {
+      "source": "lower bound",
+      "target": "bound"
+    },
+    {
+      "source": "index upperbound",
+      "target": "bound"
+    },
+    {
+      "source": "index lowerbound",
+      "target": "bound"
+    },
+    {
+      "source": "character datatype",
+      "target": "non-numeric unordered primitive datatype"
+    },
+    {
+      "source": "discrete datatype",
+      "target": "non-numeric unordered primitive datatype"
+    },
+    {
+      "source": "boolean datatype",
+      "target": "non-numeric unordered primitive datatype"
+    },
+    {
+      "source": "defined generator",
+      "target": "datatype generator"
+    },
+    {
+      "source": "generated datatype generator",
+      "target": "datatype generator"
+    },
+    {
+      "source": "subtype generator",
+      "target": "datatype generator"
+    },
+    {
+      "source": "discrete base type",
+      "target": "base type"
+    },
+    {
+      "source": "real base type",
+      "target": "base type"
+    },
+    {
+      "source": "integer base datatype",
+      "target": "base type"
+    },
+    {
+      "source": "record of boolean datatype",
+      "target": "record (tuple) datatype"
+    },
+    {
+      "source": "record of real datatype",
+      "target": "record (tuple) datatype"
+    },
+    {
+      "source": "record of primitives datatype",
+      "target": "record (tuple) datatype"
+    },
+    {
+      "source": "record of discrete datatype",
+      "target": "record (tuple) datatype"
+    },
+    {
+      "source": "labeled dataset record datatype",
+      "target": "record (tuple) datatype"
+    },
+    {
+      "source": "unlabeled dataset record datatype",
+      "target": "record (tuple) datatype"
+    },
+    {
+      "source": "date-time unit",
+      "target": "label"
+    },
+    {
+      "source": "set of discrete datatype",
+      "target": "set datatype"
+    },
+    {
+      "source": "set of real datatype",
+      "target": "set datatype"
+    },
+    {
+      "source": "set of integer datatype",
+      "target": "set datatype"
+    },
+    {
+      "source": "aggregate datatype",
+      "target": "generated datatype"
+    },
+    {
+      "source": "non-aggregate datatype",
+      "target": "generated datatype"
+    },
+    {
+      "source": "enumerated datatype",
+      "target": "non-numeric ordered primitive datatype"
+    },
+    {
+      "source": "date and time datatype",
+      "target": "non-numeric ordered primitive datatype"
+    },
+    {
+      "source": "ordinal datatype",
+      "target": "non-numeric ordered primitive datatype"
+    },
+    {
+      "source": "date-time radix",
+      "target": "radix"
+    },
+    {
+      "source": "complex radix",
+      "target": "radix"
+    },
+    {
+      "source": "real radix",
+      "target": "radix"
+    },
+    {
+      "source": "scaled radix",
+      "target": "radix"
+    },
+    {
+      "source": "factor",
+      "target": "value expression"
+    },
+    {
+      "source": "size",
+      "target": "value expression"
+    },
+    {
+      "source": "radix",
+      "target": "value expression"
+    },
+    {
+      "source": "range",
+      "target": "value expression"
+    },
+    {
+      "source": "bound",
+      "target": "value expression"
+    },
+    {
+      "source": "datatype",
+      "target": "data representational model"
+    },
+    {
+      "source": "extended datatype",
+      "target": "data representational model"
+    },
+    {
+      "source": "complex datatype",
+      "target": "numeric primitive datatype"
+    },
+    {
+      "source": "numeric ordered primitive datatype",
+      "target": "numeric primitive datatype"
+    },
+    {
+      "source": "sequence of discrete datatype",
+      "target": "sequence datatype"
+    },
+    {
+      "source": "sequence of real datatype",
+      "target": "sequence datatype"
+    },
+    {
+      "source": "sequence datatype",
+      "target": "homogenous aggregate datatype with variable size"
+    },
+    {
+      "source": "homogenous  unordered aggregate datatype with variable size",
+      "target": "homogenous aggregate datatype with variable size"
+    },
+    {
+      "source": "bag datatype",
+      "target": "homogenous  unordered aggregate datatype with variable size"
+    },
+    {
+      "source": "set datatype",
+      "target": "homogenous  unordered aggregate datatype with variable size"
+    },
+    {
+      "source": "node component",
+      "target": "graph aggregate component"
+    },
+    {
+      "source": "edge component",
+      "target": "graph aggregate component"
+    },
+    {
+      "source": "aggregate field component",
+      "target": "field component"
+    },
+    {
+      "source": "primitive field component",
+      "target": "field component"
+    },
+    {
+      "source": "labeled dataset descriptive field component",
+      "target": "field component"
+    },
+    {
+      "source": "labeled dataset target field component",
+      "target": "field component"
+    },
+    {
+      "source": "void datatype",
+      "target": "primitive datatype"
+    },
+    {
+      "source": "non-numeric primitive datatype",
+      "target": "primitive datatype"
+    },
+    {
+      "source": "numeric primitive datatype",
+      "target": "primitive datatype"
+    },
+    {
+      "source": "homogenous aggregate generator",
+      "target": "aggregate generator"
+    },
+    {
+      "source": "heterogenous aggregate generator",
+      "target": "aggregate generator"
+    },
+    {
+      "source": "non-numeric unordered primitive datatype",
+      "target": "non-numeric primitive datatype"
+    },
+    {
+      "source": "non-numeric ordered primitive datatype",
+      "target": "non-numeric primitive datatype"
+    },
+    {
+      "source": "homogenous aggregate datatype",
+      "target": "aggregate datatype"
+    },
+    {
+      "source": "heterogenous aggregate datatype",
+      "target": "aggregate datatype"
+    },
+    {
+      "source": "direct access property",
+      "target": "access type"
+    },
+    {
+      "source": "indirect acess property",
+      "target": "access type"
+    },
+    {
+      "source": "add operation",
+      "target": "dyadic aritmetic operation"
+    },
+    {
+      "source": "multiply operation",
+      "target": "dyadic aritmetic operation"
+    },
+    {
+      "source": "Divide:scaled",
+      "target": "dyadic aritmetic operation"
+    },
+    {
+      "source": "delete operation",
+      "target": "dyadic updating operation"
+    },
+    {
+      "source": "insert operation",
+      "target": "dyadic updating operation"
+    },
+    {
+      "source": "Append:sequence",
+      "target": "dyadic updating operation"
+    },
+    {
+      "source": "AttributeFunctionOverride:class",
+      "target": "dyadic updating operation"
+    },
+    {
+      "source": "AttributeReplace:class",
+      "target": "dyadic updating operation"
+    },
+    {
+      "source": "FieldReplace:record",
+      "target": "dyadic updating operation"
+    },
+    {
+      "source": "difference operation",
+      "target": "dyadic operation"
+    },
+    {
+      "source": "dyadic select operation",
+      "target": "dyadic operation"
+    },
+    {
+      "source": "dyadic aritmetic operation",
+      "target": "dyadic operation"
+    },
+    {
+      "source": "dyadic logical operation",
+      "target": "dyadic operation"
+    },
+    {
+      "source": "dyadic set operation",
+      "target": "dyadic operation"
+    },
+    {
+      "source": "dyadic updating operation",
+      "target": "dyadic operation"
+    },
+    {
+      "source": "dyadic comparison operation",
+      "target": "dyadic operation"
+    },
+    {
+      "source": "dyadic retrieve operation",
+      "target": "dyadic operation"
+    },
+    {
+      "source": "equal operation",
+      "target": "dyadic comparison operation"
+    },
+    {
+      "source": "in order operation",
+      "target": "dyadic comparison operation"
+    },
+    {
+      "source": "isEmpty operation",
+      "target": "boolean operation"
+    },
+    {
+      "source": "nonNegative operation",
+      "target": "boolean operation"
+    },
+    {
+      "source": "SetOf:set",
+      "target": "boolean operation"
+    },
+    {
+      "source": "negate operation",
+      "target": "monadic operation"
+    },
+    {
+      "source": "promote operation",
+      "target": "monadic operation"
+    },
+    {
+      "source": "serialize operation",
+      "target": "monadic operation"
+    },
+    {
+      "source": "successor operation",
+      "target": "monadic operation"
+    },
+    {
+      "source": "Cast:choice",
+      "target": "monadic operation"
+    },
+    {
+      "source": "Dereference:pointer",
+      "target": "monadic operation"
+    },
+    {
+      "source": "Discriminant:choice",
+      "target": "monadic operation"
+    },
+    {
+      "source": "Extend:time&date",
+      "target": "monadic operation"
+    },
+    {
+      "source": "Invoke:procedure",
+      "target": "monadic operation"
+    },
+    {
+      "source": "Not:boolean",
+      "target": "monadic operation"
+    },
+    {
+      "source": "monadic aritmetic operation",
+      "target": "monadic operation"
+    },
+    {
+      "source": "monadic retrive operation",
+      "target": "monadic operation"
+    },
+    {
+      "source": "map operation",
+      "target": "monadic operation"
+    },
+    {
+      "source": "boolean operation",
+      "target": "monadic operation"
+    },
+    {
+      "source": "reciprocial operation",
+      "target": "monadic aritmetic operation"
+    },
+    {
+      "source": "round operation",
+      "target": "monadic aritmetic operation"
+    },
+    {
+      "source": "SquareRoot:complex",
+      "target": "monadic aritmetic operation"
+    },
+    {
+      "source": "monadic select operation",
+      "target": "monadic retrive operation"
+    },
+    {
+      "source": "AttributeFunctionInvocation:class",
+      "target": "monadic retrive operation"
+    },
+    {
+      "source": "AttributeSelect:class",
+      "target": "monadic retrive operation"
+    },
+    {
+      "source": "FieldSelect:record",
+      "target": "monadic retrive operation"
+    },
+    {
+      "source": "Head:sequence",
+      "target": "monadic retrive operation"
+    },
+    {
+      "source": "Tail:sequence",
+      "target": "monadic retrive operation"
+    },
+    {
+      "source": "countable",
+      "target": "cardinality"
+    },
+    {
+      "source": "finite",
+      "target": "cardinality"
+    },
+    {
+      "source": "uncountable",
+      "target": "cardinality"
+    },
+    {
+      "source": "bounded above",
+      "target": "bounded"
+    },
+    {
+      "source": "bounded below",
+      "target": "bounded"
+    },
+    {
+      "source": "unbounded above",
+      "target": "unbounded"
+    },
+    {
+      "source": "unbounded below",
+      "target": "unbounded"
+    },
+    {
+      "source": "bounded",
+      "target": "boundedness"
+    },
+    {
+      "source": "unbounded",
+      "target": "boundedness"
+    },
+    {
+      "source": "approximate",
+      "target": "exactness"
+    },
+    {
+      "source": "exact",
+      "target": "exactness"
+    },
+    {
+      "source": "numeric",
+      "target": "numericalness"
+    },
+    {
+      "source": "non-numeric",
+      "target": "numericalness"
+    },
+    {
+      "source": "ordered",
+      "target": "order"
+    },
+    {
+      "source": "non-ordered",
+      "target": "order"
+    },
+    {
+      "source": "Add:complex",
+      "target": "add operation"
+    },
+    {
+      "source": "Add:integer",
+      "target": "add operation"
+    },
+    {
+      "source": "Add:rational",
+      "target": "add operation"
+    },
+    {
+      "source": "Add:real",
+      "target": "add operation"
+    },
+    {
+      "source": "Add:scaled",
+      "target": "add operation"
+    },
+    {
+      "source": "Delete:bag",
+      "target": "delete operation"
+    },
+    {
+      "source": "Delete:table",
+      "target": "delete operation"
+    },
+    {
+      "source": "Difference:set",
+      "target": "difference operation"
+    },
+    {
+      "source": "Difference:time&date",
+      "target": "difference operation"
+    },
+    {
+      "source": "Select:array",
+      "target": "dyadic select operation"
+    },
+    {
+      "source": "Select:table",
+      "target": "dyadic select operation"
+    },
+    {
+      "source": "Equal:array",
+      "target": "equal operation"
+    },
+    {
+      "source": "Equal:bag",
+      "target": "equal operation"
+    },
+    {
+      "source": "Equal:boolean",
+      "target": "equal operation"
+    },
+    {
+      "source": "Equal:character",
+      "target": "equal operation"
+    },
+    {
+      "source": "Equal:choice",
+      "target": "equal operation"
+    },
+    {
+      "source": "Equal:class",
+      "target": "equal operation"
+    },
+    {
+      "source": "Equal:complex",
+      "target": "equal operation"
+    },
+    {
+      "source": "Equal:enumerated",
+      "target": "equal operation"
+    },
+    {
+      "source": "Equal:integer",
+      "target": "equal operation"
+    },
+    {
+      "source": "Equal:ordinal",
+      "target": "equal operation"
+    },
+    {
+      "source": "Equal:pointer",
+      "target": "equal operation"
+    },
+    {
+      "source": "Equal:procedure",
+      "target": "equal operation"
+    },
+    {
+      "source": "Equal:rational",
+      "target": "equal operation"
+    },
+    {
+      "source": "Equal:real",
+      "target": "equal operation"
+    },
+    {
+      "source": "Equal:record",
+      "target": "equal operation"
+    },
+    {
+      "source": "Equal:scaled",
+      "target": "equal operation"
+    },
+    {
+      "source": "Equal:sequence",
+      "target": "equal operation"
+    },
+    {
+      "source": "Equal:set",
+      "target": "equal operation"
+    },
+    {
+      "source": "Equal:discrete",
+      "target": "equal operation"
+    },
+    {
+      "source": "Equal:table",
+      "target": "equal operation"
+    },
+    {
+      "source": "Equal:time&date",
+      "target": "equal operation"
+    },
+    {
+      "source": "Equal:void",
+      "target": "equal operation"
+    },
+    {
+      "source": "InOrder:enumerated",
+      "target": "in order operation"
+    },
+    {
+      "source": "InOrder:interger",
+      "target": "in order operation"
+    },
+    {
+      "source": "InOrder:ordinal",
+      "target": "in order operation"
+    },
+    {
+      "source": "InOrder:rational",
+      "target": "in order operation"
+    },
+    {
+      "source": "InOrder:real",
+      "target": "in order operation"
+    },
+    {
+      "source": "InOrder:scaled",
+      "target": "in order operation"
+    },
+    {
+      "source": "InOrder:time&date",
+      "target": "in order operation"
+    },
+    {
+      "source": "Insert:bag",
+      "target": "insert operation"
+    },
+    {
+      "source": "Insert:table",
+      "target": "insert operation"
+    },
+    {
+      "source": "Multiply:complex",
+      "target": "multiply operation"
+    },
+    {
+      "source": "Multiply:integer",
+      "target": "multiply operation"
+    },
+    {
+      "source": "Multiply:rational",
+      "target": "multiply operation"
+    },
+    {
+      "source": "Multiply:real",
+      "target": "multiply operation"
+    },
+    {
+      "source": "Multiply:scaled",
+      "target": "multiply operation"
+    },
+    {
+      "source": "And:boolean",
+      "target": "dyadic logical operation"
+    },
+    {
+      "source": "Or:boolean",
+      "target": "dyadic logical operation"
+    },
+    {
+      "source": "Fetch:table",
+      "target": "dyadic retrieve operation"
+    },
+    {
+      "source": "Tag:choice",
+      "target": "dyadic retrieve operation"
+    },
+    {
+      "source": "Intersection:set",
+      "target": "dyadic set operation"
+    },
+    {
+      "source": "Lsln:set",
+      "target": "dyadic set operation"
+    },
+    {
+      "source": "Subset:set",
+      "target": "dyadic set operation"
+    },
+    {
+      "source": "Union:set",
+      "target": "dyadic set operation"
+    },
+    {
+      "source": "IsEmpty:bag",
+      "target": "isEmpty operation"
+    },
+    {
+      "source": "IsEmpty:sequence",
+      "target": "isEmpty operation"
+    },
+    {
+      "source": "IsEmpty:table",
+      "target": "isEmpty operation"
+    },
+    {
+      "source": "Select:bag",
+      "target": "monadic select operation"
+    },
+    {
+      "source": "Select:set",
+      "target": "monadic select operation"
+    },
+    {
+      "source": "Negate:complex",
+      "target": "negate operation"
+    },
+    {
+      "source": "Negate:integer",
+      "target": "negate operation"
+    },
+    {
+      "source": "Negate:rational",
+      "target": "negate operation"
+    },
+    {
+      "source": "Negate:real",
+      "target": "negate operation"
+    },
+    {
+      "source": "Negate:scaled",
+      "target": "negate operation"
+    },
+    {
+      "source": "NonNegative:integer",
+      "target": "nonNegative operation"
+    },
+    {
+      "source": "NonNegative:rational",
+      "target": "nonNegative operation"
+    },
+    {
+      "source": "Promote:complex",
+      "target": "promote operation"
+    },
+    {
+      "source": "Promote:rational",
+      "target": "promote operation"
+    },
+    {
+      "source": "Promote:real",
+      "target": "promote operation"
+    },
+    {
+      "source": "Reciprocal:rational",
+      "target": "reciprocial operation"
+    },
+    {
+      "source": "Reciprocal:real",
+      "target": "reciprocial operation"
+    },
+    {
+      "source": "Reciprocal:complex",
+      "target": "reciprocial operation"
+    },
+    {
+      "source": "Round:scaled",
+      "target": "round operation"
+    },
+    {
+      "source": "Round:time&date",
+      "target": "round operation"
+    },
+    {
+      "source": "Serialize:bag",
+      "target": "serialize operation"
+    },
+    {
+      "source": "Serialize:table",
+      "target": "serialize operation"
+    },
+    {
+      "source": "Successor:enumerated",
+      "target": "successor operation"
+    },
+    {
+      "source": "Successor:ordinal",
+      "target": "successor operation"
+    },
+    {
+      "source": "MapToBag:table",
+      "target": "map operation"
+    },
+    {
+      "source": "MapToTable:table",
+      "target": "map operation"
+    },
+    {
+      "source": "Replace:array",
+      "target": "n-adic operation"
+    },
+    {
+      "source": "Empty:bag",
+      "target": "niladic operation"
+    },
+    {
+      "source": "Empty:sequence",
+      "target": "niladic operation"
+    },
+    {
+      "source": "Empty:set",
+      "target": "niladic operation"
+    },
+    {
+      "source": "Empty:table",
+      "target": "niladic operation"
+    },
+    {
+      "source": "index access",
+      "target": "direct access property"
+    },
+    {
+      "source": "key access",
+      "target": "direct access property"
+    },
+    {
+      "source": "access by value",
+      "target": "indirect acess property"
+    },
+    {
+      "source": "implementation dependent access",
+      "target": "indirect acess property"
+    },
+    {
+      "source": "position access",
+      "target": "indirect acess property"
+    },
+    {
+      "source": "ordered aggregate",
+      "target": "aggregate imposed ordering"
+    },
+    {
+      "source": "unordered aggregate",
+      "target": "aggregate imposed ordering"
+    },
+    {
+      "source": "identifier not unique",
+      "target": "aggregate-imposed identifier uniqueness"
+    },
+    {
+      "source": "identifier unique",
+      "target": "aggregate-imposed identifier uniqueness"
+    },
+    {
+      "source": "fixed size",
+      "target": "agregate size"
+    },
+    {
+      "source": "variable size",
+      "target": "agregate size"
+    },
+    {
+      "source": "component mandatory",
+      "target": "component mandatoriness"
+    },
+    {
+      "source": "component non-mandatory",
+      "target": "component mandatoriness"
+    },
+    {
+      "source": "one dimensional",
+      "target": "dimensionality"
+    },
+    {
+      "source": "two dimensional",
+      "target": "dimensionality"
+    },
+    {
+      "source": "multi dimensional",
+      "target": "dimensionality"
+    },
+    {
+      "source": "homogenous",
+      "target": "homogenity"
+    },
+    {
+      "source": "heterogenous",
+      "target": "homogenity"
+    },
+    {
+      "source": "recursive",
+      "target": "recursiveness"
+    },
+    {
+      "source": "non-recursive",
+      "target": "recursiveness"
+    },
+    {
+      "source": "structured",
+      "target": "structurness"
+    },
+    {
+      "source": "unstructured",
+      "target": "structurness"
+    },
+    {
+      "source": "semi-structured",
+      "target": "structurness"
+    },
+    {
+      "source": "non-unique values",
+      "target": "uniqueness"
+    },
+    {
+      "source": "unique values",
+      "target": "uniqueness"
+    },
+    {
+      "source": "descriptive field identifier",
+      "target": "field identifier"
+    },
+    {
+      "source": "target field identifier",
+      "target": "field identifier"
+    },
+    {
+      "source": "target primitive field component",
+      "target": "labeled dataset target field component"
+    },
+    {
+      "source": "target boolean field component",
+      "target": "labeled dataset target field component"
+    },
+    {
+      "source": "target discrete field component",
+      "target": "labeled dataset target field component"
+    },
+    {
+      "source": "target real field component",
+      "target": "labeled dataset target field component"
+    },
+    {
+      "source": "target sequence of real field component",
+      "target": "labeled dataset target field component"
+    },
+    {
+      "source": "target hierarchical field component",
+      "target": "labeled dataset target field component"
+    },
+    {
+      "source": "target DAG field component",
+      "target": "labeled dataset target field component"
+    },
+    {
+      "source": "target tree field component",
+      "target": "labeled dataset target field component"
+    },
+    {
+      "source": "target set of discrete field component",
+      "target": "labeled dataset target field component"
+    },
+    {
+      "source": "target record of primitives field component",
+      "target": "labeled dataset target field component"
+    },
+    {
+      "source": "target record of boolean field component",
+      "target": "labeled dataset target field component"
+    },
+    {
+      "source": "target record of discrete field component",
+      "target": "labeled dataset target field component"
+    },
+    {
+      "source": "target record of reals field component",
+      "target": "labeled dataset target field component"
+    },
+    {
+      "source": "target structured field component",
+      "target": "labeled dataset target field component"
+    },
+    {
+      "source": "descriptive record of primitives field component",
+      "target": "labeled dataset descriptive field component"
+    },
+    {
+      "source": "descriptive record of reals field component",
+      "target": "labeled dataset descriptive field component"
+    },
+    {
+      "source": "descriptive record of boolean field component",
+      "target": "labeled dataset descriptive field component"
+    },
+    {
+      "source": "descriptive record of discrete field component",
+      "target": "labeled dataset descriptive field component"
+    },
+    {
+      "source": "descriptive set of integer field component",
+      "target": "labeled dataset descriptive field component"
+    },
+    {
+      "source": "descriptive strucured field component",
+      "target": "labeled dataset descriptive field component"
+    },
+    {
+      "source": "positive integer",
+      "target": "extended datatype"
+    },
+    {
+      "source": "positive integer range generator",
+      "target": "range subtype generator"
+    },
+    {
+      "source": "role",
+      "target": "owl:Thing"
+    },
+    {
+      "source": "quality",
+      "target": "owl:Thing"
+    },
+    {
+      "source": "information artifact entity",
+      "target": "owl:Thing"
+    }
+  ]
+}

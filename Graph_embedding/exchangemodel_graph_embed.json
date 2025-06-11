@@ -1,0 +1,198 @@
+{
+  "nodes": [
+    {
+      "id": "Accelerometer",
+      "x_norm": 0.728249728679657,
+      "y_norm": 0.2730904817581177,
+      "color": "hsl(262, 60%, 59%)"
+    },
+    {
+      "id": "Alert",
+      "x_norm": 0.20673710107803345,
+      "y_norm": 0.33447617292404175,
+      "color": "hsl(74, 60%, 61%)"
+    },
+    {
+      "id": "Ambient2DVideoCamera",
+      "x_norm": 0.8191637992858887,
+      "y_norm": 0.8006153106689453,
+      "color": "hsl(294, 60%, 78%)"
+    },
+    {
+      "id": "DTI-2",
+      "x_norm": 0.47944384813308716,
+      "y_norm": 0.7356971502304077,
+      "color": "hsl(172, 60%, 75%)"
+    },
+    {
+      "id": "Detection",
+      "axioms": {
+        "propertyRestrictions": [
+          "[describes only (event:AtomicActivity or event:ObjectEvent)]",
+          "[providedBy only ProcessingComponent]"
+        ]
+      },
+      "x_norm": 0.46638262271881104,
+      "y_norm": 0.3811989426612854,
+      "color": "hsl(167, 60%, 63%)"
+    },
+    {
+      "id": "Feedback",
+      "x_norm": 0.11126625537872314,
+      "y_norm": 0.6584344506263733,
+      "color": "hsl(40, 60%, 73%)"
+    },
+    {
+      "id": "FixedSensor",
+      "x_norm": 0.5913614630699158,
+      "y_norm": 0.0,
+      "color": "hsl(212, 60%, 50%)"
+    },
+    {
+      "id": "Measurement",
+      "axioms": {
+        "propertyRestrictions": [
+          "[describes only event:Measurement]",
+          "[providedBy only (event:Person or Sensor)]"
+        ]
+      },
+      "x_norm": 0.3233351707458496,
+      "y_norm": 0.5142145156860352,
+      "color": "hsl(116, 60%, 67%)"
+    },
+    {
+      "id": "Observation",
+      "axioms": {
+        "propertyRestrictions": [
+          "[describes only event:Event]",
+          "[providedBy only (event:Person or ProcessingComponent or Sensor)]",
+          "[providedBy exactly 1 (event:Person or ProcessingComponent or Sensor)]",
+          "[describes exactly 1 event:Event]",
+          "[hasPlausibilityMetric only xsd:double]",
+          "[hasReportingTime only time:Instant]",
+          "[hasReportingTime exactly 1 time:Instant]",
+          "[hasPlausibilityMetric exactly 1 xsd:double]"
+        ]
+      },
+      "x_norm": 0.0,
+      "y_norm": 0.4660682678222656,
+      "color": "hsl(0, 60%, 66%)"
+    },
+    {
+      "id": "Recognition",
+      "axioms": {
+        "propertyRestrictions": [
+          "[describes only event:ComplexActivity]",
+          "[providedBy only (event:Person or ProcessingComponent)]"
+        ]
+      },
+      "x_norm": 0.675136923789978,
+      "y_norm": 0.5740513205528259,
+      "color": "hsl(243, 60%, 70%)"
+    },
+    {
+      "id": "Sensor",
+      "axioms": {
+        "propertyRestrictions": [
+          "[attachedTo exactly 1 event:Entity]",
+          "[attachedTo only event:Entity]"
+        ]
+      },
+      "x_norm": 0.4262862503528595,
+      "y_norm": 0.163897305727005,
+      "color": "hsl(153, 60%, 55%)"
+    },
+    {
+      "id": "WearableMicrophone",
+      "x_norm": 1.0,
+      "y_norm": 0.30383962392807007,
+      "color": "hsl(360, 60%, 60%)"
+    },
+    {
+      "id": "WearableSensor",
+      "x_norm": 0.8677495718002319,
+      "y_norm": 0.06026355177164078,
+      "color": "hsl(312, 60%, 52%)"
+    },
+    {
+      "id": "WearableVideoCamera",
+      "x_norm": 0.652469277381897,
+      "y_norm": 0.9970344305038452,
+      "color": "hsl(234, 60%, 84%)"
+    },
+    {
+      "id": "_3DVideoCamera",
+      "x_norm": 0.8811595439910889,
+      "y_norm": 1.0,
+      "color": "hsl(317, 60%, 85%)"
+    },
+    {
+      "id": "owl:Thing",
+      "x_norm": 0.1178768053650856,
+      "y_norm": 0.13130776584148407,
+      "color": "hsl(42, 60%, 54%)"
+    }
+  ],
+  "links": [
+    {
+      "source": "Accelerometer",
+      "target": "WearableSensor"
+    },
+    {
+      "source": "DTI-2",
+      "target": "WearableSensor"
+    },
+    {
+      "source": "WearableMicrophone",
+      "target": "WearableSensor"
+    },
+    {
+      "source": "WearableVideoCamera",
+      "target": "WearableSensor"
+    },
+    {
+      "source": "Alert",
+      "target": "Feedback"
+    },
+    {
+      "source": "Ambient2DVideoCamera",
+      "target": "FixedSensor"
+    },
+    {
+      "source": "_3DVideoCamera",
+      "target": "FixedSensor"
+    },
+    {
+      "source": "Detection",
+      "target": "Observation"
+    },
+    {
+      "source": "Measurement",
+      "target": "Observation"
+    },
+    {
+      "source": "Recognition",
+      "target": "Observation"
+    },
+    {
+      "source": "FixedSensor",
+      "target": "Sensor"
+    },
+    {
+      "source": "WearableSensor",
+      "target": "Sensor"
+    },
+    {
+      "source": "Feedback",
+      "target": "owl:Thing"
+    },
+    {
+      "source": "Sensor",
+      "target": "owl:Thing"
+    },
+    {
+      "source": "Observation",
+      "target": "owl:Thing"
+    }
+  ]
+}

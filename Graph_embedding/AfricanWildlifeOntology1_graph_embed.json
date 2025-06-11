@@ -1,0 +1,416 @@
+{
+  "nodes": [
+    {
+      "id": "Berry",
+      "x_norm": 0.6757457256317139,
+      "y_norm": 0.779106080532074,
+      "color": "hsl(243, 60%, 77%)"
+    },
+    {
+      "id": "CarnivorousPlant",
+      "axioms": {
+        "propertyRestrictions": [
+          "[eats some animal]"
+        ]
+      },
+      "x_norm": 0.39445260167121887,
+      "y_norm": 0.15684953331947327,
+      "color": "hsl(142, 60%, 55%)"
+    },
+    {
+      "id": "Elephant",
+      "x_norm": 0.8504077792167664,
+      "y_norm": 0.23696203529834747,
+      "color": "hsl(306, 60%, 58%)"
+    },
+    {
+      "id": "FruitingBody",
+      "x_norm": 0.5424867272377014,
+      "y_norm": 0.7548819780349731,
+      "color": "hsl(195, 60%, 76%)"
+    },
+    {
+      "id": "Grass",
+      "x_norm": 0.36103200912475586,
+      "y_norm": 0.6119946837425232,
+      "color": "hsl(129, 60%, 71%)"
+    },
+    {
+      "id": "Impala",
+      "description": {
+        "rdfs:comment": "An african antelope http://en.wikipedia.org/wiki/Impala"
+      },
+      "x_norm": 0.6551468968391418,
+      "y_norm": 0.3058944642543793,
+      "color": "hsl(235, 60%, 60%)"
+    },
+    {
+      "id": "Omnivore",
+      "axioms": {
+        "disjointWith": [
+          "carnivore",
+          "herbivore"
+        ],
+        "equivalentClass": [
+          "([eats some animal] and [eats some plant] and [eats some ([is-part-of some animal] or [is-part-of some plant])])"
+        ]
+      },
+      "x_norm": 0.46218040585517883,
+      "y_norm": 0.02484649047255516,
+      "color": "hsl(166, 60%, 50%)"
+    },
+    {
+      "id": "Palmtree",
+      "axioms": {
+        "disjointWith": [
+          "tree"
+        ],
+        "propertyRestrictions": [
+          "[has-part some not branch]"
+        ]
+      },
+      "x_norm": 0.23921902477741241,
+      "y_norm": 0.8884881138801575,
+      "color": "hsl(86, 60%, 81%)"
+    },
+    {
+      "id": "Phloem",
+      "axioms": {
+        "propertyRestrictions": [
+          "[is-proper-part-of some Stem]"
+        ]
+      },
+      "x_norm": 0.3616110384464264,
+      "y_norm": 0.44834205508232117,
+      "color": "hsl(130, 60%, 65%)"
+    },
+    {
+      "id": "PlantParts",
+      "axioms": {
+        "propertyRestrictions": [
+          "[is-proper-part-of some plant]"
+        ]
+      },
+      "x_norm": 0.09621204435825348,
+      "y_norm": 0.42958229780197144,
+      "color": "hsl(34, 60%, 65%)"
+    },
+    {
+      "id": "RockDassie",
+      "description": {
+        "rdfs:comment": [
+          "They eat grasses and broad-leafed plants",
+          "http://en.wikipedia.org/wiki/Rock_Hyrax"
+        ]
+      },
+      "x_norm": 0.927562952041626,
+      "y_norm": 0.4808325469493866,
+      "color": "hsl(333, 60%, 66%)"
+    },
+    {
+      "id": "Root",
+      "x_norm": 0.0866909921169281,
+      "y_norm": 0.8179710507392883,
+      "color": "hsl(31, 60%, 78%)"
+    },
+    {
+      "id": "Stem",
+      "x_norm": 0.19279253482818604,
+      "y_norm": 0.6907384395599365,
+      "color": "hsl(69, 60%, 74%)"
+    },
+    {
+      "id": "Twig",
+      "x_norm": 0.7924791574478149,
+      "y_norm": 0.5742915272712708,
+      "color": "hsl(285, 60%, 70%)"
+    },
+    {
+      "id": "Warthog",
+      "description": {
+        "rdfs:comment": "Warthogs are Omnivorous http://en.wikipedia.org/wiki/Warthog"
+      },
+      "x_norm": 0.8303464651107788,
+      "y_norm": 0.17010948061943054,
+      "color": "hsl(298, 60%, 55%)"
+    },
+    {
+      "id": "Xylem",
+      "axioms": {
+        "propertyRestrictions": [
+          "[is-proper-part-of some Stem]"
+        ]
+      },
+      "x_norm": 0.5561426877975464,
+      "y_norm": 0.5152469277381897,
+      "color": "hsl(200, 60%, 68%)"
+    },
+    {
+      "id": "animal",
+      "axioms": {
+        "disjointWith": [
+          "plant"
+        ]
+      },
+      "x_norm": 0.835321843624115,
+      "y_norm": 0.0,
+      "color": "hsl(300, 60%, 50%)"
+    },
+    {
+      "id": "branch",
+      "axioms": {
+        "propertyRestrictions": [
+          "[is-part-of some tree]"
+        ]
+      },
+      "description": {
+        "rdfs:comment": "Branches are parts of trees."
+      },
+      "x_norm": 0.0,
+      "y_norm": 0.9121279716491699,
+      "color": "hsl(0, 60%, 81%)"
+    },
+    {
+      "id": "carnivore",
+      "axioms": {
+        "disjointWith": [
+          "herbivore"
+        ],
+        "equivalentClass": [
+          "([eats only animal] or [eats only [is-part-of some animal]])"
+        ]
+      },
+      "description": {
+        "rdfs:comment": "Carnivores are exactly those animals that eat only animals."
+      },
+      "x_norm": 0.29780834913253784,
+      "y_norm": 0.0345296747982502,
+      "color": "hsl(107, 60%, 51%)"
+    },
+    {
+      "id": "giraffe",
+      "axioms": {
+        "disjointWith": [
+          "lion"
+        ],
+        "propertyRestrictions": [
+          "[eats only (Twig or leaf)]"
+        ]
+      },
+      "description": {
+        "rdfs:comment": [
+          "Giraffes are herbivores, and they eat only leaves.",
+          "they also eat twigs"
+        ]
+      },
+      "x_norm": 0.7048583626747131,
+      "y_norm": 0.05266411229968071,
+      "color": "hsl(253, 60%, 51%)"
+    },
+    {
+      "id": "herbivore",
+      "axioms": {
+        "equivalentClass": [
+          "([eats only plant] or [eats only [is-part-of some plant]])"
+        ]
+      },
+      "description": {
+        "rdfs:comment": "Herbivores are exactly those animals that eat only plants or parts of plants "
+      },
+      "x_norm": 0.4951527714729309,
+      "y_norm": 0.18776695430278778,
+      "color": "hsl(178, 60%, 56%)"
+    },
+    {
+      "id": "leaf",
+      "axioms": {
+        "propertyRestrictions": [
+          "[is-part-of some (Twig or branch)]"
+        ]
+      },
+      "description": {
+        "rdfs:comment": "Leaves are parts of branches."
+      },
+      "x_norm": 0.025749901309609413,
+      "y_norm": 0.5678221583366394,
+      "color": "hsl(9, 60%, 69%)"
+    },
+    {
+      "id": "lion",
+      "axioms": {
+        "propertyRestrictions": [
+          "[eats only herbivore]",
+          "[eats some Impala]"
+        ]
+      },
+      "description": {
+        "rdfs:comment": "Lions are animals that eat only herbivores."
+      },
+      "x_norm": 0.9821342825889587,
+      "y_norm": 0.05435597524046898,
+      "color": "hsl(353, 60%, 51%)"
+    },
+    {
+      "id": "plant",
+      "description": {
+        "rdfs:comment": "Plants are disjoint from animals."
+      },
+      "x_norm": 0.20269781351089478,
+      "y_norm": 0.4974895417690277,
+      "color": "hsl(72, 60%, 67%)"
+    },
+    {
+      "id": "tasty-plant",
+      "description": {
+        "rdfs:comment": "Plants eaten both by herbivores and carnivores"
+      },
+      "x_norm": 0.2361595332622528,
+      "y_norm": 0.29694098234176636,
+      "color": "hsl(85, 60%, 60%)"
+    },
+    {
+      "id": "tree",
+      "description": {
+        "rdfs:comment": [
+          "Trees are a type of plant.",
+          "'plant' is here a shorthand for plant kingdom"
+        ]
+      },
+      "x_norm": 0.1435120403766632,
+      "y_norm": 1.0,
+      "color": "hsl(51, 60%, 85%)"
+    },
+    {
+      "id": "Apple",
+      "x_norm": 0.4988013803958893,
+      "y_norm": 0.9064451456069946,
+      "color": "hsl(179, 60%, 81%)"
+    },
+    {
+      "id": "Parsnip",
+      "x_norm": 0.11890808492898941,
+      "y_norm": 0.12221043556928635,
+      "color": "hsl(42, 60%, 54%)"
+    },
+    {
+      "id": "owl:Thing",
+      "x_norm": 1.0,
+      "y_norm": 0.2520278990268707,
+      "color": "hsl(360, 60%, 58%)"
+    }
+  ],
+  "links": [
+    {
+      "source": "Berry",
+      "target": "FruitingBody"
+    },
+    {
+      "source": "Apple",
+      "target": "FruitingBody"
+    },
+    {
+      "source": "CarnivorousPlant",
+      "target": "plant"
+    },
+    {
+      "source": "Grass",
+      "target": "plant"
+    },
+    {
+      "source": "Palmtree",
+      "target": "plant"
+    },
+    {
+      "source": "tasty-plant",
+      "target": "plant"
+    },
+    {
+      "source": "tree",
+      "target": "plant"
+    },
+    {
+      "source": "Elephant",
+      "target": "herbivore"
+    },
+    {
+      "source": "FruitingBody",
+      "target": "PlantParts"
+    },
+    {
+      "source": "Phloem",
+      "target": "PlantParts"
+    },
+    {
+      "source": "Root",
+      "target": "PlantParts"
+    },
+    {
+      "source": "Stem",
+      "target": "PlantParts"
+    },
+    {
+      "source": "Twig",
+      "target": "PlantParts"
+    },
+    {
+      "source": "Xylem",
+      "target": "PlantParts"
+    },
+    {
+      "source": "branch",
+      "target": "PlantParts"
+    },
+    {
+      "source": "leaf",
+      "target": "PlantParts"
+    },
+    {
+      "source": "Impala",
+      "target": "animal"
+    },
+    {
+      "source": "Omnivore",
+      "target": "animal"
+    },
+    {
+      "source": "RockDassie",
+      "target": "animal"
+    },
+    {
+      "source": "Warthog",
+      "target": "animal"
+    },
+    {
+      "source": "carnivore",
+      "target": "animal"
+    },
+    {
+      "source": "giraffe",
+      "target": "animal"
+    },
+    {
+      "source": "herbivore",
+      "target": "animal"
+    },
+    {
+      "source": "lion",
+      "target": "animal"
+    },
+    {
+      "source": "PlantParts",
+      "target": "owl:Thing"
+    },
+    {
+      "source": "Parsnip",
+      "target": "Root"
+    },
+    {
+      "source": "plant",
+      "target": "owl:Thing"
+    },
+    {
+      "source": "animal",
+      "target": "owl:Thing"
+    }
+  ]
+}

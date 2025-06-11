@@ -1,0 +1,989 @@
+{
+  "nodes": [
+    {
+      "id": "Abstract",
+      "x_norm": 0.5675959587097168,
+      "y_norm": 0.6748776435852051,
+      "color": "hsl(204, 60%, 73%)"
+    },
+    {
+      "id": "AbstractRegion",
+      "x_norm": 0.9503799676895142,
+      "y_norm": 0.6450538635253906,
+      "color": "hsl(342, 60%, 72%)"
+    },
+    {
+      "id": "AmountOfStuff",
+      "description": {
+        "rdfs:comment": "as in dolce's amount of matter, for particulars only."
+      },
+      "x_norm": 0.278007835149765,
+      "y_norm": 0.6749677658081055,
+      "color": "hsl(100, 60%, 73%)"
+    },
+    {
+      "id": "AssociationalColloid",
+      "description": {
+        "rdfs:comment": "like hydrophibic/hydrophilic.\nmicellar colloids, like soap.\nOptionally, one can add properties like the aggregation number (amount of molecules in the micels), which is normally a range, due to the critical micelle concentration adn so on."
+      },
+      "x_norm": 0.041594523936510086,
+      "y_norm": 0.525389552116394,
+      "color": "hsl(14, 60%, 68%)"
+    },
+    {
+      "id": "Atom",
+      "x_norm": 0.5889350175857544,
+      "y_norm": 0.6032211780548096,
+      "color": "hsl(212, 60%, 71%)"
+    },
+    {
+      "id": "Bulk",
+      "description": {
+        "rdfs:comment": "Bulk goods, like (a silo of) soy beans, coffee, nuts, pet food, tea, whole grains, sugar. This term is typically used in the food industry. Flour and honey are indeed kinds of stuff, but, on the face of it, one can count each nut and cookie. However, the latter are, in that context, meant to go only in amounts, not individual nuts or cookies; e.g., a bag of nuts, a packet of cookies. This is just a matter of scale: the basis type of the latter is the nut or cookie instead of the countable molecule, and it goes in quantities, like a bag of peanuts or packet of cookies. In addition, bulk can come as StructuredPureStuff (sugar), HomogenousMixedStuff (the processed peanut butter with the stabilizer and possibly also sugar, not the ones from the health shop that settle and separate in peanut paste and oil on top), and HeterogenousMixedStuff, like pet food and breakfast cereals. Actually, it can be anything, except UnstructuredPureStuff"
+      },
+      "x_norm": 0.612565815448761,
+      "y_norm": 0.19721342623233795,
+      "color": "hsl(220, 60%, 56%)"
+    },
+    {
+      "id": "Colloid",
+      "axioms": {
+        "equivalentClass": [
+          "(HomogeneousMixture and [hasPartStuff exactly 1 (Stuff and [hasState some StuffState] and [inverseOf srInheresIn some ContinuousMedium])] and [hasPartStuff exactly 1 (Stuff and [hasState some StuffState] and [inverseOf srInheresIn some DispersedPhase])] and [hasNrOfPhase some DatatypeRestriction(xsd:int minInclusive 2)])"
+        ]
+      },
+      "description": {
+        "rdfs:comment": [
+          "homogenous mixture with intermediate particle size. One stuff, the so-called 'dispersed medium', is microscopically dispersed evenly throughout another stuff, called the 'continuous medium' (note: there's >1 phase, whereas a solution has =1 phase; because of that, we cannot have colloid isa solution). Examples: milk, mayonaise, agar, fog\n\nColloids can be distinguished from solutions using the Tyndall effect. (A beam of light passing through a true solution is not visible, but light passing through a colloid will be reflected by the larger particles and the light beam will be visible.) \n\nit should be noted that the two stuffs are in a colloidFormingRelation. This is done separately over at the ContinuousMedium and DispersedPhase classes, because it is not inherent in the stuffs themselves.",
+          "one can nag about the surfactants and stabilizers and enhancers. For instance, for whipping cream in homebaking, one can add the powder to keep the whipped cream stiff for longer (i.e., stabilise the colloid). "
+        ]
+      },
+      "x_norm": 0.13835138082504272,
+      "y_norm": 0.3124760389328003,
+      "color": "hsl(49, 60%, 60%)"
+    },
+    {
+      "id": "Container",
+      "axioms": {
+        "propertyRestrictions": [
+          "[inverseOf containedIn only (AmountOfStuff or PhysicalObject)]"
+        ]
+      },
+      "description": {
+        "rdfs:comment": "For if an amount of matter is not-selfcontained"
+      },
+      "x_norm": 0.4936083257198334,
+      "y_norm": 0.1859329342842102,
+      "color": "hsl(177, 60%, 56%)"
+    },
+    {
+      "id": "ContinuousMedium",
+      "axioms": {
+        "disjointWith": [
+          "DispersedPhase"
+        ],
+        "propertyRestrictions": [
+          "[colloidFormingRelation some DispersedPhase]"
+        ]
+      },
+      "description": {
+        "rdfs:comment": "also called dispersion medium"
+      },
+      "x_norm": 0.6864845156669617,
+      "y_norm": 0.8602021336555481,
+      "color": "hsl(247, 60%, 80%)"
+    },
+    {
+      "id": "DispersedPhase",
+      "description": {
+        "rdfs:comment": "the colloidFormingRelation is between the DispersedPhase and the ContinuousMedium and not their respective bearers (stuffs), because if you put the stuffs together just like that, you won't get the colloid; put differently, they have to be mixed in a particular way for it to become a homogenous mixture. E.g., opening a cup of cream and exposing it to an amount of air won't get you whipped cream, and putting the right amount of egg yolk and oil in the mixing bowl does not instantly become mayonnaise. It only work if the stuff that plays the role of dispersed phase is added gradually to the continuous medium in order to become a stable colloid. The same stuff can play eitehr role, depending on the colloid to be formed"
+      },
+      "x_norm": 0.18444570899009705,
+      "y_norm": 0.22477911412715912,
+      "color": "hsl(66, 60%, 57%)"
+    },
+    {
+      "id": "DispersionColloid",
+      "description": {
+        "rdfs:comment": "the most common type of colloids (cf. the other two)"
+      },
+      "x_norm": 0.0,
+      "y_norm": 0.36175742745399475,
+      "color": "hsl(0, 60%, 62%)"
+    },
+    {
+      "id": "Distribution",
+      "axioms": {
+        "propertyRestrictions": [
+          "[hasQuale some (EvenDistribution or UnevenDistribution)]"
+        ]
+      },
+      "x_norm": 0.21879643201828003,
+      "y_norm": 0.9642521142959595,
+      "color": "hsl(78, 60%, 83%)"
+    },
+    {
+      "id": "Drop",
+      "description": {
+        "rdfs:comment": "type of a piece, added as example. e.g., a drop of blood"
+      },
+      "x_norm": 0.7803752422332764,
+      "y_norm": 0.12340421974658966,
+      "color": "hsl(280, 60%, 54%)"
+    },
+    {
+      "id": "Emulsion",
+      "axioms": {
+        "equivalentClass": [
+          "(DispersionColloid and [hasPartStuff exactly 1 (Stuff and [hasState some Liquid] and [inverseOf srInheresIn some ContinuousMedium])] and [hasPartStuff exactly 1 (Stuff and [hasState some Liquid] and [inverseOf srInheresIn some DispersedPhase])])"
+        ]
+      },
+      "description": {
+        "rdfs:comment": "continuous medium: liquid\ndispersed phase: liquid\nExamples: milk, mayonnaise, hand cream\nhttp://en.wikipedia.org/wiki/Colloid"
+      },
+      "x_norm": 0.329070508480072,
+      "y_norm": 0.2661292254924774,
+      "color": "hsl(118, 60%, 59%)"
+    },
+    {
+      "id": "Endurant",
+      "axioms": {
+        "disjointWith": [
+          "Perdurant"
+        ]
+      },
+      "x_norm": 0.7541091442108154,
+      "y_norm": 0.7886898517608643,
+      "color": "hsl(271, 60%, 77%)"
+    },
+    {
+      "id": "EvenDistribution",
+      "x_norm": 0.2358347773551941,
+      "y_norm": 0.8759081363677979,
+      "color": "hsl(84, 60%, 80%)"
+    },
+    {
+      "id": "Foam",
+      "axioms": {
+        "equivalentClass": [
+          "(DispersionColloid and [hasPartStuff exactly 1 (Stuff and [hasState some Gas] and [inverseOf srInheresIn some DispersedPhase])] and [hasPartStuff exactly 1 (Stuff and [hasState some Liquid] and [inverseOf srInheresIn some ContinuousMedium])])"
+        ]
+      },
+      "description": {
+        "rdfs:comment": "continuous medium: liquid\ndispersed phase: gas\nExamples: whipped cream, shaving cream\nhttp://en.wikipedia.org/wiki/Colloid"
+      },
+      "x_norm": 0.48915961384773254,
+      "y_norm": 0.3335835635662079,
+      "color": "hsl(176, 60%, 61%)"
+    },
+    {
+      "id": "Gas",
+      "x_norm": 0.4518226683139801,
+      "y_norm": 0.25100401043891907,
+      "color": "hsl(162, 60%, 58%)"
+    },
+    {
+      "id": "Gel",
+      "axioms": {
+        "equivalentClass": [
+          "(DispersionColloid and [hasPartStuff exactly 1 (Stuff and [hasState some Liquid] and [inverseOf srInheresIn some DispersedPhase])] and [hasPartStuff exactly 1 (Stuff and [hasState some Solid] and [inverseOf srInheresIn some ContinuousMedium])])"
+        ]
+      },
+      "description": {
+        "rdfs:comment": "continuous medium: solid\ndispersed phase: liquid\nExamples: agar, gelatin, jelly\nhttp://en.wikipedia.org/wiki/Colloid "
+      },
+      "x_norm": 0.4623005986213684,
+      "y_norm": 0.3362618386745453,
+      "color": "hsl(166, 60%, 61%)"
+    },
+    {
+      "id": "HeterogeneousMixture",
+      "axioms": {
+        "disjointWith": [
+          "HomogeneousMixture"
+        ],
+        "propertyRestrictions": [
+          "[hasGranuleType min 2 (Molecule or MultiMoleculeParticle)]",
+          "[hasPartStuff min 2 (MixedStuff or PureStuff)]",
+          "[hasStuffDistribution exactly 1 UnevenDistribution]"
+        ]
+      },
+      "description": {
+        "rdfs:comment": "Combination of different stuffs (of which at least one with a fairly large particle size) that don't react, and can be separated by purely physical means (filtration, etc). Contrast with homogenously mixed stuffs like colloids and solutions where its components are evenly distributed across the stuff. portion in the sense of taking a 'part'/section of this heterogenous stuff, then it generally is the case that the subquantity is not of the same stuffkind as the whole quantity, only when the portion is carefully constructed and the so-called stuff-forming relation still holds."
+      },
+      "x_norm": 0.3892775774002075,
+      "y_norm": 0.9428204298019409,
+      "color": "hsl(140, 60%, 82%)"
+    },
+    {
+      "id": "HomogeneousMixture",
+      "axioms": {
+        "propertyRestrictions": [
+          "[hasGranuleType only (Atom or Ion or Molecule)]",
+          "[hasStuffDistribution exactly 1 EvenDistribution]"
+        ]
+      },
+      "description": {
+        "rdfs:comment": "the mixed stuffs are evenly distributed across the amount of matter (macroscopic sameness). Some would call only a solution a homogeneous mixture, not colloids, because solutions have one phase only, whereas colloids have at least 2. We take an inclusive approach here, and refine further in the two subclasses."
+      },
+      "x_norm": 0.43230122327804565,
+      "y_norm": 1.0,
+      "color": "hsl(155, 60%, 85%)"
+    },
+    {
+      "id": "Ion",
+      "x_norm": 0.6258477568626404,
+      "y_norm": 0.5354326367378235,
+      "color": "hsl(225, 60%, 68%)"
+    },
+    {
+      "id": "LeastPortion",
+      "description": {
+        "rdfs:comment": "The smallest portion that still exhibits the macroscopic properties of that kind of stuff. like Atom in merology, but then for stuffs."
+      },
+      "x_norm": 0.35588687658309937,
+      "y_norm": 0.04902590438723564,
+      "color": "hsl(128, 60%, 51%)"
+    },
+    {
+      "id": "Liquid",
+      "x_norm": 0.42090293765068054,
+      "y_norm": 0.18584497272968292,
+      "color": "hsl(151, 60%, 56%)"
+    },
+    {
+      "id": "LiquidAerosol",
+      "axioms": {
+        "equivalentClass": [
+          "(DispersionColloid and [hasPartStuff exactly 1 (Stuff and [hasState some Gas] and [inverseOf srInheresIn some ContinuousMedium])] and [hasPartStuff exactly 1 (Stuff and [hasState some Liquid] and [inverseOf srInheresIn some DispersedPhase])])"
+        ]
+      },
+      "description": {
+        "rdfs:comment": "continuous medium: gas\ndispersed phase: liquid\nExamples: fog mist, hair sprays\nhttp://en.wikipedia.org/wiki/Colloid"
+      },
+      "x_norm": 0.29431694746017456,
+      "y_norm": 0.2954976558685303,
+      "color": "hsl(105, 60%, 60%)"
+    },
+    {
+      "id": "Lump",
+      "description": {
+        "rdfs:comment": "type of a piece, added as example. e.g., lump of clay"
+      },
+      "x_norm": 0.34973257780075073,
+      "y_norm": 0.36501452326774597,
+      "color": "hsl(125, 60%, 62%)"
+    },
+    {
+      "id": "MicellarColloid",
+      "description": {
+        "rdfs:comment": "A careful reader will observe tehre is no distinction between this and the Associational colloid. The distinction is largely due to terminology in food physics and physics & colloid chemistry."
+      },
+      "x_norm": 0.06784624606370926,
+      "y_norm": 0.42737483978271484,
+      "color": "hsl(24, 60%, 64%)"
+    },
+    {
+      "id": "MixedStuff",
+      "axioms": {
+        "disjointWith": [
+          "PureStuff"
+        ]
+      },
+      "description": {
+        "rdfs:comment": [
+          "Core differences between mixtures and compouds: the proportions of the components may vary, the individual components are observable, and the components can be separated by physical means. [Silberberg, 4th ed, p73]",
+          "Note: categorisation according to components, with their role. We do not include 'phase mixtures', like having an ice cube (solid water) in a glass of liquid water; in that case, it is still the pure stuff water. \nFor colloids, one does have to take into account the state of the stuff to define different kinds of colloids, but the point is that they are composed of different kinds of stuff. "
+        ]
+      },
+      "x_norm": 0.30164021253585815,
+      "y_norm": 0.7435532808303833,
+      "color": "hsl(108, 60%, 76%)"
+    },
+    {
+      "id": "MolecularColloid",
+      "description": {
+        "rdfs:comment": "Colloid where the molecules are so big they have the behaviour of that of the intermediate particle size in the other colloids.\nExample: latex (and other starchy things, with big polymers)"
+      },
+      "x_norm": 0.06398553401231766,
+      "y_norm": 0.40105748176574707,
+      "color": "hsl(23, 60%, 64%)"
+    },
+    {
+      "id": "Molecule",
+      "axioms": {
+        "propertyRestrictions": [
+          "[hasPart some Atom]"
+        ]
+      },
+      "description": {
+        "rdfs:comment": [
+          "The instances of this class are sort of a hack so as to stay within first order logc. Strictly speaking, the molecues that are here included as example are classes, not individuals (an individual H2O molecule in your body is), but typically we do not care about one individual such molecule. also, putting them as indivisuals in the ontology, when we have, say, hasConstituent =1 Molecule, we're actually talking of type of molecule, not an individual one. but pushing everything one level down, we get the desired behaviour of the reasoner....",
+          "has as part two or more chemically bonded atoms (but if I say >=2 in the axiom, then it's not simple anymore, adn have to give up transitivity, which I don't want to)"
+        ]
+      },
+      "x_norm": 0.18571217358112335,
+      "y_norm": 0.42045506834983826,
+      "color": "hsl(66, 60%, 64%)"
+    },
+    {
+      "id": "MultiMoleculeParticle",
+      "description": {
+        "rdfs:comment": [
+          "Multi-molecular particle, like those in a suspension, the droplets in a colloid (i.e, not the sub-atomic particles)",
+          "see annotation to Molecule that this class' instances is a bit of a hack."
+        ]
+      },
+      "x_norm": 0.15076757967472076,
+      "y_norm": 0.4247693419456482,
+      "color": "hsl(54, 60%, 64%)"
+    },
+    {
+      "id": "NumberOfPhases",
+      "axioms": {
+        "propertyRestrictions": [
+          "[hasDataValue some xsd:nonNegativeInteger]"
+        ]
+      },
+      "description": {
+        "rdfs:comment": "alternative way of modelling the number of phases, the other one being with the data type"
+      },
+      "x_norm": 0.1986822634935379,
+      "y_norm": 0.6013680100440979,
+      "color": "hsl(71, 60%, 71%)"
+    },
+    {
+      "id": "Paste",
+      "description": {
+        "rdfs:comment": "suspension with less dispersion medium and the dispersed phase is connected"
+      },
+      "x_norm": 0.6955863237380981,
+      "y_norm": 0.15289178490638733,
+      "color": "hsl(250, 60%, 55%)"
+    },
+    {
+      "id": "Perdurant",
+      "x_norm": 0.8115410804748535,
+      "y_norm": 0.8371389508247375,
+      "color": "hsl(292, 60%, 79%)"
+    },
+    {
+      "id": "PhysicalEndurant",
+      "axioms": {
+        "disjointWith": [
+          "Role"
+        ],
+        "equivalentClass": [
+          "om-1:Phenomenon"
+        ]
+      },
+      "x_norm": 0.7260789275169373,
+      "y_norm": 0.8104619383811951,
+      "color": "hsl(261, 60%, 78%)"
+    },
+    {
+      "id": "PhysicalObject",
+      "axioms": {
+        "disjointWith": [
+          "Stuff"
+        ]
+      },
+      "x_norm": 0.749660849571228,
+      "y_norm": 0.6761239171028137,
+      "color": "hsl(269, 60%, 73%)"
+    },
+    {
+      "id": "PhysicalRegion",
+      "x_norm": 0.9297786951065063,
+      "y_norm": 0.6709455847740173,
+      "color": "hsl(334, 60%, 73%)"
+    },
+    {
+      "id": "Piece",
+      "axioms": {
+        "propertyRestrictions": [
+          "[isSelfContainedScatteredPortionOf some AmountOfStuff]"
+        ]
+      },
+      "description": {
+        "rdfs:comment": "self-contained amounts, like slices, lumps, etc. Only three subcalsses are added, for illustration, but feel free to add more."
+      },
+      "x_norm": 0.836281955242157,
+      "y_norm": 0.2523455321788788,
+      "color": "hsl(301, 60%, 58%)"
+    },
+    {
+      "id": "Portion",
+      "axioms": {
+        "propertyRestrictions": [
+          "[portionOf some AmountOfStuff]"
+        ]
+      },
+      "x_norm": 0.9564554691314697,
+      "y_norm": 0.3084731996059418,
+      "color": "hsl(344, 60%, 60%)"
+    },
+    {
+      "id": "PureBulk",
+      "axioms": {
+        "equivalentClass": [
+          "(PureStuff and [hasGranuleType only MultiMoleculeParticle] and [hasGranuleType exactly 1 MultiMoleculeParticle])"
+        ]
+      },
+      "description": {
+        "rdfs:comment": [
+          "difference with StructuredPureStuff and UnstructuredPureStuff: basis type, which is a multi-molecular object/particle.\nExamples: a silo of soy beans, a packet of tea biscuits, a bag of cashew nuts",
+          "there should be a 'has basis type exactly *one type of* multimoleculeparticle' , not just one single individual multimoleculeparticle."
+        ]
+      },
+      "x_norm": 0.36939069628715515,
+      "y_norm": 0.5570467710494995,
+      "color": "hsl(132, 60%, 69%)"
+    },
+    {
+      "id": "PureStuff",
+      "axioms": {
+        "equivalentClass": [
+          "(Stuff and [hasGranuleType exactly 1 (Atom or Molecule or MultiMoleculeParticle)] and [hasPartStuff exactly 1 (PureBulk or StructuredPureStuff or UnstructuredPureStuff)] and [hasStuffDistribution exactly 1 EvenDistribution])"
+        ]
+      },
+      "description": {
+        "rdfs:comment": [
+          "Called 'Unstructed stuff' in Donnelly & Bittner, Phil Stud, 2009, and 'discrete stuff' by Barnett, Phil Rev, 2004. They are refined here.",
+          "Composed of the same kind of molecules. For instance, Water, which consists of H2O molecules only, Alcohol, consisting of ethanol molecules only, etc, manganese and likewise for the other elements. \nThis primarily serves as a useful theoretical category, i.e., it is an idealised case, as in reality the 'pure stuffs' are only pure with respect to the measuring device with which one would be able to detect an impurity."
+        ]
+      },
+      "x_norm": 0.34033480286598206,
+      "y_norm": 0.6354777216911316,
+      "color": "hsl(122, 60%, 72%)"
+    },
+    {
+      "id": "Quality",
+      "x_norm": 0.6821222305297852,
+      "y_norm": 0.28056275844573975,
+      "color": "hsl(245, 60%, 59%)"
+    },
+    {
+      "id": "Region",
+      "x_norm": 1.0,
+      "y_norm": 0.5690643787384033,
+      "color": "hsl(360, 60%, 69%)"
+    },
+    {
+      "id": "Role",
+      "x_norm": 0.8803107738494873,
+      "y_norm": 0.3611907660961151,
+      "color": "hsl(316, 60%, 62%)"
+    },
+    {
+      "id": "Slice",
+      "description": {
+        "rdfs:comment": "type of a piece, added as example. e.g., slice of bread"
+      },
+      "x_norm": 0.8596985936164856,
+      "y_norm": 0.16877302527427673,
+      "color": "hsl(309, 60%, 55%)"
+    },
+    {
+      "id": "Sol",
+      "axioms": {
+        "equivalentClass": [
+          "(DispersionColloid and [hasPartStuff exactly 1 (Stuff and [hasState some Liquid] and [inverseOf srInheresIn some ContinuousMedium])] and [hasPartStuff exactly 1 (Stuff and [hasState some Solid] and [inverseOf srInheresIn some DispersedPhase])])"
+        ]
+      },
+      "description": {
+        "rdfs:comment": "continuous medium: liquid\ndispersed phase: solid\nExamples: pigmented ink, blood\nhttp://en.wikipedia.org/wiki/Colloid"
+      },
+      "x_norm": 0.42250582575798035,
+      "y_norm": 0.0,
+      "color": "hsl(152, 60%, 50%)"
+    },
+    {
+      "id": "Solid",
+      "x_norm": 0.6421970129013062,
+      "y_norm": 0.353558212518692,
+      "color": "hsl(231, 60%, 62%)"
+    },
+    {
+      "id": "SolidAerosol",
+      "axioms": {
+        "equivalentClass": [
+          "(DispersionColloid and [hasPartStuff exactly 1 (Stuff and [hasState some Gas] and [inverseOf srInheresIn some ContinuousMedium])] and [hasPartStuff exactly 1 (Stuff and [hasState some Solid] and [inverseOf srInheresIn some DispersedPhase])])"
+        ]
+      },
+      "description": {
+        "rdfs:comment": "continuous medium: gas\ndispersed phase: solid\nExamples: smoke, cloud, solid particulates\nhttp://en.wikipedia.org/wiki/Colloid"
+      },
+      "x_norm": 0.43316376209259033,
+      "y_norm": 0.44920042157173157,
+      "color": "hsl(155, 60%, 65%)"
+    },
+    {
+      "id": "SolidFoam",
+      "axioms": {
+        "equivalentClass": [
+          "(DispersionColloid and [hasPartStuff exactly 1 (Stuff and [hasState some Gas] and [inverseOf srInheresIn some DispersedPhase])] and [hasPartStuff exactly 1 (Stuff and [hasState some Solid] and [inverseOf srInheresIn some ContinuousMedium])])"
+        ]
+      },
+      "description": {
+        "rdfs:comment": "continuous medium: solid\ndispersed phase: gas\nExamples: aerogel, styrofoam\nhttp://en.wikipedia.org/wiki/Colloid"
+      },
+      "x_norm": 0.5655852556228638,
+      "y_norm": 0.4570307731628418,
+      "color": "hsl(203, 60%, 65%)"
+    },
+    {
+      "id": "SolidHeterogeneousMixture",
+      "axioms": {
+        "equivalentClass": [
+          "(HeterogeneousMixture and [hasPartStuff min 2 (Stuff and [hasState some Solid])])"
+        ]
+      },
+      "description": {
+        "rdfs:comment": "the solid version of a suspension (heterogenous mixture, not homogenised).\nExample: wood has a compartmentalisation of the components (cellulose, hemicellulose, ligning, and other stuffs called 'extractives' [plant hormone, waxes, terpenes, etc.])."
+      },
+      "x_norm": 0.4573195278644562,
+      "y_norm": 0.8950701951980591,
+      "color": "hsl(164, 60%, 81%)"
+    },
+    {
+      "id": "SolidSol",
+      "axioms": {
+        "equivalentClass": [
+          "(DispersionColloid and [hasPartStuff exactly 1 (Stuff and [hasState some Solid] and [inverseOf srInheresIn some ContinuousMedium])] and [hasPartStuff exactly 1 (Stuff and [hasState some Solid] and [inverseOf srInheresIn some DispersedPhase])])"
+        ]
+      },
+      "description": {
+        "rdfs:comment": "continuous medium: solid\ndispersed phase: solid\nExamples: cranberry glass\nhttp://en.wikipedia.org/wiki/Colloid"
+      },
+      "x_norm": 0.507659375667572,
+      "y_norm": 0.5009487867355347,
+      "color": "hsl(182, 60%, 67%)"
+    },
+    {
+      "id": "Solute",
+      "axioms": {
+        "disjointWith": [
+          "Solvent"
+        ],
+        "propertyRestrictions": [
+          "[inverseOf solutionFormingRelation some Solvent]"
+        ]
+      },
+      "description": {
+        "rdfs:comment": "A substance dissolved in another substance (the solvent)"
+      },
+      "x_norm": 0.2725084125995636,
+      "y_norm": 0.08441832661628723,
+      "color": "hsl(98, 60%, 52%)"
+    },
+    {
+      "id": "Solution",
+      "axioms": {
+        "equivalentClass": [
+          "(HomogeneousMixture and [hasPartStuff some (Stuff and [inverseOf srInheresIn some Solute] and [hasGranuleType only (Atom or Ion or Molecule)])] and [hasPartStuff some (Stuff and [inverseOf srInheresIn some Solvent] and [hasGranuleType only (Atom or Ion or Molecule)])] and [hasNrOfPhase some DatatypeRestriction(xsd:int maxInclusive 1)])"
+        ]
+      },
+      "description": {
+        "rdfs:comment": [
+          "Combination of at least two stuffs where the mixing occurs at the molecular level (i.e., involves some chemical reaction), and therewith may form a new substance (a compound). a solution's composition is uniform. note that solutions can exist in all three physical states (i.e., not just in the liquid state, as it is used in the vernacular).\nWe ignore here the 'dilute solution' [http://goldbook.iupac.org/D01739.html] which has a non-crisp cut-off point (\"sum of amount fractions of all the solutes is small compared to 1\", according to the GoldBook)",
+          "the \"and hasNrOfPhase some integer[> \"0\"^^integer]\" and \"and hasNrOfPhase some integer[=< \"1\"^^integer]\" is because the interface didn't accept =1"
+        ]
+      },
+      "x_norm": 0.5265891551971436,
+      "y_norm": 0.02600744180381298,
+      "color": "hsl(189, 60%, 50%)"
+    },
+    {
+      "id": "Solvent",
+      "description": {
+        "rdfs:comment": [
+          "A substance in which another substance (the solute) is dissolved",
+          "The solutionFormingRelation is a bit of a catch-all for the chemical reactions that occur when te solute is dissolved in the solvent"
+        ]
+      },
+      "x_norm": 0.25497186183929443,
+      "y_norm": 0.1536484956741333,
+      "color": "hsl(91, 60%, 55%)"
+    },
+    {
+      "id": "State",
+      "x_norm": 0.9776442050933838,
+      "y_norm": 0.493920236825943,
+      "color": "hsl(351, 60%, 67%)"
+    },
+    {
+      "id": "StructuredPureStuff",
+      "axioms": {
+        "disjointWith": [
+          "UnstructuredPureStuff"
+        ],
+        "equivalentClass": [
+          "(PureStuff and [hasGranuleType only Molecule] and [hasGranuleType exactly 1 Molecule])"
+        ]
+      },
+      "description": {
+        "rdfs:comment": [
+          "Stuff that consists of the same kind of molecules (give or take the finer-grained conformation changes, temporary dissociations of, say, H, the occasional D in the 'H2O' etc.).\nExamples: an amount of water (H2O), an amount of tablesugar (glucose-fructose), silica/silicon dioxide (SiO2), vitamin A, etc.",
+          "synonym: Compound",
+          "there should be a 'has basis type exactly *one type of* molecule' (ok, we ignore the minor impurities here), not just one single individual molecule."
+        ]
+      },
+      "x_norm": 0.4386369287967682,
+      "y_norm": 0.7663752436637878,
+      "color": "hsl(157, 60%, 76%)"
+    },
+    {
+      "id": "Stuff",
+      "axioms": {
+        "propertyRestrictions": [
+          "[hasState only StuffState]",
+          "[hasState max 3 StuffState]"
+        ]
+      },
+      "description": {
+        "rdfs:comment": "Synonym: Amount of Matter"
+      },
+      "x_norm": 0.7804046869277954,
+      "y_norm": 0.35310208797454834,
+      "color": "hsl(280, 60%, 62%)"
+    },
+    {
+      "id": "StuffRole",
+      "axioms": {
+        "propertyRestrictions": [
+          "[srInheresIn some Stuff]"
+        ]
+      },
+      "description": {
+        "rdfs:comment": "The role a stuff plays in a mixture."
+      },
+      "x_norm": 0.8007184267044067,
+      "y_norm": 0.5085749626159668,
+      "color": "hsl(288, 60%, 67%)"
+    },
+    {
+      "id": "StuffState",
+      "description": {
+        "rdfs:comment": "This should be refined. \nOn the one hand, we can have, say, water in the solid state, in the liquid state and in the gaseous state. \nOn the other hand, when considering colloids, then one of the two stuffs is in one state and the other either in the same state or in another state, regardless the actual stuff type (like whether it is liquid sunflower oil or lineseed oil, or CO2 gas or air). That is, for colloids, the state the stuff is in when mixing is the defining characteristics. Here, with the stuffs, we are interested in the state in general, not the state of a stuff."
+      },
+      "x_norm": 0.7547228336334229,
+      "y_norm": 0.4571012556552887,
+      "color": "hsl(271, 60%, 65%)"
+    },
+    {
+      "id": "Suspension",
+      "axioms": {
+        "equivalentClass": [
+          "(HeterogeneousMixture and [hasPartStuff some (Stuff and [hasState some Liquid] and [inverseOf srInheresIn some ContinuousMedium])] and [hasPartStuff some (Stuff and [hasState some Solid] and [inverseOf srInheresIn some DispersedPhase])])"
+        ]
+      },
+      "description": {
+        "rdfs:comment": "heterogenous mixture of larger particles in a liquid, and that substance naturally separates (i.e., separation due to sedimentation, creaming, flocculation, or coalescence, unless 'stabilized' and 'homogenised' [as regularly happens in the production process]). E.g. tomato juice, mud.\nTBA: the particle size of the solid is usually >1 micron"
+      },
+      "x_norm": 0.601305365562439,
+      "y_norm": 0.2423647791147232,
+      "color": "hsl(216, 60%, 58%)"
+    },
+    {
+      "id": "UnevenDistribution",
+      "x_norm": 0.24885542690753937,
+      "y_norm": 0.9240597486495972,
+      "color": "hsl(89, 60%, 82%)"
+    },
+    {
+      "id": "UnstructuredPureStuff",
+      "axioms": {
+        "equivalentClass": [
+          "(PureStuff and [hasGranuleType only Atom] and [hasGranuleType exactly 1 Atom])"
+        ]
+      },
+      "description": {
+        "rdfs:comment": [
+          "Stuff that consists of the same kind of atoms.\nExamples: an amount of helium, an amount of gold\nRealistically, there may well be undetectable impurities, and so on, but we don't care about that here",
+          "synonym: Element",
+          "this definition is actually meant as 'has basis type exactly *one type of* atom', not just one single individual atom."
+        ]
+      },
+      "x_norm": 0.41467174887657166,
+      "y_norm": 0.6872463226318359,
+      "color": "hsl(149, 60%, 74%)"
+    },
+    {
+      "id": "om-1:Quantity",
+      "x_norm": 0.5538805723190308,
+      "y_norm": 0.7378836274147034,
+      "color": "hsl(199, 60%, 75%)"
+    },
+    {
+      "id": "om-1:Unit_of_measure",
+      "x_norm": 0.6322175860404968,
+      "y_norm": 0.7357478737831116,
+      "color": "hsl(227, 60%, 75%)"
+    },
+    {
+      "id": "owl:Thing",
+      "x_norm": 0.7602091431617737,
+      "y_norm": 0.3869089186191559,
+      "color": "hsl(273, 60%, 63%)"
+    }
+  ],
+  "links": [
+    {
+      "source": "AbstractRegion",
+      "target": "Region"
+    },
+    {
+      "source": "PhysicalRegion",
+      "target": "Region"
+    },
+    {
+      "source": "om-1:Quantity",
+      "target": "Region"
+    },
+    {
+      "source": "AmountOfStuff",
+      "target": "PhysicalEndurant"
+    },
+    {
+      "source": "Container",
+      "target": "PhysicalEndurant"
+    },
+    {
+      "source": "PhysicalObject",
+      "target": "PhysicalEndurant"
+    },
+    {
+      "source": "Stuff",
+      "target": "PhysicalEndurant"
+    },
+    {
+      "source": "AssociationalColloid",
+      "target": "Colloid"
+    },
+    {
+      "source": "DispersionColloid",
+      "target": "Colloid"
+    },
+    {
+      "source": "MolecularColloid",
+      "target": "Colloid"
+    },
+    {
+      "source": "Atom",
+      "target": "PhysicalObject"
+    },
+    {
+      "source": "Ion",
+      "target": "PhysicalObject"
+    },
+    {
+      "source": "Molecule",
+      "target": "PhysicalObject"
+    },
+    {
+      "source": "MultiMoleculeParticle",
+      "target": "PhysicalObject"
+    },
+    {
+      "source": "Bulk",
+      "target": "Stuff"
+    },
+    {
+      "source": "MixedStuff",
+      "target": "Stuff"
+    },
+    {
+      "source": "PureStuff",
+      "target": "Stuff"
+    },
+    {
+      "source": "Colloid",
+      "target": "HomogeneousMixture"
+    },
+    {
+      "source": "Solution",
+      "target": "HomogeneousMixture"
+    },
+    {
+      "source": "ContinuousMedium",
+      "target": "StuffRole"
+    },
+    {
+      "source": "DispersedPhase",
+      "target": "StuffRole"
+    },
+    {
+      "source": "Solute",
+      "target": "StuffRole"
+    },
+    {
+      "source": "Solvent",
+      "target": "StuffRole"
+    },
+    {
+      "source": "Distribution",
+      "target": "Quality"
+    },
+    {
+      "source": "Drop",
+      "target": "Piece"
+    },
+    {
+      "source": "Lump",
+      "target": "Piece"
+    },
+    {
+      "source": "Slice",
+      "target": "Piece"
+    },
+    {
+      "source": "Emulsion",
+      "target": "DispersionColloid"
+    },
+    {
+      "source": "Foam",
+      "target": "DispersionColloid"
+    },
+    {
+      "source": "Gel",
+      "target": "DispersionColloid"
+    },
+    {
+      "source": "LiquidAerosol",
+      "target": "DispersionColloid"
+    },
+    {
+      "source": "Sol",
+      "target": "DispersionColloid"
+    },
+    {
+      "source": "SolidAerosol",
+      "target": "DispersionColloid"
+    },
+    {
+      "source": "SolidFoam",
+      "target": "DispersionColloid"
+    },
+    {
+      "source": "SolidSol",
+      "target": "DispersionColloid"
+    },
+    {
+      "source": "EvenDistribution",
+      "target": "AbstractRegion"
+    },
+    {
+      "source": "NumberOfPhases",
+      "target": "AbstractRegion"
+    },
+    {
+      "source": "UnevenDistribution",
+      "target": "AbstractRegion"
+    },
+    {
+      "source": "Gas",
+      "target": "StuffState"
+    },
+    {
+      "source": "Liquid",
+      "target": "StuffState"
+    },
+    {
+      "source": "Solid",
+      "target": "StuffState"
+    },
+    {
+      "source": "HeterogeneousMixture",
+      "target": "MixedStuff"
+    },
+    {
+      "source": "HomogeneousMixture",
+      "target": "MixedStuff"
+    },
+    {
+      "source": "LeastPortion",
+      "target": "Portion"
+    },
+    {
+      "source": "Piece",
+      "target": "Portion"
+    },
+    {
+      "source": "MicellarColloid",
+      "target": "AssociationalColloid"
+    },
+    {
+      "source": "Paste",
+      "target": "Suspension"
+    },
+    {
+      "source": "PhysicalEndurant",
+      "target": "Endurant"
+    },
+    {
+      "source": "Role",
+      "target": "Endurant"
+    },
+    {
+      "source": "Portion",
+      "target": "AmountOfStuff"
+    },
+    {
+      "source": "PureBulk",
+      "target": "PureStuff"
+    },
+    {
+      "source": "StructuredPureStuff",
+      "target": "PureStuff"
+    },
+    {
+      "source": "UnstructuredPureStuff",
+      "target": "PureStuff"
+    },
+    {
+      "source": "Region",
+      "target": "Abstract"
+    },
+    {
+      "source": "om-1:Unit_of_measure",
+      "target": "Abstract"
+    },
+    {
+      "source": "SolidHeterogeneousMixture",
+      "target": "HeterogeneousMixture"
+    },
+    {
+      "source": "Suspension",
+      "target": "HeterogeneousMixture"
+    },
+    {
+      "source": "State",
+      "target": "Perdurant"
+    },
+    {
+      "source": "StuffRole",
+      "target": "Role"
+    },
+    {
+      "source": "StuffState",
+      "target": "State"
+    },
+    {
+      "source": "Endurant",
+      "target": "owl:Thing"
+    },
+    {
+      "source": "Quality",
+      "target": "owl:Thing"
+    },
+    {
+      "source": "Perdurant",
+      "target": "owl:Thing"
+    },
+    {
+      "source": "Abstract",
+      "target": "owl:Thing"
+    }
+  ]
+}

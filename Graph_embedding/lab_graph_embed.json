@@ -1,0 +1,951 @@
+{
+  "nodes": [
+    {
+      "id": "AbilityToOrganiseAssessment",
+      "x_norm": 0.8302305340766907,
+      "y_norm": 0.15222837030887604,
+      "color": "hsl(298, 60%, 55%)"
+    },
+    {
+      "id": "ActivityStatusType",
+      "axioms": {
+        "equivalentClass": [
+          "{omitted, completed, incomplete}"
+        ]
+      },
+      "x_norm": 0.3310562074184418,
+      "y_norm": 0.5277117490768433,
+      "color": "hsl(119, 60%, 68%)"
+    },
+    {
+      "id": "AnswerPhoneTask",
+      "x_norm": 0.4853397011756897,
+      "y_norm": 0.7399953603744507,
+      "color": "hsl(174, 60%, 75%)"
+    },
+    {
+      "id": "ApathyAssessment",
+      "x_norm": 0.7387562990188599,
+      "y_norm": 0.23092222213745117,
+      "color": "hsl(265, 60%, 58%)"
+    },
+    {
+      "id": "AutonomyAssessment",
+      "axioms": {
+        "propertyRestrictions": [
+          "[iadl_e only xsd:int]",
+          "[iadl_e exactly 1 xsd:int]"
+        ]
+      },
+      "x_norm": 0.8736735582351685,
+      "y_norm": 0.19682109355926514,
+      "color": "hsl(314, 60%, 56%)"
+    },
+    {
+      "id": "CallPsychologistTask",
+      "x_norm": 0.5886831879615784,
+      "y_norm": 0.7318480014801025,
+      "color": "hsl(211, 60%, 75%)"
+    },
+    {
+      "id": "ClinicalAssessment",
+      "x_norm": 0.7510665059089661,
+      "y_norm": 0.12659388780593872,
+      "color": "hsl(270, 60%, 54%)"
+    },
+    {
+      "id": "CognitiveAbilitiesAssessment",
+      "axioms": {
+        "propertyRestrictions": [
+          "[fabScore exactly 1 xsd:int]",
+          "[freeAndCuedRemindingAssessment exactly 1 xsd:string]",
+          "[hasMMSEScore exactly 1 xsd:int]",
+          "[trailMakingTest only xsd:string]",
+          "[trailMakingTest exactly 1 xsd:string]",
+          "[shortCognitiveBatteryAssessment only xsd:string]",
+          "[freeAndCuedRemindingAssessment only xsd:string]",
+          "[hasMMSEScore only xsd:int]",
+          "[shortCognitiveBatteryAssessment exactly 1 xsd:string]",
+          "[fabScore only xsd:int]"
+        ]
+      },
+      "x_norm": 0.8192987442016602,
+      "y_norm": 0.27937281131744385,
+      "color": "hsl(294, 60%, 59%)"
+    },
+    {
+      "id": "CognitiveAbilitiesData",
+      "axioms": {
+        "propertyRestrictions": [
+          "[status exactly 1 ActivityStatusType]",
+          "[repetitions exactly 1]",
+          "[repetitions only rdfs:Literal]",
+          "[compliantInstructionsOrder only xsd:boolean]",
+          "[compliantInstructionsOrder exactly 1 xsd:boolean]",
+          "[taskDuration only time:DurationDescription]",
+          "[taskDuration exactly 1 time:DurationDescription]",
+          "[status only ActivityStatusType]"
+        ]
+      },
+      "x_norm": 0.8710793852806091,
+      "y_norm": 0.6855711340904236,
+      "color": "hsl(313, 60%, 73%)"
+    },
+    {
+      "id": "CognitiveLoadAssessment",
+      "axioms": {
+        "propertyRestrictions": [
+          "[hasDualTaskScore exactly 1]",
+          "[hasMonoTaskScore exactly 1]",
+          "[hasMonoTaskScore only rdfs:Literal]",
+          "[hasDualTaskScore only rdfs:Literal]"
+        ]
+      },
+      "x_norm": 0.8053843975067139,
+      "y_norm": 0.3059794306755066,
+      "color": "hsl(289, 60%, 60%)"
+    },
+    {
+      "id": "CountingType",
+      "axioms": {
+        "equivalentClass": [
+          "{_20_0, _305_285}"
+        ]
+      },
+      "x_norm": 0.3617839217185974,
+      "y_norm": 0.23824536800384521,
+      "color": "hsl(130, 60%, 58%)"
+    },
+    {
+      "id": "DiagnosisAssessment",
+      "axioms": {
+        "propertyRestrictions": [
+          "[hasClinicalDiagnosis only DiagnosisType]",
+          "[hasClinicalDiagnosis exactly 1 DiagnosisType]"
+        ]
+      },
+      "x_norm": 0.7012342810630798,
+      "y_norm": 0.06423985958099365,
+      "color": "hsl(252, 60%, 52%)"
+    },
+    {
+      "id": "DiagnosisType",
+      "axioms": {
+        "equivalentClass": [
+          "{predementia, dementia, healthy}"
+        ]
+      },
+      "x_norm": 0.4886329770088196,
+      "y_norm": 0.18336991965770721,
+      "color": "hsl(175, 60%, 56%)"
+    },
+    {
+      "id": "DirectedDiscussionTask",
+      "x_norm": 0.34707266092300415,
+      "y_norm": 0.8021724820137024,
+      "color": "hsl(124, 60%, 78%)"
+    },
+    {
+      "id": "DirectedTask",
+      "x_norm": 0.4387218952178955,
+      "y_norm": 0.8413478136062622,
+      "color": "hsl(157, 60%, 79%)"
+    },
+    {
+      "id": "DiscussionInvolvementData",
+      "axioms": {
+        "propertyRestrictions": [
+          "[verbalReactionSpontaneity exactly 1]",
+          "[verbalReactionSpontaneity only rdfs:Literal]"
+        ]
+      },
+      "x_norm": 0.8187333345413208,
+      "y_norm": 0.7076705694198608,
+      "color": "hsl(294, 60%, 74%)"
+    },
+    {
+      "id": "DiscussionTask",
+      "axioms": {
+        "propertyRestrictions": [
+          "[measuredData some StressData]",
+          "[measuredData some MoodVoiceData]",
+          "[measuredData only (MoodVoiceData or StressData)]"
+        ]
+      },
+      "x_norm": 0.5638144016265869,
+      "y_norm": 0.8040333390235901,
+      "color": "hsl(202, 60%, 78%)"
+    },
+    {
+      "id": "EstablishAccountBalanceTask",
+      "x_norm": 0.6005745530128479,
+      "y_norm": 0.9283863306045532,
+      "color": "hsl(216, 60%, 82%)"
+    },
+    {
+      "id": "ExperimentalAssessment",
+      "axioms": {
+        "propertyRestrictions": [
+          "[hasScore only rdfs:Literal]",
+          "[hasScore exactly 1]"
+        ]
+      },
+      "x_norm": 0.8234657049179077,
+      "y_norm": 0.036775607615709305,
+      "color": "hsl(296, 60%, 51%)"
+    },
+    {
+      "id": "ExperimentalDiagnosisAssessment",
+      "axioms": {
+        "propertyRestrictions": [
+          "[hasExperimentalDiagnosis only DiagnosisType]"
+        ]
+      },
+      "x_norm": 0.7461380362510681,
+      "y_norm": 0.03335495665669441,
+      "color": "hsl(268, 60%, 51%)"
+    },
+    {
+      "id": "FindBusLineOnMapTask",
+      "x_norm": 0.21567952632904053,
+      "y_norm": 0.6268332004547119,
+      "color": "hsl(77, 60%, 71%)"
+    },
+    {
+      "id": "FreeDiscussionTask",
+      "x_norm": 0.3624468147754669,
+      "y_norm": 0.904860258102417,
+      "color": "hsl(130, 60%, 81%)"
+    },
+    {
+      "id": "FunctionalAbilitiesData",
+      "axioms": {
+        "propertyRestrictions": [
+          "[handTrajectory exactly 1 HandTrajectoryType]",
+          "[handTrajectory only HandTrajectoryType]"
+        ]
+      },
+      "x_norm": 0.9132184386253357,
+      "y_norm": 0.6333340406417847,
+      "color": "hsl(328, 60%, 72%)"
+    },
+    {
+      "id": "FunctionalAbilityAssessment",
+      "x_norm": 0.8778570890426636,
+      "y_norm": 0.11936032027006149,
+      "color": "hsl(316, 60%, 54%)"
+    },
+    {
+      "id": "GaitAssessment",
+      "axioms": {
+        "propertyRestrictions": [
+          "[hasMonoTaskScore exactly 1]",
+          "[hasMonoTaskScore only rdfs:Literal]",
+          "[hasDualTaskScore only rdfs:Literal]",
+          "[hasDualTaskScore exactly 1]"
+        ]
+      },
+      "x_norm": 0.7552774548530579,
+      "y_norm": 0.43979430198669434,
+      "color": "hsl(271, 60%, 65%)"
+    },
+    {
+      "id": "GaitData",
+      "axioms": {
+        "propertyRestrictions": [
+          "[walkingSpeedInstantaneous only rdfs:Literal]",
+          "[walkingSpeed only rdfs:Literal]",
+          "[stepLength only rdfs:Literal]",
+          "[dynamicBalance exactly 1]",
+          "[walkingSpeedInstantaneous exactly 1]",
+          "[walkingSpeed exactly 1]",
+          "[stoppingDisplacement exactly 1 xsd:boolean]",
+          "[stepLength exactly 1]",
+          "[dynamicBalance only rdfs:Literal]",
+          "[stoppingDisplacement only xsd:boolean]"
+        ]
+      },
+      "x_norm": 0.9144903421401978,
+      "y_norm": 0.5612967610359192,
+      "color": "hsl(329, 60%, 69%)"
+    },
+    {
+      "id": "GenderType",
+      "axioms": {
+        "equivalentClass": [
+          "{male, female}"
+        ]
+      },
+      "x_norm": 0.44514599442481995,
+      "y_norm": 0.3021419644355774,
+      "color": "hsl(160, 60%, 60%)"
+    },
+    {
+      "id": "HandTrajectoryType",
+      "x_norm": 0.3997032642364502,
+      "y_norm": 0.21748441457748413,
+      "color": "hsl(143, 60%, 57%)"
+    },
+    {
+      "id": "HealthyControlParticipant",
+      "axioms": {
+        "equivalentClass": [
+          "[hasRecord some (ClinicalRecord and [containsAssessment some (DiagnosisAssessment and [hasClinicalDiagnosis some {healthy}])])]"
+        ]
+      },
+      "x_norm": 0.34271377325057983,
+      "y_norm": 0.6812509894371033,
+      "color": "hsl(123, 60%, 73%)"
+    },
+    {
+      "id": "LatencyData",
+      "axioms": {
+        "propertyRestrictions": [
+          "[latency exactly 1]",
+          "[latency only rdfs:Literal]"
+        ]
+      },
+      "x_norm": 0.9366631507873535,
+      "y_norm": 0.58281409740448,
+      "color": "hsl(337, 60%, 70%)"
+    },
+    {
+      "id": "LateralityType",
+      "axioms": {
+        "equivalentClass": [
+          "{left_handed, right_handed}"
+        ]
+      },
+      "x_norm": 0.41802865266799927,
+      "y_norm": 0.24756819009780884,
+      "color": "hsl(150, 60%, 58%)"
+    },
+    {
+      "id": "LeaveRoomTask",
+      "x_norm": 0.4916102886199951,
+      "y_norm": 0.8248259425163269,
+      "color": "hsl(176, 60%, 78%)"
+    },
+    {
+      "id": "MeasuredData",
+      "x_norm": 0.8810535073280334,
+      "y_norm": 0.5546779036521912,
+      "color": "hsl(317, 60%, 69%)"
+    },
+    {
+      "id": "MemorySelfAppraisalAssessment",
+      "x_norm": 0.7979862689971924,
+      "y_norm": 0.26427188515663147,
+      "color": "hsl(287, 60%, 59%)"
+    },
+    {
+      "id": "MoodVoiceData",
+      "x_norm": 0.8923767805099487,
+      "y_norm": 0.6638684272766113,
+      "color": "hsl(321, 60%, 73%)"
+    },
+    {
+      "id": "MotricityAbilitiesAssessment",
+      "axioms": {
+        "propertyRestrictions": [
+          "[hasUPDRSScore exactly 1 xsd:int]",
+          "[hasUPDRSScore only xsd:int]"
+        ]
+      },
+      "x_norm": 0.7823473215103149,
+      "y_norm": 0.0,
+      "color": "hsl(281, 60%, 50%)"
+    },
+    {
+      "id": "NeuropsychiatricAndMoodAssessment",
+      "axioms": {
+        "propertyRestrictions": [
+          "[npi only xsd:string]",
+          "[npi exactly 1 xsd:string]",
+          "[dsm_ivDepressionCriteria exactly 1 xsd:string]",
+          "[apathyInventory exactly 1 xsd:string]",
+          "[dsm_ivDepressionCriteria only xsd:string]",
+          "[apathyInventory only xsd:string]"
+        ]
+      },
+      "x_norm": 0.6867144107818604,
+      "y_norm": 0.29909849166870117,
+      "color": "hsl(247, 60%, 60%)"
+    },
+    {
+      "id": "OrganisationEfficiencyData",
+      "axioms": {
+        "propertyRestrictions": [
+          "[distanceWalked only rdfs:Literal]",
+          "[areasOfInterestExplored only rdfs:Literal]",
+          "[areasOfNoInterestExplored only rdfs:Literal]",
+          "[areasOfNoInterestExplored exactly 1]",
+          "[areasOfInterestExplored exactly 1]",
+          "[distanceWalked exactly 1]"
+        ]
+      },
+      "x_norm": 0.9630069732666016,
+      "y_norm": 0.4768904149532318,
+      "color": "hsl(346, 60%, 66%)"
+    },
+    {
+      "id": "PayBillTask",
+      "x_norm": 0.4990570545196533,
+      "y_norm": 0.9948893189430237,
+      "color": "hsl(179, 60%, 84%)"
+    },
+    {
+      "id": "Person",
+      "axioms": {
+        "propertyRestrictions": [
+          "[participates some Protocol]",
+          "[hasRecord some ClinicalRecord]",
+          "[hasRecord only (ClinicalRecord or DemographicCharacteristicsRecord or ExperimentalRecord)]",
+          "[hasRecord some ExperimentalRecord]",
+          "[hasRecord some DemographicCharacteristicsRecord]",
+          "[participates only Protocol]"
+        ]
+      },
+      "x_norm": 0.4990127980709076,
+      "y_norm": 0.41608306765556335,
+      "color": "hsl(179, 60%, 64%)"
+    },
+    {
+      "id": "PersonWithDementia",
+      "axioms": {
+        "equivalentClass": [
+          "[hasRecord some (ClinicalRecord and [containsAssessment some (DiagnosisAssessment and [hasClinicalDiagnosis some {dementia}])])]"
+        ]
+      },
+      "x_norm": 0.5830146670341492,
+      "y_norm": 0.3940576910972595,
+      "color": "hsl(209, 60%, 63%)"
+    },
+    {
+      "id": "PersonWithPredementia",
+      "axioms": {
+        "equivalentClass": [
+          "[hasRecord some (ClinicalRecord and [containsAssessment some (DiagnosisAssessment and [hasClinicalDiagnosis some {predementia}])])]"
+        ]
+      },
+      "x_norm": 0.5752207636833191,
+      "y_norm": 0.42901477217674255,
+      "color": "hsl(207, 60%, 65%)"
+    },
+    {
+      "id": "PrepareDrugBoxTask",
+      "x_norm": 0.4440498352050781,
+      "y_norm": 0.9383673667907715,
+      "color": "hsl(159, 60%, 82%)"
+    },
+    {
+      "id": "PrepareHotTeaTask",
+      "x_norm": 0.4686054587364197,
+      "y_norm": 0.9109328389167786,
+      "color": "hsl(168, 60%, 81%)"
+    },
+    {
+      "id": "ProtocolStep",
+      "axioms": {
+        "propertyRestrictions": [
+          "[involvesTask some Task]",
+          "[endTime only time:Instant]",
+          "[startTime exactly 1 time:Instant]",
+          "[startTime only time:Instant]",
+          "[endTime exactly 1 time:Instant]",
+          "[involvesTask only Task]"
+        ]
+      },
+      "x_norm": 0.1599029153585434,
+      "y_norm": 0.9336669445037842,
+      "color": "hsl(57, 60%, 82%)"
+    },
+    {
+      "id": "ReadArticleTask",
+      "x_norm": 0.46548765897750854,
+      "y_norm": 0.7058780193328857,
+      "color": "hsl(167, 60%, 74%)"
+    },
+    {
+      "id": "S1_DirectedActivitiesStep",
+      "axioms": {
+        "propertyRestrictions": [
+          "[involvesTask exactly 1 S1_P11_WalkingTask]",
+          "[involvesTask exactly 1 S1_P13_WalkingCountingBackwardsTask]",
+          "[involvesTask exactly 1 S1_P21_SentenceRepeatingTask]",
+          "[involvesTask only (S1_P11_WalkingTask or S1_P12_CountingBackwardsTask or S1_P13_WalkingCountingBackwardsTask or S1_P21_SentenceRepeatingTask or S1_P22_ArticulationControlTask or Task)]",
+          "[involvesTask exactly 1 S1_P22_ArticulationControlTask]",
+          "[involvesTask exactly 1 S1_P12_CountingBackwardsTask]"
+        ]
+      },
+      "x_norm": 0.10148202627897263,
+      "y_norm": 0.7983967065811157,
+      "color": "hsl(36, 60%, 77%)"
+    },
+    {
+      "id": "S1_P11_WalkingTask",
+      "axioms": {
+        "propertyRestrictions": [
+          "[measuredData some LatencyData]",
+          "[measuredData only (GaitData or LatencyData or StressData)]",
+          "[measuredData some GaitData]"
+        ]
+      },
+      "x_norm": 0.17594552040100098,
+      "y_norm": 0.6952015161514282,
+      "color": "hsl(63, 60%, 74%)"
+    },
+    {
+      "id": "S1_P12_CountingBackwardsTask",
+      "axioms": {
+        "propertyRestrictions": [
+          "[measuredData some LatencyData]",
+          "[measuredData only (LatencyData or MoodVoiceData or StressData)]",
+          "[countingType only {_20_0, _305_285}]",
+          "[measuredData some MoodVoiceData]"
+        ]
+      },
+      "x_norm": 0.08766016364097595,
+      "y_norm": 0.6584628224372864,
+      "color": "hsl(31, 60%, 73%)"
+    },
+    {
+      "id": "S1_P13_WalkingCountingBackwardsTask",
+      "axioms": {
+        "propertyRestrictions": [
+          "[measuredData some MoodVoiceData]",
+          "[countingType only CountingType]",
+          "[measuredData some LatencyData]",
+          "[measuredData some GaitData]",
+          "[countingType some CountingType]",
+          "[measuredData only (GaitData or LatencyData or MoodVoiceData or StressData)]"
+        ]
+      },
+      "x_norm": 0.12993362545967102,
+      "y_norm": 0.6207117438316345,
+      "color": "hsl(46, 60%, 71%)"
+    },
+    {
+      "id": "S1_P21_SentenceRepeatingTask",
+      "axioms": {
+        "propertyRestrictions": [
+          "[measuredData some MoodVoiceData]",
+          "[measuredData only (LatencyData or MoodVoiceData or StressData)]",
+          "[measuredData some LatencyData]"
+        ]
+      },
+      "x_norm": 0.22079864144325256,
+      "y_norm": 0.7779880166053772,
+      "color": "hsl(79, 60%, 77%)"
+    },
+    {
+      "id": "S1_P22_ArticulationControlTask",
+      "axioms": {
+        "propertyRestrictions": [
+          "[measuredData some LatencyData]",
+          "[measuredData only (LatencyData or StressData)]"
+        ]
+      },
+      "x_norm": 0.05144914239645004,
+      "y_norm": 0.6972350478172302,
+      "color": "hsl(18, 60%, 74%)"
+    },
+    {
+      "id": "S2_SemiDirectedActivitiesStep",
+      "axioms": {
+        "propertyRestrictions": [
+          "[involvesTask exactly 1 TurnOnTVTask]",
+          "[involvesTask exactly 1 WaterPlantTask]",
+          "[involvesTask exactly 1 PrepareHotTeaTask]",
+          "[involvesTask exactly 1 CallPsychologistTask]",
+          "[involvesTask exactly 1 AnswerPhoneTask]",
+          "[involvesTask exactly 1 FindBusLineOnMapTask]",
+          "[involvesTask only (AnswerPhoneTask or CallPsychologistTask or EstablishAccountBalanceTask or FindBusLineOnMapTask or LeaveRoomTask or PayBillTask or PrepareDrugBoxTask or PrepareHotTeaTask or Task or TurnOnTVTask or WaterPlantTask)]",
+          "[involvesTask exactly 1 PayBillTask]",
+          "[involvesTask exactly 1 EstablishAccountBalanceTask]",
+          "[involvesTask exactly 1 LeaveRoomTask]",
+          "[involvesTask exactly 1 PrepareDrugBoxTask]"
+        ]
+      },
+      "x_norm": 0.11452630162239075,
+      "y_norm": 0.7983563542366028,
+      "color": "hsl(41, 60%, 77%)"
+    },
+    {
+      "id": "S3_DiscussionWithClinicianStep",
+      "axioms": {
+        "propertyRestrictions": [
+          "[involvesTask only (S3_P1_DirectedExpressionTask or S3_P21_PictureDescriptionTask or Task)]",
+          "[involvesTask exactly 1 S3_P1_DirectedExpressionTask]",
+          "[involvesTask exactly 1 S3_P21_PictureDescriptionTask]"
+        ]
+      },
+      "x_norm": 0.08636140078306198,
+      "y_norm": 0.9146360158920288,
+      "color": "hsl(31, 60%, 82%)"
+    },
+    {
+      "id": "S3_P1_DirectedExpressionTask",
+      "axioms": {
+        "propertyRestrictions": [
+          "[measuredData some MoodVoiceData]",
+          "[measuredData only (MoodVoiceData or StressData)]"
+        ]
+      },
+      "x_norm": 0.045547474175691605,
+      "y_norm": 0.8509752750396729,
+      "color": "hsl(16, 60%, 79%)"
+    },
+    {
+      "id": "S3_P21_PictureDescriptionTask",
+      "x_norm": 0.042533259838819504,
+      "y_norm": 0.818392276763916,
+      "color": "hsl(15, 60%, 78%)"
+    },
+    {
+      "id": "S3_P22_PictureDiscussionTask",
+      "x_norm": 0.0,
+      "y_norm": 0.7459182739257812,
+      "color": "hsl(0, 60%, 76%)"
+    },
+    {
+      "id": "SemiDirectedTask",
+      "axioms": {
+        "propertyRestrictions": [
+          "[measuredData some FunctionalAbilitiesData]",
+          "[measuredData some CognitiveAbilitiesData]",
+          "[measuredData only (CognitiveAbilitiesData or FunctionalAbilitiesData or StressData)]"
+        ]
+      },
+      "x_norm": 0.38911736011505127,
+      "y_norm": 0.7249116897583008,
+      "color": "hsl(140, 60%, 75%)"
+    },
+    {
+      "id": "StressAssessment",
+      "x_norm": 0.9048067927360535,
+      "y_norm": 0.2913733422756195,
+      "color": "hsl(325, 60%, 60%)"
+    },
+    {
+      "id": "StressData",
+      "axioms": {
+        "propertyRestrictions": [
+          "[stressLevel exactly 1]",
+          "[stressLevel only rdfs:Literal]"
+        ]
+      },
+      "x_norm": 1.0,
+      "y_norm": 0.6088452935218811,
+      "color": "hsl(360, 60%, 71%)"
+    },
+    {
+      "id": "Task",
+      "axioms": {
+        "propertyRestrictions": [
+          "[startTime exactly 1 time:Instant]",
+          "[measuredData some StressData]",
+          "[startTime only time:Instant]",
+          "[endTime exactly 1 time:Instant]",
+          "[endTime only time:Instant]",
+          "[measuredData only StressData]"
+        ]
+      },
+      "x_norm": 0.5502240657806396,
+      "y_norm": 0.6300749778747559,
+      "color": "hsl(198, 60%, 72%)"
+    },
+    {
+      "id": "TurnOnTVTask",
+      "x_norm": 0.3881448209285736,
+      "y_norm": 0.9474931359291077,
+      "color": "hsl(139, 60%, 83%)"
+    },
+    {
+      "id": "Type",
+      "x_norm": 0.378048837184906,
+      "y_norm": 0.31755006313323975,
+      "color": "hsl(136, 60%, 61%)"
+    },
+    {
+      "id": "WaterPlantTask",
+      "x_norm": 0.44567468762397766,
+      "y_norm": 1.0,
+      "color": "hsl(160, 60%, 85%)"
+    },
+    {
+      "id": "ns1:Person",
+      "x_norm": 0.4752887785434723,
+      "y_norm": 0.47918376326560974,
+      "color": "hsl(171, 60%, 66%)"
+    },
+    {
+      "id": "owl:Thing",
+      "x_norm": 0.7394173741340637,
+      "y_norm": 0.652936577796936,
+      "color": "hsl(266, 60%, 72%)"
+    }
+  ],
+  "links": [
+    {
+      "source": "AbilityToOrganiseAssessment",
+      "target": "ExperimentalAssessment"
+    },
+    {
+      "source": "ApathyAssessment",
+      "target": "ExperimentalAssessment"
+    },
+    {
+      "source": "CognitiveLoadAssessment",
+      "target": "ExperimentalAssessment"
+    },
+    {
+      "source": "ExperimentalDiagnosisAssessment",
+      "target": "ExperimentalAssessment"
+    },
+    {
+      "source": "FunctionalAbilityAssessment",
+      "target": "ExperimentalAssessment"
+    },
+    {
+      "source": "GaitAssessment",
+      "target": "ExperimentalAssessment"
+    },
+    {
+      "source": "MemorySelfAppraisalAssessment",
+      "target": "ExperimentalAssessment"
+    },
+    {
+      "source": "StressAssessment",
+      "target": "ExperimentalAssessment"
+    },
+    {
+      "source": "ActivityStatusType",
+      "target": "Type"
+    },
+    {
+      "source": "CountingType",
+      "target": "Type"
+    },
+    {
+      "source": "DiagnosisType",
+      "target": "Type"
+    },
+    {
+      "source": "GenderType",
+      "target": "Type"
+    },
+    {
+      "source": "HandTrajectoryType",
+      "target": "Type"
+    },
+    {
+      "source": "LateralityType",
+      "target": "Type"
+    },
+    {
+      "source": "AnswerPhoneTask",
+      "target": "SemiDirectedTask"
+    },
+    {
+      "source": "CallPsychologistTask",
+      "target": "SemiDirectedTask"
+    },
+    {
+      "source": "EstablishAccountBalanceTask",
+      "target": "SemiDirectedTask"
+    },
+    {
+      "source": "FindBusLineOnMapTask",
+      "target": "SemiDirectedTask"
+    },
+    {
+      "source": "LeaveRoomTask",
+      "target": "SemiDirectedTask"
+    },
+    {
+      "source": "PayBillTask",
+      "target": "SemiDirectedTask"
+    },
+    {
+      "source": "PrepareDrugBoxTask",
+      "target": "SemiDirectedTask"
+    },
+    {
+      "source": "PrepareHotTeaTask",
+      "target": "SemiDirectedTask"
+    },
+    {
+      "source": "ReadArticleTask",
+      "target": "SemiDirectedTask"
+    },
+    {
+      "source": "TurnOnTVTask",
+      "target": "SemiDirectedTask"
+    },
+    {
+      "source": "WaterPlantTask",
+      "target": "SemiDirectedTask"
+    },
+    {
+      "source": "AutonomyAssessment",
+      "target": "ClinicalAssessment"
+    },
+    {
+      "source": "CognitiveAbilitiesAssessment",
+      "target": "ClinicalAssessment"
+    },
+    {
+      "source": "DiagnosisAssessment",
+      "target": "ClinicalAssessment"
+    },
+    {
+      "source": "MotricityAbilitiesAssessment",
+      "target": "ClinicalAssessment"
+    },
+    {
+      "source": "NeuropsychiatricAndMoodAssessment",
+      "target": "ClinicalAssessment"
+    },
+    {
+      "source": "CognitiveAbilitiesData",
+      "target": "MeasuredData"
+    },
+    {
+      "source": "DiscussionInvolvementData",
+      "target": "MeasuredData"
+    },
+    {
+      "source": "FunctionalAbilitiesData",
+      "target": "MeasuredData"
+    },
+    {
+      "source": "GaitData",
+      "target": "MeasuredData"
+    },
+    {
+      "source": "LatencyData",
+      "target": "MeasuredData"
+    },
+    {
+      "source": "MoodVoiceData",
+      "target": "MeasuredData"
+    },
+    {
+      "source": "OrganisationEfficiencyData",
+      "target": "MeasuredData"
+    },
+    {
+      "source": "StressData",
+      "target": "MeasuredData"
+    },
+    {
+      "source": "DirectedDiscussionTask",
+      "target": "DiscussionTask"
+    },
+    {
+      "source": "FreeDiscussionTask",
+      "target": "DiscussionTask"
+    },
+    {
+      "source": "DirectedTask",
+      "target": "Task"
+    },
+    {
+      "source": "DiscussionTask",
+      "target": "Task"
+    },
+    {
+      "source": "SemiDirectedTask",
+      "target": "Task"
+    },
+    {
+      "source": "HealthyControlParticipant",
+      "target": "Person"
+    },
+    {
+      "source": "PersonWithDementia",
+      "target": "Person"
+    },
+    {
+      "source": "PersonWithPredementia",
+      "target": "Person"
+    },
+    {
+      "source": "Person",
+      "target": "ns1:Person"
+    },
+    {
+      "source": "S1_DirectedActivitiesStep",
+      "target": "ProtocolStep"
+    },
+    {
+      "source": "S2_SemiDirectedActivitiesStep",
+      "target": "ProtocolStep"
+    },
+    {
+      "source": "S3_DiscussionWithClinicianStep",
+      "target": "ProtocolStep"
+    },
+    {
+      "source": "S1_P11_WalkingTask",
+      "target": "DirectedTask"
+    },
+    {
+      "source": "S1_P12_CountingBackwardsTask",
+      "target": "DirectedTask"
+    },
+    {
+      "source": "S1_P13_WalkingCountingBackwardsTask",
+      "target": "DirectedTask"
+    },
+    {
+      "source": "S1_P21_SentenceRepeatingTask",
+      "target": "DirectedTask"
+    },
+    {
+      "source": "S1_P22_ArticulationControlTask",
+      "target": "DirectedTask"
+    },
+    {
+      "source": "S3_P1_DirectedExpressionTask",
+      "target": "DirectedDiscussionTask"
+    },
+    {
+      "source": "S3_P21_PictureDescriptionTask",
+      "target": "FreeDiscussionTask"
+    },
+    {
+      "source": "S3_P22_PictureDiscussionTask",
+      "target": "FreeDiscussionTask"
+    },
+    {
+      "source": "Type",
+      "target": "owl:Thing"
+    },
+    {
+      "source": "ProtocolStep",
+      "target": "owl:Thing"
+    },
+    {
+      "source": "ns1:Person",
+      "target": "owl:Thing"
+    },
+    {
+      "source": "Task",
+      "target": "owl:Thing"
+    },
+    {
+      "source": "ClinicalAssessment",
+      "target": "owl:Thing"
+    },
+    {
+      "source": "MeasuredData",
+      "target": "owl:Thing"
+    },
+    {
+      "source": "ExperimentalAssessment",
+      "target": "owl:Thing"
+    }
+  ]
+}

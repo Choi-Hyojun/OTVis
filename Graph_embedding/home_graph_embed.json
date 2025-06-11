@@ -1,0 +1,500 @@
+{
+  "nodes": [
+    {
+      "id": "ADLProblem",
+      "x_norm": 0.5691600441932678,
+      "y_norm": 0.578563392162323,
+      "color": "hsl(204, 60%, 70%)"
+    },
+    {
+      "id": "ADLSummary",
+      "x_norm": 0.29753944277763367,
+      "y_norm": 0.6935741305351257,
+      "color": "hsl(107, 60%, 74%)"
+    },
+    {
+      "id": "DaySummary",
+      "axioms": {
+        "propertyRestrictions": [
+          "[date exactly 1 xsd:dateTime]",
+          "[forPatient exactly 1 event:Patient]",
+          "[date some xsd:dateTime]",
+          "[forPatient some event:Patient]"
+        ]
+      },
+      "x_norm": 0.18076351284980774,
+      "y_norm": 0.739250123500824,
+      "color": "hsl(65, 60%, 75%)"
+    },
+    {
+      "id": "EatingSummary",
+      "axioms": {
+        "propertyRestrictions": [
+          "[eatingLocation only event:Place]",
+          "[eatingLocation exactly 1 event:Place]",
+          "[eatingDuration exactly 1 time:DurationDescription]",
+          "[eatingDuration only time:DurationDescription]"
+        ]
+      },
+      "x_norm": 0.33423373103141785,
+      "y_norm": 0.5168474912643433,
+      "color": "hsl(120, 60%, 68%)"
+    },
+    {
+      "id": "ExcessiveNapProblem",
+      "x_norm": 0.6974061131477356,
+      "y_norm": 0.5075552463531494,
+      "color": "hsl(251, 60%, 67%)"
+    },
+    {
+      "id": "ExerciseProblem",
+      "x_norm": 0.290399432182312,
+      "y_norm": 0.3558981418609619,
+      "color": "hsl(104, 60%, 62%)"
+    },
+    {
+      "id": "ExerciseSummary",
+      "axioms": {
+        "propertyRestrictions": [
+          "[exerciseStartTime only time:Instant]",
+          "[distanceTravelled only xsd:double]",
+          "[strideLength exactly 1 xsd:double]",
+          "[exerciseDuration only time:DurationDescription]",
+          "[walkSpeed exactly 1 xsd:double]",
+          "[exerciseDuration exactly 1 time:DurationDescription]",
+          "[heartRate only xsd:double]",
+          "[heartRate exactly 1 xsd:double]",
+          "[walkSpeed only xsd:double]",
+          "[exerciseIntensity exactly 1]",
+          "[exerciseStartTime exactly 1 time:Instant]",
+          "[strideLength only xsd:double]",
+          "[distanceTravelled exactly 1 xsd:double]",
+          "[accelerometerCountsPerMinute exactly 1 xsd:int]",
+          "[exerciseIntensity only rdfs:Literal]",
+          "[accelerometerCountsPerMinute only xsd:int]"
+        ]
+      },
+      "x_norm": 0.17395591735839844,
+      "y_norm": 0.41052597761154175,
+      "color": "hsl(62, 60%, 64%)"
+    },
+    {
+      "id": "FailureToPrepareMeal",
+      "x_norm": 0.5982089042663574,
+      "y_norm": 0.20234043896198273,
+      "color": "hsl(215, 60%, 57%)"
+    },
+    {
+      "id": "FragmentedSleepProblem",
+      "description": {
+        "rdfs:comment": "Sleep fragmentation"
+      },
+      "x_norm": 0.3904794454574585,
+      "y_norm": 0.15031085908412933,
+      "color": "hsl(140, 60%, 55%)"
+    },
+    {
+      "id": "HighStressLevel",
+      "x_norm": 0.039516836404800415,
+      "y_norm": 0.5890721678733826,
+      "color": "hsl(14, 60%, 70%)"
+    },
+    {
+      "id": "InappropriateMealDuration",
+      "x_norm": 0.8330463171005249,
+      "y_norm": 0.42225104570388794,
+      "color": "hsl(299, 60%, 64%)"
+    },
+    {
+      "id": "InappropriateMealLocation",
+      "x_norm": 0.7670260667800903,
+      "y_norm": 0.3082757890224457,
+      "color": "hsl(276, 60%, 60%)"
+    },
+    {
+      "id": "InsufficientAccelerometerCounts",
+      "x_norm": 0.7297065854072571,
+      "y_norm": 0.10513023287057877,
+      "color": "hsl(262, 60%, 53%)"
+    },
+    {
+      "id": "InsufficientFaceToFaceInteraction",
+      "x_norm": 0.8256996273994446,
+      "y_norm": 0.14006605744361877,
+      "color": "hsl(297, 60%, 54%)"
+    },
+    {
+      "id": "InsufficientTelephoneInteraction",
+      "x_norm": 0.7966264486312866,
+      "y_norm": 0.0,
+      "color": "hsl(286, 60%, 50%)"
+    },
+    {
+      "id": "InterruptedMeal",
+      "x_norm": 0.5770685076713562,
+      "y_norm": 0.33894622325897217,
+      "color": "hsl(207, 60%, 61%)"
+    },
+    {
+      "id": "InterruptedSleepProblem",
+      "x_norm": 0.49255865812301636,
+      "y_norm": 0.2633652091026306,
+      "color": "hsl(177, 60%, 59%)"
+    },
+    {
+      "id": "MealProblem",
+      "x_norm": 0.5040848851203918,
+      "y_norm": 0.6649842858314514,
+      "color": "hsl(181, 60%, 73%)"
+    },
+    {
+      "id": "MissedMeal",
+      "x_norm": 0.24666646122932434,
+      "y_norm": 0.8415470719337463,
+      "color": "hsl(88, 60%, 79%)"
+    },
+    {
+      "id": "MoodProblem",
+      "x_norm": 0.5007815957069397,
+      "y_norm": 0.5381132364273071,
+      "color": "hsl(180, 60%, 68%)"
+    },
+    {
+      "id": "MoodQuestionnaire",
+      "x_norm": 0.9589306712150574,
+      "y_norm": 0.6694530248641968,
+      "color": "hsl(345, 60%, 73%)"
+    },
+    {
+      "id": "MoodSummary",
+      "axioms": {
+        "propertyRestrictions": [
+          "[stressLevel exactly 1]",
+          "[physicalHygiene some owl:Thing]",
+          "[numberOfSocialInteractions exactly 1 xsd:int]",
+          "[numberOfSocialInteractions only xsd:int]",
+          "[stressLevel only rdfs:Literal]",
+          "[involvementInDiscussion some owl:Thing]"
+        ]
+      },
+      "x_norm": 0.15188521146774292,
+      "y_norm": 0.6322787404060364,
+      "color": "hsl(54, 60%, 72%)"
+    },
+    {
+      "id": "NappingProblem",
+      "x_norm": 0.6261147260665894,
+      "y_norm": 0.7877309918403625,
+      "color": "hsl(225, 60%, 77%)"
+    },
+    {
+      "id": "Nocturia",
+      "description": {
+        "rdfs:comment": "If the individual visits the bathroom more than twice during the night"
+      },
+      "x_norm": 0.8173145055770874,
+      "y_norm": 0.6544547080993652,
+      "color": "hsl(294, 60%, 72%)"
+    },
+    {
+      "id": "PeriodicLimbMovement",
+      "x_norm": 0.2780924141407013,
+      "y_norm": 0.1778927892446518,
+      "color": "hsl(100, 60%, 56%)"
+    },
+    {
+      "id": "Problem",
+      "axioms": {
+        "propertyRestrictions": [
+          "[possibleContributingFactor some event:Event]"
+        ]
+      },
+      "x_norm": 0.5616716146469116,
+      "y_norm": 0.43080103397369385,
+      "color": "hsl(202, 60%, 65%)"
+    },
+    {
+      "id": "Questionnaire",
+      "x_norm": 1.0,
+      "y_norm": 0.5482169389724731,
+      "color": "hsl(360, 60%, 69%)"
+    },
+    {
+      "id": "SelfReportedLowMood",
+      "x_norm": 0.4843890964984894,
+      "y_norm": 0.08389171957969666,
+      "color": "hsl(174, 60%, 52%)"
+    },
+    {
+      "id": "ShortStrideLength",
+      "x_norm": 0.08629457652568817,
+      "y_norm": 0.8232616186141968,
+      "color": "hsl(31, 60%, 78%)"
+    },
+    {
+      "id": "SleepDurationProblem",
+      "description": {
+        "rdfs:comment": "Sleep duration is less than 7 hours. "
+      },
+      "x_norm": 0.7435455322265625,
+      "y_norm": 0.864150881767273,
+      "color": "hsl(267, 60%, 80%)"
+    },
+    {
+      "id": "SleepEfficiencyProblem",
+      "description": {
+        "rdfs:comment": "Sleep efficiency is less than 85%."
+      },
+      "x_norm": 0.8676103949546814,
+      "y_norm": 0.976651132106781,
+      "color": "hsl(312, 60%, 84%)"
+    },
+    {
+      "id": "SleepLatencyProblem",
+      "description": {
+        "rdfs:comment": "Sleep latency over 30 minutes."
+      },
+      "x_norm": 0.7658408880233765,
+      "y_norm": 1.0,
+      "color": "hsl(275, 60%, 85%)"
+    },
+    {
+      "id": "SleepProblem",
+      "x_norm": 0.6152503490447998,
+      "y_norm": 0.9270247220993042,
+      "color": "hsl(221, 60%, 82%)"
+    },
+    {
+      "id": "SleepQuestionnaire",
+      "x_norm": 0.9503556489944458,
+      "y_norm": 0.791892409324646,
+      "color": "hsl(342, 60%, 77%)"
+    },
+    {
+      "id": "SleepSummary",
+      "axioms": {
+        "propertyRestrictions": [
+          "[totalDurationOfNaps exactly 1 xsd:int]",
+          "[sleepBedTime exactly 1 xsd:dateTime]",
+          "[duration only xsd:int]",
+          "[sleepEfficiency exactly 1 xsd:double]",
+          "[sleepMovementIndex only xsd:double]",
+          "[duration exactly 1 xsd:int]",
+          "[sleepMovementIndex exactly 1 xsd:double]",
+          "[numberOfNaps only xsd:int]",
+          "[totalDurationOfNaps only xsd:int]",
+          "[numberOfNaps exactly 1 xsd:int]",
+          "[numberOfArousals only xsd:int]",
+          "[numberOfAwakenings exactly 1 xsd:int]",
+          "[wakeUpTime only xsd:dateTime]",
+          "[numberOfBedExits only xsd:int]",
+          "[lightLevel only xsd:string]",
+          "[sleepTime exactly 1 xsd:dateTime]",
+          "[sleepBedTime only xsd:dateTime]",
+          "[numberOfAwakenings only xsd:int]",
+          "[lightLevel exactly 1 xsd:string]",
+          "[numberOfBedExits exactly 1 xsd:int]",
+          "[sleepLatency exactly 1 xsd:int]",
+          "[sleepEfficiency only xsd:double]",
+          "[sleepLatency only xsd:int]",
+          "[numberOfArousals exactly 1 xsd:int]",
+          "[sleepTime only xsd:dateTime]",
+          "[wakeUpTime exactly 1 xsd:dateTime]"
+        ]
+      },
+      "x_norm": 0.4677615165710449,
+      "y_norm": 0.9474602341651917,
+      "color": "hsl(168, 60%, 83%)"
+    },
+    {
+      "id": "SlowWalkSpeed",
+      "x_norm": 0.0,
+      "y_norm": 0.709057092666626,
+      "color": "hsl(0, 60%, 74%)"
+    },
+    {
+      "id": "SocialProblem",
+      "x_norm": 0.4170357882976532,
+      "y_norm": 0.5734859704971313,
+      "color": "hsl(150, 60%, 70%)"
+    },
+    {
+      "id": "SocialSummary",
+      "axioms": {
+        "propertyRestrictions": [
+          "[numberOfSocialInteractions only xsd:int]",
+          "[numberOfFaceToFaceConversations only xsd:int]",
+          "[numberOfPhoneConversations exactly 1 xsd:int]",
+          "[numberOfCommunicativeAttempts exactly 1 xsd:int]",
+          "[numberOfCommunicativeAttempts only xsd:int]",
+          "[numberOfSocialInteractions exactly 1 xsd:int]",
+          "[numberOfPhoneConversations only xsd:int]",
+          "[numberOfFaceToFaceConversations exactly 1 xsd:int]"
+        ]
+      },
+      "x_norm": 0.27318406105041504,
+      "y_norm": 0.5662384033203125,
+      "color": "hsl(98, 60%, 69%)"
+    },
+    {
+      "id": "owl:Thing",
+      "x_norm": 0.45253786444664,
+      "y_norm": 0.7678722143173218,
+      "color": "hsl(162, 60%, 76%)"
+    }
+  ],
+  "links": [
+    {
+      "source": "ADLProblem",
+      "target": "Problem"
+    },
+    {
+      "source": "ExerciseProblem",
+      "target": "Problem"
+    },
+    {
+      "source": "MoodProblem",
+      "target": "Problem"
+    },
+    {
+      "source": "SleepProblem",
+      "target": "Problem"
+    },
+    {
+      "source": "SocialProblem",
+      "target": "Problem"
+    },
+    {
+      "source": "ADLSummary",
+      "target": "DaySummary"
+    },
+    {
+      "source": "ExerciseSummary",
+      "target": "DaySummary"
+    },
+    {
+      "source": "MoodSummary",
+      "target": "DaySummary"
+    },
+    {
+      "source": "SleepSummary",
+      "target": "DaySummary"
+    },
+    {
+      "source": "SocialSummary",
+      "target": "DaySummary"
+    },
+    {
+      "source": "EatingSummary",
+      "target": "ADLSummary"
+    },
+    {
+      "source": "ExcessiveNapProblem",
+      "target": "NappingProblem"
+    },
+    {
+      "source": "FailureToPrepareMeal",
+      "target": "MealProblem"
+    },
+    {
+      "source": "InappropriateMealDuration",
+      "target": "MealProblem"
+    },
+    {
+      "source": "InappropriateMealLocation",
+      "target": "MealProblem"
+    },
+    {
+      "source": "InterruptedMeal",
+      "target": "MealProblem"
+    },
+    {
+      "source": "MissedMeal",
+      "target": "MealProblem"
+    },
+    {
+      "source": "FragmentedSleepProblem",
+      "target": "InterruptedSleepProblem"
+    },
+    {
+      "source": "Nocturia",
+      "target": "InterruptedSleepProblem"
+    },
+    {
+      "source": "HighStressLevel",
+      "target": "MoodProblem"
+    },
+    {
+      "source": "SelfReportedLowMood",
+      "target": "MoodProblem"
+    },
+    {
+      "source": "InsufficientAccelerometerCounts",
+      "target": "ExerciseProblem"
+    },
+    {
+      "source": "ShortStrideLength",
+      "target": "ExerciseProblem"
+    },
+    {
+      "source": "SlowWalkSpeed",
+      "target": "ExerciseProblem"
+    },
+    {
+      "source": "InsufficientFaceToFaceInteraction",
+      "target": "SocialProblem"
+    },
+    {
+      "source": "InsufficientTelephoneInteraction",
+      "target": "SocialProblem"
+    },
+    {
+      "source": "InterruptedSleepProblem",
+      "target": "SleepProblem"
+    },
+    {
+      "source": "NappingProblem",
+      "target": "SleepProblem"
+    },
+    {
+      "source": "PeriodicLimbMovement",
+      "target": "SleepProblem"
+    },
+    {
+      "source": "SleepDurationProblem",
+      "target": "SleepProblem"
+    },
+    {
+      "source": "SleepEfficiencyProblem",
+      "target": "SleepProblem"
+    },
+    {
+      "source": "SleepLatencyProblem",
+      "target": "SleepProblem"
+    },
+    {
+      "source": "MealProblem",
+      "target": "ADLProblem"
+    },
+    {
+      "source": "MoodQuestionnaire",
+      "target": "Questionnaire"
+    },
+    {
+      "source": "SleepQuestionnaire",
+      "target": "Questionnaire"
+    },
+    {
+      "source": "Questionnaire",
+      "target": "owl:Thing"
+    },
+    {
+      "source": "Problem",
+      "target": "owl:Thing"
+    },
+    {
+      "source": "DaySummary",
+      "target": "owl:Thing"
+    }
+  ]
+}

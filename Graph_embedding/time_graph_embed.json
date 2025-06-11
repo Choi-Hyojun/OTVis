@@ -1,0 +1,155 @@
+{
+  "nodes": [
+    {
+      "id": "owl:Thing",
+      "x_norm": 0.8939771056175232,
+      "y_norm": 0.12326350808143616,
+      "color": "hsl(321, 60%, 54%)"
+    },
+    {
+      "id": "time:DateTimeDescription",
+      "axioms": {
+        "propertyRestrictions": [
+          "[time:week max 1]",
+          "[time:dayOfWeek max 1]",
+          "[time:second max 1]",
+          "[time:minute max 1]",
+          "[time:day max 1]",
+          "[time:month max 1]",
+          "[time:timeZone max 1]",
+          "[time:hour max 1]",
+          "[time:unitType exactly 1]",
+          "[time:year max 1]",
+          "[time:dayOfYear max 1]"
+        ]
+      },
+      "x_norm": 0.47037309408187866,
+      "y_norm": 0.5664107799530029,
+      "color": "hsl(169, 60%, 69%)"
+    },
+    {
+      "id": "time:DateTimeInterval",
+      "x_norm": 0.7124766111373901,
+      "y_norm": 0.7881248593330383,
+      "color": "hsl(256, 60%, 77%)"
+    },
+    {
+      "id": "time:DurationDescription",
+      "axioms": {
+        "propertyRestrictions": [
+          "[time:hours max 1]",
+          "[time:months max 1]",
+          "[time:seconds max 1]",
+          "[time:weeks max 1]",
+          "[time:days max 1]",
+          "[time:years max 1]",
+          "[time:minutes max 1]"
+        ]
+      },
+      "x_norm": 0.0,
+      "y_norm": 0.49229860305786133,
+      "color": "hsl(0, 60%, 67%)"
+    },
+    {
+      "id": "time:Instant",
+      "axioms": {
+        "disjointWith": [
+          "time:ProperInterval"
+        ]
+      },
+      "x_norm": 0.4860045611858368,
+      "y_norm": 0.276667982339859,
+      "color": "hsl(174, 60%, 59%)"
+    },
+    {
+      "id": "time:Interval",
+      "x_norm": 0.17310212552547455,
+      "y_norm": 0.7854695320129395,
+      "color": "hsl(62, 60%, 77%)"
+    },
+    {
+      "id": "time:January",
+      "axioms": {
+        "propertyRestrictions": [
+          "[time:month hasValue --01]",
+          "[time:unitType hasValue time:unitMonth]"
+        ]
+      },
+      "x_norm": 1.0,
+      "y_norm": 0.45267701148986816,
+      "color": "hsl(360, 60%, 65%)"
+    },
+    {
+      "id": "time:ProperInterval",
+      "x_norm": 0.45476168394088745,
+      "y_norm": 1.0,
+      "color": "hsl(163, 60%, 85%)"
+    },
+    {
+      "id": "time:TemporalEntity",
+      "axioms": {
+        "equivalentClass": [
+          "(time:Instant or time:Interval)"
+        ]
+      },
+      "x_norm": 0.08571098744869232,
+      "y_norm": 0.1868569254875183,
+      "color": "hsl(30, 60%, 56%)"
+    },
+    {
+      "id": "time:Year",
+      "axioms": {
+        "propertyRestrictions": [
+          "[time:years exactly 1]",
+          "[time:months exactly 0]",
+          "[time:hours exactly 0]",
+          "[time:weeks exactly 0]",
+          "[time:seconds exactly 0]",
+          "[time:days exactly 0]",
+          "[time:minutes exactly 0]"
+        ]
+      },
+      "x_norm": 0.6239340305328369,
+      "y_norm": 0.0,
+      "color": "hsl(224, 60%, 50%)"
+    }
+  ],
+  "links": [
+    {
+      "source": "time:DateTimeInterval",
+      "target": "time:ProperInterval"
+    },
+    {
+      "source": "time:Instant",
+      "target": "time:TemporalEntity"
+    },
+    {
+      "source": "time:Interval",
+      "target": "time:TemporalEntity"
+    },
+    {
+      "source": "time:January",
+      "target": "time:DateTimeDescription"
+    },
+    {
+      "source": "time:ProperInterval",
+      "target": "time:Interval"
+    },
+    {
+      "source": "time:Year",
+      "target": "time:DurationDescription"
+    },
+    {
+      "source": "time:TemporalEntity",
+      "target": "owl:Thing"
+    },
+    {
+      "source": "time:DurationDescription",
+      "target": "owl:Thing"
+    },
+    {
+      "source": "time:DateTimeDescription",
+      "target": "owl:Thing"
+    }
+  ]
+}
