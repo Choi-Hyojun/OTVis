@@ -1,3 +1,5 @@
+"""Extract class and property axioms from OWL ontologies."""
+
 import sys
 import os
 import json
@@ -6,14 +8,14 @@ from rdflib import Graph, RDF, RDFS, OWL
 from rdflib.namespace import XSD
 import random
 from rdflib import BNode, URIRef
-# ——————————————
-# owl files to be processed label replacement
+
+# List of ontology files where labels should be preferred over QNames
 TARGET_WITH_LABEL = [
     "swo_merged.owl",
     "OntoDT.owl"
 ]
 
-# output directory
+# Output directories
 PREFIX_DIR = "Prefixes"
 AXIOM_DIR = "Axiom_per_entity"
 INPUT_DIR = "Ontology"
@@ -22,6 +24,7 @@ for d in (PREFIX_DIR, AXIOM_DIR):
 
 
 def format_node(node, g, label_map=None):
+    """Return a readable identifier for *node* using the label map or qname."""
     if label_map and node in label_map:
         return label_map[node]
     try:
@@ -31,6 +34,7 @@ def format_node(node, g, label_map=None):
 
 
 def parse_rdf_list(list_node, g):
+    """Return elements of an RDF collection as a Python list."""
     items = []
     while list_node and list_node != RDF.nil:
         first = g.value(list_node, RDF.first)

@@ -49,7 +49,7 @@
         fill: black;
         pointer-events: none;
       }
-      /* --- 패널 스타일 --- */
+      /* --- panel style --- */
       #desc-axiom-panel {
         position: absolute;
         top: 10px;
@@ -77,8 +77,8 @@
         font-size: 13px;
         line-height: 1.45;
         overflow-x: auto;
-        font-family: inherit; /* 이 줄 추가! */
-        font-weight: normal; /* 선택사항: 두께 통일 */
+        font-family: inherit; /* added line */
+        font-weight: normal; /* optional: same weight */
         margin: 0;
       }
 
@@ -193,7 +193,7 @@
 
       function loadOntology() {
         const name = document.getElementById("ontology-select").value
-        const filePath = `Graph/${name}_graph.json?v=${Date.now()}` // 캐시 방지
+        const filePath = `Graph/${name}_graph.json?v=${Date.now()}` // prevent caching
 
         svgGroup.selectAll("#link-layer, #node-layer").remove()
         if (simulation) simulation.stop()
@@ -204,7 +204,7 @@
             allLinks = data.links
             assignColors(data)
             renderGraph(data)
-            document.getElementById("desc-axiom-panel").style.display = "none" // ontology reload 시 패널 숨김
+            document.getElementById("desc-axiom-panel").style.display = "none" // hide panel when ontology reloads
           })
           .catch(() => alert("File not found: " + filePath))
       }
@@ -247,7 +247,7 @@
         svgGroup.selectAll("#node-layer").remove()
         svgGroup.selectAll("#axiom-label-layer").remove()
 
-        // ... (node 생성 동일)
+        // ... node creation is the same as above
         const link = svgGroup
           .append("g")
           .attr("id", "link-layer")
@@ -310,7 +310,7 @@
               .forceLink(data.links)
               .id((d) => d.id)
               .distance(40)
-              .strength((d) => (d._axiom ? 0.01 : 0.3)) // ← 여기!
+              .strength((d) => (d._axiom ? 0.01 : 0.3)) // tweak strength here
           )
           .force("charge", d3.forceManyBody().strength(-150))
           .force("center", d3.forceCenter(window.innerWidth / 2, window.innerHeight / 2))
@@ -446,11 +446,11 @@
           ul.appendChild(li)
         })
 
-        // 1. 이전 axiomLinks 제거
+        // 1. remove previous axiomLinks
         allLinks = allLinks.filter((l) => !l._axiom)
         axiomLinks = []
 
-        // 2. 새 axiom edge 추출
+        // 2. extract new axiom edges
         if (target.axioms) {
           for (const [k, vals] of Object.entries(target.axioms)) {
             if (k === "subClassOf") continue
@@ -458,7 +458,7 @@
             axStrs.forEach((ax) => {
               allNodes.forEach((n) => {
                 if (n.id !== target.id && new RegExp(`\\b${escapeRegExp(n.id)}\\b`).test(ax)) {
-                  // 👇 propertyRestrictions이면 ax 그대로, 아니면 '[k] ax'
+                  // if propertyRestrictions, use ax as is; otherwise prefix with '[k]'
                   let edgeLabel = k === "propertyRestrictions" ? ax : k + " " + ax
                   axiomLinks.push({
                     source: target.id,
@@ -472,7 +472,7 @@
           }
         }
 
-        // 3. axiom edge 추가 후 그래프 다시 그림
+        // 3. add axiom edges and redraw graph
         allLinks = allLinks.concat(axiomLinks)
         renderGraph({ nodes: allNodes, links: allLinks })
       }
@@ -482,7 +482,7 @@
         const classLabel = node.id
         document.getElementById("panel-class-label").textContent = classLabel
 
-        // --- Description (변경 없음) ---
+        // --- Description (unchanged) ---
         let descHtml = ""
         if (node.description) {
           for (const [key, value] of Object.entries(node.description)) {
@@ -498,13 +498,13 @@
         }
         document.getElementById("desc-content").innerHTML = descHtml
 
-        // --- Axioms: 노드 이름 감지 후 링크로 대체 ---
+        // --- Axioms: replace node names with links ---
         let axiomHtml = ""
         if (node.axioms) {
           for (const [key, value] of Object.entries(node.axioms)) {
             axiomHtml += `<span class='desc-label'>${key}</span>`
             let axStrs = Array.isArray(value) ? value : [value]
-            // 각 문자열 내에서 노드 이름을 span 링크로 교체
+            // replace node names inside each string with span links
             axiomHtml += "<pre>"
             axStrs.forEach((ax) => {
               let replaced = ax
@@ -539,7 +539,7 @@
         document.getElementById("axiom-content").innerHTML = axiomHtml
         panel.style.display = "block"
 
-        // --- 링크 이벤트 부착 ---
+        // --- attach link events ---
         document.querySelectorAll("#axiom-content .node-link").forEach((span) => {
           span.style.color = "#3a5dff"
           span.style.cursor = "pointer"
@@ -550,7 +550,7 @@
         })
       }
 
-      // 유틸: RegExp용 이스케이프 (노드 id에 특수문자 있을 때)
+      // utility: escape for RegExp when node id contains special characters
       function escapeRegExp(string) {
         return string.replace(/[.*+\-?^${}()|[\]\\]/g, "\\$&")
       }
