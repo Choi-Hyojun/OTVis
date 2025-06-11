@@ -621,7 +621,13 @@
 
         // 3. axiom edge 추가 후 그래프 다시 그림
         allLinks = allLinks.concat(axiomLinks)
-        renderGraph({ nodes: allNodes, links: allLinks })
+        // 모드 체크 후 분기!
+        const useForce = document.getElementById("use-force").checked
+        if (useForce) {
+          renderGraphForce({ nodes: allNodes, links: allLinks })
+        } else {
+          renderGraphFixed({ nodes: allNodes, links: allLinks })
+        }
       }
 
       function showClassPanel(node) {
@@ -716,6 +722,37 @@
         d.fx = null
         d.fy = null
       }
+
+      console.log("target", target)
+      console.log("axioms", target.axioms)
+      console.log(
+        "allNodes",
+        allNodes.map((n) => n.id)
+      )
+
+      let addedAxiom = false
+
+      if (target.axioms) {
+        for (const [k, vals] of Object.entries(target.axioms)) {
+          if (k === "subClassOf") continue
+          const axStrs = Array.isArray(vals) ? vals : [vals]
+          axStrs.forEach((ax) => {
+            allNodes.forEach((n) => {
+              if (n.id !== target.id && new RegExp(`\\b${escapeRegExp(n.id)}\\b`).test(ax)) {
+                let edgeLabel = k === "propertyRestrictions" ? ax : k + " " + ax
+                axiomLinks.push({
+                  source: target.id,
+                  target: n.id,
+                  label: edgeLabel,
+                  _axiom: true
+                })
+                addedAxiom = true
+              }
+            })
+          })
+        }
+      }
+      console.log("axiomLinks", axiomLinks)
     </script>
   </body>
 </html>
