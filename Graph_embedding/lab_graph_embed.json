@@ -4,7 +4,7 @@
       "id": "AbilityToOrganiseAssessment",
       "x_norm": 0.8302305340766907,
       "y_norm": 0.15222837030887604,
-      "color": "hsl(298, 60%, 55%)"
+      "color": "#8dfaa8"
     },
     {
       "id": "ActivityStatusType",
@@ -15,19 +15,19 @@
       },
       "x_norm": 0.3310562074184418,
       "y_norm": 0.5277117490768433,
-      "color": "hsl(119, 60%, 68%)"
+      "color": "#ed6353"
     },
     {
       "id": "AnswerPhoneTask",
       "x_norm": 0.4853397011756897,
       "y_norm": 0.7399953603744507,
-      "color": "hsl(174, 60%, 75%)"
+      "color": "#c945e7"
     },
     {
       "id": "ApathyAssessment",
       "x_norm": 0.7387562990188599,
       "y_norm": 0.23092222213745117,
-      "color": "hsl(265, 60%, 58%)"
+      "color": "#71f588"
     },
     {
       "id": "AutonomyAssessment",
@@ -39,19 +39,19 @@
       },
       "x_norm": 0.8736735582351685,
       "y_norm": 0.19682109355926514,
-      "color": "hsl(314, 60%, 56%)"
+      "color": "#90fbb7"
     },
     {
       "id": "CallPsychologistTask",
       "x_norm": 0.5886831879615784,
       "y_norm": 0.7318480014801025,
-      "color": "hsl(211, 60%, 75%)"
+      "color": "#5645e7"
     },
     {
       "id": "ClinicalAssessment",
       "x_norm": 0.7510665059089661,
       "y_norm": 0.12659388780593872,
-      "color": "hsl(270, 60%, 54%)"
+      "color": "#83f98c"
     },
     {
       "id": "CognitiveAbilitiesAssessment",
@@ -71,7 +71,7 @@
       },
       "x_norm": 0.8192987442016602,
       "y_norm": 0.27937281131744385,
-      "color": "hsl(294, 60%, 59%)"
+      "color": "#7af7ad"
     },
     {
       "id": "CognitiveAbilitiesData",
@@ -89,7 +89,7 @@
       },
       "x_norm": 0.8710793852806091,
       "y_norm": 0.6855711340904236,
-      "color": "hsl(313, 60%, 73%)"
+      "color": "#7ad6f7"
     },
     {
       "id": "CognitiveLoadAssessment",
@@ -103,7 +103,7 @@
       },
       "x_norm": 0.8053843975067139,
       "y_norm": 0.3059794306755066,
-      "color": "hsl(289, 60%, 60%)"
+      "color": "#74f6ac"
     },
     {
       "id": "CountingType",
@@ -114,7 +114,7 @@
       },
       "x_norm": 0.3617839217185974,
       "y_norm": 0.23824536800384521,
-      "color": "hsl(130, 60%, 58%)"
+      "color": "#f3e669"
     },
     {
       "id": "DiagnosisAssessment",
@@ -126,7 +126,7 @@
       },
       "x_norm": 0.7012342810630798,
       "y_norm": 0.06423985958099365,
-      "color": "hsl(252, 60%, 52%)"
+      "color": "#91fa87"
     },
     {
       "id": "DiagnosisType",
@@ -137,19 +137,19 @@
       },
       "x_norm": 0.4886329770088196,
       "y_norm": 0.18336991965770721,
-      "color": "hsl(175, 60%, 56%)"
+      "color": "#c1f267"
     },
     {
       "id": "DirectedDiscussionTask",
       "x_norm": 0.34707266092300415,
       "y_norm": 0.8021724820137024,
-      "color": "hsl(124, 60%, 78%)"
+      "color": "#f161cc"
     },
     {
       "id": "DirectedTask",
       "x_norm": 0.4387218952178955,
       "y_norm": 0.8413478136062622,
-      "color": "hsl(157, 60%, 79%)"
+      "color": "#df5aef"
     },
     {
       "id": "DiscussionInvolvementData",
@@ -161,7 +161,7 @@
       },
       "x_norm": 0.8187333345413208,
       "y_norm": 0.7076705694198608,
-      "color": "hsl(294, 60%, 74%)"
+      "color": "#6ec5f4"
     },
     {
       "id": "DiscussionTask",
@@ -174,13 +174,13 @@
       },
       "x_norm": 0.5638144016265869,
       "y_norm": 0.8040333390235901,
-      "color": "hsl(202, 60%, 78%)"
+      "color": "#834feb"
     },
     {
       "id": "EstablishAccountBalanceTask",
       "x_norm": 0.6005745530128479,
       "y_norm": 0.9283863306045532,
-      "color": "hsl(216, 60%, 82%)"
+      "color": "#8d68f3"
     },
     {
       "id": "ExperimentalAssessment",
@@ -192,7 +192,7 @@
       },
       "x_norm": 0.8234657049179077,
       "y_norm": 0.036775607615709305,
-      "color": "hsl(296, 60%, 51%)"
+      "color": "#9ffdaa"
     },
     {
       "id": "ExperimentalDiagnosisAssessment",
@@ -203,19 +203,19 @@
       },
       "x_norm": 0.7461380362510681,
       "y_norm": 0.03335495665669441,
-      "color": "hsl(268, 60%, 51%)"
+      "color": "#95fb93"
     },
     {
       "id": "FindBusLineOnMapTask",
       "x_norm": 0.21567952632904053,
       "y_norm": 0.6268332004547119,
-      "color": "hsl(77, 60%, 71%)"
+      "color": "#f57185"
     },
     {
       "id": "FreeDiscussionTask",
       "x_norm": 0.3624468147754669,
       "y_norm": 0.904860258102417,
-      "color": "hsl(130, 60%, 81%)"
+      "color": "#f46eed"
     },
     {
       "id": "FunctionalAbilitiesData",
@@ -227,13 +227,13 @@
       },
       "x_norm": 0.9132184386253357,
       "y_norm": 0.6333340406417847,
-      "color": "hsl(328, 60%, 72%)"
+      "color": "#83e8f9"
     },
     {
       "id": "FunctionalAbilityAssessment",
       "x_norm": 0.8778570890426636,
       "y_norm": 0.11936032027006149,
-      "color": "hsl(316, 60%, 54%)"
+      "color": "#9cfcb7"
     },
     {
       "id": "GaitAssessment",
@@ -247,7 +247,7 @@
       },
       "x_norm": 0.7552774548530579,
       "y_norm": 0.43979430198669434,
-      "color": "hsl(271, 60%, 65%)"
+      "color": "#5cf0bb"
     },
     {
       "id": "GaitData",
@@ -267,7 +267,7 @@
       },
       "x_norm": 0.9144903421401978,
       "y_norm": 0.5612967610359192,
-      "color": "hsl(329, 60%, 69%)"
+      "color": "#82f8f9"
     },
     {
       "id": "GenderType",
@@ -278,13 +278,13 @@
       },
       "x_norm": 0.44514599442481995,
       "y_norm": 0.3021419644355774,
-      "color": "hsl(160, 60%, 60%)"
+      "color": "#dfed55"
     },
     {
       "id": "HandTrajectoryType",
       "x_norm": 0.3997032642364502,
       "y_norm": 0.21748441457748413,
-      "color": "hsl(143, 60%, 57%)"
+      "color": "#edf368"
     },
     {
       "id": "HealthyControlParticipant",
@@ -295,7 +295,7 @@
       },
       "x_norm": 0.34271377325057983,
       "y_norm": 0.6812509894371033,
-      "color": "hsl(123, 60%, 73%)"
+      "color": "#ed5597"
     },
     {
       "id": "LatencyData",
@@ -307,7 +307,7 @@
       },
       "x_norm": 0.9366631507873535,
       "y_norm": 0.58281409740448,
-      "color": "hsl(337, 60%, 70%)"
+      "color": "#88f5fa"
     },
     {
       "id": "LateralityType",
@@ -318,31 +318,31 @@
       },
       "x_norm": 0.41802865266799927,
       "y_norm": 0.24756819009780884,
-      "color": "hsl(150, 60%, 58%)"
+      "color": "#e8f161"
     },
     {
       "id": "LeaveRoomTask",
       "x_norm": 0.4916102886199951,
       "y_norm": 0.8248259425163269,
-      "color": "hsl(176, 60%, 78%)"
+      "color": "#bd53ed"
     },
     {
       "id": "MeasuredData",
       "x_norm": 0.8810535073280334,
       "y_norm": 0.5546779036521912,
-      "color": "hsl(317, 60%, 69%)"
+      "color": "#79f7f6"
     },
     {
       "id": "MemorySelfAppraisalAssessment",
       "x_norm": 0.7979862689971924,
       "y_norm": 0.26427188515663147,
-      "color": "hsl(287, 60%, 59%)"
+      "color": "#77f6a3"
     },
     {
       "id": "MoodVoiceData",
       "x_norm": 0.8923767805099487,
       "y_norm": 0.6638684272766113,
-      "color": "hsl(321, 60%, 73%)"
+      "color": "#7edff8"
     },
     {
       "id": "MotricityAbilitiesAssessment",
@@ -354,7 +354,7 @@
       },
       "x_norm": 0.7823473215103149,
       "y_norm": 0.0,
-      "color": "hsl(281, 60%, 50%)"
+      "color": "#9efda0"
     },
     {
       "id": "NeuropsychiatricAndMoodAssessment",
@@ -370,7 +370,7 @@
       },
       "x_norm": 0.6867144107818604,
       "y_norm": 0.29909849166870117,
-      "color": "hsl(247, 60%, 60%)"
+      "color": "#5ef074"
     },
     {
       "id": "OrganisationEfficiencyData",
@@ -386,13 +386,13 @@
       },
       "x_norm": 0.9630069732666016,
       "y_norm": 0.4768904149532318,
-      "color": "hsl(346, 60%, 66%)"
+      "color": "#90fbed"
     },
     {
       "id": "PayBillTask",
       "x_norm": 0.4990570545196533,
       "y_norm": 0.9948893189430237,
-      "color": "hsl(179, 60%, 84%)"
+      "color": "#c173f5"
     },
     {
       "id": "Person",
@@ -408,7 +408,7 @@
       },
       "x_norm": 0.4990127980709076,
       "y_norm": 0.41608306765556335,
-      "color": "hsl(179, 60%, 64%)"
+      "color": "#c1e43d"
     },
     {
       "id": "PersonWithDementia",
@@ -419,7 +419,7 @@
       },
       "x_norm": 0.5830146670341492,
       "y_norm": 0.3940576910972595,
-      "color": "hsl(209, 60%, 63%)"
+      "color": "#56e642"
     },
     {
       "id": "PersonWithPredementia",
@@ -430,19 +430,19 @@
       },
       "x_norm": 0.5752207636833191,
       "y_norm": 0.42901477217674255,
-      "color": "hsl(207, 60%, 65%)"
+      "color": "#4be43c"
     },
     {
       "id": "PrepareDrugBoxTask",
       "x_norm": 0.4440498352050781,
       "y_norm": 0.9383673667907715,
-      "color": "hsl(159, 60%, 82%)"
+      "color": "#d66bf4"
     },
     {
       "id": "PrepareHotTeaTask",
       "x_norm": 0.4686054587364197,
       "y_norm": 0.9109328389167786,
-      "color": "hsl(168, 60%, 81%)"
+      "color": "#cb64f2"
     },
     {
       "id": "ProtocolStep",
@@ -458,13 +458,13 @@
       },
       "x_norm": 0.1599029153585434,
       "y_norm": 0.9336669445037842,
-      "color": "hsl(57, 60%, 82%)"
+      "color": "#fc99d6"
     },
     {
       "id": "ReadArticleTask",
       "x_norm": 0.46548765897750854,
       "y_norm": 0.7058780193328857,
-      "color": "hsl(167, 60%, 74%)"
+      "color": "#e642e4"
     },
     {
       "id": "S1_DirectedActivitiesStep",
@@ -480,7 +480,7 @@
       },
       "x_norm": 0.10148202627897263,
       "y_norm": 0.7983967065811157,
-      "color": "hsl(36, 60%, 77%)"
+      "color": "#fc99be"
     },
     {
       "id": "S1_P11_WalkingTask",
@@ -493,7 +493,7 @@
       },
       "x_norm": 0.17594552040100098,
       "y_norm": 0.6952015161514282,
-      "color": "hsl(63, 60%, 74%)"
+      "color": "#f87e9f"
     },
     {
       "id": "S1_P12_CountingBackwardsTask",
@@ -507,7 +507,7 @@
       },
       "x_norm": 0.08766016364097595,
       "y_norm": 0.6584628224372864,
-      "color": "hsl(31, 60%, 73%)"
+      "color": "#fc95a5"
     },
     {
       "id": "S1_P13_WalkingCountingBackwardsTask",
@@ -523,7 +523,7 @@
       },
       "x_norm": 0.12993362545967102,
       "y_norm": 0.6207117438316345,
-      "color": "hsl(46, 60%, 71%)"
+      "color": "#fa8894"
     },
     {
       "id": "S1_P21_SentenceRepeatingTask",
@@ -536,7 +536,7 @@
       },
       "x_norm": 0.22079864144325256,
       "y_norm": 0.7779880166053772,
-      "color": "hsl(79, 60%, 77%)"
+      "color": "#f779b4"
     },
     {
       "id": "S1_P22_ArticulationControlTask",
@@ -548,7 +548,7 @@
       },
       "x_norm": 0.05144914239645004,
       "y_norm": 0.6972350478172302,
-      "color": "hsl(18, 60%, 74%)"
+      "color": "#fda1b3"
     },
     {
       "id": "S2_SemiDirectedActivitiesStep",
@@ -569,7 +569,7 @@
       },
       "x_norm": 0.11452630162239075,
       "y_norm": 0.7983563542366028,
-      "color": "hsl(41, 60%, 77%)"
+      "color": "#fc96bd"
     },
     {
       "id": "S3_DiscussionWithClinicianStep",
@@ -582,7 +582,7 @@
       },
       "x_norm": 0.08636140078306198,
       "y_norm": 0.9146360158920288,
-      "color": "hsl(31, 60%, 82%)"
+      "color": "#fea9d4"
     },
     {
       "id": "S3_P1_DirectedExpressionTask",
@@ -594,19 +594,19 @@
       },
       "x_norm": 0.045547474175691605,
       "y_norm": 0.8509752750396729,
-      "color": "hsl(16, 60%, 79%)"
+      "color": "#feadce"
     },
     {
       "id": "S3_P21_PictureDescriptionTask",
       "x_norm": 0.042533259838819504,
       "y_norm": 0.818392276763916,
-      "color": "hsl(15, 60%, 78%)"
+      "color": "#feabc9"
     },
     {
       "id": "S3_P22_PictureDiscussionTask",
       "x_norm": 0.0,
       "y_norm": 0.7459182739257812,
-      "color": "hsl(0, 60%, 76%)"
+      "color": "#ffb2c5"
     },
     {
       "id": "SemiDirectedTask",
@@ -619,13 +619,13 @@
       },
       "x_norm": 0.38911736011505127,
       "y_norm": 0.7249116897583008,
-      "color": "hsl(140, 60%, 75%)"
+      "color": "#eb50bb"
     },
     {
       "id": "StressAssessment",
       "x_norm": 0.9048067927360535,
       "y_norm": 0.2913733422756195,
-      "color": "hsl(325, 60%, 60%)"
+      "color": "#8dfac7"
     },
     {
       "id": "StressData",
@@ -637,7 +637,7 @@
       },
       "x_norm": 1.0,
       "y_norm": 0.6088452935218811,
-      "color": "hsl(360, 60%, 71%)"
+      "color": "#9af5fc"
     },
     {
       "id": "Task",
@@ -653,37 +653,37 @@
       },
       "x_norm": 0.5502240657806396,
       "y_norm": 0.6300749778747559,
-      "color": "hsl(198, 60%, 72%)"
+      "color": "#5232df"
     },
     {
       "id": "TurnOnTVTask",
       "x_norm": 0.3881448209285736,
       "y_norm": 0.9474931359291077,
-      "color": "hsl(139, 60%, 83%)"
+      "color": "#ed72f5"
     },
     {
       "id": "Type",
       "x_norm": 0.378048837184906,
       "y_norm": 0.31755006313323975,
-      "color": "hsl(136, 60%, 61%)"
+      "color": "#efd55b"
     },
     {
       "id": "WaterPlantTask",
       "x_norm": 0.44567468762397766,
       "y_norm": 1.0,
-      "color": "hsl(160, 60%, 85%)"
+      "color": "#d576f6"
     },
     {
       "id": "ns1:Person",
       "x_norm": 0.4752887785434723,
       "y_norm": 0.47918376326560974,
-      "color": "hsl(171, 60%, 66%)"
+      "color": "#e1b937"
     },
     {
       "id": "owl:Thing",
       "x_norm": 0.7394173741340637,
       "y_norm": 0.652936577796936,
-      "color": "hsl(266, 60%, 72%)"
+      "color": "#57beee"
     }
   ],
   "links": [

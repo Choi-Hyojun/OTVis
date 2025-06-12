@@ -4,7 +4,7 @@
       "id": "owl:Thing",
       "x_norm": 0.8939771056175232,
       "y_norm": 0.12326350808143616,
-      "color": "hsl(321, 60%, 54%)"
+      "color": "#90fb99"
     },
     {
       "id": "time:DateTimeDescription",
@@ -25,13 +25,13 @@
       },
       "x_norm": 0.47037309408187866,
       "y_norm": 0.5664107799530029,
-      "color": "hsl(169, 60%, 69%)"
+      "color": "#a33ce3"
     },
     {
       "id": "time:DateTimeInterval",
       "x_norm": 0.7124766111373901,
       "y_norm": 0.7881248593330383,
-      "color": "hsl(256, 60%, 77%)"
+      "color": "#8b7bf7"
     },
     {
       "id": "time:DurationDescription",
@@ -48,7 +48,7 @@
       },
       "x_norm": 0.0,
       "y_norm": 0.49229860305786133,
-      "color": "hsl(0, 60%, 67%)"
+      "color": "#f46c77"
     },
     {
       "id": "time:Instant",
@@ -59,13 +59,13 @@
       },
       "x_norm": 0.4860045611858368,
       "y_norm": 0.276667982339859,
-      "color": "hsl(174, 60%, 59%)"
+      "color": "#a1ec52"
     },
     {
       "id": "time:Interval",
       "x_norm": 0.17310212552547455,
       "y_norm": 0.7854695320129395,
-      "color": "hsl(62, 60%, 77%)"
+      "color": "#f881f7"
     },
     {
       "id": "time:January",
@@ -77,13 +77,13 @@
       },
       "x_norm": 1.0,
       "y_norm": 0.45267701148986816,
-      "color": "hsl(360, 60%, 65%)"
+      "color": "#6ff5ef"
     },
     {
       "id": "time:ProperInterval",
       "x_norm": 0.45476168394088745,
       "y_norm": 1.0,
-      "color": "hsl(163, 60%, 85%)"
+      "color": "#dbb2ff"
     },
     {
       "id": "time:TemporalEntity",
@@ -94,7 +94,7 @@
       },
       "x_norm": 0.08571098744869232,
       "y_norm": 0.1868569254875183,
-      "color": "hsl(30, 60%, 56%)"
+      "color": "#f8e381"
     },
     {
       "id": "time:Year",
@@ -111,7 +111,7 @@
       },
       "x_norm": 0.6239340305328369,
       "y_norm": 0.0,
-      "color": "hsl(224, 60%, 50%)"
+      "color": "#bffda0"
     }
   ],
   "links": [

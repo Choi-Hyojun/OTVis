@@ -4,13 +4,13 @@
       "id": "ADLProblem",
       "x_norm": 0.5691600441932678,
       "y_norm": 0.578563392162323,
-      "color": "hsl(204, 60%, 70%)"
+      "color": "#3187df"
     },
     {
       "id": "ADLSummary",
       "x_norm": 0.29753944277763367,
       "y_norm": 0.6935741305351257,
-      "color": "hsl(107, 60%, 74%)"
+      "color": "#f162a8"
     },
     {
       "id": "DaySummary",
@@ -24,7 +24,7 @@
       },
       "x_norm": 0.18076351284980774,
       "y_norm": 0.739250123500824,
-      "color": "hsl(65, 60%, 75%)"
+      "color": "#f983b5"
     },
     {
       "id": "EatingSummary",
@@ -38,19 +38,19 @@
       },
       "x_norm": 0.33423373103141785,
       "y_norm": 0.5168474912643433,
-      "color": "hsl(120, 60%, 68%)"
+      "color": "#ec6451"
     },
     {
       "id": "ExcessiveNapProblem",
       "x_norm": 0.6974061131477356,
       "y_norm": 0.5075552463531494,
-      "color": "hsl(251, 60%, 67%)"
+      "color": "#4eebcf"
     },
     {
       "id": "ExerciseProblem",
       "x_norm": 0.290399432182312,
       "y_norm": 0.3558981418609619,
-      "color": "hsl(104, 60%, 62%)"
+      "color": "#f3b968"
     },
     {
       "id": "ExerciseSummary",
@@ -76,13 +76,13 @@
       },
       "x_norm": 0.17395591735839844,
       "y_norm": 0.41052597761154175,
-      "color": "hsl(62, 60%, 64%)"
+      "color": "#f8a47f"
     },
     {
       "id": "FailureToPrepareMeal",
       "x_norm": 0.5982089042663574,
       "y_norm": 0.20234043896198273,
-      "color": "hsl(215, 60%, 57%)"
+      "color": "#90f46e"
     },
     {
       "id": "FragmentedSleepProblem",
@@ -91,79 +91,79 @@
       },
       "x_norm": 0.3904794454574585,
       "y_norm": 0.15031085908412933,
-      "color": "hsl(140, 60%, 55%)"
+      "color": "#e6f87e"
     },
     {
       "id": "HighStressLevel",
       "x_norm": 0.039516836404800415,
       "y_norm": 0.5890721678733826,
-      "color": "hsl(14, 60%, 70%)"
+      "color": "#fda1a8"
     },
     {
       "id": "InappropriateMealDuration",
       "x_norm": 0.8330463171005249,
       "y_norm": 0.42225104570388794,
-      "color": "hsl(299, 60%, 64%)"
+      "color": "#75f6cd"
     },
     {
       "id": "InappropriateMealLocation",
       "x_norm": 0.7670260667800903,
       "y_norm": 0.3082757890224457,
-      "color": "hsl(276, 60%, 60%)"
+      "color": "#72f59e"
     },
     {
       "id": "InsufficientAccelerometerCounts",
       "x_norm": 0.7297065854072571,
       "y_norm": 0.10513023287057877,
-      "color": "hsl(262, 60%, 53%)"
+      "color": "#93fb91"
     },
     {
       "id": "InsufficientFaceToFaceInteraction",
       "x_norm": 0.8256996273994446,
       "y_norm": 0.14006605744361877,
-      "color": "hsl(297, 60%, 54%)"
+      "color": "#9afcac"
     },
     {
       "id": "InsufficientTelephoneInteraction",
       "x_norm": 0.7966264486312866,
       "y_norm": 0.0,
-      "color": "hsl(286, 60%, 50%)"
+      "color": "#b2feb3"
     },
     {
       "id": "InterruptedMeal",
       "x_norm": 0.5770685076713562,
       "y_norm": 0.33894622325897217,
-      "color": "hsl(207, 60%, 61%)"
+      "color": "#71eb50"
     },
     {
       "id": "InterruptedSleepProblem",
       "x_norm": 0.49255865812301636,
       "y_norm": 0.2633652091026306,
-      "color": "hsl(177, 60%, 59%)"
+      "color": "#b8f05e"
     },
     {
       "id": "MealProblem",
       "x_norm": 0.5040848851203918,
       "y_norm": 0.6649842858314514,
-      "color": "hsl(181, 60%, 73%)"
+      "color": "#ac3ce4"
     },
     {
       "id": "MissedMeal",
       "x_norm": 0.24666646122932434,
       "y_norm": 0.8415470719337463,
-      "color": "hsl(88, 60%, 79%)"
+      "color": "#f881d5"
     },
     {
       "id": "MoodProblem",
       "x_norm": 0.5007815957069397,
       "y_norm": 0.5381132364273071,
-      "color": "hsl(180, 60%, 68%)"
+      "color": "#db5f2b"
     },
     {
       "id": "MoodQuestionnaire",
       "x_norm": 0.9589306712150574,
       "y_norm": 0.6694530248641968,
-      "color": "hsl(345, 60%, 73%)"
+      "color": "#97e5fc"
     },
     {
       "id": "MoodSummary",
@@ -179,13 +179,13 @@
       },
       "x_norm": 0.15188521146774292,
       "y_norm": 0.6322787404060364,
-      "color": "hsl(54, 60%, 72%)"
+      "color": "#f98298"
     },
     {
       "id": "NappingProblem",
       "x_norm": 0.6261147260665894,
       "y_norm": 0.7877309918403625,
-      "color": "hsl(225, 60%, 77%)"
+      "color": "#635bef"
     },
     {
       "id": "Nocturia",
@@ -194,13 +194,13 @@
       },
       "x_norm": 0.8173145055770874,
       "y_norm": 0.6544547080993652,
-      "color": "hsl(294, 60%, 72%)"
+      "color": "#6fcef5"
     },
     {
       "id": "PeriodicLimbMovement",
       "x_norm": 0.2780924141407013,
       "y_norm": 0.1778927892446518,
-      "color": "hsl(100, 60%, 56%)"
+      "color": "#faeb88"
     },
     {
       "id": "Problem",
@@ -211,25 +211,25 @@
       },
       "x_norm": 0.5616716146469116,
       "y_norm": 0.43080103397369385,
-      "color": "hsl(202, 60%, 65%)"
+      "color": "#53e43d"
     },
     {
       "id": "Questionnaire",
       "x_norm": 1.0,
       "y_norm": 0.5482169389724731,
-      "color": "hsl(360, 60%, 69%)"
+      "color": "#9ffcfd"
     },
     {
       "id": "SelfReportedLowMood",
       "x_norm": 0.4843890964984894,
       "y_norm": 0.08389171957969666,
-      "color": "hsl(174, 60%, 52%)"
+      "color": "#cbfa87"
     },
     {
       "id": "ShortStrideLength",
       "x_norm": 0.08629457652568817,
       "y_norm": 0.8232616186141968,
-      "color": "hsl(31, 60%, 78%)"
+      "color": "#fda4cf"
     },
     {
       "id": "SleepDurationProblem",
@@ -238,7 +238,7 @@
       },
       "x_norm": 0.7435455322265625,
       "y_norm": 0.864150881767273,
-      "color": "hsl(267, 60%, 80%)"
+      "color": "#7a8ef7"
     },
     {
       "id": "SleepEfficiencyProblem",
@@ -247,7 +247,7 @@
       },
       "x_norm": 0.8676103949546814,
       "y_norm": 0.976651132106781,
-      "color": "hsl(312, 60%, 84%)"
+      "color": "#a7bafe"
     },
     {
       "id": "SleepLatencyProblem",
@@ -256,19 +256,19 @@
       },
       "x_norm": 0.7658408880233765,
       "y_norm": 1.0,
-      "color": "hsl(275, 60%, 85%)"
+      "color": "#999dfc"
     },
     {
       "id": "SleepProblem",
       "x_norm": 0.6152503490447998,
       "y_norm": 0.9270247220993042,
-      "color": "hsl(221, 60%, 82%)"
+      "color": "#9577f6"
     },
     {
       "id": "SleepQuestionnaire",
       "x_norm": 0.9503556489944458,
       "y_norm": 0.791892409324646,
-      "color": "hsl(342, 60%, 77%)"
+      "color": "#9fd4fd"
     },
     {
       "id": "SleepSummary",
@@ -304,19 +304,19 @@
       },
       "x_norm": 0.4677615165710449,
       "y_norm": 0.9474602341651917,
-      "color": "hsl(168, 60%, 83%)"
+      "color": "#cb79f7"
     },
     {
       "id": "SlowWalkSpeed",
       "x_norm": 0.0,
       "y_norm": 0.709057092666626,
-      "color": "hsl(0, 60%, 74%)"
+      "color": "#ffb2c5"
     },
     {
       "id": "SocialProblem",
       "x_norm": 0.4170357882976532,
       "y_norm": 0.5734859704971313,
-      "color": "hsl(150, 60%, 70%)"
+      "color": "#e43d60"
     },
     {
       "id": "SocialSummary",
@@ -334,13 +334,13 @@
       },
       "x_norm": 0.27318406105041504,
       "y_norm": 0.5662384033203125,
-      "color": "hsl(98, 60%, 69%)"
+      "color": "#f16069"
     },
     {
       "id": "owl:Thing",
       "x_norm": 0.45253786444664,
       "y_norm": 0.7678722143173218,
-      "color": "hsl(162, 60%, 76%)"
+      "color": "#d454ed"
     }
   ],
   "links": [

@@ -3,6 +3,7 @@ import json
 import numpy as np
 from sentence_transformers import SentenceTransformer
 import umap.umap_ as umap
+import colorsys
 
 # 1. 디렉토리 경로 설정
 graph_dir = './Graph'
@@ -11,6 +12,20 @@ os.makedirs(out_dir, exist_ok=True)
 
 # 2. 모델 준비
 model = SentenceTransformer('all-MiniLM-L6-v2')
+
+def get_hue_light_sat(x, y, xc, yc, max_r, min_light=0.5, max_light=0.85, min_sat=0.7, max_sat=1.0):
+    dx = x - xc
+    dy = y - yc
+    theta = np.arctan2(dy, dx)      # -pi ~ pi
+    hue = ((theta + np.pi) / (2 * np.pi))    # 0~1
+    r = np.sqrt(dx**2 + dy**2)
+    dist = r / max_r if max_r > 0 else 0
+    light = min_light + (max_light - min_light) * dist
+    sat = min_sat + (max_sat - min_sat) * dist
+    # HLS → RGB
+    rgb = colorsys.hls_to_rgb(hue, light, sat)
+    color = '#%02x%02x%02x' % tuple(int(255 * v) for v in rgb)
+    return color
 
 # 3. 디렉토리 내 파일 반복
 for filename in os.listdir(graph_dir):
@@ -40,17 +55,18 @@ for filename in os.listdir(graph_dir):
     umap_model = umap.UMAP(n_components=2, random_state=42)
     umap_coords = umap_model.fit_transform(embeddings)
 
-    # 색상 매핑 (x: hue, y: lightness)
     x = umap_coords[:, 0]
     y = umap_coords[:, 1]
+    # 0~1 정규화 좌표 (fixed layout용)
     x_norm = (x - x.min()) / (x.max() - x.min() + 1e-8)
     y_norm = (y - y.min()) / (y.max() - y.min() + 1e-8)
+    # 중심점 계산 (각도/거리용)
+    xc = x.mean()
+    yc = y.mean()
+    max_r = np.sqrt(((x - xc)**2 + (y - yc)**2).max())
 
-    def hsl_color(h, l):
-        # h: 0~1 → 0~360, l: 0~1 → 50~85, s: 고정 60%
-        return f"hsl({int(h*360)}, 60%, {int(50 + l*35)}%)"
-
-    colors = [hsl_color(h, l) for h, l in zip(x_norm, y_norm)]
+    # 색상 (중앙 기준 각도/거리 기반)
+    colors = [get_hue_light_sat(xi, yi, xc, yc, max_r) for xi, yi in zip(x, y)]
 
     # 좌표/색상 추가
     for i, node in enumerate(nodes):

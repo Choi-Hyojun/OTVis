@@ -4,73 +4,73 @@
       "id": "Add:complex",
       "x_norm": 0.3069480359554291,
       "y_norm": 0.8629652857780457,
-      "color": "hsl(110, 60%, 80%)"
+      "color": "#f182f9"
     },
     {
       "id": "Add:integer",
       "x_norm": 0.3909548223018646,
       "y_norm": 0.7462834715843201,
-      "color": "hsl(140, 60%, 76%)"
+      "color": "#de62f1"
     },
     {
       "id": "Add:rational",
       "x_norm": 0.3285495340824127,
       "y_norm": 0.7789351344108582,
-      "color": "hsl(118, 60%, 77%)"
+      "color": "#f26ff5"
     },
     {
       "id": "Add:real",
       "x_norm": 0.3139437437057495,
       "y_norm": 0.8267383575439453,
-      "color": "hsl(113, 60%, 78%)"
+      "color": "#f27af7"
     },
     {
       "id": "Add:scaled",
       "x_norm": 0.19602584838867188,
       "y_norm": 0.7641667723655701,
-      "color": "hsl(70, 60%, 76%)"
+      "color": "#f87ed9"
     },
     {
       "id": "And:boolean",
       "x_norm": 0.7575386166572571,
       "y_norm": 0.15753504633903503,
-      "color": "hsl(272, 60%, 55%)"
+      "color": "#75f687"
     },
     {
       "id": "Append:sequence",
       "x_norm": 0.6165335774421692,
       "y_norm": 0.7468568682670593,
-      "color": "hsl(221, 60%, 76%)"
+      "color": "#7962f1"
     },
     {
       "id": "AttributeFunctionInvocation:class",
       "x_norm": 0.924997866153717,
       "y_norm": 0.2524116039276123,
-      "color": "hsl(332, 60%, 58%)"
+      "color": "#85f9c3"
     },
     {
       "id": "AttributeFunctionOverride:class",
       "x_norm": 0.9269469380378723,
       "y_norm": 0.2543080747127533,
-      "color": "hsl(333, 60%, 58%)"
+      "color": "#85f9c4"
     },
     {
       "id": "AttributeReplace:class",
       "x_norm": 0.9254674911499023,
       "y_norm": 0.2546501159667969,
-      "color": "hsl(333, 60%, 58%)"
+      "color": "#85f9c4"
     },
     {
       "id": "AttributeSelect:class",
       "x_norm": 0.9334402680397034,
       "y_norm": 0.2445950210094452,
-      "color": "hsl(336, 60%, 58%)"
+      "color": "#87fac4"
     },
     {
       "id": "Cast:choice",
       "x_norm": 0.5040525794029236,
       "y_norm": 0.3582833409309387,
-      "color": "hsl(181, 60%, 62%)"
+      "color": "#95e239"
     },
     {
       "id": "DAG datatype",
@@ -81,13 +81,13 @@
       },
       "x_norm": 0.5241345763206482,
       "y_norm": 0.13316309452056885,
-      "color": "hsl(188, 60%, 54%)"
+      "color": "#a8f368"
     },
     {
       "id": "DAG datatype generator",
       "x_norm": 0.5026161074638367,
       "y_norm": 0.09206366539001465,
-      "color": "hsl(180, 60%, 53%)"
+      "color": "#b5f571"
     },
     {
       "id": "Datatype Specification Language Representation",
@@ -98,7 +98,7 @@
       },
       "x_norm": 0.5757626891136169,
       "y_norm": 0.1901090294122696,
-      "color": "hsl(207, 60%, 56%)"
+      "color": "#86f05d"
     },
     {
       "id": "Delete:bag",
@@ -109,19 +109,19 @@
       },
       "x_norm": 0.80132657289505,
       "y_norm": 0.7938113808631897,
-      "color": "hsl(288, 60%, 77%)"
+      "color": "#8095f8"
     },
     {
       "id": "Delete:table",
       "x_norm": 0.7397760152816772,
       "y_norm": 0.7503511905670166,
-      "color": "hsl(266, 60%, 76%)"
+      "color": "#6f81f5"
     },
     {
       "id": "Dereference:pointer",
       "x_norm": 0.5612452626228333,
       "y_norm": 0.4340343773365021,
-      "color": "hsl(202, 60%, 65%)"
+      "color": "#31de86"
     },
     {
       "id": "Difference:set",
@@ -132,253 +132,253 @@
       },
       "x_norm": 0.6216301918029785,
       "y_norm": 0.6564041972160339,
-      "color": "hsl(223, 60%, 72%)"
+      "color": "#5251ec"
     },
     {
       "id": "Difference:time&date",
       "x_norm": 0.028815679252147675,
       "y_norm": 0.8945780396461487,
-      "color": "hsl(10, 60%, 81%)"
+      "color": "#feb2e9"
     },
     {
       "id": "Discriminant:choice",
       "x_norm": 0.47569528222084045,
       "y_norm": 0.300871878862381,
-      "color": "hsl(171, 60%, 60%)"
+      "color": "#b4e745"
     },
     {
       "id": "Divide:scaled",
       "x_norm": 0.20278970897197723,
       "y_norm": 0.7744561433792114,
-      "color": "hsl(73, 60%, 77%)"
+      "color": "#f87fdc"
     },
     {
       "id": "Empty:bag",
       "x_norm": 0.815660834312439,
       "y_norm": 0.7965543270111084,
-      "color": "hsl(293, 60%, 77%)"
+      "color": "#839af9"
     },
     {
       "id": "Empty:sequence",
       "x_norm": 0.6080425977706909,
       "y_norm": 0.7465565800666809,
-      "color": "hsl(218, 60%, 76%)"
+      "color": "#7c61f1"
     },
     {
       "id": "Empty:set",
       "x_norm": 0.668222963809967,
       "y_norm": 0.6777628660202026,
-      "color": "hsl(240, 60%, 73%)"
+      "color": "#5a68ef"
     },
     {
       "id": "Empty:table",
       "x_norm": 0.7327364683151245,
       "y_norm": 0.7297874689102173,
-      "color": "hsl(263, 60%, 75%)"
+      "color": "#6b80f4"
     },
     {
       "id": "Equal:array",
       "x_norm": 0.5270557403564453,
       "y_norm": 0.667460560798645,
-      "color": "hsl(189, 60%, 73%)"
+      "color": "#8f4dea"
     },
     {
       "id": "Equal:bag",
       "x_norm": 0.8188758492469788,
       "y_norm": 0.8040921092033386,
-      "color": "hsl(294, 60%, 78%)"
+      "color": "#859bf9"
     },
     {
       "id": "Equal:boolean",
       "x_norm": 0.5270244479179382,
       "y_norm": 0.6336822509765625,
-      "color": "hsl(189, 60%, 72%)"
+      "color": "#8746e8"
     },
     {
       "id": "Equal:character",
       "x_norm": 0.4965948164463043,
       "y_norm": 0.6576570272445679,
-      "color": "hsl(178, 60%, 73%)"
+      "color": "#a34bea"
     },
     {
       "id": "Equal:choice",
       "x_norm": 0.4978533685207367,
       "y_norm": 0.6462222933769226,
-      "color": "hsl(179, 60%, 72%)"
+      "color": "#a249e9"
     },
     {
       "id": "Equal:class",
       "x_norm": 0.5087094902992249,
       "y_norm": 0.6590448021888733,
-      "color": "hsl(183, 60%, 73%)"
+      "color": "#9a4bea"
     },
     {
       "id": "Equal:complex",
       "x_norm": 0.2967982590198517,
       "y_norm": 0.8737414479255676,
-      "color": "hsl(106, 60%, 80%)"
+      "color": "#f386f9"
     },
     {
       "id": "Equal:discrete",
       "x_norm": 0.47389984130859375,
       "y_norm": 0.682472825050354,
-      "color": "hsl(170, 60%, 73%)"
+      "color": "#b551ec"
     },
     {
       "id": "Equal:enumerated",
       "x_norm": 0.4869536757469177,
       "y_norm": 0.689548671245575,
-      "color": "hsl(175, 60%, 74%)"
+      "color": "#ad52ec"
     },
     {
       "id": "Equal:integer",
       "x_norm": 0.4204955995082855,
       "y_norm": 0.7079008221626282,
-      "color": "hsl(151, 60%, 74%)"
+      "color": "#d458ee"
     },
     {
       "id": "Equal:ordinal",
       "x_norm": 0.3100263476371765,
       "y_norm": 0.6392323970794678,
-      "color": "hsl(111, 60%, 72%)"
+      "color": "#ee59c2"
     },
     {
       "id": "Equal:pointer",
       "x_norm": 0.5174575448036194,
       "y_norm": 0.6429643630981445,
-      "color": "hsl(186, 60%, 72%)"
+      "color": "#9148e8"
     },
     {
       "id": "Equal:procedure",
       "x_norm": 0.518829345703125,
       "y_norm": 0.6823683381080627,
-      "color": "hsl(186, 60%, 73%)"
+      "color": "#9750eb"
     },
     {
       "id": "Equal:rational",
       "x_norm": 0.3390377163887024,
       "y_norm": 0.7641403675079346,
-      "color": "hsl(122, 60%, 76%)"
+      "color": "#f06bf4"
     },
     {
       "id": "Equal:real",
       "x_norm": 0.4261965751647949,
       "y_norm": 0.7109534740447998,
-      "color": "hsl(153, 60%, 74%)"
+      "color": "#d059ee"
     },
     {
       "id": "Equal:record",
       "x_norm": 0.5025731325149536,
       "y_norm": 0.6832247972488403,
-      "color": "hsl(180, 60%, 73%)"
+      "color": "#a250ec"
     },
     {
       "id": "Equal:scaled",
       "x_norm": 0.20525160431861877,
       "y_norm": 0.7528966069221497,
-      "color": "hsl(73, 60%, 76%)"
+      "color": "#f77bd7"
     },
     {
       "id": "Equal:sequence",
       "x_norm": 0.5560417771339417,
       "y_norm": 0.7275727391242981,
-      "color": "hsl(200, 60%, 75%)"
+      "color": "#8c5aef"
     },
     {
       "id": "Equal:set",
       "x_norm": 0.558861255645752,
       "y_norm": 0.6777033805847168,
-      "color": "hsl(201, 60%, 73%)"
+      "color": "#7d50ec"
     },
     {
       "id": "Equal:table",
       "x_norm": 0.5309550166130066,
       "y_norm": 0.6783076524734497,
-      "color": "hsl(191, 60%, 73%)"
+      "color": "#8e4feb"
     },
     {
       "id": "Equal:time&date",
       "x_norm": 0.04365867003798485,
       "y_norm": 0.9002405405044556,
-      "color": "hsl(15, 60%, 81%)"
+      "color": "#feb0ea"
     },
     {
       "id": "Equal:void",
       "x_norm": 0.5175940990447998,
       "y_norm": 0.6422595977783203,
-      "color": "hsl(186, 60%, 72%)"
+      "color": "#9148e8"
     },
     {
       "id": "Extend:time&date",
       "x_norm": 0.025430506095290184,
       "y_norm": 0.8862053751945496,
-      "color": "hsl(9, 60%, 81%)"
+      "color": "#feb1e7"
     },
     {
       "id": "Fetch:table",
       "x_norm": 0.755285382270813,
       "y_norm": 0.729165256023407,
-      "color": "hsl(271, 60%, 75%)"
+      "color": "#6e89f4"
     },
     {
       "id": "FieldReplace:record",
       "x_norm": 0.8934589624404907,
       "y_norm": 0.19397671520709991,
-      "color": "hsl(321, 60%, 56%)"
+      "color": "#86f9b4"
     },
     {
       "id": "FieldSelect:record",
       "x_norm": 0.8843535780906677,
       "y_norm": 0.17914503812789917,
-      "color": "hsl(318, 60%, 56%)"
+      "color": "#86f9b0"
     },
     {
       "id": "Head:sequence",
       "x_norm": 0.5940823554992676,
       "y_norm": 0.7410084009170532,
-      "color": "hsl(213, 60%, 75%)"
+      "color": "#805ff0"
     },
     {
       "id": "InOrder:enumerated",
       "x_norm": 0.25563228130340576,
       "y_norm": 0.6602380275726318,
-      "color": "hsl(92, 60%, 73%)"
+      "color": "#f264c0"
     },
     {
       "id": "InOrder:interger",
       "x_norm": 0.24038970470428467,
       "y_norm": 0.6718554496765137,
-      "color": "hsl(86, 60%, 73%)"
+      "color": "#f369c2"
     },
     {
       "id": "InOrder:ordinal",
       "x_norm": 0.2639750838279724,
       "y_norm": 0.6572282910346985,
-      "color": "hsl(95, 60%, 73%)"
+      "color": "#f163c0"
     },
     {
       "id": "InOrder:rational",
       "x_norm": 0.29782140254974365,
       "y_norm": 0.7439008355140686,
-      "color": "hsl(107, 60%, 76%)"
+      "color": "#f46ce6"
     },
     {
       "id": "InOrder:real",
       "x_norm": 0.2405487298965454,
       "y_norm": 0.6846415400505066,
-      "color": "hsl(86, 60%, 73%)"
+      "color": "#f36ac7"
     },
     {
       "id": "InOrder:scaled",
       "x_norm": 0.20207014679908752,
       "y_norm": 0.7502827644348145,
-      "color": "hsl(72, 60%, 76%)"
+      "color": "#f77bd6"
     },
     {
       "id": "InOrder:time&date",
       "x_norm": 0.05621659755706787,
       "y_norm": 0.8632912635803223,
-      "color": "hsl(20, 60%, 80%)"
+      "color": "#fea7e4"
     },
     {
       "id": "Insert:bag",
@@ -389,121 +389,121 @@
       },
       "x_norm": 0.8007235527038574,
       "y_norm": 0.787764847278595,
-      "color": "hsl(288, 60%, 77%)"
+      "color": "#7f95f8"
     },
     {
       "id": "Insert:table",
       "x_norm": 0.723905086517334,
       "y_norm": 0.7599760890007019,
-      "color": "hsl(260, 60%, 76%)"
+      "color": "#6f7bf5"
     },
     {
       "id": "Intersection:set",
       "x_norm": 0.6113296151161194,
       "y_norm": 0.6603929996490479,
-      "color": "hsl(220, 60%, 73%)"
+      "color": "#5950ec"
     },
     {
       "id": "Invoke:procedure",
       "x_norm": 0.6874914169311523,
       "y_norm": 0.48369088768959045,
-      "color": "hsl(247, 60%, 66%)"
+      "color": "#47d6e8"
     },
     {
       "id": "IsEmpty:bag",
       "x_norm": 0.8101405501365662,
       "y_norm": 0.8034232258796692,
-      "color": "hsl(291, 60%, 78%)"
+      "color": "#8398f9"
     },
     {
       "id": "IsEmpty:sequence",
       "x_norm": 0.5885668992996216,
       "y_norm": 0.7745591998100281,
-      "color": "hsl(211, 60%, 77%)"
+      "color": "#8b66f2"
     },
     {
       "id": "IsEmpty:table",
       "x_norm": 0.7275004982948303,
       "y_norm": 0.7173703908920288,
-      "color": "hsl(261, 60%, 75%)"
+      "color": "#687ff3"
     },
     {
       "id": "Lsln:set",
       "x_norm": 0.6378940939903259,
       "y_norm": 0.6414358019828796,
-      "color": "hsl(229, 60%, 72%)"
+      "color": "#505deb"
     },
     {
       "id": "MapToBag:table",
       "x_norm": 0.7693780064582825,
       "y_norm": 0.7674725651741028,
-      "color": "hsl(276, 60%, 76%)"
+      "color": "#778bf6"
     },
     {
       "id": "MapToTable:table",
       "x_norm": 0.737054705619812,
       "y_norm": 0.7546765804290771,
-      "color": "hsl(265, 60%, 76%)"
+      "color": "#7080f5"
     },
     {
       "id": "Multiply:complex",
       "x_norm": 0.2871547341346741,
       "y_norm": 0.8694418668746948,
-      "color": "hsl(103, 60%, 80%)"
+      "color": "#f586f9"
     },
     {
       "id": "Multiply:integer",
       "x_norm": 0.3651060461997986,
       "y_norm": 0.7344592213630676,
-      "color": "hsl(131, 60%, 75%)"
+      "color": "#eb62f1"
     },
     {
       "id": "Multiply:rational",
       "x_norm": 0.3194124400615692,
       "y_norm": 0.7895905375480652,
-      "color": "hsl(114, 60%, 77%)"
+      "color": "#f472f5"
     },
     {
       "id": "Multiply:real",
       "x_norm": 0.29117467999458313,
       "y_norm": 0.8009181022644043,
-      "color": "hsl(104, 60%, 78%)"
+      "color": "#f677f2"
     },
     {
       "id": "Multiply:scaled",
       "x_norm": 0.2104886919260025,
       "y_norm": 0.7652648091316223,
-      "color": "hsl(75, 60%, 76%)"
+      "color": "#f77cdb"
     },
     {
       "id": "Negate:complex",
       "x_norm": 0.3605920076370239,
       "y_norm": 0.8549967408180237,
-      "color": "hsl(129, 60%, 79%)"
+      "color": "#e37cf7"
     },
     {
       "id": "Negate:integer",
       "x_norm": 0.38710904121398926,
       "y_norm": 0.7740594148635864,
-      "color": "hsl(139, 60%, 77%)"
+      "color": "#de68f3"
     },
     {
       "id": "Negate:rational",
       "x_norm": 0.3623850643634796,
       "y_norm": 0.8132529854774475,
-      "color": "hsl(130, 60%, 78%)"
+      "color": "#e473f5"
     },
     {
       "id": "Negate:real",
       "x_norm": 0.3833901882171631,
       "y_norm": 0.8460710644721985,
-      "color": "hsl(138, 60%, 79%)"
+      "color": "#dd78f7"
     },
     {
       "id": "Negate:scaled",
       "x_norm": 0.35938745737075806,
       "y_norm": 0.8373829126358032,
-      "color": "hsl(129, 60%, 79%)"
+      "color": "#e478f7"
     },
     {
       "id": "NonNegative:integer",
@@ -514,67 +514,67 @@
       },
       "x_norm": 0.3861981928348541,
       "y_norm": 0.7506380677223206,
-      "color": "hsl(139, 60%, 76%)"
+      "color": "#e064f2"
     },
     {
       "id": "NonNegative:rational",
       "x_norm": 0.3634975850582123,
       "y_norm": 0.78753662109375,
-      "color": "hsl(130, 60%, 77%)"
+      "color": "#e56df4"
     },
     {
       "id": "Not:boolean",
       "x_norm": 0.7531453967094421,
       "y_norm": 0.16130267083644867,
-      "color": "hsl(271, 60%, 55%)"
+      "color": "#74f685"
     },
     {
       "id": "Or:boolean",
       "x_norm": 0.749734103679657,
       "y_norm": 0.16119571030139923,
-      "color": "hsl(269, 60%, 55%)"
+      "color": "#74f684"
     },
     {
       "id": "Promote:complex",
       "x_norm": 0.33471253514289856,
       "y_norm": 0.9183083176612854,
-      "color": "hsl(120, 60%, 82%)"
+      "color": "#e98cfa"
     },
     {
       "id": "Promote:rational",
       "x_norm": 0.3456907868385315,
       "y_norm": 0.913472592830658,
-      "color": "hsl(124, 60%, 81%)"
+      "color": "#e68afa"
     },
     {
       "id": "Promote:real",
       "x_norm": 0.35102930665016174,
       "y_norm": 0.9214256405830383,
-      "color": "hsl(126, 60%, 82%)"
+      "color": "#e58bfa"
     },
     {
       "id": "Reciprocal:complex",
       "x_norm": 0.29929324984550476,
       "y_norm": 0.851544201374054,
-      "color": "hsl(107, 60%, 79%)"
+      "color": "#f481f8"
     },
     {
       "id": "Reciprocal:rational",
       "x_norm": 0.3077099919319153,
       "y_norm": 0.7944793105125427,
-      "color": "hsl(110, 60%, 77%)"
+      "color": "#f674f5"
     },
     {
       "id": "Reciprocal:real",
       "x_norm": 0.28448107838630676,
       "y_norm": 0.8091956973075867,
-      "color": "hsl(102, 60%, 78%)"
+      "color": "#f77af3"
     },
     {
       "id": "Replace:array",
       "x_norm": 0.7052018642425537,
       "y_norm": 0.6620779037475586,
-      "color": "hsl(253, 60%, 73%)"
+      "color": "#5c7eef"
     },
     {
       "id": "Round:scaled",
@@ -585,13 +585,13 @@
       },
       "x_norm": 0.1725768893957138,
       "y_norm": 0.7651903033256531,
-      "color": "hsl(62, 60%, 76%)"
+      "color": "#f982d7"
     },
     {
       "id": "Round:time&date",
       "x_norm": 0.062080398201942444,
       "y_norm": 0.8605486154556274,
-      "color": "hsl(22, 60%, 80%)"
+      "color": "#fda5e4"
     },
     {
       "id": "Select:array",
@@ -602,7 +602,7 @@
       },
       "x_norm": 0.7737668752670288,
       "y_norm": 0.680880606174469,
-      "color": "hsl(278, 60%, 73%)"
+      "color": "#6997f3"
     },
     {
       "id": "Select:bag",
@@ -613,19 +613,19 @@
       },
       "x_norm": 0.8015972375869751,
       "y_norm": 0.7590887546539307,
-      "color": "hsl(288, 60%, 76%)"
+      "color": "#7a97f7"
     },
     {
       "id": "Select:set",
       "x_norm": 0.7675278186798096,
       "y_norm": 0.682410478591919,
-      "color": "hsl(276, 60%, 73%)"
+      "color": "#6994f3"
     },
     {
       "id": "Select:table",
       "x_norm": 0.7697107791900635,
       "y_norm": 0.7007951736450195,
-      "color": "hsl(277, 60%, 74%)"
+      "color": "#6c92f4"
     },
     {
       "id": "Serialize:bag",
@@ -636,31 +636,31 @@
       },
       "x_norm": 0.792323112487793,
       "y_norm": 0.7899437546730042,
-      "color": "hsl(285, 60%, 77%)"
+      "color": "#7e92f8"
     },
     {
       "id": "Serialize:table",
       "x_norm": 0.7431585192680359,
       "y_norm": 0.760546088218689,
-      "color": "hsl(267, 60%, 76%)"
+      "color": "#7282f5"
     },
     {
       "id": "SetOf:set",
       "x_norm": 0.6355055570602417,
       "y_norm": 0.6551490426063538,
-      "color": "hsl(228, 60%, 72%)"
+      "color": "#5259ec"
     },
     {
       "id": "SquareRoot:complex",
       "x_norm": 0.2838880121707916,
       "y_norm": 0.8871579170227051,
-      "color": "hsl(102, 60%, 81%)"
+      "color": "#f58afa"
     },
     {
       "id": "Subset:set",
       "x_norm": 0.6174605488777161,
       "y_norm": 0.6540367603302002,
-      "color": "hsl(222, 60%, 72%)"
+      "color": "#5350eb"
     },
     {
       "id": "Successor:enumerated",
@@ -671,37 +671,37 @@
       },
       "x_norm": 0.2827867269515991,
       "y_norm": 0.6585400104522705,
-      "color": "hsl(101, 60%, 73%)"
+      "color": "#f160c4"
     },
     {
       "id": "Successor:ordinal",
       "x_norm": 0.286143034696579,
       "y_norm": 0.6539297699928284,
-      "color": "hsl(103, 60%, 72%)"
+      "color": "#f05fc3"
     },
     {
       "id": "Tag:choice",
       "x_norm": 0.5294415354728699,
       "y_norm": 0.3431006073951721,
-      "color": "hsl(190, 60%, 62%)"
+      "color": "#76e43d"
     },
     {
       "id": "Tail:sequence",
       "x_norm": 0.5908600091934204,
       "y_norm": 0.757002055644989,
-      "color": "hsl(212, 60%, 76%)"
+      "color": "#8662f1"
     },
     {
       "id": "Union:set",
       "x_norm": 0.6191891431808472,
       "y_norm": 0.6559922695159912,
-      "color": "hsl(222, 60%, 72%)"
+      "color": "#5350ec"
     },
     {
       "id": "access by value",
       "x_norm": 0.704996645450592,
       "y_norm": 0.3742300570011139,
-      "color": "hsl(253, 60%, 63%)"
+      "color": "#4eeba9"
     },
     {
       "id": "access type",
@@ -712,13 +712,13 @@
       },
       "x_norm": 0.6303274631500244,
       "y_norm": 0.3637166917324066,
-      "color": "hsl(226, 60%, 62%)"
+      "color": "#43e678"
     },
     {
       "id": "add operation",
       "x_norm": 0.41532212495803833,
       "y_norm": 0.8197239637374878,
-      "color": "hsl(149, 60%, 78%)"
+      "color": "#d270f5"
     },
     {
       "id": "aggregate datatype",
@@ -735,7 +735,7 @@
       },
       "x_norm": 0.07452502101659775,
       "y_norm": 0.19194439053535461,
-      "color": "hsl(26, 60%, 56%)"
+      "color": "#fbcb90"
     },
     {
       "id": "aggregate field component",
@@ -749,7 +749,7 @@
       },
       "x_norm": 0.0405769944190979,
       "y_norm": 0.11980657279491425,
-      "color": "hsl(14, 60%, 54%)"
+      "color": "#fddaa1"
     },
     {
       "id": "aggregate generator",
@@ -763,13 +763,13 @@
       },
       "x_norm": 0.016948433592915535,
       "y_norm": 0.16320529580116272,
-      "color": "hsl(6, 60%, 55%)"
+      "color": "#fdd29f"
     },
     {
       "id": "aggregate generator property",
       "x_norm": 0.01563134230673313,
       "y_norm": 0.1515977531671524,
-      "color": "hsl(5, 60%, 55%)"
+      "color": "#fdd4a1"
     },
     {
       "id": "aggregate imposed ordering",
@@ -790,7 +790,7 @@
       },
       "x_norm": 0.0,
       "y_norm": 0.17790639400482178,
-      "color": "hsl(0, 60%, 56%)"
+      "color": "#fdcfa1"
     },
     {
       "id": "aggregate-imposed identifier uniqueness",
@@ -810,7 +810,7 @@
       },
       "x_norm": 0.8775886297225952,
       "y_norm": 0.4311028718948364,
-      "color": "hsl(315, 60%, 65%)"
+      "color": "#6ef4e9"
     },
     {
       "id": "agregate size",
@@ -828,7 +828,7 @@
       },
       "x_norm": 0.1168801560997963,
       "y_norm": 0.47037068009376526,
-      "color": "hsl(42, 60%, 66%)"
+      "color": "#f67375"
     },
     {
       "id": "alternative component",
@@ -840,7 +840,7 @@
       },
       "x_norm": 0.9939028024673462,
       "y_norm": 0.18204307556152344,
-      "color": "hsl(357, 60%, 56%)"
+      "color": "#9cfcca"
     },
     {
       "id": "alternative-list",
@@ -851,7 +851,7 @@
       },
       "x_norm": 0.7445020079612732,
       "y_norm": 0.30966776609420776,
-      "color": "hsl(268, 60%, 60%)"
+      "color": "#5cef9c"
     },
     {
       "id": "alternative-type",
@@ -863,7 +863,7 @@
       },
       "x_norm": 0.5201178193092346,
       "y_norm": 0.26566770672798157,
-      "color": "hsl(187, 60%, 59%)"
+      "color": "#93ea4c"
     },
     {
       "id": "approximate",
@@ -874,7 +874,7 @@
       },
       "x_norm": 0.14126111567020416,
       "y_norm": 0.48330193758010864,
-      "color": "hsl(50, 60%, 66%)"
+      "color": "#f46e75"
     },
     {
       "id": "array datatype",
@@ -896,7 +896,7 @@
       },
       "x_norm": 0.5254961252212524,
       "y_norm": 0.21652279794216156,
-      "color": "hsl(189, 60%, 57%)"
+      "color": "#98ee56"
     },
     {
       "id": "array generator",
@@ -914,7 +914,7 @@
       },
       "x_norm": 0.6388921737670898,
       "y_norm": 0.5502039194107056,
-      "color": "hsl(230, 60%, 69%)"
+      "color": "#4388e6"
     },
     {
       "id": "attribute component",
@@ -925,13 +925,13 @@
       },
       "x_norm": 0.9579077959060669,
       "y_norm": 0.19917014241218567,
-      "color": "hsl(344, 60%, 56%)"
+      "color": "#92fbc4"
     },
     {
       "id": "attribute identifier",
       "x_norm": 0.877941370010376,
       "y_norm": 0.3666924834251404,
-      "color": "hsl(316, 60%, 62%)"
+      "color": "#71f5d4"
     },
     {
       "id": "attribute-list",
@@ -942,7 +942,7 @@
       },
       "x_norm": 0.8413224220275879,
       "y_norm": 0.2611425518989563,
-      "color": "hsl(302, 60%, 59%)"
+      "color": "#73f6b0"
     },
     {
       "id": "bag datatype",
@@ -966,7 +966,7 @@
       },
       "x_norm": 0.5482122898101807,
       "y_norm": 0.2117479294538498,
-      "color": "hsl(197, 60%, 57%)"
+      "color": "#8dee58"
     },
     {
       "id": "bag generator",
@@ -981,7 +981,7 @@
       },
       "x_norm": 0.8122037649154663,
       "y_norm": 0.8047984838485718,
-      "color": "hsl(292, 60%, 78%)"
+      "color": "#8499f9"
     },
     {
       "id": "base type",
@@ -993,19 +993,19 @@
       },
       "x_norm": 0.4429139494895935,
       "y_norm": 0.24589033424854279,
-      "color": "hsl(159, 60%, 58%)"
+      "color": "#c9ec52"
     },
     {
       "id": "bit",
       "x_norm": 0.23008371889591217,
       "y_norm": 0.50528484582901,
-      "color": "hsl(82, 60%, 67%)"
+      "color": "#ef5b71"
     },
     {
       "id": "bit string",
       "x_norm": 0.3610893189907074,
       "y_norm": 0.4538685977458954,
-      "color": "hsl(129, 60%, 65%)"
+      "color": "#e64c41"
     },
     {
       "id": "boolean datatype",
@@ -1022,7 +1022,7 @@
       },
       "x_norm": 0.6992168426513672,
       "y_norm": 0.15051251649856567,
-      "color": "hsl(251, 60%, 55%)"
+      "color": "#70f571"
     },
     {
       "id": "boolean field component",
@@ -1033,7 +1033,7 @@
       },
       "x_norm": 0.8542802929878235,
       "y_norm": 0.12347067147493362,
-      "color": "hsl(307, 60%, 54%)"
+      "color": "#8afaa5"
     },
     {
       "id": "boolean field-list",
@@ -1047,19 +1047,19 @@
       },
       "x_norm": 0.8181155323982239,
       "y_norm": 0.15773509442806244,
-      "color": "hsl(294, 60%, 55%)"
+      "color": "#7ef89c"
     },
     {
       "id": "boolean operation",
       "x_norm": 0.7523037791252136,
       "y_norm": 0.17224851250648499,
-      "color": "hsl(270, 60%, 56%)"
+      "color": "#72f586"
     },
     {
       "id": "bound",
       "x_norm": 0.044795211404561996,
       "y_norm": 0.5185794234275818,
-      "color": "hsl(16, 60%, 68%)"
+      "color": "#f98492"
     },
     {
       "id": "bounded",
@@ -1070,7 +1070,7 @@
       },
       "x_norm": 0.01857331581413746,
       "y_norm": 0.5376162528991699,
-      "color": "hsl(6, 60%, 68%)"
+      "color": "#fa8b9b"
     },
     {
       "id": "bounded above",
@@ -1081,13 +1081,13 @@
       },
       "x_norm": 0.00591019494459033,
       "y_norm": 0.5392662286758423,
-      "color": "hsl(2, 60%, 68%)"
+      "color": "#fb8e9e"
     },
     {
       "id": "bounded below",
       "x_norm": 0.001188635011203587,
       "y_norm": 0.5443763732910156,
-      "color": "hsl(0, 60%, 69%)"
+      "color": "#fb8fa0"
     },
     {
       "id": "boundedness",
@@ -1101,7 +1101,7 @@
       },
       "x_norm": 0.012439497746527195,
       "y_norm": 0.5354474782943726,
-      "color": "hsl(4, 60%, 68%)"
+      "color": "#fa8c9c"
     },
     {
       "id": "cardinality",
@@ -1117,7 +1117,7 @@
       },
       "x_norm": 0.11045239865779877,
       "y_norm": 0.5811725854873657,
-      "color": "hsl(39, 60%, 70%)"
+      "color": "#f7799c"
     },
     {
       "id": "character datatype",
@@ -1134,19 +1134,19 @@
       },
       "x_norm": 0.5362684726715088,
       "y_norm": 0.18945766985416412,
-      "color": "hsl(193, 60%, 56%)"
+      "color": "#98ef5c"
     },
     {
       "id": "character string",
       "x_norm": 0.38262251019477844,
       "y_norm": 0.44425198435783386,
-      "color": "hsl(137, 60%, 65%)"
+      "color": "#e4563d"
     },
     {
       "id": "character-set identifier",
       "x_norm": 0.8732043504714966,
       "y_norm": 0.38080549240112305,
-      "color": "hsl(314, 60%, 63%)"
+      "color": "#6ff5d7"
     },
     {
       "id": "characterizing operation",
@@ -1155,7 +1155,7 @@
       },
       "x_norm": 0.5145008563995361,
       "y_norm": 0.8558008670806885,
-      "color": "hsl(185, 60%, 79%)"
+      "color": "#b476f6"
     },
     {
       "id": "choice datatype",
@@ -1177,7 +1177,7 @@
       },
       "x_norm": 0.46983811259269714,
       "y_norm": 0.2858468294143677,
-      "color": "hsl(169, 60%, 60%)"
+      "color": "#b8e948"
     },
     {
       "id": "choice generator",
@@ -1188,7 +1188,7 @@
       },
       "x_norm": 0.5128922462463379,
       "y_norm": 0.3612736463546753,
-      "color": "hsl(184, 60%, 62%)"
+      "color": "#87e239"
     },
     {
       "id": "class datatype",
@@ -1208,7 +1208,7 @@
       },
       "x_norm": 0.5300242304801941,
       "y_norm": 0.19486364722251892,
-      "color": "hsl(190, 60%, 56%)"
+      "color": "#9aef5b"
     },
     {
       "id": "class generator",
@@ -1227,7 +1227,7 @@
       },
       "x_norm": 0.6367037296295166,
       "y_norm": 0.5257517099380493,
-      "color": "hsl(229, 60%, 68%)"
+      "color": "#409ce5"
     },
     {
       "id": "complex datatype",
@@ -1252,19 +1252,19 @@
       },
       "x_norm": 0.4960753321647644,
       "y_norm": 0.18646977841854095,
-      "color": "hsl(178, 60%, 56%)"
+      "color": "#acf05d"
     },
     {
       "id": "complex factor",
       "x_norm": 0.26661747694015503,
       "y_norm": 0.8575255870819092,
-      "color": "hsl(95, 60%, 80%)"
+      "color": "#f986f8"
     },
     {
       "id": "complex radix",
       "x_norm": 0.23321357369422913,
       "y_norm": 0.8786216378211975,
-      "color": "hsl(83, 60%, 80%)"
+      "color": "#fb8ef6"
     },
     {
       "id": "component mandatoriness",
@@ -1280,7 +1280,7 @@
       },
       "x_norm": 0.9857411980628967,
       "y_norm": 0.19356177747249603,
-      "color": "hsl(354, 60%, 56%)"
+      "color": "#98fcca"
     },
     {
       "id": "component mandatory",
@@ -1291,25 +1291,25 @@
       },
       "x_norm": 0.9904893040657043,
       "y_norm": 0.19016818702220917,
-      "color": "hsl(356, 60%, 56%)"
+      "color": "#9afcca"
     },
     {
       "id": "component non-mandatory",
       "x_norm": 0.9875245690345764,
       "y_norm": 0.16846726834774017,
-      "color": "hsl(355, 60%, 55%)"
+      "color": "#9cfcc8"
     },
     {
       "id": "countable",
       "x_norm": 0.12336323410272598,
       "y_norm": 0.5856208205223083,
-      "color": "hsl(44, 60%, 70%)"
+      "color": "#f6769d"
     },
     {
       "id": "data representational model",
       "x_norm": 0.48499295115470886,
       "y_norm": 0.23789635300636292,
-      "color": "hsl(174, 60%, 58%)"
+      "color": "#aeec52"
     },
     {
       "id": "datatype",
@@ -1322,19 +1322,19 @@
       },
       "x_norm": 0.510444700717926,
       "y_norm": 0.23418709635734558,
-      "color": "hsl(183, 60%, 58%)"
+      "color": "#9eec52"
     },
     {
       "id": "datatype generator",
       "x_norm": 0.5166665315628052,
       "y_norm": 0.10448364913463593,
-      "color": "hsl(185, 60%, 53%)"
+      "color": "#aff46f"
     },
     {
       "id": "datatype property",
       "x_norm": 0.524516761302948,
       "y_norm": 0.17773345112800598,
-      "color": "hsl(188, 60%, 56%)"
+      "color": "#a0f05e"
     },
     {
       "id": "datatype role",
@@ -1345,7 +1345,7 @@
       },
       "x_norm": 0.529633641242981,
       "y_norm": 0.21662285923957825,
-      "color": "hsl(190, 60%, 57%)"
+      "color": "#96ee56"
     },
     {
       "id": "date and time datatype",
@@ -1368,25 +1368,25 @@
       },
       "x_norm": 0.03031548298895359,
       "y_norm": 0.8922213315963745,
-      "color": "hsl(10, 60%, 81%)"
+      "color": "#feb1e8"
     },
     {
       "id": "date-time factor",
       "x_norm": 0.041796788573265076,
       "y_norm": 0.8916492462158203,
-      "color": "hsl(15, 60%, 81%)"
+      "color": "#feafe8"
     },
     {
       "id": "date-time radix",
       "x_norm": 0.04615700989961624,
       "y_norm": 0.8950015306472778,
-      "color": "hsl(16, 60%, 81%)"
+      "color": "#feafe9"
     },
     {
       "id": "date-time unit",
       "x_norm": 0.027875659987330437,
       "y_norm": 0.8940707445144653,
-      "color": "hsl(10, 60%, 81%)"
+      "color": "#feb2e8"
     },
     {
       "id": "defined datatype",
@@ -1398,7 +1398,7 @@
       },
       "x_norm": 0.5277073979377747,
       "y_norm": 0.20137406885623932,
-      "color": "hsl(189, 60%, 57%)"
+      "color": "#9aef59"
     },
     {
       "id": "defined datatype parameter",
@@ -1411,7 +1411,7 @@
       },
       "x_norm": 0.5562142133712769,
       "y_norm": 0.21620889008045197,
-      "color": "hsl(200, 60%, 57%)"
+      "color": "#88ee57"
     },
     {
       "id": "defined datatype parameter-list",
@@ -1422,7 +1422,7 @@
       },
       "x_norm": 0.5636637806892395,
       "y_norm": 0.20202429592609406,
-      "color": "hsl(202, 60%, 57%)"
+      "color": "#88ef5a"
     },
     {
       "id": "defined generator",
@@ -1433,7 +1433,7 @@
       },
       "x_norm": 0.6401857733726501,
       "y_norm": 0.5355058908462524,
-      "color": "hsl(230, 60%, 68%)"
+      "color": "#4195e6"
     },
     {
       "id": "defined generator parameter",
@@ -1444,19 +1444,19 @@
       },
       "x_norm": 0.6503515839576721,
       "y_norm": 0.5091994404792786,
-      "color": "hsl(234, 60%, 67%)"
+      "color": "#41b3e6"
     },
     {
       "id": "defined generator parameter-list",
       "x_norm": 0.6616758108139038,
       "y_norm": 0.49270495772361755,
-      "color": "hsl(238, 60%, 67%)"
+      "color": "#42c8e6"
     },
     {
       "id": "delete operation",
       "x_norm": 0.6594284176826477,
       "y_norm": 0.8247566223144531,
-      "color": "hsl(237, 60%, 78%)"
+      "color": "#8775f6"
     },
     {
       "id": "descriptive field identifier",
@@ -1467,7 +1467,7 @@
       },
       "x_norm": 0.8858683705329895,
       "y_norm": 0.3465801179409027,
-      "color": "hsl(318, 60%, 62%)"
+      "color": "#74f6cf"
     },
     {
       "id": "descriptive record of boolean field component",
@@ -1478,7 +1478,7 @@
       },
       "x_norm": 0.8401486277580261,
       "y_norm": 0.1253630816936493,
-      "color": "hsl(302, 60%, 54%)"
+      "color": "#88faa1"
     },
     {
       "id": "descriptive record of discrete field component",
@@ -1489,7 +1489,7 @@
       },
       "x_norm": 0.8632618188858032,
       "y_norm": 0.15177148580551147,
-      "color": "hsl(310, 60%, 55%)"
+      "color": "#87f9a9"
     },
     {
       "id": "descriptive record of primitives field component",
@@ -1500,7 +1500,7 @@
       },
       "x_norm": 0.8773072957992554,
       "y_norm": 0.15835389494895935,
-      "color": "hsl(315, 60%, 55%)"
+      "color": "#88faad"
     },
     {
       "id": "descriptive record of reals field component",
@@ -1511,7 +1511,7 @@
       },
       "x_norm": 0.8820937275886536,
       "y_norm": 0.11703939735889435,
-      "color": "hsl(317, 60%, 54%)"
+      "color": "#90fbad"
     },
     {
       "id": "descriptive set of integer field component",
@@ -1522,7 +1522,7 @@
       },
       "x_norm": 0.8677918910980225,
       "y_norm": 0.1381491869688034,
-      "color": "hsl(312, 60%, 54%)"
+      "color": "#8afaa9"
     },
     {
       "id": "descriptive strucured field component",
@@ -1533,13 +1533,13 @@
       },
       "x_norm": 0.8475353121757507,
       "y_norm": 0.15596219897270203,
-      "color": "hsl(305, 60%, 55%)"
+      "color": "#84f9a4"
     },
     {
       "id": "difference operation",
       "x_norm": 0.4879496097564697,
       "y_norm": 0.7895997762680054,
-      "color": "hsl(175, 60%, 77%)"
+      "color": "#b567f3"
     },
     {
       "id": "dimensionality",
@@ -1550,7 +1550,7 @@
       },
       "x_norm": 0.20402172207832336,
       "y_norm": 0.34806838631629944,
-      "color": "hsl(73, 60%, 62%)"
+      "color": "#f29765"
     },
     {
       "id": "direct access property",
@@ -1564,25 +1564,25 @@
       },
       "x_norm": 0.6581953167915344,
       "y_norm": 0.36035585403442383,
-      "color": "hsl(236, 60%, 62%)"
+      "color": "#48e889"
     },
     {
       "id": "directed labeled graph datatype generator",
       "x_norm": 0.6228212118148804,
       "y_norm": 0.04186549037694931,
-      "color": "hsl(224, 60%, 51%)"
+      "color": "#9ff880"
     },
     {
       "id": "direction",
       "x_norm": 0.20486611127853394,
       "y_norm": 0.5872998237609863,
-      "color": "hsl(73, 60%, 70%)"
+      "color": "#f2669b"
     },
     {
       "id": "directive information entity",
       "x_norm": 0.8301225304603577,
       "y_norm": 0.314037024974823,
-      "color": "hsl(298, 60%, 60%)"
+      "color": "#6bf4b9"
     },
     {
       "id": "discrete base type",
@@ -1596,7 +1596,7 @@
       },
       "x_norm": 0.42026641964912415,
       "y_norm": 0.24022804200649261,
-      "color": "hsl(151, 60%, 58%)"
+      "color": "#d6ed54"
     },
     {
       "id": "discrete datatype",
@@ -1612,7 +1612,7 @@
       },
       "x_norm": 0.4162106215953827,
       "y_norm": 0.22399379312992096,
-      "color": "hsl(149, 60%, 57%)"
+      "color": "#d6ee58"
     },
     {
       "id": "discrete field component",
@@ -1627,7 +1627,7 @@
       },
       "x_norm": 0.9014567732810974,
       "y_norm": 0.1330835223197937,
-      "color": "hsl(324, 60%, 54%)"
+      "color": "#91fbb2"
     },
     {
       "id": "discrete field-list",
@@ -1638,7 +1638,7 @@
       },
       "x_norm": 0.8383825421333313,
       "y_norm": 0.21157392859458923,
-      "color": "hsl(301, 60%, 57%)"
+      "color": "#79f7a7"
     },
     {
       "id": "discrete-value identifier",
@@ -1649,7 +1649,7 @@
       },
       "x_norm": 0.830421507358551,
       "y_norm": 0.3880579173564911,
-      "color": "hsl(298, 60%, 63%)"
+      "color": "#66f2d2"
     },
     {
       "id": "discrete-value-list",
@@ -1660,25 +1660,25 @@
       },
       "x_norm": 0.7893821001052856,
       "y_norm": 0.3587022125720978,
-      "color": "hsl(284, 60%, 62%)"
+      "color": "#5ff0bd"
     },
     {
       "id": "dyadic aritmetic operation",
       "x_norm": 0.5397652983665466,
       "y_norm": 0.9611014127731323,
-      "color": "hsl(194, 60%, 83%)"
+      "color": "#bf8ffb"
     },
     {
       "id": "dyadic comparison operation",
       "x_norm": 0.5628024339675903,
       "y_norm": 0.9997332096099854,
-      "color": "hsl(202, 60%, 84%)"
+      "color": "#c299fc"
     },
     {
       "id": "dyadic logical operation",
       "x_norm": 0.5564900636672974,
       "y_norm": 0.9874461889266968,
-      "color": "hsl(200, 60%, 84%)"
+      "color": "#c096fc"
     },
     {
       "id": "dyadic operation",
@@ -1694,37 +1694,37 @@
       },
       "x_norm": 0.5447518825531006,
       "y_norm": 0.9932317733764648,
-      "color": "hsl(196, 60%, 84%)"
+      "color": "#c397fc"
     },
     {
       "id": "dyadic retrieve operation",
       "x_norm": 0.5512833595275879,
       "y_norm": 0.9912521243095398,
-      "color": "hsl(198, 60%, 84%)"
+      "color": "#c297fc"
     },
     {
       "id": "dyadic select operation",
       "x_norm": 0.5434132814407349,
       "y_norm": 1.0,
-      "color": "hsl(195, 60%, 85%)"
+      "color": "#c599fc"
     },
     {
       "id": "dyadic set operation",
       "x_norm": 0.5595154762268066,
       "y_norm": 0.988174319267273,
-      "color": "hsl(201, 60%, 84%)"
+      "color": "#c096fc"
     },
     {
       "id": "dyadic updating operation",
       "x_norm": 0.5533822774887085,
       "y_norm": 0.9789578914642334,
-      "color": "hsl(199, 60%, 84%)"
+      "color": "#bf94fb"
     },
     {
       "id": "edge component",
       "x_norm": 0.9981052279472351,
       "y_norm": 0.1819332242012024,
-      "color": "hsl(359, 60%, 56%)"
+      "color": "#9cfdcb"
     },
     {
       "id": "enumerated datatype",
@@ -1747,7 +1747,7 @@
       },
       "x_norm": 0.4901356101036072,
       "y_norm": 0.249822199344635,
-      "color": "hsl(176, 60%, 58%)"
+      "color": "#aaeb4f"
     },
     {
       "id": "enumerated-value identifier",
@@ -1758,7 +1758,7 @@
       },
       "x_norm": 0.816996693611145,
       "y_norm": 0.3643954396247864,
-      "color": "hsl(294, 60%, 62%)"
+      "color": "#65f2c6"
     },
     {
       "id": "enumerated-value-list",
@@ -1769,25 +1769,25 @@
       },
       "x_norm": 0.7749486565589905,
       "y_norm": 0.3345997631549835,
-      "color": "hsl(278, 60%, 61%)"
+      "color": "#5ff0b0"
     },
     {
       "id": "equal operation",
       "x_norm": 0.4927334487438202,
       "y_norm": 0.7314286231994629,
-      "color": "hsl(177, 60%, 75%)"
+      "color": "#ad5aef"
     },
     {
       "id": "equality",
       "x_norm": 0.47692012786865234,
       "y_norm": 0.6957353353500366,
-      "color": "hsl(171, 60%, 74%)"
+      "color": "#b353ed"
     },
     {
       "id": "exact",
       "x_norm": 0.18804961442947388,
       "y_norm": 0.48361533880233765,
-      "color": "hsl(67, 60%, 66%)"
+      "color": "#f2646c"
     },
     {
       "id": "exactness",
@@ -1805,7 +1805,7 @@
       },
       "x_norm": 0.13638180494308472,
       "y_norm": 0.35842466354370117,
-      "color": "hsl(49, 60%, 62%)"
+      "color": "#f59672"
     },
     {
       "id": "excluding subtype generator",
@@ -1816,13 +1816,13 @@
       },
       "x_norm": 0.4254569411277771,
       "y_norm": 0.002424688544124365,
-      "color": "hsl(153, 60%, 50%)"
+      "color": "#d4fa88"
     },
     {
       "id": "explicit subtype generator",
       "x_norm": 0.43010494112968445,
       "y_norm": 0.012394979596138,
-      "color": "hsl(154, 60%, 50%)"
+      "color": "#d2f986"
     },
     {
       "id": "extended datatype",
@@ -1839,13 +1839,13 @@
       },
       "x_norm": 0.5142581462860107,
       "y_norm": 0.18694202601909637,
-      "color": "hsl(185, 60%, 56%)"
+      "color": "#a3f05c"
     },
     {
       "id": "extended-value identifier",
       "x_norm": 0.8377768993377686,
       "y_norm": 0.37295180559158325,
-      "color": "hsl(301, 60%, 63%)"
+      "color": "#68f3ce"
     },
     {
       "id": "extended-value-list",
@@ -1856,7 +1856,7 @@
       },
       "x_norm": 0.7832756638526917,
       "y_norm": 0.32918867468833923,
-      "color": "hsl(281, 60%, 61%)"
+      "color": "#61f1b0"
     },
     {
       "id": "extending subtype generator",
@@ -1867,13 +1867,13 @@
       },
       "x_norm": 0.41408994793891907,
       "y_norm": 0.010389392264187336,
-      "color": "hsl(149, 60%, 50%)"
+      "color": "#d6f987"
     },
     {
       "id": "factor",
       "x_norm": 0.24880622327327728,
       "y_norm": 0.8198983669281006,
-      "color": "hsl(89, 60%, 78%)"
+      "color": "#f880ee"
     },
     {
       "id": "field component",
@@ -1885,13 +1885,13 @@
       },
       "x_norm": 0.947028398513794,
       "y_norm": 0.1366816908121109,
-      "color": "hsl(340, 60%, 54%)"
+      "color": "#99fcbe"
     },
     {
       "id": "field identifier",
       "x_norm": 0.8877694606781006,
       "y_norm": 0.35873156785964966,
-      "color": "hsl(319, 60%, 62%)"
+      "color": "#74f6d3"
     },
     {
       "id": "field-list",
@@ -1902,13 +1902,13 @@
       },
       "x_norm": 0.8348984718322754,
       "y_norm": 0.23023970425128937,
-      "color": "hsl(300, 60%, 58%)"
+      "color": "#76f6a8"
     },
     {
       "id": "finite",
       "x_norm": 0.08181910961866379,
       "y_norm": 0.5543922781944275,
-      "color": "hsl(29, 60%, 69%)"
+      "color": "#f87d96"
     },
     {
       "id": "fixed size",
@@ -1919,7 +1919,7 @@
       },
       "x_norm": 0.12493318319320679,
       "y_norm": 0.4722837805747986,
-      "color": "hsl(44, 60%, 66%)"
+      "color": "#f57174"
     },
     {
       "id": "generated datatype",
@@ -1933,7 +1933,7 @@
       },
       "x_norm": 0.5149402618408203,
       "y_norm": 0.14400039613246918,
-      "color": "hsl(185, 60%, 55%)"
+      "color": "#a9f266"
     },
     {
       "id": "generated datatype generator",
@@ -1950,19 +1950,19 @@
       },
       "x_norm": 0.5040438175201416,
       "y_norm": 0.07054447382688522,
-      "color": "hsl(181, 60%, 52%)"
+      "color": "#b8f676"
     },
     {
       "id": "graph aggregate component",
       "x_norm": 0.03221052139997482,
       "y_norm": 0.13510902225971222,
-      "color": "hsl(11, 60%, 54%)"
+      "color": "#fdd7a0"
     },
     {
       "id": "heterogenous",
       "x_norm": 0.06982336193323135,
       "y_norm": 0.23656731843948364,
-      "color": "hsl(25, 60%, 58%)"
+      "color": "#fabf8b"
     },
     {
       "id": "heterogenous aggregate datatype",
@@ -1973,7 +1973,7 @@
       },
       "x_norm": 0.06804307550191879,
       "y_norm": 0.20298577845096588,
-      "color": "hsl(24, 60%, 57%)"
+      "color": "#fbc890"
     },
     {
       "id": "heterogenous aggregate generator",
@@ -1987,7 +1987,7 @@
       },
       "x_norm": 0.02731006219983101,
       "y_norm": 0.17327222228050232,
-      "color": "hsl(9, 60%, 56%)"
+      "color": "#fccf9c"
     },
     {
       "id": "homogenity",
@@ -2006,7 +2006,7 @@
       },
       "x_norm": 0.09067726135253906,
       "y_norm": 0.25841060280799866,
-      "color": "hsl(32, 60%, 59%)"
+      "color": "#f9b985"
     },
     {
       "id": "homogenous",
@@ -2017,7 +2017,7 @@
       },
       "x_norm": 0.08443241566419601,
       "y_norm": 0.25167152285575867,
-      "color": "hsl(30, 60%, 58%)"
+      "color": "#f9bb87"
     },
     {
       "id": "homogenous  unordered aggregate datatype with variable size",
@@ -2028,7 +2028,7 @@
       },
       "x_norm": 0.05965529382228851,
       "y_norm": 0.19911649823188782,
-      "color": "hsl(21, 60%, 56%)"
+      "color": "#fbc992"
     },
     {
       "id": "homogenous aggregate datatype",
@@ -2042,7 +2042,7 @@
       },
       "x_norm": 0.07849033921957016,
       "y_norm": 0.2093665599822998,
-      "color": "hsl(28, 60%, 57%)"
+      "color": "#fac68d"
     },
     {
       "id": "homogenous aggregate datatype with variable size",
@@ -2053,7 +2053,7 @@
       },
       "x_norm": 0.07342629879713058,
       "y_norm": 0.21155543625354767,
-      "color": "hsl(26, 60%, 57%)"
+      "color": "#fbc68e"
     },
     {
       "id": "homogenous aggregate generator",
@@ -2070,7 +2070,7 @@
       },
       "x_norm": 0.03449910506606102,
       "y_norm": 0.18140557408332825,
-      "color": "hsl(12, 60%, 56%)"
+      "color": "#fccd99"
     },
     {
       "id": "homogenous aggregate generator with variable size",
@@ -2081,7 +2081,7 @@
       },
       "x_norm": 0.026767220348119736,
       "y_norm": 0.17014548182487488,
-      "color": "hsl(9, 60%, 55%)"
+      "color": "#fdd09c"
     },
     {
       "id": "homogenous unordered aggregate generator with variable size",
@@ -2095,13 +2095,13 @@
       },
       "x_norm": 0.028685182332992554,
       "y_norm": 0.17159736156463623,
-      "color": "hsl(10, 60%, 56%)"
+      "color": "#fcd09c"
     },
     {
       "id": "identifier",
       "x_norm": 0.8621488809585571,
       "y_norm": 0.3927331864833832,
-      "color": "hsl(310, 60%, 63%)"
+      "color": "#6cf4d9"
     },
     {
       "id": "identifier not unique",
@@ -2112,25 +2112,25 @@
       },
       "x_norm": 0.8852633833885193,
       "y_norm": 0.42003756761550903,
-      "color": "hsl(318, 60%, 64%)"
+      "color": "#70f5e6"
     },
     {
       "id": "identifier unique",
       "x_norm": 0.8768645524978638,
       "y_norm": 0.428199827671051,
-      "color": "hsl(315, 60%, 64%)"
+      "color": "#6ef4e8"
     },
     {
       "id": "implementation dependent access",
       "x_norm": 0.6522455811500549,
       "y_norm": 0.3755719065666199,
-      "color": "hsl(234, 60%, 63%)"
+      "color": "#45e790"
     },
     {
       "id": "in order operation",
       "x_norm": 0.4783620238304138,
       "y_norm": 0.839187502861023,
-      "color": "hsl(172, 60%, 79%)"
+      "color": "#be72f5"
     },
     {
       "id": "index access",
@@ -2141,7 +2141,7 @@
       },
       "x_norm": 0.6090282797813416,
       "y_norm": 0.3436492681503296,
-      "color": "hsl(219, 60%, 62%)"
+      "color": "#43e65b"
     },
     {
       "id": "index lowerbound",
@@ -2152,7 +2152,7 @@
       },
       "x_norm": 0.026726780459284782,
       "y_norm": 0.5193830132484436,
-      "color": "hsl(9, 60%, 68%)"
+      "color": "#fa8895"
     },
     {
       "id": "index upperbound",
@@ -2163,7 +2163,7 @@
       },
       "x_norm": 0.020428908988833427,
       "y_norm": 0.5271478891372681,
-      "color": "hsl(7, 60%, 68%)"
+      "color": "#fa8a98"
     },
     {
       "id": "index-type",
@@ -2177,7 +2177,7 @@
       },
       "x_norm": 0.5848131775856018,
       "y_norm": 0.3082340955734253,
-      "color": "hsl(210, 60%, 60%)"
+      "color": "#53e846"
     },
     {
       "id": "index-type list",
@@ -2188,7 +2188,7 @@
       },
       "x_norm": 0.6614759564399719,
       "y_norm": 0.31798696517944336,
-      "color": "hsl(238, 60%, 61%)"
+      "color": "#4eeb76"
     },
     {
       "id": "indirect acess property",
@@ -2199,19 +2199,19 @@
       },
       "x_norm": 0.689917266368866,
       "y_norm": 0.36758074164390564,
-      "color": "hsl(248, 60%, 62%)"
+      "color": "#4cea9e"
     },
     {
       "id": "information artifact entity",
       "x_norm": 0.8127807378768921,
       "y_norm": 0.283229798078537,
-      "color": "hsl(292, 60%, 59%)"
+      "color": "#6bf4ac"
     },
     {
       "id": "insert operation",
       "x_norm": 0.6688345670700073,
       "y_norm": 0.8045701384544373,
-      "color": "hsl(240, 60%, 78%)"
+      "color": "#7e72f5"
     },
     {
       "id": "integer base datatype",
@@ -2222,7 +2222,7 @@
       },
       "x_norm": 0.4214436411857605,
       "y_norm": 0.2559534013271332,
-      "color": "hsl(151, 60%, 58%)"
+      "color": "#d8ec51"
     },
     {
       "id": "integer datatype",
@@ -2245,31 +2245,31 @@
       },
       "x_norm": 0.42728155851364136,
       "y_norm": 0.23241423070430756,
-      "color": "hsl(153, 60%, 58%)"
+      "color": "#d1ed55"
     },
     {
       "id": "isEmpty operation",
       "x_norm": 0.5587495565414429,
       "y_norm": 0.8646051287651062,
-      "color": "hsl(201, 60%, 80%)"
+      "color": "#a979f7"
     },
     {
       "id": "key access",
       "x_norm": 0.6186999082565308,
       "y_norm": 0.3744540214538574,
-      "color": "hsl(222, 60%, 63%)"
+      "color": "#40e577"
     },
     {
       "id": "label",
       "x_norm": 0.689159095287323,
       "y_norm": 0.05429001525044441,
-      "color": "hsl(248, 60%, 51%)"
+      "color": "#90f983"
     },
     {
       "id": "labeled dataset descriptive field component",
       "x_norm": 0.7312483191490173,
       "y_norm": 0.04995236173272133,
-      "color": "hsl(263, 60%, 51%)"
+      "color": "#8cfa88"
     },
     {
       "id": "labeled dataset field-list",
@@ -2281,7 +2281,7 @@
       },
       "x_norm": 0.7277271747589111,
       "y_norm": 0.04697354510426521,
-      "color": "hsl(261, 60%, 51%)"
+      "color": "#8efa88"
     },
     {
       "id": "labeled dataset record datatype",
@@ -2292,13 +2292,13 @@
       },
       "x_norm": 0.6920431852340698,
       "y_norm": 0.054514192044734955,
-      "color": "hsl(249, 60%, 51%)"
+      "color": "#90f983"
     },
     {
       "id": "labeled dataset target field component",
       "x_norm": 0.7841951847076416,
       "y_norm": 0.05051914229989052,
-      "color": "hsl(282, 60%, 51%)"
+      "color": "#8efb93"
     },
     {
       "id": "labeled graph datatype",
@@ -2309,13 +2309,13 @@
       },
       "x_norm": 0.6665670871734619,
       "y_norm": 0.04293981194496155,
-      "color": "hsl(239, 60%, 51%)"
+      "color": "#97f983"
     },
     {
       "id": "list specification",
       "x_norm": 0.7445453405380249,
       "y_norm": 0.3227810561656952,
-      "color": "hsl(268, 60%, 61%)"
+      "color": "#5aefa0"
     },
     {
       "id": "lower bound",
@@ -2326,37 +2326,37 @@
       },
       "x_norm": 0.01849261298775673,
       "y_norm": 0.5299773812294006,
-      "color": "hsl(6, 60%, 68%)"
+      "color": "#fa8b99"
     },
     {
       "id": "map operation",
       "x_norm": 0.5805699229240417,
       "y_norm": 0.8906335830688477,
-      "color": "hsl(209, 60%, 81%)"
+      "color": "#a97ff8"
     },
     {
       "id": "maximum-size",
       "x_norm": 0.10897905379533768,
       "y_norm": 0.4713314175605774,
-      "color": "hsl(39, 60%, 66%)"
+      "color": "#f67577"
     },
     {
       "id": "minimum-size",
       "x_norm": 0.11045420914888382,
       "y_norm": 0.48223936557769775,
-      "color": "hsl(39, 60%, 66%)"
+      "color": "#f6757b"
     },
     {
       "id": "modulo",
       "x_norm": 0.3638109266757965,
       "y_norm": 0.7107054591178894,
-      "color": "hsl(130, 60%, 74%)"
+      "color": "#ef5ef0"
     },
     {
       "id": "monadic aritmetic operation",
       "x_norm": 0.5633460283279419,
       "y_norm": 0.9032821655273438,
-      "color": "hsl(202, 60%, 81%)"
+      "color": "#b082f9"
     },
     {
       "id": "monadic operation",
@@ -2370,31 +2370,31 @@
       },
       "x_norm": 0.5740412473678589,
       "y_norm": 0.8953168988227844,
-      "color": "hsl(206, 60%, 81%)"
+      "color": "#ac80f8"
     },
     {
       "id": "monadic retrive operation",
       "x_norm": 0.5872059464454651,
       "y_norm": 0.8883465528488159,
-      "color": "hsl(211, 60%, 81%)"
+      "color": "#a77ff8"
     },
     {
       "id": "monadic select operation",
       "x_norm": 0.5917643904685974,
       "y_norm": 0.8910037875175476,
-      "color": "hsl(213, 60%, 81%)"
+      "color": "#a780f8"
     },
     {
       "id": "multi dimensional",
       "x_norm": 0.21141543984413147,
       "y_norm": 0.3422868549823761,
-      "color": "hsl(76, 60%, 61%)"
+      "color": "#f29a64"
     },
     {
       "id": "multiply operation",
       "x_norm": 0.35411888360977173,
       "y_norm": 0.8204174041748047,
-      "color": "hsl(127, 60%, 78%)"
+      "color": "#e675f6"
     },
     {
       "id": "n-adic operation",
@@ -2403,19 +2403,19 @@
       },
       "x_norm": 0.514165461063385,
       "y_norm": 0.9087105393409729,
-      "color": "hsl(185, 60%, 81%)"
+      "color": "#bc82f9"
     },
     {
       "id": "natural number",
       "x_norm": 0.3833882212638855,
       "y_norm": 0.7082628011703491,
-      "color": "hsl(138, 60%, 74%)"
+      "color": "#e65bef"
     },
     {
       "id": "negate operation",
       "x_norm": 0.4451478123664856,
       "y_norm": 0.85616135597229,
-      "color": "hsl(160, 60%, 79%)"
+      "color": "#ca77f6"
     },
     {
       "id": "niladic operation",
@@ -2430,7 +2430,7 @@
       },
       "x_norm": 0.5066316723823547,
       "y_norm": 0.8993349671363831,
-      "color": "hsl(182, 60%, 81%)"
+      "color": "#bd80f8"
     },
     {
       "id": "node component",
@@ -2441,7 +2441,7 @@
       },
       "x_norm": 1.0,
       "y_norm": 0.18064020574092865,
-      "color": "hsl(360, 60%, 56%)"
+      "color": "#9dfdcc"
     },
     {
       "id": "non-aggregate datatype",
@@ -2452,7 +2452,7 @@
       },
       "x_norm": 0.09738944470882416,
       "y_norm": 0.19007651507854462,
-      "color": "hsl(35, 60%, 56%)"
+      "color": "#facb8c"
     },
     {
       "id": "non-aggregate generator",
@@ -2468,7 +2468,7 @@
       },
       "x_norm": 0.02077993005514145,
       "y_norm": 0.16492682695388794,
-      "color": "hsl(7, 60%, 55%)"
+      "color": "#fdd19e"
     },
     {
       "id": "non-directed labeled graph datatype",
@@ -2480,19 +2480,19 @@
       },
       "x_norm": 0.6413570046424866,
       "y_norm": 0.038058117032051086,
-      "color": "hsl(230, 60%, 51%)"
+      "color": "#9cf982"
     },
     {
       "id": "non-directed labeled graph generator",
       "x_norm": 0.6399438977241516,
       "y_norm": 0.044224098324775696,
-      "color": "hsl(230, 60%, 51%)"
+      "color": "#9bf881"
     },
     {
       "id": "non-numeric",
       "x_norm": 0.3716655671596527,
       "y_norm": 0.5241604447364807,
-      "color": "hsl(133, 60%, 68%)"
+      "color": "#e64184"
     },
     {
       "id": "non-numeric ordered primitive datatype",
@@ -2503,7 +2503,7 @@
       },
       "x_norm": 0.37063169479370117,
       "y_norm": 0.2796955704689026,
-      "color": "hsl(133, 60%, 59%)"
+      "color": "#ecdd52"
     },
     {
       "id": "non-numeric primitive datatype",
@@ -2517,7 +2517,7 @@
       },
       "x_norm": 0.38049009442329407,
       "y_norm": 0.27899110317230225,
-      "color": "hsl(136, 60%, 59%)"
+      "color": "#ece251"
     },
     {
       "id": "non-numeric unordered primitive datatype",
@@ -2531,19 +2531,19 @@
       },
       "x_norm": 0.3738841712474823,
       "y_norm": 0.27489984035491943,
-      "color": "hsl(134, 60%, 59%)"
+      "color": "#ece052"
     },
     {
       "id": "non-ordered",
       "x_norm": 0.23447482287883759,
       "y_norm": 0.6112857460975647,
-      "color": "hsl(84, 60%, 71%)"
+      "color": "#f162a7"
     },
     {
       "id": "non-recursive",
       "x_norm": 0.5524450540542603,
       "y_norm": 0.7969480752944946,
-      "color": "hsl(198, 60%, 77%)"
+      "color": "#9e69f3"
     },
     {
       "id": "non-unique values",
@@ -2554,13 +2554,13 @@
       },
       "x_norm": 0.8607828617095947,
       "y_norm": 0.44995737075805664,
-      "color": "hsl(309, 60%, 65%)"
+      "color": "#6af3ee"
     },
     {
       "id": "nonNegative operation",
       "x_norm": 0.43404048681259155,
       "y_norm": 0.8137884736061096,
-      "color": "hsl(156, 60%, 78%)"
+      "color": "#cb6ef4"
     },
     {
       "id": "numeric",
@@ -2571,7 +2571,7 @@
       },
       "x_norm": 0.3643389940261841,
       "y_norm": 0.5458353161811829,
-      "color": "hsl(131, 60%, 69%)"
+      "color": "#e74497"
     },
     {
       "id": "numeric ordered primitive datatype",
@@ -2582,7 +2582,7 @@
       },
       "x_norm": 0.3644076883792877,
       "y_norm": 0.2827516496181488,
-      "color": "hsl(131, 60%, 59%)"
+      "color": "#ecd952"
     },
     {
       "id": "numeric primitive datatype",
@@ -2593,7 +2593,7 @@
       },
       "x_norm": 0.3911898732185364,
       "y_norm": 0.27126750349998474,
-      "color": "hsl(140, 60%, 59%)"
+      "color": "#ecea51"
     },
     {
       "id": "numericalness",
@@ -2610,37 +2610,37 @@
       },
       "x_norm": 0.35726243257522583,
       "y_norm": 0.5129488706588745,
-      "color": "hsl(128, 60%, 67%)"
+      "color": "#e64375"
     },
     {
       "id": "object identifier",
       "x_norm": 0.8800495266914368,
       "y_norm": 0.37944355607032776,
-      "color": "hsl(316, 60%, 63%)"
+      "color": "#71f5d8"
     },
     {
       "id": "octet",
       "x_norm": 0.3261685073375702,
       "y_norm": 0.4874326288700104,
-      "color": "hsl(117, 60%, 67%)"
+      "color": "#e8485c"
     },
     {
       "id": "octet string",
       "x_norm": 0.3623576760292053,
       "y_norm": 0.45427465438842773,
-      "color": "hsl(130, 60%, 65%)"
+      "color": "#e54b40"
     },
     {
       "id": "one dimensional",
       "x_norm": 0.20015600323677063,
       "y_norm": 0.3492099344730377,
-      "color": "hsl(72, 60%, 62%)"
+      "color": "#f29766"
     },
     {
       "id": "optional",
       "x_norm": 0.9842303395271301,
       "y_norm": 0.21308714151382446,
-      "color": "hsl(354, 60%, 57%)"
+      "color": "#96fccb"
     },
     {
       "id": "order",
@@ -2655,7 +2655,7 @@
       },
       "x_norm": 0.22773496806621552,
       "y_norm": 0.6009459495544434,
-      "color": "hsl(81, 60%, 71%)"
+      "color": "#f162a2"
     },
     {
       "id": "ordered",
@@ -2666,7 +2666,7 @@
       },
       "x_norm": 0.2122042328119278,
       "y_norm": 0.5879486799240112,
-      "color": "hsl(76, 60%, 70%)"
+      "color": "#f2649b"
     },
     {
       "id": "ordered aggregate",
@@ -2677,7 +2677,7 @@
       },
       "x_norm": 0.0006047540809959173,
       "y_norm": 0.17873813211917877,
-      "color": "hsl(0, 60%, 56%)"
+      "color": "#fdcfa1"
     },
     {
       "id": "ordinal datatype",
@@ -2695,13 +2695,13 @@
       },
       "x_norm": 0.293194055557251,
       "y_norm": 0.6131736636161804,
-      "color": "hsl(105, 60%, 71%)"
+      "color": "#ee58b1"
     },
     {
       "id": "owl:Thing",
       "x_norm": 0.6865085363388062,
       "y_norm": 0.18515419960021973,
-      "color": "hsl(247, 60%, 56%)"
+      "color": "#67f36b"
     },
     {
       "id": "parameter",
@@ -2713,13 +2713,13 @@
       },
       "x_norm": 0.7308496832847595,
       "y_norm": 0.42994189262390137,
-      "color": "hsl(263, 60%, 65%)"
+      "color": "#50ebd4"
     },
     {
       "id": "parameter identifier",
       "x_norm": 0.8389103412628174,
       "y_norm": 0.3935103416442871,
-      "color": "hsl(302, 60%, 63%)"
+      "color": "#67f3d6"
     },
     {
       "id": "pointer datatype",
@@ -2739,7 +2739,7 @@
       },
       "x_norm": 0.530078649520874,
       "y_norm": 0.29790204763412476,
-      "color": "hsl(190, 60%, 60%)"
+      "color": "#83e845"
     },
     {
       "id": "pointer generator",
@@ -2750,7 +2750,7 @@
       },
       "x_norm": 0.5808034539222717,
       "y_norm": 0.48598554730415344,
-      "color": "hsl(209, 60%, 67%)"
+      "color": "#33addf"
     },
     {
       "id": "pointer-element-type",
@@ -2761,25 +2761,25 @@
       },
       "x_norm": 0.5542359948158264,
       "y_norm": 0.3641882836818695,
-      "color": "hsl(199, 60%, 62%)"
+      "color": "#4be33a"
     },
     {
       "id": "position access",
       "x_norm": 0.6317129135131836,
       "y_norm": 0.37662994861602783,
-      "color": "hsl(227, 60%, 63%)"
+      "color": "#42e683"
     },
     {
       "id": "positive integer",
       "x_norm": 0.39037463068962097,
       "y_norm": 0.7138022184371948,
-      "color": "hsl(140, 60%, 74%)"
+      "color": "#e25cef"
     },
     {
       "id": "positive integer range generator",
       "x_norm": 0.4422205686569214,
       "y_norm": 0.5817491412162781,
-      "color": "hsl(159, 60%, 70%)"
+      "color": "#e13fe5"
     },
     {
       "id": "primitive datatype",
@@ -2794,7 +2794,7 @@
       },
       "x_norm": 0.4275801479816437,
       "y_norm": 0.27427589893341064,
-      "color": "hsl(153, 60%, 59%)"
+      "color": "#d7ea4d"
     },
     {
       "id": "primitive field component",
@@ -2805,7 +2805,7 @@
       },
       "x_norm": 0.9095756411552429,
       "y_norm": 0.16583949327468872,
-      "color": "hsl(327, 60%, 55%)"
+      "color": "#8dfab6"
     },
     {
       "id": "primitive field-list",
@@ -2816,13 +2816,13 @@
       },
       "x_norm": 0.8605020642280579,
       "y_norm": 0.19194813072681427,
-      "color": "hsl(309, 60%, 56%)"
+      "color": "#80f8ab"
     },
     {
       "id": "private",
       "x_norm": 0.14246433973312378,
       "y_norm": 0.5704559683799744,
-      "color": "hsl(51, 60%, 69%)"
+      "color": "#f57196"
     },
     {
       "id": "procedure datatype",
@@ -2843,13 +2843,13 @@
       },
       "x_norm": 0.5859155058860779,
       "y_norm": 0.23127155005931854,
-      "color": "hsl(210, 60%, 58%)"
+      "color": "#74ed55"
     },
     {
       "id": "procedure generator",
       "x_norm": 0.6842217445373535,
       "y_norm": 0.4716572165489197,
-      "color": "hsl(246, 60%, 66%)"
+      "color": "#46e1e8"
     },
     {
       "id": "procedure-parameter-list",
@@ -2860,7 +2860,7 @@
       },
       "x_norm": 0.7001699805259705,
       "y_norm": 0.4459739327430725,
-      "color": "hsl(252, 60%, 65%)"
+      "color": "#49e9da"
     },
     {
       "id": "procedure-paremeter declaration",
@@ -2872,25 +2872,25 @@
       },
       "x_norm": 0.7010697722434998,
       "y_norm": 0.45742088556289673,
-      "color": "hsl(252, 60%, 66%)"
+      "color": "#49e9e4"
     },
     {
       "id": "promote operation",
       "x_norm": 0.37014761567115784,
       "y_norm": 0.924565851688385,
-      "color": "hsl(133, 60%, 82%)"
+      "color": "#e18bfa"
     },
     {
       "id": "quality",
       "x_norm": 0.19570063054561615,
       "y_norm": 0.5269625782966614,
-      "color": "hsl(70, 60%, 68%)"
+      "color": "#f2637f"
     },
     {
       "id": "radix",
       "x_norm": 0.19348642230033875,
       "y_norm": 0.8693073391914368,
-      "color": "hsl(69, 60%, 80%)"
+      "color": "#fb92ef"
     },
     {
       "id": "range",
@@ -2902,7 +2902,7 @@
       },
       "x_norm": 0.1351374089717865,
       "y_norm": 0.4886114299297333,
-      "color": "hsl(48, 60%, 67%)"
+      "color": "#f56f78"
     },
     {
       "id": "range subtype generator",
@@ -2913,7 +2913,7 @@
       },
       "x_norm": 0.4209820628166199,
       "y_norm": 0.013035286217927933,
-      "color": "hsl(151, 60%, 50%)"
+      "color": "#d4f986"
     },
     {
       "id": "rational datatype",
@@ -2935,7 +2935,7 @@
       },
       "x_norm": 0.4544047713279724,
       "y_norm": 0.19627822935581207,
-      "color": "hsl(163, 60%, 56%)"
+      "color": "#c1ef5b"
     },
     {
       "id": "real base type",
@@ -2946,7 +2946,7 @@
       },
       "x_norm": 0.4430270195007324,
       "y_norm": 0.2010948210954666,
-      "color": "hsl(159, 60%, 57%)"
+      "color": "#c7ef5b"
     },
     {
       "id": "real datatype",
@@ -2971,13 +2971,13 @@
       },
       "x_norm": 0.46726056933403015,
       "y_norm": 0.14998115599155426,
-      "color": "hsl(168, 60%, 55%)"
+      "color": "#bdf265"
     },
     {
       "id": "real factor",
       "x_norm": 0.2651134431362152,
       "y_norm": 0.8011963367462158,
-      "color": "hsl(95, 60%, 78%)"
+      "color": "#f77bed"
     },
     {
       "id": "real field component",
@@ -2991,7 +2991,7 @@
       },
       "x_norm": 0.9366928339004517,
       "y_norm": 0.12724190950393677,
-      "color": "hsl(337, 60%, 54%)"
+      "color": "#98fcbb"
     },
     {
       "id": "real field-list",
@@ -3006,19 +3006,19 @@
       },
       "x_norm": 0.8759897351264954,
       "y_norm": 0.21261991560459137,
-      "color": "hsl(315, 60%, 57%)"
+      "color": "#80f8b2"
     },
     {
       "id": "real radix",
       "x_norm": 0.20922014117240906,
       "y_norm": 0.8635369539260864,
-      "color": "hsl(75, 60%, 80%)"
+      "color": "#fb8ef0"
     },
     {
       "id": "reciprocial operation",
       "x_norm": 0.5122743844985962,
       "y_norm": 0.8737100958824158,
-      "color": "hsl(184, 60%, 80%)"
+      "color": "#b87af7"
     },
     {
       "id": "record (tuple) datatype",
@@ -3039,7 +3039,7 @@
       },
       "x_norm": 0.4446905553340912,
       "y_norm": 0.1855122596025467,
-      "color": "hsl(160, 60%, 56%)"
+      "color": "#c6f05e"
     },
     {
       "id": "record generator",
@@ -3057,7 +3057,7 @@
       },
       "x_norm": 0.6492162942886353,
       "y_norm": 0.56440669298172,
-      "color": "hsl(233, 60%, 69%)"
+      "color": "#4685e8"
     },
     {
       "id": "record of boolean datatype",
@@ -3072,7 +3072,7 @@
       },
       "x_norm": 0.6836637854576111,
       "y_norm": 0.13975797593593597,
-      "color": "hsl(246, 60%, 54%)"
+      "color": "#75f570"
     },
     {
       "id": "record of discrete datatype",
@@ -3083,7 +3083,7 @@
       },
       "x_norm": 0.4205378293991089,
       "y_norm": 0.19942498207092285,
-      "color": "hsl(151, 60%, 56%)"
+      "color": "#d2f05d"
     },
     {
       "id": "record of primitives datatype",
@@ -3094,7 +3094,7 @@
       },
       "x_norm": 0.41114652156829834,
       "y_norm": 0.27015769481658936,
-      "color": "hsl(148, 60%, 59%)"
+      "color": "#e1eb4f"
     },
     {
       "id": "record of real datatype",
@@ -3108,7 +3108,7 @@
       },
       "x_norm": 0.4658767282962799,
       "y_norm": 0.14220817387104034,
-      "color": "hsl(167, 60%, 54%)"
+      "color": "#bef267"
     },
     {
       "id": "recursive",
@@ -3119,7 +3119,7 @@
       },
       "x_norm": 0.557000458240509,
       "y_norm": 0.7971938848495483,
-      "color": "hsl(200, 60%, 77%)"
+      "color": "#9c69f3"
     },
     {
       "id": "recursiveness",
@@ -3133,13 +3133,13 @@
       },
       "x_norm": 0.5588225722312927,
       "y_norm": 0.8046294450759888,
-      "color": "hsl(201, 60%, 78%)"
+      "color": "#9d6bf4"
     },
     {
       "id": "representation",
       "x_norm": 0.4517088532447815,
       "y_norm": 0.38051527738571167,
-      "color": "hsl(162, 60%, 63%)"
+      "color": "#e2d838"
     },
     {
       "id": "return-parameter specification",
@@ -3151,19 +3151,19 @@
       },
       "x_norm": 0.7368440628051758,
       "y_norm": 0.41995906829833984,
-      "color": "hsl(265, 60%, 64%)"
+      "color": "#51eccf"
     },
     {
       "id": "role",
       "x_norm": 0.4643819034099579,
       "y_norm": 0.3840785026550293,
-      "color": "hsl(167, 60%, 63%)"
+      "color": "#dce136"
     },
     {
       "id": "round operation",
       "x_norm": 0.17161501944065094,
       "y_norm": 0.7815238833427429,
-      "color": "hsl(61, 60%, 77%)"
+      "color": "#f985db"
     },
     {
       "id": "scaled datatype",
@@ -3188,25 +3188,25 @@
       },
       "x_norm": 0.5049414038658142,
       "y_norm": 0.18765820562839508,
-      "color": "hsl(181, 60%, 56%)"
+      "color": "#a8ef5c"
     },
     {
       "id": "scaled factor",
       "x_norm": 0.21232737600803375,
       "y_norm": 0.7852278351783752,
-      "color": "hsl(76, 60%, 77%)"
+      "color": "#f87fe0"
     },
     {
       "id": "scaled radix",
       "x_norm": 0.19866858422756195,
       "y_norm": 0.837285041809082,
-      "color": "hsl(71, 60%, 79%)"
+      "color": "#fa8bea"
     },
     {
       "id": "select-item specification",
       "x_norm": 0.7859558463096619,
       "y_norm": 0.6430208086967468,
-      "color": "hsl(282, 60%, 72%)"
+      "color": "#66a4f2"
     },
     {
       "id": "select-list",
@@ -3217,7 +3217,7 @@
       },
       "x_norm": 0.7934965491294861,
       "y_norm": 0.6669934988021851,
-      "color": "hsl(285, 60%, 73%)"
+      "color": "#6ba1f4"
     },
     {
       "id": "selection subtype generator",
@@ -3228,13 +3228,13 @@
       },
       "x_norm": 0.42238280177116394,
       "y_norm": 0.004313701763749123,
-      "color": "hsl(152, 60%, 50%)"
+      "color": "#d4fa88"
     },
     {
       "id": "semi-structured",
       "x_norm": 0.70973140001297,
       "y_norm": 0.25665032863616943,
-      "color": "hsl(255, 60%, 58%)"
+      "color": "#5ef07e"
     },
     {
       "id": "sequence datatype",
@@ -3257,7 +3257,7 @@
       },
       "x_norm": 0.4475253224372864,
       "y_norm": 0.16825886070728302,
-      "color": "hsl(161, 60%, 55%)"
+      "color": "#c4f162"
     },
     {
       "id": "sequence generator",
@@ -3273,7 +3273,7 @@
       },
       "x_norm": 0.6235879063606262,
       "y_norm": 0.5508837699890137,
-      "color": "hsl(224, 60%, 69%)"
+      "color": "#407de5"
     },
     {
       "id": "sequence of discrete datatype",
@@ -3284,7 +3284,7 @@
       },
       "x_norm": 0.4137159585952759,
       "y_norm": 0.18412934243679047,
-      "color": "hsl(148, 60%, 56%)"
+      "color": "#d4f160"
     },
     {
       "id": "sequence of real datatype",
@@ -3295,13 +3295,13 @@
       },
       "x_norm": 0.4329775273799896,
       "y_norm": 0.150182843208313,
-      "color": "hsl(155, 60%, 55%)"
+      "color": "#cbf266"
     },
     {
       "id": "serialize operation",
       "x_norm": 0.7275700569152832,
       "y_norm": 0.8035663962364197,
-      "color": "hsl(261, 60%, 78%)"
+      "color": "#787cf7"
     },
     {
       "id": "set datatype",
@@ -3325,7 +3325,7 @@
       },
       "x_norm": 0.5155512690544128,
       "y_norm": 0.1692049354314804,
-      "color": "hsl(185, 60%, 55%)"
+      "color": "#a5f160"
     },
     {
       "id": "set generator",
@@ -3337,7 +3337,7 @@
       },
       "x_norm": 0.638167142868042,
       "y_norm": 0.5698508620262146,
-      "color": "hsl(229, 60%, 69%)"
+      "color": "#457ae7"
     },
     {
       "id": "set of discrete datatype",
@@ -3351,7 +3351,7 @@
       },
       "x_norm": 0.42795759439468384,
       "y_norm": 0.20793220400810242,
-      "color": "hsl(154, 60%, 57%)"
+      "color": "#cfef5a"
     },
     {
       "id": "set of integer datatype",
@@ -3362,7 +3362,7 @@
       },
       "x_norm": 0.43039700388908386,
       "y_norm": 0.2538439631462097,
-      "color": "hsl(154, 60%, 58%)"
+      "color": "#d2ec51"
     },
     {
       "id": "set of real datatype",
@@ -3373,7 +3373,7 @@
       },
       "x_norm": 0.44497284293174744,
       "y_norm": 0.13258008658885956,
-      "color": "hsl(160, 60%, 54%)"
+      "color": "#c7f36a"
     },
     {
       "id": "size",
@@ -3384,7 +3384,7 @@
       },
       "x_norm": 0.1342376172542572,
       "y_norm": 0.47876647114753723,
-      "color": "hsl(48, 60%, 66%)"
+      "color": "#f56f75"
     },
     {
       "id": "size subtype generator",
@@ -3395,25 +3395,25 @@
       },
       "x_norm": 0.4346889555454254,
       "y_norm": 0.0,
-      "color": "hsl(156, 60%, 50%)"
+      "color": "#d2fa88"
     },
     {
       "id": "specification",
       "x_norm": 0.728971540927887,
       "y_norm": 0.33064672350883484,
-      "color": "hsl(262, 60%, 61%)"
+      "color": "#57ee9d"
     },
     {
       "id": "stack",
       "x_norm": 0.5328684449195862,
       "y_norm": 0.48050081729888916,
-      "color": "hsl(191, 60%, 66%)"
+      "color": "#2b73db"
     },
     {
       "id": "structured",
       "x_norm": 0.7017530798912048,
       "y_norm": 0.25910401344299316,
-      "color": "hsl(252, 60%, 59%)"
+      "color": "#5cf07b"
     },
     {
       "id": "structurness",
@@ -3428,19 +3428,19 @@
       },
       "x_norm": 0.7033388018608093,
       "y_norm": 0.23843683302402496,
-      "color": "hsl(253, 60%, 58%)"
+      "color": "#60f178"
     },
     {
       "id": "subtype generator",
       "x_norm": 0.4302420914173126,
       "y_norm": 0.011396123096346855,
-      "color": "hsl(154, 60%, 50%)"
+      "color": "#d2f986"
     },
     {
       "id": "successor operation",
       "x_norm": 0.5120993256568909,
       "y_norm": 0.8689696788787842,
-      "color": "hsl(184, 60%, 80%)"
+      "color": "#b779f7"
     },
     {
       "id": "table datatype",
@@ -3465,7 +3465,7 @@
       },
       "x_norm": 0.4960694909095764,
       "y_norm": 0.19707928597927094,
-      "color": "hsl(178, 60%, 56%)"
+      "color": "#abef5a"
     },
     {
       "id": "table generator",
@@ -3479,7 +3479,7 @@
       },
       "x_norm": 0.7188779711723328,
       "y_norm": 0.6715927124023438,
-      "color": "hsl(258, 60%, 73%)"
+      "color": "#5f82f0"
     },
     {
       "id": "tag-type",
@@ -3490,13 +3490,13 @@
       },
       "x_norm": 0.5677797794342041,
       "y_norm": 0.2785050868988037,
-      "color": "hsl(204, 60%, 59%)"
+      "color": "#6dea4b"
     },
     {
       "id": "tag-value list",
       "x_norm": 0.7863808274269104,
       "y_norm": 0.3091522455215454,
-      "color": "hsl(283, 60%, 60%)"
+      "color": "#64f2ab"
     },
     {
       "id": "target DAG field component",
@@ -3507,7 +3507,7 @@
       },
       "x_norm": 0.903252124786377,
       "y_norm": 0.08566685020923615,
-      "color": "hsl(325, 60%, 52%)"
+      "color": "#99fcb2"
     },
     {
       "id": "target boolean field component",
@@ -3518,7 +3518,7 @@
       },
       "x_norm": 0.8685941696166992,
       "y_norm": 0.0931897982954979,
-      "color": "hsl(312, 60%, 53%)"
+      "color": "#92fba9"
     },
     {
       "id": "target discrete field component",
@@ -3529,13 +3529,13 @@
       },
       "x_norm": 0.9236869812011719,
       "y_norm": 0.0899602547287941,
-      "color": "hsl(332, 60%, 53%)"
+      "color": "#9cfcb7"
     },
     {
       "id": "target field identifier",
       "x_norm": 0.889802873134613,
       "y_norm": 0.35235098004341125,
-      "color": "hsl(320, 60%, 62%)"
+      "color": "#74f6d2"
     },
     {
       "id": "target hierarchical field component",
@@ -3546,7 +3546,7 @@
       },
       "x_norm": 0.9046396017074585,
       "y_norm": 0.07701370865106583,
-      "color": "hsl(325, 60%, 52%)"
+      "color": "#9bfcb3"
     },
     {
       "id": "target primitive field component",
@@ -3557,7 +3557,7 @@
       },
       "x_norm": 0.9256171584129333,
       "y_norm": 0.12355352938175201,
-      "color": "hsl(333, 60%, 54%)"
+      "color": "#97fcb8"
     },
     {
       "id": "target real field component",
@@ -3568,7 +3568,7 @@
       },
       "x_norm": 0.954113781452179,
       "y_norm": 0.10353696346282959,
-      "color": "hsl(343, 60%, 53%)"
+      "color": "#9ffdbf"
     },
     {
       "id": "target record of boolean field component",
@@ -3579,7 +3579,7 @@
       },
       "x_norm": 0.8617525100708008,
       "y_norm": 0.09696419537067413,
-      "color": "hsl(310, 60%, 53%)"
+      "color": "#90fba7"
     },
     {
       "id": "target record of discrete field component",
@@ -3590,7 +3590,7 @@
       },
       "x_norm": 0.9040130376815796,
       "y_norm": 0.10538602620363235,
-      "color": "hsl(325, 60%, 53%)"
+      "color": "#96fcb2"
     },
     {
       "id": "target record of primitives field component",
@@ -3601,7 +3601,7 @@
       },
       "x_norm": 0.90468430519104,
       "y_norm": 0.14295460283756256,
-      "color": "hsl(325, 60%, 55%)"
+      "color": "#90fbb3"
     },
     {
       "id": "target record of reals field component",
@@ -3612,7 +3612,7 @@
       },
       "x_norm": 0.9290176630020142,
       "y_norm": 0.10718230158090591,
-      "color": "hsl(334, 60%, 53%)"
+      "color": "#9afcb9"
     },
     {
       "id": "target sequence of real field component",
@@ -3623,7 +3623,7 @@
       },
       "x_norm": 0.9488746523857117,
       "y_norm": 0.09325435012578964,
-      "color": "hsl(341, 60%, 53%)"
+      "color": "#a0fdbd"
     },
     {
       "id": "target set of discrete field component",
@@ -3634,7 +3634,7 @@
       },
       "x_norm": 0.9043686389923096,
       "y_norm": 0.08987027406692505,
-      "color": "hsl(325, 60%, 53%)"
+      "color": "#98fcb2"
     },
     {
       "id": "target structured field component",
@@ -3645,7 +3645,7 @@
       },
       "x_norm": 0.9090145230293274,
       "y_norm": 0.08187287300825119,
-      "color": "hsl(327, 60%, 52%)"
+      "color": "#9bfcb4"
     },
     {
       "id": "target tree field component",
@@ -3656,19 +3656,19 @@
       },
       "x_norm": 0.9096758365631104,
       "y_norm": 0.06538265943527222,
-      "color": "hsl(327, 60%, 52%)"
+      "color": "#9efdb4"
     },
     {
       "id": "time interval",
       "x_norm": 0.02398630604147911,
       "y_norm": 0.8915116786956787,
-      "color": "hsl(8, 60%, 81%)"
+      "color": "#ffb2e8"
     },
     {
       "id": "tree",
       "x_norm": 0.6326255202293396,
       "y_norm": 0.15532025694847107,
-      "color": "hsl(227, 60%, 55%)"
+      "color": "#7cf368"
     },
     {
       "id": "tree datatype",
@@ -3682,7 +3682,7 @@
       },
       "x_norm": 0.5795331597328186,
       "y_norm": 0.11067166179418564,
-      "color": "hsl(208, 60%, 53%)"
+      "color": "#99f56f"
     },
     {
       "id": "tree datatype generator",
@@ -3693,19 +3693,19 @@
       },
       "x_norm": 0.5678675770759583,
       "y_norm": 0.08759487420320511,
-      "color": "hsl(204, 60%, 53%)"
+      "color": "#a2f673"
     },
     {
       "id": "two dimensional",
       "x_norm": 0.20469260215759277,
       "y_norm": 0.34577664732933044,
-      "color": "hsl(73, 60%, 62%)"
+      "color": "#f29865"
     },
     {
       "id": "unbounded",
       "x_norm": 0.024475540965795517,
       "y_norm": 0.554797887802124,
-      "color": "hsl(8, 60%, 69%)"
+      "color": "#fa8a9f"
     },
     {
       "id": "unbounded above",
@@ -3716,25 +3716,25 @@
       },
       "x_norm": 0.017705371603369713,
       "y_norm": 0.5581793189048767,
-      "color": "hsl(6, 60%, 69%)"
+      "color": "#fa8ca1"
     },
     {
       "id": "unbounded below",
       "x_norm": 0.01632748171687126,
       "y_norm": 0.5510455965995789,
-      "color": "hsl(5, 60%, 69%)"
+      "color": "#fa8c9f"
     },
     {
       "id": "uncountable",
       "x_norm": 0.11805617809295654,
       "y_norm": 0.5917223691940308,
-      "color": "hsl(42, 60%, 70%)"
+      "color": "#f7789f"
     },
     {
       "id": "unique values",
       "x_norm": 0.8596215844154358,
       "y_norm": 0.4458427131175995,
-      "color": "hsl(309, 60%, 65%)"
+      "color": "#6af3ec"
     },
     {
       "id": "uniqueness",
@@ -3751,7 +3751,7 @@
       },
       "x_norm": 0.8765774369239807,
       "y_norm": 0.4556436836719513,
-      "color": "hsl(315, 60%, 65%)"
+      "color": "#6ef4f1"
     },
     {
       "id": "unlabeled dataset field-list",
@@ -3762,7 +3762,7 @@
       },
       "x_norm": 0.7143433690071106,
       "y_norm": 0.05518599599599838,
-      "color": "hsl(257, 60%, 51%)"
+      "color": "#8df985"
     },
     {
       "id": "unlabeled dataset record datatype",
@@ -3773,19 +3773,19 @@
       },
       "x_norm": 0.6885265707969666,
       "y_norm": 0.05352955684065819,
-      "color": "hsl(247, 60%, 51%)"
+      "color": "#90f983"
     },
     {
       "id": "unordered aggregate",
       "x_norm": 0.006965312175452709,
       "y_norm": 0.16361044347286224,
-      "color": "hsl(2, 60%, 55%)"
+      "color": "#fdd2a1"
     },
     {
       "id": "unstructured",
       "x_norm": 0.7039675712585449,
       "y_norm": 0.25652357935905457,
-      "color": "hsl(253, 60%, 58%)"
+      "color": "#5df07b"
     },
     {
       "id": "upper bound",
@@ -3796,25 +3796,25 @@
       },
       "x_norm": 0.02786240167915821,
       "y_norm": 0.5276157259941101,
-      "color": "hsl(10, 60%, 68%)"
+      "color": "#fa8897"
     },
     {
       "id": "value expression",
       "x_norm": 0.739189088344574,
       "y_norm": 0.4058789312839508,
-      "color": "hsl(266, 60%, 64%)"
+      "color": "#52ecc7"
     },
     {
       "id": "value space",
       "x_norm": 0.7574059963226318,
       "y_norm": 0.3887685537338257,
-      "color": "hsl(272, 60%, 63%)"
+      "color": "#57eec2"
     },
     {
       "id": "variable size",
       "x_norm": 0.1222972571849823,
       "y_norm": 0.46198752522468567,
-      "color": "hsl(44, 60%, 66%)"
+      "color": "#f57272"
     },
     {
       "id": "vector datatype",
@@ -3825,13 +3825,13 @@
       },
       "x_norm": 0.513063907623291,
       "y_norm": 0.2011147439479828,
-      "color": "hsl(184, 60%, 57%)"
+      "color": "#a2ef59"
     },
     {
       "id": "vector generator",
       "x_norm": 0.6245849132537842,
       "y_norm": 0.5323115587234497,
-      "color": "hsl(224, 60%, 68%)"
+      "color": "#3e8de5"
     },
     {
       "id": "void datatype",
@@ -3847,7 +3847,7 @@
       },
       "x_norm": 0.5449273586273193,
       "y_norm": 0.22254431247711182,
-      "color": "hsl(196, 60%, 57%)"
+      "color": "#8ced55"
     }
   ],
   "links": [

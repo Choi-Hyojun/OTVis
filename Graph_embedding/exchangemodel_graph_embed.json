@@ -4,25 +4,25 @@
       "id": "Accelerometer",
       "x_norm": 0.728249728679657,
       "y_norm": 0.2730904817581177,
-      "color": "hsl(262, 60%, 59%)"
+      "color": "#5aef7c"
     },
     {
       "id": "Alert",
       "x_norm": 0.20673710107803345,
       "y_norm": 0.33447617292404175,
-      "color": "hsl(74, 60%, 61%)"
+      "color": "#f29e63"
     },
     {
       "id": "Ambient2DVideoCamera",
       "x_norm": 0.8191637992858887,
       "y_norm": 0.8006153106689453,
-      "color": "hsl(294, 60%, 78%)"
+      "color": "#808ff8"
     },
     {
       "id": "DTI-2",
       "x_norm": 0.47944384813308716,
       "y_norm": 0.7356971502304077,
-      "color": "hsl(172, 60%, 75%)"
+      "color": "#b95df0"
     },
     {
       "id": "Detection",
@@ -34,19 +34,19 @@
       },
       "x_norm": 0.46638262271881104,
       "y_norm": 0.3811989426612854,
-      "color": "hsl(167, 60%, 63%)"
+      "color": "#e1df38"
     },
     {
       "id": "Feedback",
       "x_norm": 0.11126625537872314,
       "y_norm": 0.6584344506263733,
-      "color": "hsl(40, 60%, 73%)"
+      "color": "#f77cb7"
     },
     {
       "id": "FixedSensor",
       "x_norm": 0.5913614630699158,
       "y_norm": 0.0,
-      "color": "hsl(212, 60%, 50%)"
+      "color": "#b4fa8a"
     },
     {
       "id": "Measurement",
@@ -58,7 +58,7 @@
       },
       "x_norm": 0.3233351707458496,
       "y_norm": 0.5142145156860352,
-      "color": "hsl(116, 60%, 67%)"
+      "color": "#e94976"
     },
     {
       "id": "Observation",
@@ -76,7 +76,7 @@
       },
       "x_norm": 0.0,
       "y_norm": 0.4660682678222656,
-      "color": "hsl(0, 60%, 66%)"
+      "color": "#f98788"
     },
     {
       "id": "Recognition",
@@ -88,7 +88,7 @@
       },
       "x_norm": 0.675136923789978,
       "y_norm": 0.5740513205528259,
-      "color": "hsl(243, 60%, 70%)"
+      "color": "#487de8"
     },
     {
       "id": "Sensor",
@@ -100,37 +100,37 @@
       },
       "x_norm": 0.4262862503528595,
       "y_norm": 0.163897305727005,
-      "color": "hsl(153, 60%, 55%)"
+      "color": "#d0f265"
     },
     {
       "id": "WearableMicrophone",
       "x_norm": 1.0,
       "y_norm": 0.30383962392807007,
-      "color": "hsl(360, 60%, 60%)"
+      "color": "#85f9d1"
     },
     {
       "id": "WearableSensor",
       "x_norm": 0.8677495718002319,
       "y_norm": 0.06026355177164078,
-      "color": "hsl(312, 60%, 52%)"
+      "color": "#93fb9f"
     },
     {
       "id": "WearableVideoCamera",
       "x_norm": 0.652469277381897,
       "y_norm": 0.9970344305038452,
-      "color": "hsl(234, 60%, 84%)"
+      "color": "#ba9efd"
     },
     {
       "id": "_3DVideoCamera",
       "x_norm": 0.8811595439910889,
       "y_norm": 1.0,
-      "color": "hsl(317, 60%, 85%)"
+      "color": "#b2b2ff"
     },
     {
       "id": "owl:Thing",
       "x_norm": 0.1178768053650856,
       "y_norm": 0.13130776584148407,
-      "color": "hsl(42, 60%, 54%)"
+      "color": "#fbdc8e"
     }
   ],
   "links": [
